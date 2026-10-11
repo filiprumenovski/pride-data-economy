@@ -1,0 +1,26 @@
+{
+  "title": "The data economy of public proteomics: thirteen years of PRIDE \u2014 analysis code and derived data",
+  "description": "Analysis code, frozen derived inputs, aggregate evidence and a pre-submission manuscript for 36,249 PRIDE deposits (2013\u20132025). Code is MIT; author-created derived data, text and figures are CC BY 4.0. See NOTICE.md and REPRODUCIBILITY.md for source rights and the exact validation coverage. Three upstream extraction caches on disconnected local storage are deferred to a later release.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Rumenovski, Filip",
+      "affiliation": "Department of Chemistry, Wayne State University"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "proteomics",
+    "PRIDE",
+    "research data",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/filiprumenovski/pride-data-economy",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

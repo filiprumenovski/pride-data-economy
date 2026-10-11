@@ -10,3 +10,8 @@ The study relies on public metadata and identifiers from PRIDE/ProteomeXchange, 
 The MIT and CC BY licenses cover the author's original contributions, not a relicensing of third-party records or deposited experimental data. No bulk experimental spectra, full-text articles or raw contributor contact records are included. Upstream acquisition/normalization decisions are preserved in the analysis source and manuscript methods. Some geography assignments depend on earlier cross-repository evidence that is frozen here and cannot be rebuilt from this PRIDE-only release.
 
 Historical contributor-diversity bootstrap intervals in aggregate provenance tables are invalid and must not be interpreted. The current manuscript omits them and the public early comparison tables leave those cells empty; contributor-diversity point estimates remain descriptive.
+
+## Bundled reference assets
+
+- `work/stack-and-reuse/reference/pride-submission-validation.yaml`: unmodified PRIDE submission rules under Apache-2.0. The source commit, checksum and full license are retained in the adjacent reference README and `pride-resources-LICENSE`.
+- `work/stack-and-reuse/ne_50m_admin_0_countries.geojson`: Natural Earth map data. Natural Earth places its map datasets in the public domain: https://www.naturalearthdata.com/about/terms-of-use/.

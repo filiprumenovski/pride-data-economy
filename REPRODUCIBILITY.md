@@ -7,7 +7,7 @@ The public package begins with derived analytical inputs for 36,249 deposits. Th
 ## Executed checks
 
 - Early analyses: 26 checks against frozen numerical outputs, including point estimates and the 1,000-replicate median raw-run ratio bootstrap. The ratio is 16/30, with a 95% percentile interval of 0.4848485–0.6296296.
-- Late analyses: mention pair derivations and six outcomes, 168 rate rows, reused-pool composition, and the complete A1–A7 sensitivity result object. The adjusted design has 20,684 rows and 33 columns; the main fit and 200 bootstrap fits were finite and issued no warnings in the recorded run.
+- Late analyses: mention pair derivations and six outcomes, 168 rate rows, reused-pool composition, and the complete A1–A7 sensitivity result object. The adjusted design has 20,684 rows and 33 columns; the main fit and 200 bootstrap fits were finite and issued no warnings in the recorded run. Interval tails have limited Monte Carlo precision at 200 draws. The Thermo Fisher-only lower endpoint crossed one when the bootstrap sample was split in half; that near-null association should not be treated as robust evidence.
 - Support analyses: six frozen summary tables covering archive/header recognition, software capability, documentation persistence and journal concentration, including the implemented bootstrap intervals.
 - Figures: composition of all 19 figures from frozen blocks. This is independent of rebuilding every underlying analysis or reclassifying archive members.
 

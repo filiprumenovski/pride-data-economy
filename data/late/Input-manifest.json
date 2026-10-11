@@ -1,0 +1,397 @@
+{
+  "scope": "Derived numerical/categorical inputs; extraction from raw files is not reproduced by this package.",
+  "group_mapping": "Full feature cohort pi_group.fillna(acc: + accession), sorted, numbered G000001; missingness retained as group_known. Private crosswalk excluded.",
+  "bootstrap_group_order": "Integer ordering of original groups with solo:accession fallback; retains frozen RNG group sampling order without publishing identities.",
+  "method_like": "Computed privately from exact A2 regex on frozen project title+description; only Boolean released.",
+  "nonprimary_pairs": "Frozen non-primary accession-PMID pairs preserve the original any_value publication-year selection; titles excluded.",
+  "source_hashes": {
+    "reuse_mentions.py": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9",
+    "attack_reuse_mentions.py": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff",
+    "release_late.py": "8859b9591a4a27e70366ef283a53bb1ef5646b6df5652ed572ae574a7c372f21"
+  },
+  "files": [
+    {
+      "path": "Dataset-archive-flags.csv",
+      "sha256": "39c50eebf2d26c84f9d781c0c67fed8dd965bb5194448537645c7509ae5ad572",
+      "bytes": 5551329,
+      "rows": 36249,
+      "columns": [
+        "accession",
+        "release_year",
+        "dia_expanded",
+        "standards",
+        "has_standard_results",
+        "has_tool_results",
+        "has_unidentified_tables",
+        "has_archived_results",
+        "has_vendor_raw",
+        "has_open_spectra",
+        "has_sequence_db",
+        "has_sample_metadata",
+        "inner_standard",
+        "inner_tool",
+        "inner_tables",
+        "inner_raw",
+        "inner_fasta",
+        "inner_sdrf",
+        "unread_archive",
+        "standard_after",
+        "recognisable_before",
+        "recognisable_after",
+        "adhoc_only_before",
+        "adhoc_only_after",
+        "fasta_after",
+        "sdrf_after"
+      ]
+    },
+    {
+      "path": "Dataset-clocks.csv",
+      "sha256": "de0655e0a2da053b1b87635949e1edd9ce1157b6b1ddbb55ed32c197f41257b4",
+      "bytes": 4597507,
+      "rows": 36249,
+      "columns": [
+        "accession",
+        "submission_date",
+        "release_date",
+        "work_id",
+        "release_year",
+        "paper_date",
+        "acq_date",
+        "db_date",
+        "software",
+        "sw_date",
+        "acq_to_sub",
+        "acq_to_rel",
+        "db_to_sub",
+        "db_to_rel",
+        "sw_to_sub",
+        "sw_to_rel",
+        "sub_to_paper",
+        "paper_to_rel",
+        "sub_to_rel",
+        "db_minus_acq",
+        "sw_minus_acq",
+        "group_id",
+        "group_known"
+      ]
+    },
+    {
+      "path": "Dataset-documentation.csv",
+      "sha256": "0d596f3c1aa7945cdf29eb0e48a383700ad975603c1dd614af51ca8e2368694e",
+      "bytes": 2274260,
+      "rows": 36249,
+      "columns": [
+        "accession",
+        "release_year",
+        "doc_readme",
+        "doc_sdrf",
+        "doc_design_author",
+        "doc_params",
+        "group_id",
+        "group_known",
+        "submission_date"
+      ]
+    },
+    {
+      "path": "Dataset-features.csv",
+      "sha256": "40f60db3bf18749c34611ff6f7199479eca1eb13399af4a423028b7d21e2d006",
+      "bytes": 6785576,
+      "rows": 36249,
+      "columns": [
+        "accession",
+        "release_year",
+        "country",
+        "dia_expanded",
+        "vendor_single",
+        "standards",
+        "family",
+        "human",
+        "group_id",
+        "group_known",
+        "bootstrap_group_order",
+        "primary_field",
+        "primary_citations",
+        "listed_bytes",
+        "submission_date",
+        "release_date",
+        "work_id",
+        "has_sample_metadata",
+        "recognisable",
+        "method_like"
+      ]
+    },
+    {
+      "path": "Dataset-header-flags.csv",
+      "sha256": "5b33a33199bbb118c07c6c7cd15e71b0b6cb996299d0fd0ef34ba06ef1af07c1",
+      "bytes": 1359184,
+      "rows": 36249,
+      "columns": [
+        "accession",
+        "release_year",
+        "dia_expanded",
+        "recognisable_with_headers",
+        "adhoc_after_headers",
+        "any_identified",
+        "any_pride"
+      ]
+    },
+    {
+      "path": "Dataset-paper-links.csv",
+      "sha256": "f1bba1b8623f016816edf8e64bef3d80ddea8fd5611e289c33ae2be1d7587639",
+      "bytes": 1162516,
+      "rows": 27036,
+      "columns": [
+        "accession",
+        "work_id"
+      ]
+    },
+    {
+      "path": "Dataset-tool-outcomes.csv",
+      "sha256": "1c44fbe6e9ce5ca712555cb0724a0b18c31550eb1809a7ec411f7229cede33c7",
+      "bytes": 3852775,
+      "rows": 45400,
+      "columns": [
+        "accession",
+        "tool",
+        "export",
+        "since",
+        "native_visible",
+        "standard",
+        "tool_archive",
+        "outcome",
+        "tools_named",
+        "release_year",
+        "dia_expanded",
+        "group_id",
+        "group_known"
+      ]
+    },
+    {
+      "path": "Expected-outcomes.csv",
+      "sha256": "d9f41eb5d6413dec8f4e64efc1bf5ff4268813ae9830d2cb2b0908626d7c129c",
+      "bytes": 948738,
+      "rows": 20684,
+      "columns": [
+        "accession",
+        "D1",
+        "D2",
+        "D3",
+        "D1_all",
+        "D2_all",
+        "D3_all"
+      ]
+    },
+    {
+      "path": "Expected-pair-derivations.csv",
+      "sha256": "0eadb54e39c5f5d1df1a370f15b36f9ea544e799e9092ca5edc349008232e586",
+      "bytes": 340920,
+      "rows": 8289,
+      "columns": [
+        "accession",
+        "pmid",
+        "y",
+        "release_year",
+        "lag",
+        "same_group_paper",
+        "k",
+        "kg"
+      ]
+    },
+    {
+      "path": "Linked-papers.csv",
+      "sha256": "a65cd1234b5e4c36fe9407dd60f4c5d90bd106d7812befe1028bcb8973c03733",
+      "bytes": 1693753,
+      "rows": 23129,
+      "columns": [
+        "work_id",
+        "n_deposits",
+        "group_id",
+        "publication_year",
+        "journal"
+      ]
+    },
+    {
+      "path": "Nonprimary-mention-pairs.csv",
+      "sha256": "54212a7abe09fdff53b56ee23ed28817a0a37dde9cff14ea8d8ff662c8d35e0b",
+      "bytes": 198953,
+      "rows": 8289,
+      "columns": [
+        "accession",
+        "pmid",
+        "y"
+      ]
+    },
+    {
+      "path": "Primary-publication-links.csv",
+      "sha256": "062fc1d24365478b61e9690a5a848b77fd10acc3ca3e23f7cb9712c3642acb45",
+      "bytes": 487358,
+      "rows": 27583,
+      "columns": [
+        "accession",
+        "pmid"
+      ]
+    },
+    {
+      "path": "expected/37-journals-concentration.csv",
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b",
+      "bytes": 965,
+      "rows": 13,
+      "columns": [
+        "paper_year",
+        "papers_with_journal",
+        "top10_share",
+        "top10_lo",
+        "top10_hi",
+        "proteomics_titled_share",
+        "proteomics_lo",
+        "proteomics_hi",
+        "distinct_journals",
+        "effective_journals"
+      ]
+    },
+    {
+      "path": "expected/37-journals-top15.csv",
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7",
+      "bytes": 2197,
+      "rows": 15,
+      "columns": [
+        "journal",
+        "linked_datasets",
+        "linked_papers",
+        "share_2013",
+        "share_2014",
+        "share_2015",
+        "share_2016",
+        "share_2017",
+        "share_2018",
+        "share_2019",
+        "share_2020",
+        "share_2021",
+        "share_2022",
+        "share_2023",
+        "share_2024",
+        "share_2025",
+        "proteomics_titled"
+      ]
+    },
+    {
+      "path": "expected/Before-after-by-year.csv",
+      "sha256": "623f9d9caa18dc96ee34f37710f22766e62385cc54febcdf9bee6fb244eaf59a",
+      "bytes": 999,
+      "rows": 13,
+      "columns": [
+        "release_year",
+        "has_standard_results",
+        "standard_after",
+        "recognisable_before",
+        "recognisable_after",
+        "adhoc_only_before",
+        "adhoc_only_after",
+        "has_sequence_db",
+        "fasta_after",
+        "has_sample_metadata",
+        "sdrf_after",
+        "unread_archive",
+        "datasets"
+      ]
+    },
+    {
+      "path": "expected/H8-documentation-persistence-within-groups.csv",
+      "sha256": "0224da88894d2439b9a9af685f33a9de81290607a441602de375d8f20b581915",
+      "bytes": 374,
+      "rows": 8,
+      "columns": [
+        "documentation",
+        "previous_dataset_had_it",
+        "pairs",
+        "groups",
+        "pct_now",
+        "pct_expected_same_years"
+      ]
+    },
+    {
+      "path": "expected/Recognisable-by-year-three-ways.csv",
+      "sha256": "bbaa2537aa202010f43cbe7e6c4aeddbe2a7df1b212f44e96dcce46f5ffdfc30",
+      "bytes": 580,
+      "rows": 13,
+      "columns": [
+        "release_year",
+        "recognisable_before",
+        "recognisable_after",
+        "recognisable_with_headers",
+        "adhoc_only_before",
+        "adhoc_only_after",
+        "adhoc_after_headers"
+      ]
+    },
+    {
+      "path": "expected/Results.json",
+      "sha256": "5f82ed5b1d3bea74f7163c70d0829e2ec56d95523a6b8bac4d3b08964b88fdeb",
+      "bytes": 3019
+    },
+    {
+      "path": "expected/Reuse-rates.csv",
+      "sha256": "83cb67497d74560e02ed5b8a4e0a28da9135ed95db9e35db3c20824750157711",
+      "bytes": 7943,
+      "rows": 168,
+      "columns": [
+        "outcome",
+        "feature",
+        "level",
+        "n",
+        "raw_pct",
+        "std_pct",
+        "lo",
+        "hi"
+      ]
+    },
+    {
+      "path": "expected/Reused-pool-composition.csv",
+      "sha256": "ad32089dbaa5bb0507d917da8977aebfbc82d5cc13bccdae4fd94561363bfc33",
+      "bytes": 502,
+      "rows": 16,
+      "columns": [
+        "outcome",
+        "feature",
+        "cohort_pct",
+        "reused_pct",
+        "reused_n"
+      ]
+    },
+    {
+      "path": "expected/Standard-rate-by-export-capability.csv",
+      "sha256": "2737731a4dc7e6de7f5ef1fa7b19e5ed15cbb7389c255cdee6dd640ed74fac1b",
+      "bytes": 779,
+      "rows": 4,
+      "columns": [
+        "export_class",
+        "datasets",
+        "groups",
+        "tools",
+        "standard_pct",
+        "ci_low",
+        "ci_high",
+        "native_visible_pct",
+        "archive_only_pct"
+      ]
+    },
+    {
+      "path": "expected/Standard-rate-by-tool-single-tool-datasets.csv",
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f",
+      "bytes": 798,
+      "rows": 25,
+      "columns": [
+        "export",
+        "tool",
+        "datasets",
+        "standard_pct",
+        "native_visible_pct"
+      ]
+    },
+    {
+      "path": "expected/Summary.json",
+      "sha256": "8a6442ca5ffdcf31bd6012e07dd9947bfdfd38b0f81981e4bd62c2caaf46fb2b",
+      "bytes": 663
+    }
+  ]
+}

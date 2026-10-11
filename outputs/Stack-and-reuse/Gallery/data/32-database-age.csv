@@ -1,0 +1,22 @@
+period,datasets,groups,median_years,ci_lo,ci_hi,pct_gt2y,pct_gt5y,panel,family,name_format,pct_ymd_names
+2013–18,424,254,1.518,1.213,1.821,38.679,7.783,a,,,
+2019–21,767,456,1.651,1.492,1.817,41.46,8.344,a,,,
+2022–25,1367,776,1.76,1.632,1.881,43.672,7.827,a,,,
+,107,79,1.194,0.89,1.414,,,b,MaxQuant,YYYY-MM-DD,
+,722,451,2.074,1.87,2.259,,,b,MaxQuant,other formats,
+,829,515,1.936,1.749,2.127,,,b,MaxQuant,all,12.907
+,43,27,0.882,0.498,1.752,,,b,Proteome Discoverer,YYYY-MM-DD,
+,198,114,2.064,1.711,2.709,,,b,Proteome Discoverer,other formats,
+,241,136,1.881,1.552,2.272,,,b,Proteome Discoverer,all,17.842
+,55,2,1.292,0.014,1.294,,,b,Mascot,YYYY-MM-DD,
+,166,57,1.995,1.432,2.678,,,b,Mascot,other formats,
+,221,58,1.807,1.447,2.172,,,b,Mascot,all,24.887
+,23,17,1.205,0.591,1.539,,,b,Spectronaut,YYYY-MM-DD,
+,75,50,1.802,1.227,2.743,,,b,Spectronaut,other formats,
+,98,65,1.432,1.205,2.119,,,b,Spectronaut,all,23.469
+,28,19,1.032,0.758,1.366,,,b,DIA-NN,YYYY-MM-DD,
+,70,47,1.762,1.314,1.938,,,b,DIA-NN,other formats,
+,98,64,1.369,1.15,1.762,,,b,DIA-NN,all,28.571
+,92,67,0.739,0.531,1.076,,,b,FragPipe,YYYY-MM-DD,
+,45,39,1.292,0.927,1.802,,,b,FragPipe,other formats,
+,137,105,0.934,0.78,1.224,,,b,FragPipe,all,67.153

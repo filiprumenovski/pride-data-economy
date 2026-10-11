@@ -1,0 +1,18 @@
+test,feature,estimate,lo,hi
+Adjusted odds ratio (A3),standard,0.89,0.66,1.17
+Adjusted odds ratio (A3),dia,1.71,1.22,2.35
+Adjusted odds ratio (A3),sdrf,4.08,2.29,7.26
+Adjusted odds ratio (A3),human,1.39,1.17,1.71
+Adjusted odds ratio (A3),Thermo Fisher only,1.28,1.04,1.73
+Adjusted odds ratio (A3),log_citations,1.35,1.22,1.49
+"Crude rate ratio, A2_excluding_method_like",standard,0.93,0.66,1.25
+"Crude rate ratio, A2_excluding_method_like",dia,1.92,1.3,2.73
+"Crude rate ratio, A2_excluding_method_like",sdrf,7.7,4.55,11.88
+"Crude rate ratio, A2_excluding_method_like",human,1.6,1.29,1.99
+"Crude rate ratio, A2_excluding_method_like",Thermo Fisher only,1.48,1.03,2.28
+"Crude rate ratio, A5_window_5y_release_to_2020",standard,1.04,0.72,1.39
+"Crude rate ratio, A5_window_5y_release_to_2020",dia,1.76,0.99,2.5
+"Crude rate ratio, A5_window_5y_release_to_2020",sdrf,8.37,5.97,11.56
+"Crude rate ratio, A5_window_5y_release_to_2020",human,2.0,1.6,2.49
+"Crude rate ratio, A5_window_5y_release_to_2020",Thermo Fisher only,1.69,1.17,2.69
+"Crude rate ratio, A4 human; Thermo Fisher only; no DIA detected; MaxQuant/PD",standard,0.74,0.26,1.38

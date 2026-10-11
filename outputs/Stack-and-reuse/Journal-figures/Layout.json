@@ -1,0 +1,168 @@
+{
+ "Main 1": {
+  "width_in": 7.2,
+  "height_mm": 235.5,
+  "dpi": 600,
+  "blocks": [
+   "42-breadth",
+   "04-newcomers",
+   "20-world-growth"
+  ]
+ },
+ "Main 2": {
+  "width_in": 7.2,
+  "height_mm": 220.0,
+  "dpi": 600,
+  "blocks": [
+   "15-run-ridgelines",
+   "02-run-size",
+   "11-bytes"
+  ]
+ },
+ "Main 3": {
+  "width_in": 7.2,
+  "height_mm": 193.6,
+  "dpi": 600,
+  "blocks": [
+   "01-instruments",
+   "05-software",
+   "07-hometowns"
+  ]
+ },
+ "Main 4": {
+  "width_in": 7.2,
+  "height_mm": 187.5,
+  "dpi": 600,
+  "blocks": [
+   "06-standards-by-software",
+   "12-hidden-results",
+   "13-habits"
+  ]
+ },
+ "Main 5": {
+  "width_in": 7.2,
+  "height_mm": 222.2,
+  "dpi": 600,
+  "blocks": [
+   "09-clocks",
+   "37-journals",
+   "26-reuse"
+  ]
+ },
+ "Supplementary 1": {
+  "width_in": 7.2,
+  "height_mm": 66.0,
+  "dpi": 600,
+  "blocks": [
+   "34-contributor-concentration"
+  ]
+ },
+ "Supplementary 2": {
+  "width_in": 7.2,
+  "height_mm": 134.4,
+  "dpi": 600,
+  "blocks": [
+   "14-fleet-history"
+  ]
+ },
+ "Supplementary 3": {
+  "width_in": 7.2,
+  "height_mm": 96.8,
+  "dpi": 600,
+  "blocks": [
+   "38-instrument-arrival"
+  ]
+ },
+ "Supplementary 4": {
+  "width_in": 7.2,
+  "height_mm": 103.9,
+  "dpi": 600,
+  "blocks": [
+   "31-version-streams"
+  ]
+ },
+ "Supplementary 5": {
+  "width_in": 7.2,
+  "height_mm": 212.1,
+  "dpi": 600,
+  "blocks": [
+   "33-tool-age-at-release",
+   "32-database-age"
+  ]
+ },
+ "Supplementary 6": {
+  "width_in": 7.2,
+  "height_mm": 85.7,
+  "dpi": 600,
+  "blocks": [
+   "23-petabyte-treemap"
+  ]
+ },
+ "Supplementary 7": {
+  "width_in": 7.2,
+  "height_mm": 115.5,
+  "dpi": 600,
+  "blocks": [
+   "30-file-formats"
+  ]
+ },
+ "Supplementary 8": {
+  "width_in": 7.2,
+  "height_mm": 142.6,
+  "dpi": 600,
+  "blocks": [
+   "27-isobaric-plex",
+   "28-ptm-landscape"
+  ]
+ },
+ "Supplementary 9": {
+  "width_in": 7.2,
+  "height_mm": 78.3,
+  "dpi": 600,
+  "blocks": [
+   "29-species"
+  ]
+ },
+ "Supplementary 10": {
+  "width_in": 7.2,
+  "height_mm": 157.3,
+  "dpi": 600,
+  "blocks": [
+   "08-countries",
+   "39-data-age-by-country"
+  ]
+ },
+ "Supplementary 11": {
+  "width_in": 7.2,
+  "height_mm": 78.7,
+  "dpi": 600,
+  "blocks": [
+   "35-collaboration"
+  ]
+ },
+ "Supplementary 12": {
+  "width_in": 7.2,
+  "height_mm": 87.5,
+  "dpi": 600,
+  "blocks": [
+   "36-research-fields"
+  ]
+ },
+ "Supplementary 13": {
+  "width_in": 7.2,
+  "height_mm": 131.8,
+  "dpi": 600,
+  "blocks": [
+   "10-release-waves",
+   "41-paper-and-release"
+  ]
+ },
+ "Supplementary 14": {
+  "width_in": 7.2,
+  "height_mm": 116.8,
+  "dpi": 600,
+  "blocks": [
+   "40-weekly-rhythm"
+  ]
+ }
+}

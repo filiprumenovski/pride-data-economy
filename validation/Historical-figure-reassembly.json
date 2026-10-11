@@ -1,0 +1,9 @@
+{
+  "isolated_assembly": "passed without cohort/feature parquets or databases",
+  "figures_pixel_identical": 19,
+  "legends_identical": true,
+  "s2_s3_contributor_intervals_blank": true,
+  "s3_other_axes_equal_frozen_source_rounded": true,
+  "s7_denominators_present": true,
+  "full_statistical_refit": "not performed or claimed"
+}

@@ -1,0 +1,1720 @@
+{
+  "scope": "Public derived-input release, code, frozen aggregate evidence and pre-submission manuscript. Original extraction caches deferred. See REPRODUCIBILITY.md.",
+  "files": [
+    {
+      "path": ".github/workflows/reproduce.yml",
+      "bytes": 878,
+      "sha256": "659dbaabe8057c15b6a437f6e27a479317a81f614d6f88642f07623efffeef12"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 67,
+      "sha256": "69fee88ed126ce86c603861d1d36c93e8ba20c595837bfa71545c1351f443e8a"
+    },
+    {
+      "path": ".zenodo.json",
+      "bytes": 1019,
+      "sha256": "f5c967baa5788c612746a7b030d236e8682f8f489e5fccdb8e42d665cbfabaf7"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 533,
+      "sha256": "65d239e207d924ecc90a3f0ee088f5d043f0704b1e9532dd2699924e8192bcb8"
+    },
+    {
+      "path": "DATA-LICENSE",
+      "bytes": 637,
+      "sha256": "65b3f067088fef405ebaa55b85eb33cf25516257d8eb43ff982c7192342b6230"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "5b546c70fb2aaf13f9dbd4c5aee46d1e4dfce0e82108ba9282a1fb9694e0e8c5"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1544,
+      "sha256": "1876a710d5ba60fd39f0df997d71c00bf7c1d14fef2da05cdb77b2ca3fbde28f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4307,
+      "sha256": "5f6558ba693d19a3e90c73d8fb5613d8ae8fa95ffc9be9fe32018c41e632416c"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 2953,
+      "sha256": "6549b208279602a10eef63478f46b6ec6d99a2c73974bfe9cb0269002e0f0b05"
+    },
+    {
+      "path": "data/early/Breadth-long.parquet",
+      "bytes": 1931190,
+      "sha256": "109eb9f4c98f4d295bfeaf1fee221ca920f4dfcf241a12c90e59765a66dc60cd"
+    },
+    {
+      "path": "data/early/Data-manifest.json",
+      "bytes": 10152,
+      "sha256": "f756de14f21ac8366a56949192076ce36dabf741801c5e088d4728a8b51624b8"
+    },
+    {
+      "path": "data/early/Dataset-layers.parquet",
+      "bytes": 1824623,
+      "sha256": "0c648ead00bede2813165edbfdfe144c5c1f9b7be09c5163e28417ff8a0de838"
+    },
+    {
+      "path": "data/early/Dataset-scale.parquet",
+      "bytes": 1890764,
+      "sha256": "f1f56866a827ee0d2b45e6895862851abae249fc545c5650d0f2706524716ec1"
+    },
+    {
+      "path": "data/early/Deposit-features.parquet",
+      "bytes": 2811820,
+      "sha256": "a5f63d1ab6badbf2c66d4dfc7ed55d2daebc36cc417c8dd446b35c09f9852c22"
+    },
+    {
+      "path": "data/early/Model-credits.parquet",
+      "bytes": 441377,
+      "sha256": "14d6370856dae6067236839d9d1aa556f6c7c78e63d4d513428bab404ab3c8f9"
+    },
+    {
+      "path": "data/early/Species-credits.parquet",
+      "bytes": 513988,
+      "sha256": "a5c40c15d1e7e76a0154a529fd17f708b3efea231c67fbf25782e39656408c99"
+    },
+    {
+      "path": "data/early/Study-cohort.parquet",
+      "bytes": 1409375,
+      "sha256": "6972674ca51d5b07b723211379da7e79728316af4df796c72cf1be56d37be8b6"
+    },
+    {
+      "path": "data/early/frozen-reference/breadth-annual.csv",
+      "bytes": 6300,
+      "sha256": "18e0807cb50e0d2bfd1008ee6c5e7b7ae80f4079fe7b696a1565694aa772a44c"
+    },
+    {
+      "path": "data/early/frozen-reference/breadth-pooled.csv",
+      "bytes": 2070,
+      "sha256": "92730a092ab0b74a70d8a00bd228e784694deb16f1710d55f7dbf13ff3125068"
+    },
+    {
+      "path": "data/early/frozen-reference/models-annual.csv",
+      "bytes": 171285,
+      "sha256": "a24b682cf847999512ed01a1451a658d77d222ef5a4c15c03964d4ab0a7ad2d5"
+    },
+    {
+      "path": "data/early/frozen-reference/run-contrasts.csv",
+      "bytes": 23135,
+      "sha256": "1f9c022e4825be91e462e248f5ac8dff507f9f938ec7dfbf5a98c857db506bc3"
+    },
+    {
+      "path": "data/early/frozen-reference/scale-annual.csv",
+      "bytes": 3697,
+      "sha256": "24e61de067d7fc4ed1c5b6137ffe16283d78fe8c08f227454be4f2ae3facf29a"
+    },
+    {
+      "path": "data/early/frozen-reference/software-country.csv",
+      "bytes": 68572,
+      "sha256": "486e426ad18a2f4bdb96d76730f689ed4633c0260afabcacf5ad3498ec99a21b"
+    },
+    {
+      "path": "data/late/Dataset-archive-flags.csv",
+      "bytes": 5551329,
+      "sha256": "39c50eebf2d26c84f9d781c0c67fed8dd965bb5194448537645c7509ae5ad572"
+    },
+    {
+      "path": "data/late/Dataset-clocks.csv",
+      "bytes": 4597507,
+      "sha256": "de0655e0a2da053b1b87635949e1edd9ce1157b6b1ddbb55ed32c197f41257b4"
+    },
+    {
+      "path": "data/late/Dataset-documentation.csv",
+      "bytes": 2274260,
+      "sha256": "0d596f3c1aa7945cdf29eb0e48a383700ad975603c1dd614af51ca8e2368694e"
+    },
+    {
+      "path": "data/late/Dataset-features.csv",
+      "bytes": 6785576,
+      "sha256": "40f60db3bf18749c34611ff6f7199479eca1eb13399af4a423028b7d21e2d006"
+    },
+    {
+      "path": "data/late/Dataset-header-flags.csv",
+      "bytes": 1359184,
+      "sha256": "5b33a33199bbb118c07c6c7cd15e71b0b6cb996299d0fd0ef34ba06ef1af07c1"
+    },
+    {
+      "path": "data/late/Dataset-paper-links.csv",
+      "bytes": 1162516,
+      "sha256": "f1bba1b8623f016816edf8e64bef3d80ddea8fd5611e289c33ae2be1d7587639"
+    },
+    {
+      "path": "data/late/Dataset-tool-outcomes.csv",
+      "bytes": 3852775,
+      "sha256": "1c44fbe6e9ce5ca712555cb0724a0b18c31550eb1809a7ec411f7229cede33c7"
+    },
+    {
+      "path": "data/late/Expected-outcomes.csv",
+      "bytes": 948738,
+      "sha256": "d9f41eb5d6413dec8f4e64efc1bf5ff4268813ae9830d2cb2b0908626d7c129c"
+    },
+    {
+      "path": "data/late/Expected-pair-derivations.csv",
+      "bytes": 340920,
+      "sha256": "0eadb54e39c5f5d1df1a370f15b36f9ea544e799e9092ca5edc349008232e586"
+    },
+    {
+      "path": "data/late/Input-manifest.json",
+      "bytes": 10549,
+      "sha256": "5d99cd3b61cbf7273b6ef1621bf01b15144f248bf965f159475f7101bde033d4"
+    },
+    {
+      "path": "data/late/Linked-papers.csv",
+      "bytes": 1693753,
+      "sha256": "a65cd1234b5e4c36fe9407dd60f4c5d90bd106d7812befe1028bcb8973c03733"
+    },
+    {
+      "path": "data/late/Nonprimary-mention-pairs.csv",
+      "bytes": 198953,
+      "sha256": "54212a7abe09fdff53b56ee23ed28817a0a37dde9cff14ea8d8ff662c8d35e0b"
+    },
+    {
+      "path": "data/late/Primary-publication-links.csv",
+      "bytes": 487358,
+      "sha256": "062fc1d24365478b61e9690a5a848b77fd10acc3ca3e23f7cb9712c3642acb45"
+    },
+    {
+      "path": "data/late/expected/37-journals-concentration.csv",
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
+    },
+    {
+      "path": "data/late/expected/37-journals-top15.csv",
+      "bytes": 2197,
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
+    },
+    {
+      "path": "data/late/expected/Before-after-by-year.csv",
+      "bytes": 999,
+      "sha256": "623f9d9caa18dc96ee34f37710f22766e62385cc54febcdf9bee6fb244eaf59a"
+    },
+    {
+      "path": "data/late/expected/H8-documentation-persistence-within-groups.csv",
+      "bytes": 374,
+      "sha256": "0224da88894d2439b9a9af685f33a9de81290607a441602de375d8f20b581915"
+    },
+    {
+      "path": "data/late/expected/Recognisable-by-year-three-ways.csv",
+      "bytes": 580,
+      "sha256": "bbaa2537aa202010f43cbe7e6c4aeddbe2a7df1b212f44e96dcce46f5ffdfc30"
+    },
+    {
+      "path": "data/late/expected/Results.json",
+      "bytes": 3019,
+      "sha256": "5f82ed5b1d3bea74f7163c70d0829e2ec56d95523a6b8bac4d3b08964b88fdeb"
+    },
+    {
+      "path": "data/late/expected/Reuse-rates.csv",
+      "bytes": 7943,
+      "sha256": "83cb67497d74560e02ed5b8a4e0a28da9135ed95db9e35db3c20824750157711"
+    },
+    {
+      "path": "data/late/expected/Reused-pool-composition.csv",
+      "bytes": 502,
+      "sha256": "ad32089dbaa5bb0507d917da8977aebfbc82d5cc13bccdae4fd94561363bfc33"
+    },
+    {
+      "path": "data/late/expected/Standard-rate-by-export-capability.csv",
+      "bytes": 779,
+      "sha256": "2737731a4dc7e6de7f5ef1fa7b19e5ed15cbb7389c255cdee6dd640ed74fac1b"
+    },
+    {
+      "path": "data/late/expected/Standard-rate-by-tool-single-tool-datasets.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "data/late/expected/Summary.json",
+      "bytes": 663,
+      "sha256": "8a6442ca5ffdcf31bd6012e07dd9947bfdfd38b0f81981e4bd62c2caaf46fb2b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Archive-contents/Before-after-by-year.csv",
+      "bytes": 999,
+      "sha256": "623f9d9caa18dc96ee34f37710f22766e62385cc54febcdf9bee6fb244eaf59a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H1-H3-scale-instruments/H1-per-run-size-by-model.csv",
+      "bytes": 3413,
+      "sha256": "ea765306726ad7b7168a0079f60a0fb9143162ff0084baae8b6a28fec15c3dcd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H1-H3-scale-instruments/H3-fleet-diversity-by-year.csv",
+      "bytes": 2833,
+      "sha256": "addd53e617a08899d6868883ed663fc7ef87f6f17ba9c9cd4b6672c9dd6db6e3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H1-H3-scale-instruments/H3-model-by-year.csv",
+      "bytes": 171285,
+      "sha256": "a24b682cf847999512ed01a1451a658d77d222ef5a4c15c03964d4ab0a7ad2d5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H4-H7-databases-storage/H7-top-level-bytes-by-layer.csv",
+      "bytes": 754,
+      "sha256": "88eb0e966b297fc0488b1a30c2e00fc3f6bfabd2767a5f854526f84543efe854"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H5-H6-H8-strategies-software-docs/H8-documentation-persistence-within-groups.csv",
+      "bytes": 374,
+      "sha256": "0224da88894d2439b9a9af685f33a9de81290607a441602de375d8f20b581915"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Attacks/reuse-mentions/Results.json",
+      "bytes": 3019,
+      "sha256": "5f82ed5b1d3bea74f7163c70d0829e2ec56d95523a6b8bac4d3b08964b88fdeb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Figure-data/Tool-year.csv",
+      "bytes": 4554,
+      "sha256": "7880db89be0a87903f75122302af42ba29a74d56584d39d6261e598f619185a3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/01-instruments.json",
+      "bytes": 682,
+      "sha256": "7cf3f9f65b13bd5be3a3dade7b28b60435c706ec88cfa5ff167fc1641f49e1f0"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/01-instruments.pdf",
+      "bytes": 24871,
+      "sha256": "29455a5efcfcc8de859caec500ae21712c5f57daaa8cce0d27c45ef33273f559"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/01-instruments.png",
+      "bytes": 374342,
+      "sha256": "20a823792078abf193c0bc123948fa1942e4cc966e3506d4786bd45581efda47"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/02-run-size.json",
+      "bytes": 336,
+      "sha256": "857c83c91df507140507f96332081921411b8551589c53382a406236d37e4c39"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/02-run-size.pdf",
+      "bytes": 26203,
+      "sha256": "9d45cc6e10a952a20253058dcd1e1aa20fac6f5f91dd9a8a8e5a788dfd69d24b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/02-run-size.png",
+      "bytes": 219723,
+      "sha256": "19b04af4d0d9f42237c8e7c5f5e4275076713abd0ec787c018c169b4c62db24f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/04-newcomers.json",
+      "bytes": 318,
+      "sha256": "36ed806d7021b9757785be78883cb201bb9929e12fa2ee9bc89ba8fbf1db35d7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/04-newcomers.pdf",
+      "bytes": 22585,
+      "sha256": "868ab3999691fd4d0314270db653af75902a0024c1b547ccab28ea5d11c15a28"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/04-newcomers.png",
+      "bytes": 211115,
+      "sha256": "85be7019eac91a897eee0f4ede6ec9d7e2699eb7a208a7a2774ee006240c1856"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/05-software.json",
+      "bytes": 314,
+      "sha256": "a8c6aadf1f5bdf728ee8f91ee54961f759ea4c14fdf57bdd108becd4aac4f59b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/05-software.pdf",
+      "bytes": 18746,
+      "sha256": "32b69380e381fc24e1ff81e40d4adb04153f065311231886bca4bf52dc8f6f99"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/05-software.png",
+      "bytes": 259252,
+      "sha256": "efb8e41e923de148047b85aae48d2c3f8507897694cdb5827b40007e5e308370"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/06-standards-by-software.json",
+      "bytes": 339,
+      "sha256": "2de02b48f646ca2f259f54997a15b84814af99331fba8d5703cdad64189ee643"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/06-standards-by-software.pdf",
+      "bytes": 23744,
+      "sha256": "5d12ef8b15c2a9fffd2e5b0533babbe2c2c0ec6b5e224d54d599e5194b792a3a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/06-standards-by-software.png",
+      "bytes": 335468,
+      "sha256": "a8bcbce4fc106bf036e29934a85351cb48e9936a1872142ed0d1e6f9d8e264f0"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/07-hometowns.json",
+      "bytes": 416,
+      "sha256": "9d8fae2ccdbd3567684cb7f191b17ef6b77880bdb48698e0bce8e485ad1e2a85"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/07-hometowns.pdf",
+      "bytes": 21802,
+      "sha256": "ea1b2c2044d061739945022c5f39a351a9b565c8cf896dda0676aadc378bcd64"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/07-hometowns.png",
+      "bytes": 345346,
+      "sha256": "d24bac4752f782a7d7e1d2e8c73a2ea0407ee39b8fd66d9e7cc169a59d776f0b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/08-countries.json",
+      "bytes": 300,
+      "sha256": "61742a95b37b4ba83308021989faed38df2fd22156f156ecf4ae3d455c582eb6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/08-countries.pdf",
+      "bytes": 17939,
+      "sha256": "dd11079c5858e29bde4ea93329940dc3b3152db0cf4a3a8e9ff5e644c8696a31"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/08-countries.png",
+      "bytes": 253469,
+      "sha256": "15603691e49390872fe5adcf4316c9285afad77f6ac6724fb9218338af39f946"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/09-clocks.json",
+      "bytes": 592,
+      "sha256": "e7351b153f37fb757f6e979a3cf677cb240dd6bc136be87ab026478557a369e6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/09-clocks.pdf",
+      "bytes": 21494,
+      "sha256": "529b5381d2809f9ce3fbb6985a0656fde001d86942280e175e3f90ed7f50699b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/09-clocks.png",
+      "bytes": 136576,
+      "sha256": "848ce4f4726b80cc20b5f18ba0f718dd4db1ba0fd5e911351c32746a1cbe8010"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/10-release-waves.json",
+      "bytes": 389,
+      "sha256": "6133b3c7a0249475e801d7c75905c65a4897c2da042a3403a4fc64793452f690"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/10-release-waves.pdf",
+      "bytes": 39562,
+      "sha256": "a9f89d410436ff7f0f23116ed4fb9c6f4ec2a90bfa854c2042cf8cf1ea6a813c"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/10-release-waves.png",
+      "bytes": 98067,
+      "sha256": "56f6aa06120caa8fe6cdf00e911358830da696f513bb58125711bc549548deaa"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/11-bytes.json",
+      "bytes": 291,
+      "sha256": "a8b996e6770bcb8955cde9d9e86abd3ee9edc87a470f38366d89356fe5bbaf00"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/11-bytes.pdf",
+      "bytes": 462830,
+      "sha256": "3817ba50b01ed979943e1b0d39ca293a855219cda2ec039f80769b111b5fcc30"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/11-bytes.png",
+      "bytes": 222927,
+      "sha256": "446711b0fa7f1457a90fb7c0040d31f847d4b83d1d4c90e7eb3a4eb291240d26"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/12-hidden-results.json",
+      "bytes": 366,
+      "sha256": "e2f96f0eaec8f0f3b3709abcbb8dc3086950ad02c514f72319f35160a5a198ce"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/12-hidden-results.pdf",
+      "bytes": 19948,
+      "sha256": "37768dad491b163d2797e9ed48a9b65d17eb6fb76de753eb07cc7ceb933db633"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/12-hidden-results.png",
+      "bytes": 173093,
+      "sha256": "5e9647806f79403d85c11342654d85d833f5c9ba4fbe8e7d3d76a6f597b604ea"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/13-habits.json",
+      "bytes": 344,
+      "sha256": "23cf80fecf9efeec79683b25129f9699a7fab4cb6afe7d01e44748ba71512f31"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/13-habits.pdf",
+      "bytes": 20520,
+      "sha256": "d3990bf774048b821abb940c5c9aac8f6a9971c34e199d4e71a3f7ad7d1606e6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/13-habits.png",
+      "bytes": 142206,
+      "sha256": "232229e4c5ee8bb2d97059b53c0e76a0e06b06c3b1edc1bd485f2d13f0238ca3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/14-fleet-history.json",
+      "bytes": 710,
+      "sha256": "35b35cc81d5db2e4b547737c43917d305d7e0904e0a582abdac5ee99a0ac111a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/14-fleet-history.pdf",
+      "bytes": 164166,
+      "sha256": "20b33b4054ebe5c7615752b8582af40bf8fe5e452fbbe36fe3abf794e7469649"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/14-fleet-history.png",
+      "bytes": 866277,
+      "sha256": "1d880af68eea86a60b415e6b5dfe3e2176195350af62ab3e2b5cf52077274f48"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/15-run-ridgelines.json",
+      "bytes": 916,
+      "sha256": "681ebae054910ec63ec925af384de03d3d7c468eecff3b771fe5a3b9aa25a5ea"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/15-run-ridgelines.pdf",
+      "bytes": 213328,
+      "sha256": "35b8191cdd7cb3c5f284e97f26389404c5a7b5d515e4e95168d4f827b8834359"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/15-run-ridgelines.png",
+      "bytes": 741425,
+      "sha256": "d02bbd7f288cbd9100ffce46b0464d0406142214a4ec8ba8a897eb6cd2521169"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/20-world-growth.json",
+      "bytes": 679,
+      "sha256": "a29ee706706fdc4964e3c3f792ec40b71b71a036f35a341fc7d45671e9ca873d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/20-world-growth.pdf",
+      "bytes": 1922534,
+      "sha256": "cf875de98f452879f95f08108c81c89621ad9b3a3976586557bc3062c05cf9d6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/20-world-growth.png",
+      "bytes": 1178051,
+      "sha256": "614e5321f50fa7bd3a0dd126b4f763ad6c905bfe896e78607affaf5c960d83db"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/23-petabyte-treemap.json",
+      "bytes": 584,
+      "sha256": "d20a41045d160dcc8b91638b3ec3181a7f17de79f5c91639975694f9dd49504e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/23-petabyte-treemap.pdf",
+      "bytes": 26971,
+      "sha256": "c1dcc46df8bc7b418932cd8ba10360774b19212f63c6f3647703c21c0ed5093c"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/23-petabyte-treemap.png",
+      "bytes": 414252,
+      "sha256": "b3dc3e6c30070869f5ffcbcdb797396e7b966a9ef8f30b96473035ff15f2c419"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/26-reuse.json",
+      "bytes": 993,
+      "sha256": "f680cf384d81d1df14e9bf87c79111bb658e00afe2261cad60a408356ce5d7cf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/26-reuse.pdf",
+      "bytes": 23848,
+      "sha256": "b36aa068a870fc18519775bab9c0c4ecb9e14e9114167c816bd78c142d38c5d4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/26-reuse.png",
+      "bytes": 235332,
+      "sha256": "dd2ecc8e6563c3f5467201724f86af5614256662ee6d7a28d613d63801508a7a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/27-isobaric-plex.json",
+      "bytes": 763,
+      "sha256": "0f510d32140291f846a245faa4dae7350907d074004282aacd0c8b61324946d2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/27-isobaric-plex.pdf",
+      "bytes": 30180,
+      "sha256": "d5fd9cdb8c728a92263d43f87dd5b6acccf62efefc4d3444c70bd5f7948e85ae"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/27-isobaric-plex.png",
+      "bytes": 537400,
+      "sha256": "a8f4a6c40b90259f82b5ce66fa3c97c6db8fbc820937b1bb9f7c0dd252c8129e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/28-ptm-landscape.json",
+      "bytes": 767,
+      "sha256": "e6e219660e5545e4a7d36f0a245a9d36a7beebf850a971c3c18dda09119fe444"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/28-ptm-landscape.pdf",
+      "bytes": 25765,
+      "sha256": "792f9cfcaa206bd464f186efdb372cc0df25c676c3444fc62bda7f239c22bfc9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/28-ptm-landscape.png",
+      "bytes": 407072,
+      "sha256": "7a5c115027d66cd9a59dbf40bb6617aca5ab4b15531e6b6034fcd0ea29462029"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/29-species.json",
+      "bytes": 781,
+      "sha256": "d6e26a827545b5337dd6d0ef222b62e30ee88680884e3ba4c5ac93abcf9726b2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/29-species.pdf",
+      "bytes": 39181,
+      "sha256": "8bd27a0c0c646a0a13edfb9f61a226bee660664a67d9553e98a24a4bb331f4cd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/29-species.png",
+      "bytes": 577009,
+      "sha256": "b2e3ab6f512bcf6186e09433bdf393a57cd293e6c563a39913a71f697ce6574a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/30-file-formats.json",
+      "bytes": 804,
+      "sha256": "6a88d2fad67134275c047c5ac9e0767ea4e06323c7b1ce593a70699f93d7e8e5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/30-file-formats.pdf",
+      "bytes": 37258,
+      "sha256": "ba0ae295b2bff803897913294b9a5b72cd3ece252734b48e1a189e3c3593004c"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/30-file-formats.png",
+      "bytes": 768463,
+      "sha256": "ef7ee2f9265e05ce79aea4ed6c112d21d856cef2a5e14a5d9e63efae6d5bab3d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/31-version-streams.json",
+      "bytes": 932,
+      "sha256": "1a0fb17eae58b4612bd8a3aa7d8279e79c4161bfaae43dc464cc8fba7e013aae"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/31-version-streams.pdf",
+      "bytes": 32659,
+      "sha256": "31943036a04efdd6b9ce108739c678bfda89dbb4a96fa47707f35f2e90c5817b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/31-version-streams.png",
+      "bytes": 651576,
+      "sha256": "38c4ffd7d391ea7672d832f26932e1c0a4f37ac8dc0a8b50f899584c1d88a36d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/32-database-age.json",
+      "bytes": 531,
+      "sha256": "de88ca73a807f10102185326b25d87e35f25c52844e8c8956cc76f19f5b807f5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/32-database-age.pdf",
+      "bytes": 43510,
+      "sha256": "d859cae2758804544a599967acbb03085f49275026533ca0e84e26be5f86a723"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/32-database-age.png",
+      "bytes": 839166,
+      "sha256": "4766d01f5e9bbf8c4e8d75ac496d52e583ffdf001835802ac0adab456b2e622b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/33-tool-age-at-release.json",
+      "bytes": 829,
+      "sha256": "7c412dd993eb6c1aa76cb3ad6d797000f240926c00fb09e7f8b5d607ffb62520"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/33-tool-age-at-release.pdf",
+      "bytes": 27444,
+      "sha256": "dc55355f9f91183cce9b35d9e1b13f133b53404e81d6f39c4c1b4cdbe783acee"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/33-tool-age-at-release.png",
+      "bytes": 500488,
+      "sha256": "ec0f20fefdc750fd437253a7757fbd194c2386d05cdd03af8086ddd10b98d33b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/34-contributor-concentration.json",
+      "bytes": 495,
+      "sha256": "1d445d3d934d1b1b3dd7ac4b6ad5db25c844ac209727e177a68ea16bd4e2c7bf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/34-contributor-concentration.pdf",
+      "bytes": 28881,
+      "sha256": "da00725fac81acc0f4a47cb6d4caa300335065bf3a787c12ce45193c68bb52d1"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/34-contributor-concentration.png",
+      "bytes": 486318,
+      "sha256": "aee9176d11a3c0c40862558e74cfdf57c22e3f149af9aa5c67b08eb4f11e987f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/35-collaboration.json",
+      "bytes": 539,
+      "sha256": "706f220ba615a91dc13d0c3264dc086f5bd7d5732ef65559b0be17115409cdbb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/35-collaboration.pdf",
+      "bytes": 30897,
+      "sha256": "4c1fe368b3f0f4391a4a6e655a249783c6fd40396a4bf50311cb874a8cfbbe57"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/35-collaboration.png",
+      "bytes": 546272,
+      "sha256": "d6bfb7a70617c76085c4213c980389f5f9d679290ac52951fa2e09eaaecd54c8"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/36-research-fields.json",
+      "bytes": 526,
+      "sha256": "7df2d0d3446ace531be67967b30ab8ff6fc06651f2d529cab9999b7155016218"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/36-research-fields.pdf",
+      "bytes": 31244,
+      "sha256": "b73592ef04d561b7ebae2e691c0ad97fee1dcbc4c672cdb2e716d0ed132245f1"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/36-research-fields.png",
+      "bytes": 676823,
+      "sha256": "12eb41e0a7eee9a36a6c5a2b82cae98fc2fe293b85c12c3de6ef57cb11399bdf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/37-journals.json",
+      "bytes": 585,
+      "sha256": "0e8b29aace4bf161b97acc844e89113402d5b3beeddd6e31092da941f1c682ab"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/37-journals.pdf",
+      "bytes": 34781,
+      "sha256": "178d0396e91407a6d978cc98135d5d54d9781fab7737eda91b5ce36da5510453"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/37-journals.png",
+      "bytes": 708868,
+      "sha256": "1d77767e94d159bad94d1661d7c0d3c51cdf84a9d3baaaf5424e6b2077c14f6f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/38-instrument-arrival.json",
+      "bytes": 795,
+      "sha256": "7e2b9f0ce5dac0ff36f102a01bf7087ccce0d5597bc76db23cfc1e501b3e8c19"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/38-instrument-arrival.pdf",
+      "bytes": 48981,
+      "sha256": "f5e3d132605c917e1637e5a3d2a368c615e0ff5626d0147096bb980cddce3b59"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/38-instrument-arrival.png",
+      "bytes": 462160,
+      "sha256": "6cd2f31bb1b4d4b79095f0acf9f05f029d4a81c063a1770e72d02be8aecc7e4c"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/39-data-age-by-country.json",
+      "bytes": 711,
+      "sha256": "10974f192cf06923d02aa6e291fe3501fadf1567465597984222595324c2fc99"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/39-data-age-by-country.pdf",
+      "bytes": 48238,
+      "sha256": "3c4a27530abc5ef2f60620bcf09e14ce2700ae3684a8feaa0badba8e24aa8244"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/39-data-age-by-country.png",
+      "bytes": 629821,
+      "sha256": "e0e53742cc361d60b84a5dcda4395230d917916668359dd841f33dbe6d28d1b2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/40-weekly-rhythm.json",
+      "bytes": 578,
+      "sha256": "1950adf6b9eacc3702b1f1b9462d2aa0536aedd94052bfbbc1f4ac976778944a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/40-weekly-rhythm.pdf",
+      "bytes": 39941,
+      "sha256": "5141408830d8e7359254e771a44a24460b51f7d44794d0b790d7b3835fe90bc0"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/40-weekly-rhythm.png",
+      "bytes": 633197,
+      "sha256": "3c8c089c0e7c941d20d732990ee8572bb03d82956d5c86bd66fabd435707c0a4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/41-paper-and-release.json",
+      "bytes": 646,
+      "sha256": "2214d7af2acffc15b8089f614c5c3e2a973d97e1768380d91d9f3878256b1e58"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/41-paper-and-release.pdf",
+      "bytes": 29619,
+      "sha256": "65525da5deb63920c5abf3d1f74eedd770100dd25b38208510d52ddc39ed8ef9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/41-paper-and-release.png",
+      "bytes": 477239,
+      "sha256": "aea87bc9d3356ad647a7b204142a7ba8ceafbdc641660dab7a3fda2b3f262d16"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/42-breadth.json",
+      "bytes": 677,
+      "sha256": "62285f639ee7fb6837bb050a9fcce672775db86a9e7a58540af4f43ec4750dfb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/42-breadth.pdf",
+      "bytes": 26704,
+      "sha256": "bb5c5dfdaaab67289a36bb282d89938f7e141bedaeb96125eb2d8855864c2b86"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/42-breadth.png",
+      "bytes": 445364,
+      "sha256": "3b4df1b419f2297eca1517fd307d7c98cceaf9efda9007e963f6747f793da31e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/14-fleet-history.csv",
+      "bytes": 11799,
+      "sha256": "96213d50a3089867a651e0456784f462cea1abfed783fadfd2be72d6d127b1b7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/15-run-ridgelines-density.csv",
+      "bytes": 195875,
+      "sha256": "8de92a8e43a5791c0b8305ed07c1a83fd7e98aef64f78717d51a3e65927bc0ae"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/15-run-ridgelines-subsets.csv",
+      "bytes": 3389,
+      "sha256": "8a0fff8c7a49e1cb0273c2306fdc484b035237d72014d301146298ec78d8e068"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/15-run-ridgelines.csv",
+      "bytes": 1364,
+      "sha256": "1372f500ae3958e3e68d1f0ff2d4970c5e0954383122d74aeced6e49a6508e35"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/20-world-growth-continents.csv",
+      "bytes": 225,
+      "sha256": "bb2ff1454c3c195ab320849c2efbd8864ef5a407ed55c873939fba6618a06049"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/20-world-growth.csv",
+      "bytes": 4529,
+      "sha256": "75c38ba2958c03ec4adc7673acaa59dd121e3a9fcda4978f2d3bcdc2495a73c9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/23-petabyte-treemap.csv",
+      "bytes": 2317,
+      "sha256": "ccd2f860e848c25e26ff6badc0deea617193deeac98bac73db6e736ca9c76c10"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/27-isobaric-plex.csv",
+      "bytes": 2332,
+      "sha256": "2611ec69d92b1a8be7619571cf6fcb95a76ea86edda909f1ce57e05d521daad2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/28-ptm-landscape.csv",
+      "bytes": 1413,
+      "sha256": "0fd313efceed99e2706fa14c3ca6ecf2fa759085ec74ee7fad7b96b2b88a64c4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/29-species.csv",
+      "bytes": 4094,
+      "sha256": "cee2d1e8350f2a5b7b5bc69f43401b67a4612bb15351ddc1fced34899744942f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/30-file-formats-by-submission-type.csv",
+      "bytes": 4608,
+      "sha256": "2244818f31e5753cac26e630ac7cd4585f763a6bc2d1b9a0eff6c12c0b6a17c6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/30-file-formats-periods.csv",
+      "bytes": 525,
+      "sha256": "20de5c76a2cdd4710fd9908af56bc4dbdb35c5563bd2a4001f06400d7568a09f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/30-file-formats.csv",
+      "bytes": 1357,
+      "sha256": "4797f588d904b0f174b9582242f739c2073621b215ecc663a9cd83f2a8a58344"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/31-version-streams-2025-shares.csv",
+      "bytes": 300,
+      "sha256": "cdffd04b21d88414641502099e37cee762c1a96fa5616a9ae3ba2df634fc40e2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/31-version-streams-maxquant-by-data-age.csv",
+      "bytes": 316,
+      "sha256": "551372211015c6752a63b40c339a7c913ff38be3bf2632d346885e6ad17f97ef"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/31-version-streams.csv",
+      "bytes": 10996,
+      "sha256": "98f6263c04e07d5b337aea50fbf21a7ecf595c23d680bf8186b87175752f8a56"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-density.csv",
+      "bytes": 9330,
+      "sha256": "d4fc67aaee8b71868fbdbf9d68aea8da866f6505ac418489a63c2ee49e80a28e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-fasta-rate.csv",
+      "bytes": 681,
+      "sha256": "ed6e441a3ddd6db155578975edd71bca0d8ba9130cf6708cdb6b97334ba0ca92"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-sources.csv",
+      "bytes": 533,
+      "sha256": "34bf1b5a2beb96a1187e0c3d8d1136d31e72156d026f03bfe754fae340f31dda"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age.csv",
+      "bytes": 1216,
+      "sha256": "00fc5b874c72bc286227b96e9cc1fb4fbcd64b18af64dc53b5ad8353fea72e78"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/33-tool-age-at-release-quantile-dots.csv",
+      "bytes": 5458,
+      "sha256": "9d11219f5063c60d9912612a99de92d6d8efcebc594417ef42c6a53a3cc77e76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/33-tool-age-at-release.csv",
+      "bytes": 798,
+      "sha256": "28ebc2c725ff0cd387521ab53a4170fac0b7fcb0cc5a0df54f3235587f8deffd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration-classes.csv",
+      "bytes": 459,
+      "sha256": "8bdac9a4638007c4147c4d9bd288ba3d9b59484b13657ec3095a436b627a5ffb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration-histogram.csv",
+      "bytes": 439,
+      "sha256": "de0d5f2efa583174cb4b7f269f2d11806a031499583b1f7557ef5c61a6bbbe76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration-sensitivity.csv",
+      "bytes": 100,
+      "sha256": "3ba3e3483392e7fb3511cfb9fd043a6d728cf92c6999128f71795d5100b6a687"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration.csv",
+      "bytes": 1333,
+      "sha256": "7dfec603e25f12d1601b661fccb921459bb9d8686d96e648e73ab635905cad84"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/35-collaboration-by-country.csv",
+      "bytes": 1595,
+      "sha256": "31deea451c26e07e4ec8a2cf55bb3594a186b9f804638fe13756e99dfbb644ee"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/35-collaboration-by-region.csv",
+      "bytes": 110,
+      "sha256": "04e161d5308180c98febfd8ec75b8d0b915ff3a74273fd4a9fa4356d6d148526"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/35-collaboration-by-year.csv",
+      "bytes": 1082,
+      "sha256": "5cb9a3d952044a69d8aa263811381d923b218fd41b5b4862b849a88f3df3f2bf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/36-research-fields-by-year.csv",
+      "bytes": 2566,
+      "sha256": "4ad58ac30bb614672ea03d2cec1999b05aea9641ce3a28f84ffe605b3f047f36"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/36-research-fields-subfields.csv",
+      "bytes": 1640,
+      "sha256": "4ba48d9b84e5e285c07447c9f9145eb995d56b744f863fb36006a75b5669eaec"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/37-journals-concentration.csv",
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/37-journals-top15.csv",
+      "bytes": 2197,
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/38-instrument-arrival.csv",
+      "bytes": 12410,
+      "sha256": "4fbb0d9fb915188e6bd42ad5d8fddf6ba8ec46a71f42030f5cf9319b96caf77f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country-dia.csv",
+      "bytes": 1157,
+      "sha256": "40d26e5e40053a2fcd9904e4fd4c1aad12c4fb46785041a9c0e5f678e51bf19b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country-models.csv",
+      "bytes": 1355,
+      "sha256": "c186360ee73335ea11fc66ee090bfffe4977a5e089835b62fee7fdbea27bd7d7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country-pooled.csv",
+      "bytes": 36,
+      "sha256": "9dee32c965b6d46be22b97a2d75661178eefa7bfcfcc58e23257b4fa9065cd90"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country.csv",
+      "bytes": 2006,
+      "sha256": "936ebb3a48f96bff5957e63f6d587ef96a589449e9a14ff9ff021a39b824056e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/40-weekly-rhythm-office-share.csv",
+      "bytes": 1475,
+      "sha256": "53c4d999c7ece7c07c235a276453aa142abdb496beeb2c0de08c3a5056786dde"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/40-weekly-rhythm-weekday.csv",
+      "bytes": 558,
+      "sha256": "d7c64dd5b84578e72cd1b6b4534cffe8f795064f14e0a91fa6b1d01da6808cf7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/40-weekly-rhythm.csv",
+      "bytes": 16557,
+      "sha256": "6196d13d1cb0a9816c612c5b3ca174b91c8a66f83ffa31af182af97f83f5338d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/41-paper-and-release-histogram.csv",
+      "bytes": 5772,
+      "sha256": "4a366e3d95f8bbaf417dbf73f86d9acbef1e5ceeb2274e9c568f3c9e086b1054"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/41-paper-and-release-summary.csv",
+      "bytes": 319,
+      "sha256": "92fc893ee0b20840868b14f0b7bd00b9cd818f21ff33c4b5d8ec802cca50578b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/41-paper-and-release.csv",
+      "bytes": 1046,
+      "sha256": "8680cc1ef7bdc9de166a1c36a117f86cdc1ce9daf438fae244e1341c389c1eb8"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/42-breadth-concentration.csv",
+      "bytes": 179,
+      "sha256": "1a92be04815bee5e2e61a9035521de4e7722f01cc8923d28f86ffab719c9d4bd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/42-breadth-pooled.csv",
+      "bytes": 2143,
+      "sha256": "cb3ee0b687771851542f4205ff08cc90bfe6182c49ff945a6ee691681e893f89"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/42-breadth.csv",
+      "bytes": 6655,
+      "sha256": "faf4bf124fe199e611fac13ee63ee2949430c2a954cd675560d5176120f3b607"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Header-sniff/Recognisable-by-year-three-ways.csv",
+      "bytes": 580,
+      "sha256": "bbaa2537aa202010f43cbe7e6c4aeddbe2a7df1b212f44e96dcce46f5ffdfc30"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Figure-specifications.json",
+      "bytes": 3681,
+      "sha256": "c6075bfb3faaef6aa34e4708e00f013184ccfc9f42afe3a4212ffc93467614f6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Layout.json",
+      "bytes": 2553,
+      "sha256": "eeb2361ce7d80e18608d370bd05c5179fe61b2fb89749ceba0fc5687a3419021"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Legends.md",
+      "bytes": 16206,
+      "sha256": "c93d69dca479716ee182a613bb668bf9bcdf6a5f1b1fb457ed5b8bc043a8b824"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-1.pdf",
+      "bytes": 2354919,
+      "sha256": "fbd144e6ecdefacc8eb7771162c8fd658664b330a630d83f8cb4e9cfad04795a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-1.png",
+      "bytes": 2416372,
+      "sha256": "98fc87213d2d6593e3c6fc7a577528f36ecf82c775cfd89f3ddb1db59ebfff23"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-2.pdf",
+      "bytes": 1533105,
+      "sha256": "8f6d9192de571de401ce54ace06d14d8d5fe2cf3d2f7f3f6adfaca4c71328c45"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-2.png",
+      "bytes": 1595015,
+      "sha256": "24ad8e5fc6e9d4186f90985a28f03954f63bbb9cbf6559d4490694ae2d59cd19"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-3.pdf",
+      "bytes": 1288061,
+      "sha256": "23668d09c3baacf4de1552e9b21e3820d96c14fa77e1a8325a7136f43e54f0a3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-3.png",
+      "bytes": 1337501,
+      "sha256": "4501345a7de4d43650870e8f0055e6d9357a76dbc324bbebcb2b882e428d316f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-4.pdf",
+      "bytes": 863824,
+      "sha256": "e0b490a43f1805ef5526aee55f4a1d94c65a2f741761813c65e56aae2a7a1852"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-4.png",
+      "bytes": 863103,
+      "sha256": "e6cc8fb74ee5cbb039732637e8883af9661e1cd697550874049f0e18199b3b2a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-5.pdf",
+      "bytes": 1405901,
+      "sha256": "6c0da1b8da267894049ab035e84370988bf7c732ca135b5be59a4f6c57ba237e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-5.png",
+      "bytes": 1432254,
+      "sha256": "9329f9b26cf4f9205420f4bbaa8ce6a07668e0c093455a87e2e9a12b531089f4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-1.pdf",
+      "bytes": 657220,
+      "sha256": "cf8f921c777938e6414ae2663a10cbd5a24a3b31732a76b0a6a7ebe0bc44b8f3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-1.png",
+      "bytes": 663107,
+      "sha256": "03841d639b501e972dcc71f467790d499bd8bb186d00b95feb8f7cbd97e42dcc"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-10.pdf",
+      "bytes": 1219409,
+      "sha256": "d750e8623c734c523d01e547e293d6e02ceab99786f4dfe5bc5b176ec384c488"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-10.png",
+      "bytes": 1211189,
+      "sha256": "03d58cbf8ef0f9dd71373148bbe2e7cb259ce9e91feadd25ba513aa681166e51"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-11.pdf",
+      "bytes": 659249,
+      "sha256": "a40bde71a5b0e3c084eb960ae0af30aa493863e8b24e86394dc723a57cc27ed8"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-11.png",
+      "bytes": 673663,
+      "sha256": "39fa0dfa08700d4486185c2d3458973d4f7f2eaa6836eb0cb732694299d981bf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-12.pdf",
+      "bytes": 908645,
+      "sha256": "db343c98022b928d788517764eca5e6e484db0fa88304288ace5ca359f913adf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-12.png",
+      "bytes": 907811,
+      "sha256": "e0a61d852c8ead374ffbba87837948c282bbe15b8b9069d73ba82d349cc7eaf3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-13.pdf",
+      "bytes": 812297,
+      "sha256": "9e5b705a96dcad03d3ed9ea78fe619e84ef2d4f4c2d725bef04a5f087062f16d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-13.png",
+      "bytes": 844642,
+      "sha256": "402a362ddfa1a6e637f8c6e5478a8ca24ef0f3f63804ae8c8816e4fde6fd79c9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-14.pdf",
+      "bytes": 879443,
+      "sha256": "c9793c86002d8f1eb83db165fe68546c22fa308bdf7b1ef968405eb2d9fc6ed6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-14.png",
+      "bytes": 888363,
+      "sha256": "90dd9bb6d4dac58060d3454dbd89147ce46b1c3a3a5a3a2973318418dcf9a9d4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-2.pdf",
+      "bytes": 1166661,
+      "sha256": "7273cf50ab85bc8b0bd653a7ac2de9336ab41f8bef6642a112955f9408c6baeb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-2.png",
+      "bytes": 1226917,
+      "sha256": "5fbc34c3655c32a60ccd3bffad65d2ca7922f9bce6b4eb12f6d9e27518dfbd42"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-3.pdf",
+      "bytes": 866425,
+      "sha256": "b2e48630f17c10b04015e28a9d47955e836c341e4df0b7ef1b2a7734118e9836"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-3.png",
+      "bytes": 850519,
+      "sha256": "3baacf62cc5576d5630879138492f89b284192066f710172495ac0765b69ec6f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-4.pdf",
+      "bytes": 891869,
+      "sha256": "c47d88b023b3047f70f3ddfc52d876317b9381b08b27c7bc23aa591bea194009"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-4.png",
+      "bytes": 932762,
+      "sha256": "307068dc8ee89a2afe7555a41dab9915bb6b8bcc760c77134fc5ba40fc3ccba4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-5.pdf",
+      "bytes": 1917553,
+      "sha256": "450bcb3948cf930895350e056b9d2831bd15613359409c6a5dd15a628ba20d21"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-5.png",
+      "bytes": 1944365,
+      "sha256": "2350188e6de5f41b9f16704a49b5546a98885a0c14981b0310c37b09b5cdd2ff"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-6.pdf",
+      "bytes": 479586,
+      "sha256": "5f7831edf1ae671b9e9457a8466b34c1dc2e9db91bd204bce0f0b9b6490b5d3a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-6.png",
+      "bytes": 504455,
+      "sha256": "0f81299e99a2cab22e0c61738e5808e22b75b2a2354cde0811d4f4260dfb55f2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-7.pdf",
+      "bytes": 1105958,
+      "sha256": "501bcf87118148156fb7c56dd4618e45ad385552b06c160fe72d9eeab7b2e73f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-7.png",
+      "bytes": 1133253,
+      "sha256": "c17657a51d3a57d04fb8884ad5b5f3483790ab35350a76f816d3fca04fa692b3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-8.pdf",
+      "bytes": 1294380,
+      "sha256": "d763dc31f46cc62d378374da1462307fe57470d0bb8d8b8f31d7691ef1ff24a8"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-8.png",
+      "bytes": 1319522,
+      "sha256": "12e71307783c9dfb46ca6d4f5faa30d40a523a806db23d04c4b346123f34f769"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-9.pdf",
+      "bytes": 772820,
+      "sha256": "b2fa05a3e1329bc5068a82d1475cc1186281b406845287aec41ea6e22f098fb1"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-9.png",
+      "bytes": 776062,
+      "sha256": "5e028dcb7cc92221deaa44fb3020c5664bf15b9e503dda19ca9f480625c4aa93"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Paper-2col.pdf",
+      "bytes": 20428568,
+      "sha256": "f553382bb92394133793565ee3beb349b18acc475fbc26836bd5723394a9b6a9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Paper.md",
+      "bytes": 38832,
+      "sha256": "176af0f54e7d445fbff974a8addca9c18a598cb61e35f0518a104af9ca0de933"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Reuse-mentions/Reuse-rates.csv",
+      "bytes": 7943,
+      "sha256": "83cb67497d74560e02ed5b8a4e0a28da9135ed95db9e35db3c20824750157711"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Software-geography/Home-country-lift.csv",
+      "bytes": 3868,
+      "sha256": "ad7731266936fb8ae1d52211e7e50269ce269cf9d0737884f4d2936283ce8f5e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Submission-metadata.json",
+      "bytes": 695,
+      "sha256": "6763b0ee599ae670ccb4b8efd72f6f0ffa67ce30eae205b523b162c519da698b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Contents.csv",
+      "bytes": 7897,
+      "sha256": "9f8d6d219cad9432781c7ab86ef8a90baa75234feda134a674c1b3b645eabd1f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Supplementary-Tables.xlsx",
+      "bytes": 69270,
+      "sha256": "e79a82c378a47c20d61de61dd0ef3234d8f3ab9799e9b30e7894a381c30a717b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S1.csv",
+      "bytes": 973,
+      "sha256": "6d2ff41d669600310439180062f7427b65028b20961fa5f43127252d65f4aa76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S10.csv",
+      "bytes": 531,
+      "sha256": "6aae011ab226f1dc39523a5029985c27c61725f3066f04b2d2dd5f7d2e6982d4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S11.csv",
+      "bytes": 798,
+      "sha256": "28ebc2c725ff0cd387521ab53a4170fac0b7fcb0cc5a0df54f3235587f8deffd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S12.csv",
+      "bytes": 300,
+      "sha256": "cdffd04b21d88414641502099e37cee762c1a96fa5616a9ae3ba2df634fc40e2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S13.csv",
+      "bytes": 1171,
+      "sha256": "afd6a50ae33a6661d6ebdac6af5e949df677a8cc68f2090329116125061df9da"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S14.csv",
+      "bytes": 374,
+      "sha256": "0224da88894d2439b9a9af685f33a9de81290607a441602de375d8f20b581915"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S15.csv",
+      "bytes": 621,
+      "sha256": "654f81ddb2e42fe191886a4afd755369f0a06a9863811a16024c3b30daa3ba18"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S16.csv",
+      "bytes": 329,
+      "sha256": "9e7dd5a2ea0473ca85e5c6e611662a5e2ea60349e8658ecb5715260b8dbfef5f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S17.csv",
+      "bytes": 2197,
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S18.csv",
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S19.csv",
+      "bytes": 8007,
+      "sha256": "2edc870fd5ba586360ba0fc9fbbdf9402bc314041057c8db4c115a6b901273a3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S2.csv",
+      "bytes": 3673,
+      "sha256": "94a9ca21e55323e75c2412027d1492a9c3a5ab9b09e70cfb884d789761f202d0"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S20.csv",
+      "bytes": 1130,
+      "sha256": "481366c79943c3d8a54b922bdc6eb00142ff859f11e2142f04e401ebd4fb7ea0"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S21.csv",
+      "bytes": 12972,
+      "sha256": "6b74c3e6cdef59a09dd3d0f5130bc85a18e9884d9bc783be62a219d83f7b4ec9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S3.csv",
+      "bytes": 1027,
+      "sha256": "4820e79b89994556c3933b9d2d955255641a5f05205951ab34ad1f548a40d3cc"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S4.csv",
+      "bytes": 1277,
+      "sha256": "9a13399edee04c9d1f0d6c43812fcf1b0af39778e8e8771341240d851aba9769"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S5.csv",
+      "bytes": 459,
+      "sha256": "8bdac9a4638007c4147c4d9bd288ba3d9b59484b13657ec3095a436b627a5ffb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S6.csv",
+      "bytes": 4091,
+      "sha256": "ef7418139609ce15c428d62ae475f937d08f6edd5bb7253e9b7e970de117a0fa"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S7.csv",
+      "bytes": 3961,
+      "sha256": "b316aa750b6c18f093906a36b5f08eaac622bd7499dd79a7a7be342686021806"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S8.csv",
+      "bytes": 13412,
+      "sha256": "2f1d283a7ca8c2effb314e90abeb55b1dfb142d9ce9d046cd8ee9535852f12f5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S9.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Tool-outputs/Standard-rate-by-export-capability.csv",
+      "bytes": 779,
+      "sha256": "2737731a4dc7e6de7f5ef1fa7b19e5ed15cbb7389c255cdee6dd640ed74fac1b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Tool-outputs/Standard-rate-by-tool-single-tool-datasets.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 140,
+      "sha256": "1ecafd61626919228d8a6448376e5e95e113a7ec6aa59b671f56607be854b1a0"
+    },
+    {
+      "path": "scripts/attack_reuse_mentions.py",
+      "bytes": 7484,
+      "sha256": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff"
+    },
+    {
+      "path": "scripts/query.py",
+      "bytes": 1788,
+      "sha256": "5e370c4c4283026770190f06025be63c9fb9e915f4b692a35d3492a2862f199e"
+    },
+    {
+      "path": "scripts/release_early.py",
+      "bytes": 15907,
+      "sha256": "e6796d25f2d7646b2f5c63265a4cd174df6ed5bee480fb1204217f9ba138e82e"
+    },
+    {
+      "path": "scripts/release_late.py",
+      "bytes": 17322,
+      "sha256": "8859b9591a4a27e70366ef283a53bb1ef5646b6df5652ed572ae574a7c372f21"
+    },
+    {
+      "path": "scripts/release_late_support.py",
+      "bytes": 6214,
+      "sha256": "1ccd0252ab10d9f0cb502a02c73080b66c10e7ce17fb340a560e56977c58d29f"
+    },
+    {
+      "path": "scripts/reuse_mentions.py",
+      "bytes": 7857,
+      "sha256": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 994,
+      "sha256": "bfc7374735f5025574710bd91726bdff0456089aadabb8f50123a3fa1df58fe4"
+    },
+    {
+      "path": "validation/Historical-figure-reassembly.json",
+      "bytes": 332,
+      "sha256": "717c459026c93d947830ecc19d035d25b9f29580786e33c02a6fcc41b42087f9"
+    },
+    {
+      "path": "validation/Late-numerical-audit.json",
+      "bytes": 6185,
+      "sha256": "23960605fadc8d32629b1fee06cda44cedcfed8b109b675f003c07bcdb588f89"
+    },
+    {
+      "path": "validation/Public-privacy-audit.json",
+      "bytes": 17874,
+      "sha256": "fd36485b0f67c464da1802776bf6fcd400ccf56fe0dd25407926cd6220e22db3"
+    },
+    {
+      "path": "validation/Public-repository-check.json",
+      "bytes": 6984,
+      "sha256": "ecd187dd591c86b248ae1ec285010869559ce1dfe815397d39bc659fd770c2de"
+    },
+    {
+      "path": "validation/Rendering-environment.json",
+      "bytes": 183,
+      "sha256": "a5d33176681711af9119688146a2b192f090119e248eececf4daaf132dff0dd1"
+    },
+    {
+      "path": "validation/early/Run-count-bootstrap.json",
+      "bytes": 251,
+      "sha256": "4ed9bdc5de5835c1585881a81a5968c79b25f34f3df69f8842685c7d48c3a734"
+    },
+    {
+      "path": "validation/early/Validation.json",
+      "bytes": 4317,
+      "sha256": "66dfbac6bee6687189c43488e6ed075d0c06e4ee4b0c055a66564f2c30f15a04"
+    },
+    {
+      "path": "validation/late/Bootstrap-stability.json",
+      "bytes": 2354,
+      "sha256": "6a2de81e5ae518d323046b3720955a4e31445e88d3a670a2d2869c41fa421542"
+    },
+    {
+      "path": "validation/late/Model-diagnostics.json",
+      "bytes": 44616,
+      "sha256": "6f3a8e6697959407de719ce2142c3ada574015fac3cce24dc2959f7ea67341dc"
+    },
+    {
+      "path": "validation/late/Validation.json",
+      "bytes": 1065,
+      "sha256": "f64d9df1206608c740cee0b67505bb0c36927b61fa1867c2e7b47d39fc7ada4b"
+    },
+    {
+      "path": "validation/late-support/Validation.json",
+      "bytes": 733,
+      "sha256": "b45101ce301daa1f088b27f60d867027b64359299215dd75eeacdffb449c9c93"
+    },
+    {
+      "path": "work/stack-and-reuse/archive_contents.py",
+      "bytes": 7148,
+      "sha256": "9d3b7f3ffd64debde116ee8d978160d9b90510f89432b13d04bd1e764f09d2bd"
+    },
+    {
+      "path": "work/stack-and-reuse/archive_summary.py",
+      "bytes": 10527,
+      "sha256": "c2f834a8d902466ee3822138350ef563104a8874606280c8afc9b83178b12627"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_clocks.py",
+      "bytes": 6118,
+      "sha256": "8b752dac6bde6eaccd5ec68a21fc644f804b480bab67a01e1ac340485baded20"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_databases_storage.py",
+      "bytes": 53672,
+      "sha256": "235e96a9470e4bded518b5dfada2fb0acc8ac3528526c989433140a1660167c1"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_scale_instruments.py",
+      "bytes": 40275,
+      "sha256": "4417627df117e51d139a3e3cba55ff1ec03d1067f321003e027fcd51e248192a"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_strategies_software_docs.py",
+      "bytes": 60022,
+      "sha256": "9937acbb31d7ea00293f7b36499870549a0fa15d81c973dc3ad275b0380737a3"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_time.py",
+      "bytes": 36854,
+      "sha256": "6596ca3a43f96c7a0fe8f0715c17f1740dbb2ad4471f706110bae198764abbd6"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_zip_headers.py",
+      "bytes": 3902,
+      "sha256": "0d1eb67cba1d0960b61c1233ae88c8372ef0390fa247ae2b4d44d32e2c786c7c"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_headers.py",
+      "bytes": 99272,
+      "sha256": "2160d3336253be074d8cbb9fcf2f7e8f5d393cf4da3a8f496c8829efb6abdacb"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_release_timing.py",
+      "bytes": 55169,
+      "sha256": "4c8f8f02a5fe1c831505477b5b262a4906341e7058ff48b45eddbe0ee3846a62"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_reuse_mentions.py",
+      "bytes": 7484,
+      "sha256": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_runs.py",
+      "bytes": 51625,
+      "sha256": "56dab09e159ed9525b20bb4ea9790190fa5fa0eef2290090e863915b33669339"
+    },
+    {
+      "path": "work/stack-and-reuse/audit_sheet.py",
+      "bytes": 3561,
+      "sha256": "090c95ba992ca6c305be027a7f156e5ea78eca649c4b649e54aa950dd75225ea"
+    },
+    {
+      "path": "work/stack-and-reuse/build_paper_2col.py",
+      "bytes": 6321,
+      "sha256": "d36ff3c5a4cd87c7df5f347d9bcc955018dea2ea54f8a289c87ff0d15e08d5af"
+    },
+    {
+      "path": "work/stack-and-reuse/build_perspective_2col.py",
+      "bytes": 7209,
+      "sha256": "c5a4fa84120a47c014553d664b742fdf6546b805ed03fe16b7d97560bc38376c"
+    },
+    {
+      "path": "work/stack-and-reuse/build_supp_tables.py",
+      "bytes": 18110,
+      "sha256": "ff69f01bf5bae4cc197b2408b485e409e5cc94139086dc332dc75aa82f5dee81"
+    },
+    {
+      "path": "work/stack-and-reuse/common.py",
+      "bytes": 4800,
+      "sha256": "d519fd4616ed53d6342eba6561b01dc946d39171a7448b23a58de5a6b0fec06a"
+    },
+    {
+      "path": "work/stack-and-reuse/compose_journal.py",
+      "bytes": 9461,
+      "sha256": "8a05e8f7c5a086db831261ea481425cfa1f57201c8c92085f1200620481a88a7"
+    },
+    {
+      "path": "work/stack-and-reuse/deposit_habits.py",
+      "bytes": 9075,
+      "sha256": "b1ee478fe76be40e9754139f60cba9b9b86d0c9de341090fd3b515dff69a6f67"
+    },
+    {
+      "path": "work/stack-and-reuse/fastfetch.py",
+      "bytes": 3384,
+      "sha256": "9e1ed9829b8f584faaa9ef9de634ad192d243567aa863613d7df175f263d552e"
+    },
+    {
+      "path": "work/stack-and-reuse/features.py",
+      "bytes": 6818,
+      "sha256": "4910275942fc4fc69ff7a6970594c5277ee9245838b2b35cf1db9e93a4146484"
+    },
+    {
+      "path": "work/stack-and-reuse/figstyle.py",
+      "bytes": 7367,
+      "sha256": "4273dcbc418fe519f24aa407921292d687b7a71c94ac3a4d9d5009dcf9c59e5d"
+    },
+    {
+      "path": "work/stack-and-reuse/figure_data.py",
+      "bytes": 6444,
+      "sha256": "29f97dd092d8b94b4ef44bc554c9f2fa1787e7f077d33bd914873a2581909497"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery.py",
+      "bytes": 30111,
+      "sha256": "ea57fa9331077a31d0a8aa78a87e6433f0dfc9c88b6dfb0072a94b2e32be81cd"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_bytes_calendar_clocks.py",
+      "bytes": 23240,
+      "sha256": "f97effa4f9c0b473a3a2d50dbb2440ff80ce4fc75c6ba511ea5982c1ab716a22"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_geography.py",
+      "bytes": 23861,
+      "sha256": "891882abe79b4c1e149744cd927262ee565c6035fd75035be2e2dc9d6b9ccf59"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_scale.py",
+      "bytes": 19348,
+      "sha256": "d33936559fcd3aff7c7fb297c73294a291295afb7bece7f044363acba8f99239"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_stack.py",
+      "bytes": 22712,
+      "sha256": "ba4245a7b690679e414d568138c4536fe34cc465648ae59e203aa4c0e6bac2a7"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_databases.py",
+      "bytes": 13011,
+      "sha256": "c89deb2f796ccb9d2797beeb06d920c20553530b390d4f5472fbbe5035574594"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_methods.py",
+      "bytes": 35942,
+      "sha256": "69c75c615695c52b16a490046e7a3c72b559816ad8e3b85b48ac5015ecd710e2"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_producers.py",
+      "bytes": 36431,
+      "sha256": "95424c075f36afd070289273ddc4406bf774269cb80f51ac41f2234ffecb5a6c"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_timing.py",
+      "bytes": 41016,
+      "sha256": "b476e5d396896d8fc454c126aeb7477489d258195de3e8a9114294c21109d425"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_versions.py",
+      "bytes": 26952,
+      "sha256": "6e21ceef94d0f7be98e94aee13076c1ec18747f23f9be38a03d8365420dae236"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery4_breadth.py",
+      "bytes": 13412,
+      "sha256": "06a470803c6edfe58881c438200357e6a1dec7243c4bca27eba12a6aee270e5c"
+    },
+    {
+      "path": "work/stack-and-reuse/galstyle.py",
+      "bytes": 7149,
+      "sha256": "28c929e681a01deb91224c3ec7079373cb5969b902211f77de549795e0dc3475"
+    },
+    {
+      "path": "work/stack-and-reuse/header_sniff.py",
+      "bytes": 13537,
+      "sha256": "c2b4c0cf466dda4ed89e64befd1ce311a080d4c40dd219f5e14e42920b1182ae"
+    },
+    {
+      "path": "work/stack-and-reuse/layer_rules.py",
+      "bytes": 2803,
+      "sha256": "e7bb890b0d21fee6b0f718338f0ce5f5efb7d2ba7a7d4643108a93acc91c154c"
+    },
+    {
+      "path": "work/stack-and-reuse/layers.py",
+      "bytes": 3100,
+      "sha256": "0153d5d84a6e620fbde7e573f5151a6e22dce1ed0a8565d059de23d4c27ea4a3"
+    },
+    {
+      "path": "work/stack-and-reuse/ne_50m_admin_0_countries.geojson",
+      "bytes": 3083490,
+      "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/README.md",
+      "bytes": 497,
+      "sha256": "b201328cae0d856d695c7b530a4d097dc33670a5ac7b5e133e5018c1399e996e"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/pride-resources-LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/pride-submission-validation.yaml",
+      "bytes": 86722,
+      "sha256": "25806dc7e32b23968a3099132faa6d2ce0b9152d12c6ca4fd48603d056ff2364"
+    },
+    {
+      "path": "work/stack-and-reuse/reuse_mentions.py",
+      "bytes": 7857,
+      "sha256": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9"
+    },
+    {
+      "path": "work/stack-and-reuse/software_geography.py",
+      "bytes": 6460,
+      "sha256": "43ea97d51ab1a48c1e563b2305745e1b88986f79a69224b8a448e22ed2aee45a"
+    },
+    {
+      "path": "work/stack-and-reuse/software_registry.py",
+      "bytes": 8093,
+      "sha256": "7a12eebc265e0a59fa2745b134b7126082029c92cd1452f99c6b93ebf8cc6ab7"
+    },
+    {
+      "path": "work/stack-and-reuse/standards_by_stack.py",
+      "bytes": 6972,
+      "sha256": "3715171d836bc82a9fbbc98500120c755b9fc22f5d047204d1149b4cf27e95c1"
+    },
+    {
+      "path": "work/stack-and-reuse/test_journal_layout.py",
+      "bytes": 2147,
+      "sha256": "e6eff9d936f758247cd3809beb9c52fed00c97187d338e710897087c38323ec8"
+    },
+    {
+      "path": "work/stack-and-reuse/tool_outputs.py",
+      "bytes": 5074,
+      "sha256": "50be275e050b64873c7836f9e91ea4e397e1375b130ac88464a427c207c70477"
+    },
+    {
+      "path": "work/stack-and-reuse/validate_layers.py",
+      "bytes": 5614,
+      "sha256": "7dbbd2ab28ff4742a8bd69beab9d629fe65675e6aa9ef65fb95e4e96c33cc2b0"
+    },
+    {
+      "path": "work/stack-and-reuse/version_scan.py",
+      "bytes": 15658,
+      "sha256": "2076ad1e7a21d32473b49e682c2887c1bcbb0d473f98bbb13ca779cac546d14b"
+    },
+    {
+      "path": "work/stack-and-reuse/within_group.py",
+      "bytes": 6868,
+      "sha256": "ff31f8fe93de04ddcb4e9ef55d3d616f43d29d5b2025f4c0c36b70b609ab7f67"
+    }
+  ]
+}

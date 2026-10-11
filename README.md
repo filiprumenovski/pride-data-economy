@@ -6,6 +6,8 @@ Filip Rumenovski · Department of Chemistry, Wayne State University · filip.rum
 
 This study describes 36,249 public PRIDE deposits released during 2013–2025. The PRIDE snapshot is dated 7 April 2026; literature enrichment is dated 30 September 2026. Deposits, publications and recurring contributor groups are distinct units. The manuscript is a pre-submission research draft, not a peer-reviewed publication.
 
+[Read the manuscript PDF](outputs/Stack-and-reuse/Paper-2col.pdf) · [Manuscript source](outputs/Stack-and-reuse/Paper.md) · [Figure legends](outputs/Stack-and-reuse/Journal-figures/Legends.md)
+
 ## Contents
 
 - `data/early/`: seven Parquet tables containing public analytical features, operational file layers, experimental scale, breadth, model credits and species credits; frozen comparison tables and a field inventory.
@@ -34,8 +36,18 @@ These checks establish specific numerical reproducibility from frozen derived in
 
 ## Data interpretation
 
-Contributor IDs are replacement labels for recurring contact-derived groups, not named laboratories or verified independent research teams. Their private identity crosswalk is excluded. No detection of a method or file type means “not detected”; it does not establish absence. File recognition does not establish validity, usability or actual reuse. Standard-result flags exclude repository-generated paths. Later accession mentions are an incomplete attention proxy and do not prove reanalysis.
+Contributor IDs are replacement labels for recurring contact-derived groups, not named laboratories or verified independent research teams. Their private identity crosswalk is excluded. These labels are pseudonymous and remain linkable through public project accessions; they are not guaranteed anonymous. No detection of a method or file type means “not detected”; it does not establish absence. File recognition does not establish validity, usability or actual reuse. Standard-result flags exclude repository-generated paths. Later accession mentions are an incomplete attention proxy and do not prove reanalysis.
 
 ## Licensing and citation
 
 Code: MIT (`LICENSE`). Author-created derived tables, manuscript and figures: CC BY 4.0 (`DATA-LICENSE`). Third-party source records retain their original terms; see `NOTICE.md`. Citation metadata is in `CITATION.cff`. A Zenodo DOI will be added once the archive exists.
+
+## Rebuild the manuscript PDF
+
+After figure composition, install Chrome or Chromium and point `CHROME` at its executable:
+
+```sh
+CHROME=/path/to/chrome python work/stack-and-reuse/build_paper_2col.py
+```
+
+The checked PDF uses the existing 600-dpi figures without downsampling. Font availability can change pagination; inspect a fresh render before submission.

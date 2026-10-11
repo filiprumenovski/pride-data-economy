@@ -1,0 +1,256 @@
+{
+  "scope": "All three documented statistical commands executed from this clean public repository using only included public inputs and adjacent source scripts.",
+  "early": {
+    "status": "passed",
+    "checks": [
+      {
+        "name": "cohort size and resolved geography",
+        "passed": true,
+        "values_compared": 2,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "breadth credit sums within dataset and axis",
+        "passed": true,
+        "values_compared": 257967,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "annual breadth datasets",
+        "passed": true,
+        "values_compared": 80,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "annual breadth categories",
+        "passed": true,
+        "values_compared": 80,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "annual breadth eff",
+        "passed": true,
+        "values_compared": 80,
+        "max_absolute_error": 6.821210263296962e-13
+      },
+      {
+        "name": "pooled breadth datasets_early",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "pooled breadth q1_early",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 5.684341886080801e-13
+      },
+      {
+        "name": "pooled breadth q2_early",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 1.7763568394002505e-15
+      },
+      {
+        "name": "pooled breadth datasets_late",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "pooled breadth q1_late",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 2.1316282072803006e-14
+      },
+      {
+        "name": "pooled breadth q2_late",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 2.2737367544323206e-13
+      },
+      {
+        "name": "pooled breadth q1_ratio",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 5.329070518200751e-15
+      },
+      {
+        "name": "pooled breadth q2_ratio",
+        "passed": true,
+        "values_compared": 8,
+        "max_absolute_error": 1.1102230246251565e-15
+      },
+      {
+        "name": "annual scale datasets_with_raw",
+        "passed": true,
+        "values_compared": 13,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "annual scale median_runs_lb",
+        "passed": true,
+        "values_compared": 13,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "annual scale share_ge100_runs",
+        "passed": true,
+        "values_compared": 13,
+        "max_absolute_error": 8.326672684688674e-17
+      },
+      {
+        "name": "run contrast n_early",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "run contrast n_late",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "run contrast median_early",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "run contrast median_late",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "run contrast median_ratio",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "run bootstrap median_ratio_lo",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 5.551115123125783e-17
+      },
+      {
+        "name": "run bootstrap median_ratio_hi",
+        "passed": true,
+        "values_compared": 1,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "instrument model datasets",
+        "passed": true,
+        "values_compared": 823,
+        "max_absolute_error": 0.0
+      },
+      {
+        "name": "instrument fractional credits",
+        "passed": true,
+        "values_compared": 823,
+        "max_absolute_error": 1.1368683772161603e-13
+      },
+      {
+        "name": "software-country equal-group lifts",
+        "passed": true,
+        "values_compared": 425,
+        "max_absolute_error": 1.7763568394002505e-15
+      }
+    ],
+    "scope": "Offline point-estimate recomputation plus headline run-count cluster bootstrap from public derived inputs.",
+    "not_recomputed": [
+      "raw-file classification",
+      "geography inference",
+      "all sensitivity analyses",
+      "frozen breadth bootstrap intervals and rarefied richness"
+    ],
+    "contributor_diversity": "Descriptive point estimates only; invalid historical cluster intervals are not recomputed or endorsed."
+  },
+  "late": {
+    "pair_derivations_exact": true,
+    "outcomes_exact": true,
+    "Reuse-rates.csv": "exact",
+    "Reused-pool-composition.csv": "exact",
+    "attack_results_exact": true,
+    "model_design_shape": [
+      20684,
+      33
+    ],
+    "model_columns": [
+      "const",
+      "standard",
+      "dia",
+      "sdrf",
+      "human",
+      "thermo",
+      "log_citations",
+      "no_paper",
+      "log_bytes",
+      "y_2014",
+      "y_2015",
+      "y_2016",
+      "y_2017",
+      "y_2018",
+      "y_2019",
+      "y_2020",
+      "y_2021",
+      "y_2022",
+      "fam_MaxQuant",
+      "fam_No tool named",
+      "fam_Other",
+      "fam_Other tools only",
+      "fam_Proteome Discoverer",
+      "fam_Several of these",
+      "fam_Spectronaut",
+      "field_Biochemistry, Genetics and Molecular Biology",
+      "field_Chemistry",
+      "field_Environmental Science",
+      "field_Immunology and Microbiology",
+      "field_Medicine",
+      "field_Neuroscience",
+      "field_None",
+      "field_Other"
+    ],
+    "fits": 201,
+    "finite_fits": 201,
+    "fit_warnings": 0,
+    "maximum_penalized_score_inf_norm": 9.99518411516997e-06,
+    "seconds": 111.66232591701555
+  },
+  "late_support": {
+    "checks": {
+      "Before-after-by-year.csv": {
+        "matched": true,
+        "rows": 13
+      },
+      "Recognisable-by-year-three-ways.csv": {
+        "matched": true,
+        "rows": 13
+      },
+      "Standard-rate-by-tool-single-tool-datasets.csv": {
+        "matched": true,
+        "rows": 25
+      },
+      "Standard-rate-by-export-capability.csv": {
+        "matched": true,
+        "rows": 4
+      },
+      "H8-documentation-persistence-within-groups.csv": {
+        "matched": true,
+        "rows": 8
+      },
+      "37-journals-concentration.csv": {
+        "matched": true,
+        "rows": 13
+      }
+    },
+    "scope": "Recomputes downstream summaries from frozen derived classifications; does not rerun classification of raw archive listings or file headers."
+  },
+  "layout_tests": {
+    "passed": 3,
+    "note": "Public feature-path fallback added to galstyle; font fallback warnings on macOS did not affect layout assertions."
+  }
+}

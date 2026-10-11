@@ -1,0 +1,25 @@
+panel,item,source,n,k,pct,lo,hi
+a,Phosphorylation,,6113,1075,17.59,15.99,19.38
+a,Ubiquitin remnant (GlyGly),,6113,188,3.08,2.56,3.63
+a,Lysine acetylation,,6113,178,2.91,2.42,3.44
+a,Other lysine acylations,,6113,123,2.01,1.62,2.45
+a,Methylation,,6113,80,1.31,0.92,1.72
+a,Glycosylation,,6113,22,0.36,0.16,0.59
+a,ADP-ribosylation,,6113,20,0.33,0.02,0.89
+a,SUMO remnant,,6113,12,0.2,0.08,0.34
+a,Citrullination,,6113,7,0.11,0.03,0.21
+b,Phosphorylation,PRIDE PTM field,1075,871,81.02,78.02,83.99
+b,Phosphorylation,"Title, description or keywords",1075,761,70.79,66.73,74.93
+b,Phosphorylation,Enrichment named in protocol,1075,553,51.44,46.92,56.04
+b,Ubiquitin remnant (GlyGly),PRIDE PTM field,188,112,59.57,51.38,67.38
+b,Ubiquitin remnant (GlyGly),"Title, description or keywords",188,50,26.6,20.2,33.51
+b,Ubiquitin remnant (GlyGly),Enrichment named in protocol,188,51,27.13,19.59,34.24
+b,Lysine acetylation,PRIDE PTM field,178,2,1.12,0.0,2.82
+b,Lysine acetylation,"Title, description or keywords",178,101,56.74,48.22,65.71
+b,Lysine acetylation,Enrichment named in protocol,178,36,20.22,13.79,27.33
+b,Lysine acetylation,"PRIDE PTM field, generic acetyl term",178,148,83.15,77.25,88.95
+c,Text + enrichment,,546,526,96.34,94.5,97.87
+c,PTM field only,,202,155,76.73,64.15,86.94
+c,"Text, no enrichment",,579,235,40.59,35.51,45.55
+c,"Enrichment, no text",,71,27,38.03,27.03,49.28
+c,None of the three,,4715,132,2.8,2.17,3.49

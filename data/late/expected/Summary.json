@@ -1,0 +1,21 @@
+{
+  "cohort": "PRIDE datasets released 2013-2022; mentions in release year to +3 years",
+  "datasets": 20684,
+  "groups": 8363,
+  "mention_pairs_secondary": 8289,
+  "papers_secondary": 6516,
+  "lag_share_0_or_less": 0.594,
+  "cross_group_papers": 436,
+  "papers_over_100_datasets": 1,
+  "reused_datasets": {
+    "D1": 483,
+    "D2": 600,
+    "D3": 300,
+    "D1_all": 483
+  },
+  "notes": [
+    "Mentions are text-mined, largely from open-access full text; reuse cited only in supplementary tables is missed.",
+    "A mention is not proof of reanalysis; D1-D3 approximate third-party use.",
+    "Rates are standardised to the cohort release-year x human mix."
+  ]
+}

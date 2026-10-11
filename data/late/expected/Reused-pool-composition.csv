@@ -1,0 +1,17 @@
+outcome,feature,cohort_pct,reused_pct,reused_n
+D1,Standard files,18.3,16.6,483
+D1,Thermo raw,85.0,89.0,483
+D1,Bruker,3.5,3.5,483
+D1,DIA,5.0,9.9,483
+D1,DIA-NN/Spectronaut,1.4,3.1,483
+D1,SDRF,1.0,6.6,483
+D1,Results identifiable from files,87.4,85.7,483
+D1,Human,45.3,59.2,483
+D3,Standard files,18.3,14.3,300
+D3,Thermo raw,85.0,88.3,300
+D3,Bruker,3.5,4.0,300
+D3,DIA,5.0,13.3,300
+D3,DIA-NN/Spectronaut,1.4,4.0,300
+D3,SDRF,1.0,7.3,300
+D3,Results identifiable from files,87.4,84.0,300
+D3,Human,45.3,66.3,300

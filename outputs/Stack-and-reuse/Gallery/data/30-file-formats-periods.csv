@@ -1,0 +1,16 @@
+,p0,p1,change_pp
+Any vendor raw,85.33,92.41,7.08
+Thermo .raw,77.81,81.81,4.0
+Bruker .d,1.72,8.37,6.65
+SCIEX .wiff,7.19,3.03,-4.16
+Any open spectra,33.6,20.79,-12.81
+mzML,4.7,7.07,2.38
+mzXML,4.33,2.4,-1.93
+Peak lists (MGF…),26.6,13.09,-13.51
+Standard results,16.18,16.99,0.82
+Tool-native outputs,30.7,44.47,13.77
+FASTA,11.12,17.96,6.85
+SDRF,1.91,2.9,0.99
+README,0.7,0.87,0.17
+"Any open spectra, 2023-25 rates with 2013-16 COMPLETE share",33.6,30.68,
+"Any open spectra, 2013-16 rates with 2023-25 COMPLETE share",33.6,28.21,

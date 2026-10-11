@@ -1,0 +1,755 @@
+{
+  "files_scanned": 312,
+  "findings": [
+    {
+      "file": "work/stack-and-reuse/archive_contents.py",
+      "kind": "email",
+      "count": 1,
+      "lines": [
+        39
+      ],
+      "disposition": "Public PRIDE Aspera service account in URL-format docstring, not a personal contact or secret."
+    }
+  ],
+  "mapping_agrees_all_36249_accessions": true,
+  "column_profiles": [
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Breadth-long.parquet",
+      "rows": 283713,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "cat",
+          "unique": 18940,
+          "max_length": 227
+        },
+        {
+          "column": "axis",
+          "unique": 8,
+          "max_length": 18
+        },
+        {
+          "column": "grp",
+          "unique": 13897,
+          "max_length": 7
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Dataset-layers.parquet",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "country",
+          "unique": 74,
+          "max_length": 20
+        },
+        {
+          "column": "pi_group",
+          "unique": 13897,
+          "max_length": 7
+        },
+        {
+          "column": "vendor_single",
+          "unique": 9,
+          "max_length": 18
+        },
+        {
+          "column": "submission_type",
+          "unique": 4,
+          "max_length": 8
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Dataset-scale.parquet",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "pi_group",
+          "unique": 13897,
+          "max_length": 7
+        },
+        {
+          "column": "vendor_single",
+          "unique": 9,
+          "max_length": 18
+        },
+        {
+          "column": "status",
+          "unique": 5,
+          "max_length": 38
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Deposit-features.parquet",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "country",
+          "unique": 74,
+          "max_length": 20
+        },
+        {
+          "column": "submitter_country",
+          "unique": 78,
+          "max_length": 20
+        },
+        {
+          "column": "instruments",
+          "unique": 853,
+          "max_length": 463
+        },
+        {
+          "column": "submission_type",
+          "unique": 4,
+          "max_length": 8
+        },
+        {
+          "column": "work_id",
+          "unique": 23129,
+          "max_length": 32
+        },
+        {
+          "column": "primary_topic",
+          "unique": 1055,
+          "max_length": 79
+        },
+        {
+          "column": "primary_subfield",
+          "unique": 137,
+          "max_length": 53
+        },
+        {
+          "column": "primary_field",
+          "unique": 25,
+          "max_length": 44
+        },
+        {
+          "column": "anchor_rule",
+          "unique": 3,
+          "max_length": 20
+        },
+        {
+          "column": "pi_group",
+          "unique": 13897,
+          "max_length": 7
+        },
+        {
+          "column": "project_license",
+          "unique": 2,
+          "max_length": 36
+        },
+        {
+          "column": "vendor_single",
+          "unique": 9,
+          "max_length": 18
+        },
+        {
+          "column": "family",
+          "unique": 9,
+          "max_length": 19
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Model-credits.parquet",
+      "rows": 38683,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 35770,
+          "max_length": 9
+        },
+        {
+          "column": "cat",
+          "unique": 159,
+          "max_length": 37
+        },
+        {
+          "column": "grp",
+          "unique": 13705,
+          "max_length": 7
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Species-credits.parquet",
+      "rows": 41280,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36241,
+          "max_length": 9
+        },
+        {
+          "column": "cat",
+          "unique": 3254,
+          "max_length": 51
+        },
+        {
+          "column": "grp",
+          "unique": 13893,
+          "max_length": 7
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/Study-cohort.parquet",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "country",
+          "unique": 74,
+          "max_length": 20
+        },
+        {
+          "column": "submitter_country",
+          "unique": 78,
+          "max_length": 20
+        },
+        {
+          "column": "instruments",
+          "unique": 853,
+          "max_length": 463
+        },
+        {
+          "column": "submission_type",
+          "unique": 4,
+          "max_length": 8
+        },
+        {
+          "column": "work_id",
+          "unique": 23129,
+          "max_length": 32
+        },
+        {
+          "column": "primary_topic",
+          "unique": 1055,
+          "max_length": 79
+        },
+        {
+          "column": "primary_subfield",
+          "unique": 137,
+          "max_length": 53
+        },
+        {
+          "column": "primary_field",
+          "unique": 25,
+          "max_length": 44
+        },
+        {
+          "column": "anchor_rule",
+          "unique": 3,
+          "max_length": 20
+        },
+        {
+          "column": "pi_group",
+          "unique": 13897,
+          "max_length": 7
+        },
+        {
+          "column": "human",
+          "unique": 2,
+          "max_length": 5
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/frozen-reference/breadth-annual.csv",
+      "rows": 80,
+      "string_columns": [
+        {
+          "column": "axis",
+          "unique": 8,
+          "max_length": 18
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/frozen-reference/breadth-pooled.csv",
+      "rows": 8,
+      "string_columns": [
+        {
+          "column": "axis",
+          "unique": 8,
+          "max_length": 18
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/frozen-reference/models-annual.csv",
+      "rows": 2067,
+      "string_columns": [
+        {
+          "column": "model",
+          "unique": 159,
+          "max_length": 37
+        },
+        {
+          "column": "vendor",
+          "unique": 8,
+          "max_length": 18
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/frozen-reference/run-contrasts.csv",
+      "rows": 71,
+      "string_columns": [
+        {
+          "column": "label",
+          "unique": 71,
+          "max_length": 72
+        },
+        {
+          "column": "early",
+          "unique": 2,
+          "max_length": 9
+        },
+        {
+          "column": "late",
+          "unique": 2,
+          "max_length": 9
+        },
+        {
+          "column": "factor",
+          "unique": 13,
+          "max_length": 16
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/frozen-reference/scale-annual.csv",
+      "rows": 13,
+      "string_columns": []
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/early/frozen-reference/software-country.csv",
+      "rows": 425,
+      "string_columns": [
+        {
+          "column": "tool",
+          "unique": 17,
+          "max_length": 13
+        },
+        {
+          "column": "country",
+          "unique": 25,
+          "max_length": 14
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-archive-flags.csv",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-clocks.csv",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "submission_date",
+          "unique": 3540,
+          "max_length": 10
+        },
+        {
+          "column": "release_date",
+          "unique": 3364,
+          "max_length": 10
+        },
+        {
+          "column": "work_id",
+          "unique": 23129,
+          "max_length": 32
+        },
+        {
+          "column": "paper_date",
+          "unique": 4131,
+          "max_length": 10
+        },
+        {
+          "column": "acq_date",
+          "unique": 3968,
+          "max_length": 10
+        },
+        {
+          "column": "db_date",
+          "unique": 1258,
+          "max_length": 10
+        },
+        {
+          "column": "software",
+          "unique": 5,
+          "max_length": 8
+        },
+        {
+          "column": "sw_date",
+          "unique": 165,
+          "max_length": 10
+        },
+        {
+          "column": "group_id",
+          "unique": 13897,
+          "max_length": 7
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-documentation.csv",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "group_id",
+          "unique": 13897,
+          "max_length": 7
+        },
+        {
+          "column": "submission_date",
+          "unique": 3540,
+          "max_length": 10
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-features.csv",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "country",
+          "unique": 74,
+          "max_length": 20
+        },
+        {
+          "column": "vendor_single",
+          "unique": 9,
+          "max_length": 18
+        },
+        {
+          "column": "family",
+          "unique": 9,
+          "max_length": 19
+        },
+        {
+          "column": "human",
+          "unique": 2,
+          "max_length": 5
+        },
+        {
+          "column": "group_id",
+          "unique": 13897,
+          "max_length": 7
+        },
+        {
+          "column": "primary_field",
+          "unique": 25,
+          "max_length": 44
+        },
+        {
+          "column": "submission_date",
+          "unique": 3540,
+          "max_length": 10
+        },
+        {
+          "column": "release_date",
+          "unique": 3364,
+          "max_length": 10
+        },
+        {
+          "column": "work_id",
+          "unique": 23129,
+          "max_length": 32
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-header-flags.csv",
+      "rows": 36249,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 36249,
+          "max_length": 9
+        },
+        {
+          "column": "any_identified",
+          "unique": 2,
+          "max_length": 5
+        },
+        {
+          "column": "any_pride",
+          "unique": 2,
+          "max_length": 5
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-paper-links.csv",
+      "rows": 27036,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 27036,
+          "max_length": 9
+        },
+        {
+          "column": "work_id",
+          "unique": 23129,
+          "max_length": 32
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Dataset-tool-outcomes.csv",
+      "rows": 45400,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 31742,
+          "max_length": 9
+        },
+        {
+          "column": "tool",
+          "unique": 25,
+          "max_length": 19
+        },
+        {
+          "column": "export",
+          "unique": 4,
+          "max_length": 8
+        },
+        {
+          "column": "outcome",
+          "unique": 5,
+          "max_length": 8
+        },
+        {
+          "column": "group_id",
+          "unique": 12243,
+          "max_length": 7
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Expected-outcomes.csv",
+      "rows": 20684,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 20684,
+          "max_length": 9
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Expected-pair-derivations.csv",
+      "rows": 8289,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 6953,
+          "max_length": 9
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Linked-papers.csv",
+      "rows": 23129,
+      "string_columns": [
+        {
+          "column": "work_id",
+          "unique": 23129,
+          "max_length": 32
+        },
+        {
+          "column": "group_id",
+          "unique": 10915,
+          "max_length": 7
+        },
+        {
+          "column": "journal",
+          "unique": 1392,
+          "max_length": 227
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Nonprimary-mention-pairs.csv",
+      "rows": 8289,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 6953,
+          "max_length": 9
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/Primary-publication-links.csv",
+      "rows": 27583,
+      "string_columns": [
+        {
+          "column": "accession",
+          "unique": 27119,
+          "max_length": 9
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/37-journals-concentration.csv",
+      "rows": 13,
+      "string_columns": []
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/37-journals-top15.csv",
+      "rows": 15,
+      "string_columns": [
+        {
+          "column": "journal",
+          "unique": 15,
+          "max_length": 31
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/Before-after-by-year.csv",
+      "rows": 13,
+      "string_columns": []
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/H8-documentation-persistence-within-groups.csv",
+      "rows": 8,
+      "string_columns": [
+        {
+          "column": "documentation",
+          "unique": 4,
+          "max_length": 17
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/Recognisable-by-year-three-ways.csv",
+      "rows": 13,
+      "string_columns": []
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/Reuse-rates.csv",
+      "rows": 168,
+      "string_columns": [
+        {
+          "column": "outcome",
+          "unique": 4,
+          "max_length": 6
+        },
+        {
+          "column": "feature",
+          "unique": 12,
+          "max_length": 31
+        },
+        {
+          "column": "level",
+          "unique": 28,
+          "max_length": 19
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/Reused-pool-composition.csv",
+      "rows": 16,
+      "string_columns": [
+        {
+          "column": "outcome",
+          "unique": 2,
+          "max_length": 2
+        },
+        {
+          "column": "feature",
+          "unique": 8,
+          "max_length": 31
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/Standard-rate-by-export-capability.csv",
+      "rows": 4,
+      "string_columns": [
+        {
+          "column": "export_class",
+          "unique": 4,
+          "max_length": 8
+        },
+        {
+          "column": "tools",
+          "unique": 4,
+          "max_length": 139
+        }
+      ]
+    },
+    {
+      "file": "outputs/Stack-and-reuse/Release-preparation/public-data/late/expected/Standard-rate-by-tool-single-tool-datasets.csv",
+      "rows": 25,
+      "string_columns": [
+        {
+          "column": "export",
+          "unique": 4,
+          "max_length": 8
+        },
+        {
+          "column": "tool",
+          "unique": 25,
+          "max_length": 19
+        }
+      ]
+    }
+  ],
+  "scope": "Pattern and exact-key scan plus typed-column inspection; original contact-group crosswalk remains private and excluded.",
+  "long_field_review": "All >150-character string fields inspected: long journal titles and concatenated instrument ontology names, no prose or contacts.",
+  "blockers": []
+}

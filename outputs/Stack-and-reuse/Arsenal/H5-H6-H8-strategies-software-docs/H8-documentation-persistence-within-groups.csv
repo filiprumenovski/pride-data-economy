@@ -1,0 +1,9 @@
+documentation,previous_dataset_had_it,pairs,groups,pct_now,pct_expected_same_years
+doc_readme,True,308,148,40.6,1.5
+doc_readme,False,22044,4735,0.9,1.4
+doc_sdrf,True,367,192,43.6,2.5
+doc_sdrf,False,21985,4724,1.2,1.9
+doc_design_author,True,1403,562,44.8,7.7
+doc_design_author,False,20949,4641,4.5,7.0
+doc_params,True,4056,1271,60.3,18.9
+doc_params,False,18296,4283,9.3,18.5

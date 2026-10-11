@@ -1,0 +1,34 @@
+panel,block,layer,is_archive,files,TB,pct,bytes_kind
+a,raw_loose,vendor_raw,False,1757515,1760.13,64.987,stored
+a,raw_zip,vendor_raw,True,137673,525.13,19.389,stored
+a,tool,tool_results,False,407500,178.96,6.608,stored
+a,spectra,open_spectra,False,292217,149.02,5.502,stored
+a,arch,archived_results,True,35968,26.24,0.969,stored
+a,arch,other,True,9568,26.04,0.961,stored
+a,arch,tool_results,True,10076,16.64,0.614,stored
+a,rest,unidentified_tables,False,118454,8.42,0.311,stored
+a,std,standard_results,False,138251,7.69,0.284,stored
+a,rest,other,False,77146,7.69,0.284,stored
+a,rest,spectral_library,False,2248,1.27,0.047,stored
+a,rest,sequence_db,False,11309,0.8,0.03,stored
+a,rest,documents,False,15092,0.23,0.008,stored
+a,arch,open_spectra,True,615,0.09,0.003,stored
+a,arch,spectral_library,True,45,0.07,0.003,stored
+a,arch,bookkeeping,True,5,0.0,0.0,stored
+a,rest,bookkeeping,False,13952,0.0,0.0,stored
+a,arch,unidentified_tables,True,3,0.0,0.0,stored
+a,arch,sequence_db,True,8,0.0,0.0,stored
+a,rest,sample_metadata,False,770,0.0,0.0,stored
+a,rest,archived_results,False,1,0.0,0.0,stored
+b,scan-level and intermediate search files,scan-level and intermediate search files,,16204319,80.65,66.063,uncompressed (inside listed zips)
+b,raw data,raw data,,137809,14.35,11.755,uncompressed (inside listed zips)
+b,tool project and result databases,tool project and result databases,,845347,9.27,7.593,uncompressed (inside listed zips)
+b,final result tables,final result tables,,252963,4.78,3.915,uncompressed (inside listed zips)
+b,"open spectra (mzML, MGF...)","open spectra (mzML, MGF...)",,7803600,3.74,3.064,uncompressed (inside listed zips)
+b,other tables,other tables,,4992266,3.66,2.998,uncompressed (inside listed zips)
+b,everything else,other,,529686,1.59,1.302,uncompressed (inside listed zips)
+b,everything else,nested archives,,2163,1.18,0.967,uncompressed (inside listed zips)
+b,everything else,"parameters, documents, images and logs",,4867827,1.14,0.934,uncompressed (inside listed zips)
+b,standard result files (mzIdentML/mzTab),standard result files (mzIdentML/mzTab),,15287,0.94,0.77,uncompressed (inside listed zips)
+b,everything else,spectral libraries,,1744,0.69,0.565,uncompressed (inside listed zips)
+b,everything else,sequence databases (FASTA),,19878,0.09,0.074,uncompressed (inside listed zips)

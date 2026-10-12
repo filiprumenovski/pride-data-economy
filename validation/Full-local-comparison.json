@@ -1,0 +1,552 @@
+{
+  "tables": 78,
+  "matched": 78,
+  "checks": [
+    {
+      "path": "Arsenal/H1-H3-scale-instruments/H1-per-run-size-by-model.csv",
+      "reference_rows": 27,
+      "rebuilt_rows": 27,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H1-H3-scale-instruments/H3-fleet-diversity-by-year.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H1-H3-scale-instruments/H3-model-by-year.csv",
+      "reference_rows": 2067,
+      "rebuilt_rows": 2067,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H4-H7-databases-storage/H7-top-level-bytes-by-layer.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H5-H6-H8-strategies-software-docs/H8-documentation-persistence-within-groups.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Figure-data/Tool-year.csv",
+      "reference_rows": 125,
+      "rebuilt_rows": 125,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/14-fleet-history.csv",
+      "reference_rows": 37,
+      "rebuilt_rows": 37,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/15-run-ridgelines-density.csv",
+      "reference_rows": 700,
+      "rebuilt_rows": 700,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/15-run-ridgelines-subsets.csv",
+      "reference_rows": 9,
+      "rebuilt_rows": 9,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/15-run-ridgelines.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/20-world-growth-continents.csv",
+      "reference_rows": 6,
+      "rebuilt_rows": 6,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/20-world-growth.csv",
+      "reference_rows": 65,
+      "rebuilt_rows": 65,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/23-petabyte-treemap.csv",
+      "reference_rows": 33,
+      "rebuilt_rows": 33,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/27-isobaric-plex.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/28-ptm-landscape.csv",
+      "reference_rows": 24,
+      "rebuilt_rows": 24,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/29-species.csv",
+      "reference_rows": 54,
+      "rebuilt_rows": 54,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/30-file-formats-by-submission-type.csv",
+      "reference_rows": 78,
+      "rebuilt_rows": 78,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/30-file-formats-periods.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/30-file-formats.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/31-version-streams-2025-shares.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/31-version-streams-maxquant-by-data-age.csv",
+      "reference_rows": 6,
+      "rebuilt_rows": 6,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/31-version-streams.csv",
+      "reference_rows": 197,
+      "rebuilt_rows": 197,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-density.csv",
+      "reference_rows": 321,
+      "rebuilt_rows": 321,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-fasta-rate.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-sources.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/33-tool-age-at-release-quantile-dots.csv",
+      "reference_rows": 250,
+      "rebuilt_rows": 250,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/33-tool-age-at-release.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration-classes.csv",
+      "reference_rows": 7,
+      "rebuilt_rows": 7,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration-histogram.csv",
+      "reference_rows": 76,
+      "rebuilt_rows": 76,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration-sensitivity.csv",
+      "reference_rows": 1,
+      "rebuilt_rows": 1,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration.csv",
+      "reference_rows": 18,
+      "rebuilt_rows": 18,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/35-collaboration-by-country.csv",
+      "reference_rows": 22,
+      "rebuilt_rows": 22,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/35-collaboration-by-region.csv",
+      "reference_rows": 2,
+      "rebuilt_rows": 2,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/35-collaboration-by-year.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/36-research-fields-by-year.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/36-research-fields-subfields.csv",
+      "reference_rows": 14,
+      "rebuilt_rows": 14,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/37-journals-concentration.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/37-journals-top15.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/38-instrument-arrival.csv",
+      "reference_rows": 90,
+      "rebuilt_rows": 90,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/39-data-age-by-country-dia.csv",
+      "reference_rows": 16,
+      "rebuilt_rows": 16,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/39-data-age-by-country-models.csv",
+      "reference_rows": 16,
+      "rebuilt_rows": 16,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/39-data-age-by-country.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/40-weekly-rhythm-office-share.csv",
+      "reference_rows": 36,
+      "rebuilt_rows": 36,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/40-weekly-rhythm-weekday.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/40-weekly-rhythm.csv",
+      "reference_rows": 384,
+      "rebuilt_rows": 384,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/41-paper-and-release-histogram.csv",
+      "reference_rows": 164,
+      "rebuilt_rows": 164,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/41-paper-and-release-summary.csv",
+      "reference_rows": 3,
+      "rebuilt_rows": 3,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/41-paper-and-release.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/42-breadth-concentration.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/42-breadth-pooled.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/42-breadth.csv",
+      "reference_rows": 80,
+      "rebuilt_rows": 80,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Reuse-mentions/Reuse-rates.csv",
+      "reference_rows": 168,
+      "rebuilt_rows": 168,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Software-geography/Home-country-lift.csv",
+      "reference_rows": 20,
+      "rebuilt_rows": 20,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Contents.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S1.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S10.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S11.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S12.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S13.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S14.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S15.csv",
+      "reference_rows": 9,
+      "rebuilt_rows": 9,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S16.csv",
+      "reference_rows": 3,
+      "rebuilt_rows": 3,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S17.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S18.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S19.csv",
+      "reference_rows": 168,
+      "rebuilt_rows": 168,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S2.csv",
+      "reference_rows": 80,
+      "rebuilt_rows": 80,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S20.csv",
+      "reference_rows": 17,
+      "rebuilt_rows": 17,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S21.csv",
+      "reference_rows": 107,
+      "rebuilt_rows": 107,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S3.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S4.csv",
+      "reference_rows": 18,
+      "rebuilt_rows": 18,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S5.csv",
+      "reference_rows": 7,
+      "rebuilt_rows": 7,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S6.csv",
+      "reference_rows": 65,
+      "rebuilt_rows": 65,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S7.csv",
+      "reference_rows": 37,
+      "rebuilt_rows": 37,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S8.csv",
+      "reference_rows": 71,
+      "rebuilt_rows": 71,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S9.csv",
+      "reference_rows": 25,
+      "rebuilt_rows": 25,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Tool-outputs/Standard-rate-by-export-capability.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Tool-outputs/Standard-rate-by-tool-single-tool-datasets.csv",
+      "reference_rows": 25,
+      "rebuilt_rows": 25,
+      "status": "match",
+      "changes": {}
+    }
+  ]
+}

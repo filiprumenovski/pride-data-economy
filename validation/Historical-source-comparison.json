@@ -1,0 +1,1728 @@
+{
+  "tables": 78,
+  "matched": 58,
+  "checks": [
+    {
+      "path": "Arsenal/H1-H3-scale-instruments/H1-per-run-size-by-model.csv",
+      "reference_rows": 27,
+      "rebuilt_rows": 27,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H1-H3-scale-instruments/H3-fleet-diversity-by-year.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H1-H3-scale-instruments/H3-model-by-year.csv",
+      "reference_rows": 2067,
+      "rebuilt_rows": 2067,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H4-H7-databases-storage/H7-top-level-bytes-by-layer.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Arsenal/H5-H6-H8-strategies-software-docs/H8-documentation-persistence-within-groups.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "changed",
+      "changes": {
+        "pairs": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "4056",
+              "rebuilt": "4057"
+            },
+            {
+              "row": 3,
+              "reference": "18296",
+              "rebuilt": "18295"
+            }
+          ]
+        },
+        "groups": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "1271",
+              "rebuilt": "1272"
+            },
+            {
+              "row": 3,
+              "reference": "4283",
+              "rebuilt": "4282"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Figure-data/Tool-year.csv",
+      "reference_rows": 125,
+      "rebuilt_rows": 125,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/14-fleet-history.csv",
+      "reference_rows": 37,
+      "rebuilt_rows": 37,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/15-run-ridgelines-density.csv",
+      "reference_rows": 700,
+      "rebuilt_rows": 700,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/15-run-ridgelines-subsets.csv",
+      "reference_rows": 9,
+      "rebuilt_rows": 9,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/15-run-ridgelines.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/20-world-growth-continents.csv",
+      "reference_rows": 6,
+      "rebuilt_rows": 6,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/20-world-growth.csv",
+      "reference_rows": 65,
+      "rebuilt_rows": 65,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/23-petabyte-treemap.csv",
+      "reference_rows": 33,
+      "rebuilt_rows": 33,
+      "status": "changed",
+      "changes": {
+        "files": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 22,
+              "reference": "529686",
+              "rebuilt": "529696"
+            },
+            {
+              "row": 23,
+              "reference": "4867827",
+              "rebuilt": "4867832"
+            },
+            {
+              "row": 26,
+              "reference": "252963",
+              "rebuilt": "252999"
+            },
+            {
+              "row": 27,
+              "reference": "7803600",
+              "rebuilt": "7803608"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/27-isobaric-plex.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "changed",
+      "changes": {
+        "header_datasets": {
+          "different_cells": 1,
+          "examples": [
+            {
+              "row": 12,
+              "reference": "162",
+              "rebuilt": "161"
+            }
+          ]
+        },
+        "mean_header_channels": {
+          "different_cells": 1,
+          "examples": [
+            {
+              "row": 12,
+              "reference": "13.099",
+              "rebuilt": "13.068"
+            }
+          ]
+        },
+        "header_lo": {
+          "different_cells": 1,
+          "examples": [
+            {
+              "row": 12,
+              "reference": "12.402",
+              "rebuilt": "12.37"
+            }
+          ]
+        },
+        "header_hi": {
+          "different_cells": 1,
+          "examples": [
+            {
+              "row": 12,
+              "reference": "13.733",
+              "rebuilt": "13.747"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/28-ptm-landscape.csv",
+      "reference_rows": 24,
+      "rebuilt_rows": 24,
+      "status": "changed",
+      "changes": {
+        "n": {
+          "different_cells": 13,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "6113",
+              "rebuilt": "6114"
+            },
+            {
+              "row": 1,
+              "reference": "6113",
+              "rebuilt": "6114"
+            },
+            {
+              "row": 2,
+              "reference": "6113",
+              "rebuilt": "6114"
+            },
+            {
+              "row": 3,
+              "reference": "6113",
+              "rebuilt": "6114"
+            }
+          ]
+        },
+        "k": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 6,
+              "reference": "1075",
+              "rebuilt": "1076"
+            },
+            {
+              "row": 14,
+              "reference": "871",
+              "rebuilt": "872"
+            },
+            {
+              "row": 21,
+              "reference": "155",
+              "rebuilt": "156"
+            }
+          ]
+        },
+        "pct": {
+          "different_cells": 6,
+          "examples": [
+            {
+              "row": 6,
+              "reference": "17.59",
+              "rebuilt": "17.6"
+            },
+            {
+              "row": 8,
+              "reference": "3.08",
+              "rebuilt": "3.07"
+            },
+            {
+              "row": 13,
+              "reference": "51.44",
+              "rebuilt": "51.39"
+            },
+            {
+              "row": 14,
+              "reference": "81.02",
+              "rebuilt": "81.04"
+            }
+          ]
+        },
+        "lo": {
+          "different_cells": 8,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "0.16",
+              "rebuilt": "0.17"
+            },
+            {
+              "row": 3,
+              "reference": "2.42",
+              "rebuilt": "2.44"
+            },
+            {
+              "row": 4,
+              "reference": "0.92",
+              "rebuilt": "0.93"
+            },
+            {
+              "row": 6,
+              "reference": "15.99",
+              "rebuilt": "15.91"
+            }
+          ]
+        },
+        "hi": {
+          "different_cells": 11,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.89",
+              "rebuilt": "0.95"
+            },
+            {
+              "row": 1,
+              "reference": "0.21",
+              "rebuilt": "0.2"
+            },
+            {
+              "row": 2,
+              "reference": "0.59",
+              "rebuilt": "0.61"
+            },
+            {
+              "row": 3,
+              "reference": "3.44",
+              "rebuilt": "3.46"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/29-species.csv",
+      "reference_rows": 54,
+      "rebuilt_rows": 54,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/30-file-formats-by-submission-type.csv",
+      "reference_rows": 78,
+      "rebuilt_rows": 78,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/30-file-formats-periods.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/30-file-formats.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/31-version-streams-2025-shares.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/31-version-streams-maxquant-by-data-age.csv",
+      "reference_rows": 6,
+      "rebuilt_rows": 6,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/31-version-streams.csv",
+      "reference_rows": 197,
+      "rebuilt_rows": 197,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-density.csv",
+      "reference_rows": 321,
+      "rebuilt_rows": 321,
+      "status": "changed",
+      "changes": {
+        "2022\u201325": {
+          "different_cells": 60,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.28977",
+              "rebuilt": "0.28933"
+            },
+            {
+              "row": 1,
+              "reference": "0.28977",
+              "rebuilt": "0.28934"
+            },
+            {
+              "row": 2,
+              "reference": "0.28978",
+              "rebuilt": "0.28935"
+            },
+            {
+              "row": 3,
+              "reference": "0.28979",
+              "rebuilt": "0.28938"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/32-database-age-fasta-rate.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-sources.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/33-tool-age-at-release-quantile-dots.csv",
+      "reference_rows": 250,
+      "rebuilt_rows": 250,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/33-tool-age-at-release.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration-classes.csv",
+      "reference_rows": 7,
+      "rebuilt_rows": 7,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration-histogram.csv",
+      "reference_rows": 76,
+      "rebuilt_rows": 76,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration-sensitivity.csv",
+      "reference_rows": 1,
+      "rebuilt_rows": 1,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/34-contributor-concentration.csv",
+      "reference_rows": 18,
+      "rebuilt_rows": 18,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/35-collaboration-by-country.csv",
+      "reference_rows": 22,
+      "rebuilt_rows": 22,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/35-collaboration-by-region.csv",
+      "reference_rows": 2,
+      "rebuilt_rows": 2,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/35-collaboration-by-year.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/36-research-fields-by-year.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/36-research-fields-subfields.csv",
+      "reference_rows": 14,
+      "rebuilt_rows": 14,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/37-journals-concentration.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/37-journals-top15.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/38-instrument-arrival.csv",
+      "reference_rows": 90,
+      "rebuilt_rows": 90,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/39-data-age-by-country-dia.csv",
+      "reference_rows": 16,
+      "rebuilt_rows": 16,
+      "status": "changed",
+      "changes": {
+        "ci_lo": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "337.0",
+              "rebuilt": "342.0"
+            },
+            {
+              "row": 5,
+              "reference": "210.0",
+              "rebuilt": "215.0"
+            },
+            {
+              "row": 7,
+              "reference": "281.6",
+              "rebuilt": "282.0"
+            },
+            {
+              "row": 8,
+              "reference": "488.0",
+              "rebuilt": "487.975"
+            }
+          ]
+        },
+        "ci_hi": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "372.075",
+              "rebuilt": "372.0"
+            },
+            {
+              "row": 3,
+              "reference": "450.0",
+              "rebuilt": "443.175"
+            },
+            {
+              "row": 5,
+              "reference": "467.0",
+              "rebuilt": "465.05"
+            },
+            {
+              "row": 7,
+              "reference": "537.0",
+              "rebuilt": "484.0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/39-data-age-by-country-models.csv",
+      "reference_rows": 16,
+      "rebuilt_rows": 16,
+      "status": "changed",
+      "changes": {
+        "ci_lo": {
+          "different_cells": 8,
+          "examples": [
+            {
+              "row": 1,
+              "reference": "718.825",
+              "rebuilt": "734.0"
+            },
+            {
+              "row": 4,
+              "reference": "165.0",
+              "rebuilt": "170.0"
+            },
+            {
+              "row": 5,
+              "reference": "281.0",
+              "rebuilt": "280.0"
+            },
+            {
+              "row": 6,
+              "reference": "527.0",
+              "rebuilt": "530.0"
+            }
+          ]
+        },
+        "ci_hi": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1279.0",
+              "rebuilt": "1280.9"
+            },
+            {
+              "row": 1,
+              "reference": "1052.0",
+              "rebuilt": "1099.0"
+            },
+            {
+              "row": 2,
+              "reference": "1133.0",
+              "rebuilt": "1076.45"
+            },
+            {
+              "row": 4,
+              "reference": "315.1",
+              "rebuilt": "302.0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/39-data-age-by-country.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "changed",
+      "changes": {
+        "ll_ci_lo": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 1,
+              "reference": "314.625",
+              "rebuilt": "315.0"
+            },
+            {
+              "row": 4,
+              "reference": "326.0",
+              "rebuilt": "323.0"
+            },
+            {
+              "row": 6,
+              "reference": "405.975",
+              "rebuilt": "405.0"
+            },
+            {
+              "row": 7,
+              "reference": "365.0",
+              "rebuilt": "347.0"
+            }
+          ]
+        },
+        "ll_ci_hi": {
+          "different_cells": 11,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "542.0",
+              "rebuilt": "538.05"
+            },
+            {
+              "row": 1,
+              "reference": "643.0",
+              "rebuilt": "622.0"
+            },
+            {
+              "row": 2,
+              "reference": "740.0",
+              "rebuilt": "727.0"
+            },
+            {
+              "row": 3,
+              "reference": "554.0",
+              "rebuilt": "556.0"
+            }
+          ]
+        },
+        "all_ci_lo": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "404.85",
+              "rebuilt": "405.0"
+            },
+            {
+              "row": 2,
+              "reference": "424.0",
+              "rebuilt": "427.0"
+            },
+            {
+              "row": 3,
+              "reference": "420.0",
+              "rebuilt": "418.0"
+            },
+            {
+              "row": 4,
+              "reference": "335.75",
+              "rebuilt": "323.0"
+            }
+          ]
+        },
+        "all_ci_hi": {
+          "different_cells": 9,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "664.0",
+              "rebuilt": "658.0"
+            },
+            {
+              "row": 3,
+              "reference": "551.0",
+              "rebuilt": "554.0"
+            },
+            {
+              "row": 4,
+              "reference": "536.0",
+              "rebuilt": "529.0"
+            },
+            {
+              "row": 5,
+              "reference": "694.0",
+              "rebuilt": "690.0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/40-weekly-rhythm-office-share.csv",
+      "reference_rows": 36,
+      "rebuilt_rows": 36,
+      "status": "changed",
+      "changes": {
+        "lo": {
+          "different_cells": 34,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.9366",
+              "rebuilt": "0.9391"
+            },
+            {
+              "row": 1,
+              "reference": "0.962",
+              "rebuilt": "0.9624"
+            },
+            {
+              "row": 2,
+              "reference": "0.9502",
+              "rebuilt": "0.9519"
+            },
+            {
+              "row": 3,
+              "reference": "0.9209",
+              "rebuilt": "0.9233"
+            }
+          ]
+        },
+        "hi": {
+          "different_cells": 32,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.9935",
+              "rebuilt": "0.9933"
+            },
+            {
+              "row": 1,
+              "reference": "0.9966",
+              "rebuilt": "0.9962"
+            },
+            {
+              "row": 2,
+              "reference": "0.9916",
+              "rebuilt": "0.9914"
+            },
+            {
+              "row": 3,
+              "reference": "0.9715",
+              "rebuilt": "0.9726"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/40-weekly-rhythm-weekday.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/40-weekly-rhythm.csv",
+      "reference_rows": 384,
+      "rebuilt_rows": 384,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/41-paper-and-release-histogram.csv",
+      "reference_rows": 164,
+      "rebuilt_rows": 164,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/41-paper-and-release-summary.csv",
+      "reference_rows": 3,
+      "rebuilt_rows": 3,
+      "status": "changed",
+      "changes": {
+        "after_lo": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.8146",
+              "rebuilt": "0.8143"
+            },
+            {
+              "row": 1,
+              "reference": "0.3184",
+              "rebuilt": "0.3185"
+            },
+            {
+              "row": 2,
+              "reference": "0.3148",
+              "rebuilt": "0.3144"
+            }
+          ]
+        },
+        "after_hi": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 1,
+              "reference": "0.3393",
+              "rebuilt": "0.3389"
+            },
+            {
+              "row": 2,
+              "reference": "0.3323",
+              "rebuilt": "0.3328"
+            }
+          ]
+        },
+        "within_lo": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.1509",
+              "rebuilt": "0.1508"
+            },
+            {
+              "row": 1,
+              "reference": "0.6052",
+              "rebuilt": "0.6055"
+            },
+            {
+              "row": 2,
+              "reference": "0.615",
+              "rebuilt": "0.6146"
+            }
+          ]
+        },
+        "within_hi": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.181",
+              "rebuilt": "0.1812"
+            },
+            {
+              "row": 1,
+              "reference": "0.6263",
+              "rebuilt": "0.6256"
+            },
+            {
+              "row": 2,
+              "reference": "0.6326",
+              "rebuilt": "0.6329"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/41-paper-and-release.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "changed",
+      "changes": {
+        "lo": {
+          "different_cells": 13,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.4621",
+              "rebuilt": "0.4601"
+            },
+            {
+              "row": 1,
+              "reference": "0.5732",
+              "rebuilt": "0.5697"
+            },
+            {
+              "row": 2,
+              "reference": "0.6031",
+              "rebuilt": "0.6037"
+            },
+            {
+              "row": 3,
+              "reference": "0.5694",
+              "rebuilt": "0.5666"
+            }
+          ]
+        },
+        "hi": {
+          "different_cells": 13,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.6199",
+              "rebuilt": "0.626"
+            },
+            {
+              "row": 1,
+              "reference": "0.6797",
+              "rebuilt": "0.681"
+            },
+            {
+              "row": 2,
+              "reference": "0.7011",
+              "rebuilt": "0.6978"
+            },
+            {
+              "row": 3,
+              "reference": "0.6435",
+              "rebuilt": "0.6416"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/42-breadth-concentration.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/42-breadth-pooled.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "changed",
+      "changes": {
+        "q2_lo": {
+          "different_cells": 4,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.9473031123735184",
+              "rebuilt": "0.951652249833539"
+            },
+            {
+              "row": 1,
+              "reference": "3.4039342076240375",
+              "rebuilt": null
+            },
+            {
+              "row": 3,
+              "reference": "1.6130585588192623",
+              "rebuilt": "1.6142803598842888"
+            },
+            {
+              "row": 7,
+              "reference": "0.5801750473089833",
+              "rebuilt": "0.5635667012677877"
+            }
+          ]
+        },
+        "q2_hi": {
+          "different_cells": 4,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.223733690434314",
+              "rebuilt": "1.229266748946373"
+            },
+            {
+              "row": 1,
+              "reference": "7.498972302750752",
+              "rebuilt": null
+            },
+            {
+              "row": 3,
+              "reference": "1.9992340447068189",
+              "rebuilt": "1.98140643538256"
+            },
+            {
+              "row": 7,
+              "reference": "0.8111152373718038",
+              "rebuilt": "0.7958708608955104"
+            }
+          ]
+        },
+        "q1_lo": {
+          "different_cells": 4,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.098324343012875",
+              "rebuilt": "1.086233525779695"
+            },
+            {
+              "row": 1,
+              "reference": "5.824010499433042",
+              "rebuilt": null
+            },
+            {
+              "row": 3,
+              "reference": "1.4988493907784777",
+              "rebuilt": "1.4937976686126546"
+            },
+            {
+              "row": 7,
+              "reference": "0.5847229650231498",
+              "rebuilt": "0.5948211706394411"
+            }
+          ]
+        },
+        "q1_hi": {
+          "different_cells": 5,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.3550517407163862",
+              "rebuilt": "1.341244224382075"
+            },
+            {
+              "row": 1,
+              "reference": "7.669802619753839",
+              "rebuilt": null
+            },
+            {
+              "row": 3,
+              "reference": "1.8291805445144624",
+              "rebuilt": "1.86254827679824"
+            },
+            {
+              "row": 4,
+              "reference": "1.0287843546442128",
+              "rebuilt": "1.028784354644213"
+            }
+          ]
+        },
+        "q0_late_rarefied": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "21.94",
+              "rebuilt": "21.9"
+            },
+            {
+              "row": 3,
+              "reference": "60.94",
+              "rebuilt": "61.74"
+            },
+            {
+              "row": 7,
+              "reference": "320.7",
+              "rebuilt": "318.72"
+            }
+          ]
+        },
+        "q0_ratio": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.1547368421052633",
+              "rebuilt": "1.1526315789473685"
+            },
+            {
+              "row": 3,
+              "reference": "0.9233333333333332",
+              "rebuilt": "0.9354545454545456"
+            },
+            {
+              "row": 7,
+              "reference": "0.9162857142857144",
+              "rebuilt": "0.9106285714285716"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Gallery/data/42-breadth.csv",
+      "reference_rows": 80,
+      "rebuilt_rows": 80,
+      "status": "changed",
+      "changes": {
+        "lo": {
+          "different_cells": 41,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "4.654441560898214",
+              "rebuilt": "4.57675882824671"
+            },
+            {
+              "row": 1,
+              "reference": "4.178896547635107",
+              "rebuilt": "4.151953185658838"
+            },
+            {
+              "row": 2,
+              "reference": "4.405415377016919",
+              "rebuilt": "4.41624039222019"
+            },
+            {
+              "row": 3,
+              "reference": "4.4237704211616045",
+              "rebuilt": "4.454472029864424"
+            }
+          ]
+        },
+        "hi": {
+          "different_cells": 40,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "5.6599418115092694",
+              "rebuilt": "5.61090571314171"
+            },
+            {
+              "row": 1,
+              "reference": "5.195103576090005",
+              "rebuilt": "5.32310409308789"
+            },
+            {
+              "row": 2,
+              "reference": "5.2826386803518774",
+              "rebuilt": "5.265165511681097"
+            },
+            {
+              "row": 3,
+              "reference": "5.365129913993894",
+              "rebuilt": "5.29273328964034"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Reuse-mentions/Reuse-rates.csv",
+      "reference_rows": 168,
+      "rebuilt_rows": 168,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Software-geography/Home-country-lift.csv",
+      "reference_rows": 20,
+      "rebuilt_rows": 20,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Contents.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S1.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S10.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S11.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S12.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S13.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "changed",
+      "changes": {
+        "unread_archive": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 3,
+              "reference": "8.5",
+              "rebuilt": "8.4"
+            },
+            {
+              "row": 10,
+              "reference": "5.3",
+              "rebuilt": "5.2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S14.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "changed",
+      "changes": {
+        "pairs": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "4056",
+              "rebuilt": "4057"
+            },
+            {
+              "row": 3,
+              "reference": "18296",
+              "rebuilt": "18295"
+            }
+          ]
+        },
+        "groups": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "1271",
+              "rebuilt": "1272"
+            },
+            {
+              "row": 3,
+              "reference": "4283",
+              "rebuilt": "4282"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S15.csv",
+      "reference_rows": 9,
+      "rebuilt_rows": 9,
+      "status": "changed",
+      "changes": {
+        "share_gt_1y": {
+          "different_cells": 1,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "0.871",
+              "rebuilt": "0.872"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S16.csv",
+      "reference_rows": 3,
+      "rebuilt_rows": 3,
+      "status": "changed",
+      "changes": {
+        "after_lo": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.8146",
+              "rebuilt": "0.8143"
+            },
+            {
+              "row": 1,
+              "reference": "0.3184",
+              "rebuilt": "0.3185"
+            },
+            {
+              "row": 2,
+              "reference": "0.3148",
+              "rebuilt": "0.3144"
+            }
+          ]
+        },
+        "after_hi": {
+          "different_cells": 2,
+          "examples": [
+            {
+              "row": 1,
+              "reference": "0.3393",
+              "rebuilt": "0.3389"
+            },
+            {
+              "row": 2,
+              "reference": "0.3323",
+              "rebuilt": "0.3328"
+            }
+          ]
+        },
+        "within_lo": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.1509",
+              "rebuilt": "0.1508"
+            },
+            {
+              "row": 1,
+              "reference": "0.6052",
+              "rebuilt": "0.6055"
+            },
+            {
+              "row": 2,
+              "reference": "0.615",
+              "rebuilt": "0.6146"
+            }
+          ]
+        },
+        "within_hi": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.181",
+              "rebuilt": "0.1812"
+            },
+            {
+              "row": 1,
+              "reference": "0.6263",
+              "rebuilt": "0.6256"
+            },
+            {
+              "row": 2,
+              "reference": "0.6326",
+              "rebuilt": "0.6329"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S17.csv",
+      "reference_rows": 15,
+      "rebuilt_rows": 15,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S18.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S19.csv",
+      "reference_rows": 168,
+      "rebuilt_rows": 168,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S2.csv",
+      "reference_rows": 80,
+      "rebuilt_rows": 80,
+      "status": "changed",
+      "changes": {
+        "lo": {
+          "different_cells": 30,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "4.654",
+              "rebuilt": "4.577"
+            },
+            {
+              "row": 1,
+              "reference": "4.179",
+              "rebuilt": "4.152"
+            },
+            {
+              "row": 2,
+              "reference": "4.405",
+              "rebuilt": "4.416"
+            },
+            {
+              "row": 3,
+              "reference": "4.424",
+              "rebuilt": "4.454"
+            }
+          ]
+        },
+        "hi": {
+          "different_cells": 30,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "5.66",
+              "rebuilt": "5.611"
+            },
+            {
+              "row": 1,
+              "reference": "5.195",
+              "rebuilt": "5.323"
+            },
+            {
+              "row": 2,
+              "reference": "5.283",
+              "rebuilt": "5.265"
+            },
+            {
+              "row": 3,
+              "reference": "5.365",
+              "rebuilt": "5.293"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S20.csv",
+      "reference_rows": 17,
+      "rebuilt_rows": 17,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S21.csv",
+      "reference_rows": 107,
+      "rebuilt_rows": 107,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S3.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "changed",
+      "changes": {
+        "q2_lo": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "0.947",
+              "rebuilt": "0.952"
+            },
+            {
+              "row": 3,
+              "reference": "1.613",
+              "rebuilt": "1.614"
+            },
+            {
+              "row": 7,
+              "reference": "0.58",
+              "rebuilt": "0.564"
+            }
+          ]
+        },
+        "q2_hi": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.224",
+              "rebuilt": "1.229"
+            },
+            {
+              "row": 3,
+              "reference": "1.999",
+              "rebuilt": "1.981"
+            },
+            {
+              "row": 7,
+              "reference": "0.811",
+              "rebuilt": "0.796"
+            }
+          ]
+        },
+        "q1_lo": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.098",
+              "rebuilt": "1.086"
+            },
+            {
+              "row": 3,
+              "reference": "1.499",
+              "rebuilt": "1.494"
+            },
+            {
+              "row": 7,
+              "reference": "0.585",
+              "rebuilt": "0.595"
+            }
+          ]
+        },
+        "q1_hi": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.355",
+              "rebuilt": "1.341"
+            },
+            {
+              "row": 3,
+              "reference": "1.829",
+              "rebuilt": "1.863"
+            },
+            {
+              "row": 7,
+              "reference": "0.902",
+              "rebuilt": "0.92"
+            }
+          ]
+        },
+        "q0_late_rarefied": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "21.94",
+              "rebuilt": "21.9"
+            },
+            {
+              "row": 3,
+              "reference": "60.94",
+              "rebuilt": "61.74"
+            },
+            {
+              "row": 7,
+              "reference": "320.7",
+              "rebuilt": "318.72"
+            }
+          ]
+        },
+        "q0_ratio": {
+          "different_cells": 3,
+          "examples": [
+            {
+              "row": 0,
+              "reference": "1.155",
+              "rebuilt": "1.153"
+            },
+            {
+              "row": 3,
+              "reference": "0.923",
+              "rebuilt": "0.935"
+            },
+            {
+              "row": 7,
+              "reference": "0.916",
+              "rebuilt": "0.911"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S4.csv",
+      "reference_rows": 18,
+      "rebuilt_rows": 18,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S5.csv",
+      "reference_rows": 7,
+      "rebuilt_rows": 7,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S6.csv",
+      "reference_rows": 65,
+      "rebuilt_rows": 65,
+      "status": "changed",
+      "changes": {
+        "age_lo": {
+          "different_cells": 7,
+          "examples": [
+            {
+              "row": 2,
+              "reference": "314.625",
+              "rebuilt": "315.0"
+            },
+            {
+              "row": 12,
+              "reference": "326.0",
+              "rebuilt": "323.0"
+            },
+            {
+              "row": 18,
+              "reference": "405.975",
+              "rebuilt": "405.0"
+            },
+            {
+              "row": 26,
+              "reference": "365.0",
+              "rebuilt": "347.0"
+            }
+          ]
+        },
+        "age_hi": {
+          "different_cells": 11,
+          "examples": [
+            {
+              "row": 1,
+              "reference": "542.0",
+              "rebuilt": "538.05"
+            },
+            {
+              "row": 2,
+              "reference": "643.0",
+              "rebuilt": "622.0"
+            },
+            {
+              "row": 6,
+              "reference": "740.0",
+              "rebuilt": "727.0"
+            },
+            {
+              "row": 8,
+              "reference": "554.0",
+              "rebuilt": "556.0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "Supplementary-Tables/Table-S7.csv",
+      "reference_rows": 37,
+      "rebuilt_rows": 37,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S8.csv",
+      "reference_rows": 71,
+      "rebuilt_rows": 71,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S9.csv",
+      "reference_rows": 25,
+      "rebuilt_rows": 25,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Tool-outputs/Standard-rate-by-export-capability.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Tool-outputs/Standard-rate-by-tool-single-tool-datasets.csv",
+      "reference_rows": 25,
+      "rebuilt_rows": 25,
+      "status": "match",
+      "changes": {}
+    }
+  ],
+  "reference_commit": "f5738785f8d80b7460083fb9b75dda775a281752"
+}

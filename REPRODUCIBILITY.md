@@ -12,7 +12,11 @@ python scripts/reproduce_all.py \
   --output /path/to/new-reconstruction
 ```
 
-On Linux, install `fonts-liberation`; elsewhere use `--font-dir /path/to/liberation-ttfs` if necessary. Font substitution is rejected for gallery rendering. `Stages.json` records each completed stage and its exit status. Execution success and numerical agreement are distinct: `compare_reconstruction.py` produces an explicit table comparison and supports `--require-match`.
+On Linux, install `fonts-liberation`; elsewhere use `--font-dir /path/to/liberation-ttfs` if necessary. Font substitution is rejected for gallery rendering. `Stages.json` records each completed stage and its exit status. The final stage compares all 78 required release tables with the checked manuscript snapshot. Missing tables or numerical differences fail the run. Integer counts are exact; floating-point comparisons use relative tolerance 10⁻⁸ and absolute tolerance 10⁻⁹. `Numerical-comparison.json` records each result.
+
+## Current validation
+
+The local source rebuild completed all 22 analysis and rendering stages, then matched all 78 release tables. The 24-page manuscript PDF was rendered and visually inspected. The styled workbook was rebuilt from the current CSVs: all 7,634 data cells across 21 tables matched on reopening, and changed sheets were visually checked. `validation/` contains the stage log, numerical comparison, historical differences and artifact checks.
 
 ## Source and inference checks
 

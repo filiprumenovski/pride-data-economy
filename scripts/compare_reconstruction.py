@@ -5,12 +5,16 @@ from pathlib import Path
 import pandas as pd
 
 
-def compare(reference, rebuilt):
+def compare(reference, rebuilt, expected=None):
     checks = []
-    for path in sorted(rebuilt.rglob('*.csv')):
+    paths = [rebuilt / name for name in expected] if expected is not None else sorted(rebuilt.rglob('*.csv'))
+    for path in paths:
         relative = path.relative_to(rebuilt)
         old = reference / relative
-        if not old.exists():
+        if not path.is_file() or not old.is_file():
+            if expected is not None:
+                checks.append({'path': str(relative), 'status': 'missing',
+                               'reference_exists': old.is_file(), 'rebuilt_exists': path.is_file()})
             continue
         a, b = pd.read_csv(old), pd.read_csv(path)
         row = {'path': str(relative), 'reference_rows': len(a), 'rebuilt_rows': len(b)}
@@ -45,7 +49,10 @@ def main():
     p.add_argument('--rebuilt', type=Path, required=True)
     p.add_argument('--report', type=Path, required=True)
     p.add_argument('--require-match', action='store_true')
-    a = p.parse_args(); checks = compare(a.reference, a.rebuilt)
+    p.add_argument('--expected-list', type=Path, help='JSON list of required relative CSV paths; missing files fail comparison')
+    a = p.parse_args()
+    expected = json.loads(a.expected_list.read_text()) if a.expected_list else None
+    checks = compare(a.reference, a.rebuilt, expected)
     assert checks, 'No comparable tables found'
     report = {'tables': len(checks), 'matched': sum(r['status'] == 'match' for r in checks), 'checks': checks}
     a.report.parent.mkdir(parents=True, exist_ok=True)

@@ -64,6 +64,10 @@ def main():
         shutil.copytree(output / 'late' / relative, rebuilt / relative)
     analysis('compose_journal')
     analysis('build_supp_tables', '--csv-only')
+    run('numerical-comparison', 'compare_reconstruction.py',
+        '--reference', ROOT / 'outputs/Stack-and-reuse', '--rebuilt', rebuilt,
+        '--expected-list', ROOT / 'data/reconstruction/Expected-tables.json',
+        '--report', output / 'Numerical-comparison.json', '--require-match')
     print(f'Completed {len(stages)} stages. Rebuilt artifacts: {rebuilt}', flush=True)
 
 

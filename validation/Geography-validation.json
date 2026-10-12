@@ -1,0 +1,11 @@
+{
+  "datasets": 36249,
+  "scope": "Reconstruct geography from deidentified contact evidence and validate the cohort.\n\nAffiliation equality and matched country suffixes are retained; full affiliation and\ncontact strings are excluded. This tests inference and grouping, not raw ingestion.\n",
+  "differences": {
+    "country": [],
+    "submitter_country": [],
+    "pi_geo_inferred_only": []
+  },
+  "group_known_mismatches": 0,
+  "group_partition_matches": true
+}

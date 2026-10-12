@@ -27,7 +27,7 @@ Extract `Source-metadata.zip` and `Extraction-caches.zip` from the matching rele
 python scripts/reproduce_all.py --source /path/to/source --cache-dir /path/to/caches --output /path/to/new-reconstruction
 ```
 
-This command rebuilds the cohort checks, geography, run-count and timing sensitivity suites, file/date/software analyses, figure statistics, all 19 numbered figures at 600 dpi, and the 21 supplementary table CSVs. It writes outside the repository. Use `--font-dir` if Liberation Sans is not installed. Read `REPRODUCIBILITY.md` for source boundaries, historical-versus-fresh extraction differences, and the separate final-artifact checks.
+This command rebuilds the cohort checks, geography, run-count and timing sensitivity suites, file/date/software analyses, figure statistics, all 19 numbered figures at 600 dpi, and the 21 supplementary table CSVs. It writes outside the repository and fails if any of the 78 required result tables is missing or differs from the checked release. Use `--font-dir` if Liberation Sans is not installed. Read `REPRODUCIBILITY.md` for source boundaries, historical-versus-fresh extraction differences, and the separate final-artifact checks.
 
 ## Reproduce the checked analyses
 

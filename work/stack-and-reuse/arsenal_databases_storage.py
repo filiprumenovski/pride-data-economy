@@ -113,7 +113,7 @@ S['checksum_window'] = {'release_years': WINDOW, 'note': 'files without checksum
 # =============================================================================================
 FA_RE = r"\.(fasta|fa|faa|fas)$"
 fa_top = c.execute(f"""select accession, file_name, sz, checksum, cat, layer from tf where regexp_matches(b, '{FA_RE}') order by all""").df()
-c.execute(f"create temp view arch as select * from read_csv('{ARCH}')")
+c.execute(f"create temp view arch as select * from read_csv('{ARCH}', sample_size=-1)")
 fa_mem = c.execute(f"""
 select a.accession, m.url, m.member, regexp_extract(m.member, '[^/]*$') file_name, m.usize sz
 from read_parquet('{MEMB}') m join arch a using (url)

@@ -37,8 +37,10 @@ def save(fig, name):
     """House save, then check the rendered PNG stays within 183 mm x 150 mm."""
     _save(fig, name)
     from PIL import Image
-    w, h = Image.open(G / f'{name}.png').size
-    wmm, hmm = w / 300 * 25.4, h / 300 * 25.4
+    path = G / 'blocks' / f'{name}.png' if JOURNAL else G / f'{name}.png'
+    w, h = Image.open(path).size
+    dpi = 600 if JOURNAL else 300
+    wmm, hmm = w / dpi * 25.4, h / dpi * 25.4
     print(f'{name}: {wmm:.1f} x {hmm:.1f} mm')
     assert wmm <= 183.5 and hmm <= 150, f'{name} exceeds 183 x 150 mm'
 

@@ -91,7 +91,16 @@ def shift_letters(text, k):
 
 def render(slug, offset):
     env = dict(os.environ, GAL_JOURNAL='1', GAL_PANEL_OFFSET=str(offset), MPLBACKEND='Agg')
-    r = subprocess.run(RUN[slug], cwd=HERE, env=env, capture_output=True, text=True)
+    cmd = RUN[slug]
+    if env.get('PRIDE_RECONSTRUCTION_SOURCE'):
+        module = (['gallery', cmd[-1].split('gallery.')[-1].split('(')[0]]
+                  if cmd[1] == '-c' else [Path(cmd[1]).stem, *cmd[2:]])
+        cmd = [sys.executable, str(HERE.parents[1] / 'scripts/release_full.py'),
+               '--source', env['PRIDE_RECONSTRUCTION_SOURCE'], '--output', env['PRIDE_RECONSTRUCTION_OUTPUT']]
+        if env.get('PRIDE_RECONSTRUCTION_FONTS'):
+            cmd += ['--font-dir', env['PRIDE_RECONSTRUCTION_FONTS']]
+        cmd += module
+    r = subprocess.run(cmd, cwd=HERE, env=env, capture_output=True, text=True)
     if r.returncode != 0 or not (B / f'{slug}.json').exists():
         raise RuntimeError(f'{slug}: {r.stderr[-800:]}')
     return json.loads((B / f'{slug}.json').read_text())

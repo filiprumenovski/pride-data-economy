@@ -123,6 +123,7 @@ def inv_simpson(w_by_cat):
 
 
 def series(L):
+    L = L.sort_values(['axis', 'accession', 'cat', 'grp']).reset_index(drop=True)
     out = []
     for ax, A_ in L.groupby('axis'):
         for y in YRS:
@@ -156,6 +157,10 @@ def fig_breadth():
                    for suffix in ['', '-concentration', '-pooled']]
     else:
         L = long_frame(); S = series(L); C = concentration(); P = pooled(L)
+    # Identity is itself the category on this axis; cluster-bootstrap intervals
+    # are invalid because duplicated sampled identities do not create categories.
+    S.loc[S.axis.eq('Contributor groups'), ['lo', 'hi']] = np.nan
+    P.loc[P.axis.eq('Contributor groups'), ['q2_lo', 'q2_hi', 'q1_lo', 'q1_hi']] = np.nan
     if not FROZEN_DATA:
         (G / 'data').mkdir(exist_ok=True)
         S.to_csv(G / 'data/42-breadth.csv', index=False); C.to_csv(G / 'data/42-breadth-concentration.csv', index=False)

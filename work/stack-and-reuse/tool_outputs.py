@@ -28,7 +28,7 @@ from pride_files where coalesce(primary_public_location_value, '') not like '%/g
 names = files.groupby('accession').b.apply(list); arch = files[files.is_archive].groupby('accession').b.apply(list)
 L = pd.read_parquet(O / 'Layers/Dataset-layers.parquet').set_index('accession')
 F = pd.read_parquet(O / 'Deposit-features.parquet', columns=['accession', 'pi_group']).set_index('accession')
-txt = pd.read_parquet(R / 'data/Study-cohort.parquet', columns=['accession', 'software', 'processing']).set_index('accession')
+txt = connect().execute('select accession, software, processing from study').df().set_index('accession')
 text = (txt.software.fillna('') + ' ' + txt.processing.fillna('')).str.lower()
 
 named = {tool: set(text[text.str.contains(t['text'], regex=True)].index) for tool, t in REG.items()}

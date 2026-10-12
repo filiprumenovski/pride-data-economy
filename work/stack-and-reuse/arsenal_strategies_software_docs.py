@@ -164,7 +164,7 @@ con.execute(f"""create temp table top as
 con.execute(f"""create temp table zm as
   select a.accession, lower(regexp_replace(m.member, {sq(STRIP)}, '', 'i')) p
   from read_parquet('{AC / 'Members.parquet'}') m
-  join (select url, any_value(accession) accession from read_csv('{AC / 'Archives.csv.gz'}') group by url) a using (url)
+  join (select url, any_value(accession) accession from read_csv('{AC / 'Archives.csv.gz'}', sample_size=-1) group by url) a using (url)
   where not ends_with(m.member, '/') and not regexp_matches(m.member, '(^|/)__MACOSX/|(^|/)\\._')
     and not regexp_matches(lower(m.member), {sq(BINARY)})
     and regexp_matches(lower(regexp_replace(m.member, {sq(STRIP)}, '', 'i')), {sq(union)})""")
@@ -195,10 +195,10 @@ for k, r in SIG.items():
 pd.concat(hits).to_csv(OUT / 'H6-signature-hits.csv', index=False)
 # PEAKS pitfall check: how many datasets would a naive '.peaks' rule have credited?
 naive = con.execute(f"""select count(distinct a.accession) from read_parquet('{AC / 'Members.parquet'}') m
-  join (select url, any_value(accession) accession from read_csv('{AC / 'Archives.csv.gz'}') group by url) a using (url)
+  join (select url, any_value(accession) accession from read_csv('{AC / 'Archives.csv.gz'}', sample_size=-1) group by url) a using (url)
   where regexp_matches(lower(m.member), '\\.peaks(_t2)?$')""").fetchone()[0]
 naive_p0 = con.execute(f"""select count(distinct a.accession) from read_parquet('{AC / 'Members.parquet'}') m
-  join (select url, any_value(accession) accession from read_csv('{AC / 'Archives.csv.gz'}') group by url) a using (url)
+  join (select url, any_value(accession) accession from read_csv('{AC / 'Archives.csv.gz'}', sample_size=-1) group by url) a using (url)
   where regexp_matches(lower(m.member), '(^|/)p0/[^/]*\\.peaks(_t2)?$')""").fetchone()[0]
 SUMMARY['peaks_pitfall'] = {'datasets_with_.peaks_members_in_zips': int(naive), 'of_which_in_p0_folders': int(naive_p0),
                             'note': "'.peaks' members are MaxQuant intermediates; not counted as PEAKS evidence"}

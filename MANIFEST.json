@@ -1,10 +1,15 @@
 {
-  "scope": "Public derived-input release, code, frozen evidence and current research draft. Fresh extraction caches are separately checksummed release assets. See REPRODUCIBILITY.md for executed checks and remaining gaps.",
+  "scope": "Public analysis code, source manifests, frozen evidence and research draft. Source metadata and extraction caches are separately checksummed release assets. See REPRODUCIBILITY.md for checks and extraction boundaries.",
   "files": [
     {
       "path": ".github/workflows/extraction.yml",
       "bytes": 1458,
       "sha256": "60835b8b5b2af22a11b3ad94050c03bbf95a9a60716329cf8d3c3d7957eac785"
+    },
+    {
+      "path": ".github/workflows/full-reconstruction.yml",
+      "bytes": 2208,
+      "sha256": "079d6e5d6da5fd83c87f5f7ba007511ec2aa28b14851c690cf5d933ad9597fd5"
     },
     {
       "path": ".github/workflows/reproduce.yml",
@@ -18,8 +23,8 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 1295,
-      "sha256": "9852c3d849a36eec7008f6d745c2c703fcb9b0508884c9724a5608f196ab847f"
+      "bytes": 1344,
+      "sha256": "a1ee7848726123bc6df5de2349b345a2985ff8ab86f4113c2627384da05a26b0"
     },
     {
       "path": "CITATION.cff",
@@ -38,18 +43,18 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 3019,
-      "sha256": "95cb9b7878ce760c84e6e3133eb216f5977f907c0e7afbca54cda8de70bdaaaf"
+      "bytes": 3840,
+      "sha256": "54cb7c0d13e0b19aee9b93549f5d68e876406603342f4f4c0406d03b1830ee27"
     },
     {
       "path": "README.md",
-      "bytes": 5451,
-      "sha256": "2f3244c0bb761c214e25891eb85ab029570fd8ef14621c2f4d0ce4d81d065536"
+      "bytes": 6507,
+      "sha256": "f3935641a2a709844c1b81317be747b4df2e1b304c4bc467f157fac3b1e1f01b"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 4889,
-      "sha256": "d72389b12959be70368654f3a5857ec28425433409dffef2de1b263f668d322f"
+      "bytes": 5236,
+      "sha256": "e998d8553bebb15f7519374cb8613345451c48374b40b6d2cca76fd4d2606e14"
     },
     {
       "path": "data/early/Breadth-long.parquet",
@@ -265,6 +270,26 @@
       "path": "data/late/expected/Summary.json",
       "bytes": 663,
       "sha256": "8a6442ca5ffdcf31bd6012e07dd9947bfdfd38b0f81981e4bd62c2caaf46fb2b"
+    },
+    {
+      "path": "data/reconstruction/README.md",
+      "bytes": 2086,
+      "sha256": "62699fdb51ae424f57c6a9bc89049619085aacc3df5d25a8b4f950f5a4acfd05"
+    },
+    {
+      "path": "data/reconstruction/Source-asset.json",
+      "bytes": 159,
+      "sha256": "aaeb77a54d78c342bfe49ad79e5af527ea7f204b37ce7e2c976d097d53c3d0aa"
+    },
+    {
+      "path": "data/reconstruction/Source-manifest.json",
+      "bytes": 6781,
+      "sha256": "0bae61d1bdd872f4cdcdda68446fb509cb7e9119bb047b787ab3a35ed6e09d03"
+    },
+    {
+      "path": "outputs/Global-proteomics-study/Vendor-patterns/Instrument-vendor-map.csv",
+      "bytes": 9863,
+      "sha256": "84de24c86509b276ae7b937347d12e84c1227f6d08170cac6a23fbc330aa2c76"
     },
     {
       "path": "outputs/Stack-and-reuse/Archive-contents/Before-after-by-year.csv",
@@ -1408,13 +1433,28 @@
     },
     {
       "path": "requirements.txt",
-      "bytes": 170,
-      "sha256": "9cb5d1b9d2f57c04d332c4862a036a455e68a672c38aabe7ef1493e7b3a1322e"
+      "bytes": 187,
+      "sha256": "16afcd307c5e1b6ac92d618a6de90d4990f64803eb439c5bd152ca26ce49ff5a"
     },
     {
       "path": "scripts/attack_reuse_mentions.py",
       "bytes": 7484,
       "sha256": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff"
+    },
+    {
+      "path": "scripts/compare_reconstruction.py",
+      "bytes": 2920,
+      "sha256": "b911d1b3a97bc6d5a941ad215e7fff63e3cbe9ebffa14d3f3954221417168a4a"
+    },
+    {
+      "path": "scripts/export_geography_evidence.py",
+      "bytes": 2920,
+      "sha256": "c549c49e094afc075cc9656763aea0f5bb8310082dabc55dd9712b09d4d16fa1"
+    },
+    {
+      "path": "scripts/export_source.py",
+      "bytes": 4288,
+      "sha256": "eded4c69d2517aa0288a2765627126d2cfadc7592037f3a775a831b914a5401b"
     },
     {
       "path": "scripts/query.py",
@@ -1437,6 +1477,16 @@
       "sha256": "e6796d25f2d7646b2f5c63265a4cd174df6ed5bee480fb1204217f9ba138e82e"
     },
     {
+      "path": "scripts/release_full.py",
+      "bytes": 4849,
+      "sha256": "b1df3bbfc9bc1aed6483e5e34242feb1ee51b34979aa796f15658d1709c46359"
+    },
+    {
+      "path": "scripts/release_geography.py",
+      "bytes": 4571,
+      "sha256": "89b9b914999244305c6f819b08c58fb03833ea0b1449b861e7dace1e5883f6b3"
+    },
+    {
       "path": "scripts/release_late.py",
       "bytes": 17322,
       "sha256": "8859b9591a4a27e70366ef283a53bb1ef5646b6df5652ed572ae574a7c372f21"
@@ -1447,9 +1497,24 @@
       "sha256": "1ccd0252ab10d9f0cb502a02c73080b66c10e7ce17fb340a560e56977c58d29f"
     },
     {
+      "path": "scripts/release_metadata.py",
+      "bytes": 2952,
+      "sha256": "fb1d29b61dd44f22180873e3adf61d595180d397d0da5a5a85cd4d32914b2900"
+    },
+    {
+      "path": "scripts/reproduce_all.py",
+      "bytes": 3599,
+      "sha256": "b06c8489099ebc9246b083e30c352606b860c2555c67c3c972c950e17164dded"
+    },
+    {
       "path": "scripts/reuse_mentions.py",
       "bytes": 7857,
       "sha256": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9"
+    },
+    {
+      "path": "scripts/test_reconstruction.py",
+      "bytes": 2040,
+      "sha256": "3820fbcf3d5191bb88d8125b749baecf6a949ad1eb3d37e36f17adc41c620a05"
     },
     {
       "path": "scripts/verify_release.py",
@@ -1558,8 +1623,8 @@
     },
     {
       "path": "work/stack-and-reuse/arsenal_databases_storage.py",
-      "bytes": 53672,
-      "sha256": "235e96a9470e4bded518b5dfada2fb0acc8ac3528526c989433140a1660167c1"
+      "bytes": 53688,
+      "sha256": "1c7a248742c4a20af7363c9d86e258c4f15d5b3ba0c5343c6bccadca057af950"
     },
     {
       "path": "work/stack-and-reuse/arsenal_scale_instruments.py",
@@ -1568,8 +1633,8 @@
     },
     {
       "path": "work/stack-and-reuse/arsenal_strategies_software_docs.py",
-      "bytes": 60022,
-      "sha256": "9937acbb31d7ea00293f7b36499870549a0fa15d81c973dc3ad275b0380737a3"
+      "bytes": 60070,
+      "sha256": "92dd53ae1b65db3d0ef8d5c7bbae88a36914da6d091bb180ca62075fa5bc9429"
     },
     {
       "path": "work/stack-and-reuse/arsenal_time.py",
@@ -1628,8 +1693,8 @@
     },
     {
       "path": "work/stack-and-reuse/compose_journal.py",
-      "bytes": 9652,
-      "sha256": "1c0e1d7217df37e2734fcbab399168926a573b6107edfab458571ec2880ec748"
+      "bytes": 10193,
+      "sha256": "a3e70f6cf043f24ffb0d59285d8388939eccd7d89fee8be4d857fbda5fb1bbbb"
     },
     {
       "path": "work/stack-and-reuse/deposit_habits.py",
@@ -1659,7 +1724,7 @@
     {
       "path": "work/stack-and-reuse/figure_legends.md",
       "bytes": 18053,
-      "sha256": "b5fbecda6be232454e90da236e469cfbe55524e44deef05ad8b81c6e940ceff4"
+      "sha256": "6d4b91d78d208075166f79c5b9c8e715ecd701594fc09c35a5e76c5240cac803"
     },
     {
       "path": "work/stack-and-reuse/gallery.py",
@@ -1698,13 +1763,13 @@
     },
     {
       "path": "work/stack-and-reuse/gallery3_producers.py",
-      "bytes": 36431,
-      "sha256": "95424c075f36afd070289273ddc4406bf774269cb80f51ac41f2234ffecb5a6c"
+      "bytes": 36526,
+      "sha256": "d89dd30b74269317d393f867c8ee191929c8441a1d4cffab24080c34c72173a9"
     },
     {
       "path": "work/stack-and-reuse/gallery3_timing.py",
-      "bytes": 41016,
-      "sha256": "b476e5d396896d8fc454c126aeb7477489d258195de3e8a9114294c21109d425"
+      "bytes": 41109,
+      "sha256": "04c772d48502c36a2d77ec3eabc0fb444b939d114733668aa30ab8f963121edb"
     },
     {
       "path": "work/stack-and-reuse/gallery3_versions.py",
@@ -1713,13 +1778,18 @@
     },
     {
       "path": "work/stack-and-reuse/gallery4_breadth.py",
-      "bytes": 13412,
-      "sha256": "06a470803c6edfe58881c438200357e6a1dec7243c4bca27eba12a6aee270e5c"
+      "bytes": 13812,
+      "sha256": "1da14a1c1a50b11dab86cee7d0a4fff1af2800c37769f3fbbaaacb25188771dd"
     },
     {
       "path": "work/stack-and-reuse/galstyle.py",
       "bytes": 7149,
       "sha256": "28c929e681a01deb91224c3ec7079373cb5969b902211f77de549795e0dc3475"
+    },
+    {
+      "path": "work/stack-and-reuse/geography_rules.py",
+      "bytes": 3707,
+      "sha256": "1ea78193df3d4fbc275a8637e27398fa5ee085b213632cd7c92692cb4e472933"
     },
     {
       "path": "work/stack-and-reuse/header_sniff.py",
@@ -1747,6 +1817,11 @@
       "sha256": "b201328cae0d856d695c7b530a4d097dc33670a5ac7b5e133e5018c1399e996e"
     },
     {
+      "path": "work/stack-and-reuse/reference/iso3166-1.json",
+      "bytes": 43284,
+      "sha256": "f01b812b57fba9f31ff621bf33e7c7570a01964dbeb5be2167e94decf538c89f"
+    },
+    {
       "path": "work/stack-and-reuse/reference/pride-resources-LICENSE",
       "bytes": 11357,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
@@ -1755,6 +1830,16 @@
       "path": "work/stack-and-reuse/reference/pride-submission-validation.yaml",
       "bytes": 86722,
       "sha256": "25806dc7e32b23968a3099132faa6d2ce0b9152d12c6ca4fd48603d056ff2364"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/psi-ms-LICENSE",
+      "bytes": 278,
+      "sha256": "932e18d1cabe0f4d6daf32b273e608dfda7f10a785af7562f4256f139ab88b0a"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/pycountry-LICENSE",
+      "bytes": 24463,
+      "sha256": "3fa39c6e18a3a4411082b64c164deae1d8f47b03a4d45304c1f0ae478626e382"
     },
     {
       "path": "work/stack-and-reuse/reuse_mentions.py",
@@ -1783,8 +1868,8 @@
     },
     {
       "path": "work/stack-and-reuse/tool_outputs.py",
-      "bytes": 5074,
-      "sha256": "50be275e050b64873c7836f9e91ea4e397e1375b130ac88464a427c207c70477"
+      "bytes": 5052,
+      "sha256": "4109fb63fabbd62c4299c358390935529cbe127c4992ce774be00968a4c7436e"
     },
     {
       "path": "work/stack-and-reuse/validate_layers.py",
@@ -1800,6 +1885,11 @@
       "path": "work/stack-and-reuse/within_group.py",
       "bytes": 6868,
       "sha256": "ff31f8fe93de04ddcb4e9ef55d3d616f43d29d5b2025f4c0c36b70b609ab7f67"
+    },
+    {
+      "path": "work/vendor-patterns/psi-ms.obo",
+      "bytes": 1859067,
+      "sha256": "84c79d3a8325de0a9bd25eb64aec74b6e01656cd83e28ef368a8dfcc867752bf"
     }
   ]
 }

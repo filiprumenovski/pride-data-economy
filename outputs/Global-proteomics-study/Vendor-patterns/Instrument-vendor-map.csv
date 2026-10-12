@@ -1,0 +1,243 @@
+instrument_accession,instrument_name,vendor,deposits
+MS:1000031,instrument model,Unknown,66
+MS:1000073,electrospray ionization,Unknown,1
+MS:1000075,matrix-assisted laser desorption ionization,Unknown,1
+MS:1000079,Fourier Transform Ion Cyclotron Resonance Mass Spectrometer,Unknown,25
+MS:1000081,quadrupole,Unknown,2
+MS:1000084,time-of-flight,Unknown,9
+MS:1000121,SCIEX instrument model,SCIEX,14
+MS:1000122,Bruker Daltonics instrument model,Bruker,37
+MS:1000124,Shimadzu instrument model,Shimadzu,4
+MS:1000125,Thermo Finnigan instrument model,Thermo Fisher,4
+MS:1000126,Waters instrument model,Waters,12
+MS:1000139,4000 Q TRAP,SCIEX,2
+MS:1000140,4700 Proteomics Analyzer,Applied Biosystems,26
+MS:1000146,API 3000,SCIEX,2
+MS:1000149,autoflex TOF/TOF,Bruker,1
+MS:1000157,esquire 6000,Bruker,3
+MS:1000161,HCTplus,Bruker,1
+MS:1000163,HiRes MALDI,Unknown,1
+MS:1000168,LCQ Classic,Thermo Fisher,46
+MS:1000169,LCQ Deca XP Plus,Thermo Fisher,6
+MS:1000177,microflex,Bruker,1
+MS:1000187,Q TRAP,SCIEX,55
+MS:1000188,Q-Tof micro,Waters,5
+MS:1000189,Q-Tof Ultima,Waters,62
+MS:1000190,QSTAR,SCIEX,90
+MS:1000199,TSQ Quantum,Thermo Fisher,1
+MS:1000201,ultraflex,Bruker,127
+MS:1000202,ultraflex TOF/TOF,Bruker,4
+MS:1000203,Voyager-DE PRO,Applied Biosystems,4
+MS:1000204,Voyager-DE STR,Applied Biosystems,1
+MS:1000264,ion trap,Unknown,7
+MS:1000268,mass spectrometry,Unknown,1
+MS:1000273,photoionization,Unknown,1
+MS:1000291,Linear Ion Trap,Unknown,1
+MS:1000398,Nanoelectrospray,Unknown,2
+MS:1000447,LTQ,Thermo Fisher,325
+MS:1000448,LTQ FT,Thermo Fisher,147
+MS:1000449,LTQ Orbitrap,Thermo Fisher,1972
+MS:1000467,1200 series LC/MSD SL,Agilent,7
+MS:1000468,6110 Quadrupole LC/MS,Agilent,1
+MS:100047,Orbitrap Elite,Unknown,1
+MS:1000475,6330 Ion Trap LC/MS,Agilent,2
+MS:1000476,6340 Ion Trap LC/MS,Agilent,17
+MS:1000477,6410 Triple Quadrupole LC/MS,Agilent,37
+MS:1000478,1200 series LC/MSD VL,Agilent,3
+MS:1000483,Thermo Fisher Scientific instrument model,Thermo Fisher,41
+MS:1000484,orbitrap,Unknown,29
+MS:1000488,Hitachi instrument model,Unknown,1
+MS:1000490,Agilent instrument model,Agilent,18
+MS:1000491,Dionex instrument model,Unknown,22
+MS:1000492,Thermo Electron instrument model,Thermo Fisher,2
+MS:1000493,Finnigan MAT instrument model,Thermo Fisher,1
+MS:1000494,Thermo Scientific instrument model,Thermo Fisher,24
+MS:1000495,Applied Biosystems instrument model,Applied Biosystems,1
+MS:1000526,Waters raw format,Unknown,1
+MS:1000532,Xcalibur,Unknown,3
+MS:1000555,LTQ Orbitrap Discovery,Thermo Fisher,19
+MS:1000556,LTQ Orbitrap XL,Thermo Fisher,218
+MS:1000557,LTQ FT Ultra,Thermo Fisher,6
+MS:1000604,LCMS-IT-TOF,Shimadzu,1
+MS:1000610,AXIMA Performance MALDI-TOF/TOF,Shimadzu,3
+MS:1000632,Q-Tof Premier,Waters,24
+MS:1000638,LTQ XL ETD,Thermo Fisher,4
+MS:1000639,LTQ Orbitrap XL ETD,Thermo Fisher,36
+MS:1000643,MALDI LTQ Orbitrap,Thermo Fisher,2
+MS:1000644,TSQ Quantum Access,Thermo Fisher,1
+MS:1000649,Exactive,Thermo Fisher,3
+MS:1000650,Proteome Discoverer,Unknown,4
+MS:1000652,4800 Plus MALDI TOF/TOF,SCIEX,11
+MS:1000655,QSTAR,SCIEX,8
+MS:1000656,QSTAR Pulsar,SCIEX,1
+MS:1000657,QSTAR XL,SCIEX,2
+MS:1000658,4800 Proteomics Analyzer,Applied Biosystems,83
+MS:1000675,6220 Time-of-Flight LC/MS,Agilent,25
+MS:1000676,6510 Quadrupole Time-of-Flight LC/MS,Agilent,1
+MS:1000677,6520A Quadrupole Time-of-Flight LC/MS,Agilent,114
+MS:1000689,Agilent software,Unknown,2
+MS:1000690,SCIEX software,Unknown,3
+MS:1000692,Bruker software,Unknown,5
+MS:1000695,apex ultra,Bruker,4
+MS:1000697,Bruker Daltonics HCT Series,Bruker,14
+MS:1000698,HCTultra,Bruker,7
+MS:1000699,HCTultra PTM,Bruker,1
+MS:1000700,HCTultra ETD II,Bruker,3
+MS:1000701,microflex LT,Bruker,2
+MS:1000704,micrOTOF-Q II,Bruker,7
+MS:1000705,ultraflex III TOF/TOF,Bruker,2
+MS:1000723,GENOLINK,Unknown,1
+MS:1000734,ProteinScape,Unknown,1
+MS:1000751,TSQ Quantum Ultra,Thermo Fisher,2
+MS:1000815,Bruker BAF format,Unknown,1
+MS:1000854,LTQ XL,Thermo Fisher,27
+MS:1000855,LTQ Velos,Thermo Fisher,47
+MS:1000931,QTRAP 5500,SCIEX,4
+MS:1000932,TripleTOF 5600,SCIEX,1314
+MS:1000937,6495C Triple Quadrupole LC/MS,Agilent,4
+MS:1001207,Mascot,Unknown,6
+MS:1001241,co-eluting ion,Unknown,1
+MS:1001253,DB source NCBI,Unknown,1
+MS:1001254,DB source UniProt,Unknown,1
+MS:1001327,Spectronaut,Unknown,2
+MS:1001482,5800 TOF/TOF,SCIEX,38
+MS:1001483,SCIEX TOF/TOF Series Explorer Software,Unknown,2
+MS:1001509,Agilent MassHunter format,Unknown,5
+MS:1001510,TSQ Vantage,Thermo Fisher,13
+MS:1001533,Bruker Daltonics esquire series,Bruker,5
+MS:1001534,Bruker Daltonics flex series,Bruker,20
+MS:1001535,Bruker Daltonics BioTOF series,Bruker,2
+MS:1001536,Bruker Daltonics micrOTOF series,Bruker,20
+MS:1001540,micrOTOF II,Bruker,9
+MS:1001541,maXis,Bruker,263
+MS:1001542,amaZon ETD,Bruker,9
+MS:1001544,ultrafleXtreme,Bruker,8
+MS:1001545,Bruker Daltonics amaZon series,Bruker,23
+MS:1001547,Bruker Daltonics maXis series,Bruker,12
+MS:1001548,Bruker Daltonics solarix series,Bruker,24
+MS:1001549,solariX,Bruker,15
+MS:1001555,autoflex,Bruker,95
+MS:1001556,Bruker Daltonics apex series,Bruker,1
+MS:1001558,MALDI Solutions,Unknown,1
+MS:1001560,AB SCIEX TOF/TOF T2D file,Unknown,2
+MS:1001581,FAIMS compensation voltage,Unknown,2
+MS:1001583,MaxQuant,Unknown,4
+MS:1001741,LTQ Orbitrap Velos,Unknown,1
+MS:1001742,LTQ Orbitrap Velos,Thermo Fisher,2590
+MS:1001761,ACQUITY UPLC,Unknown,7
+MS:1001764,ACQUITY UPLC I-Class,Unknown,1
+MS:1001766,nanoACQUITY UPLC,Unknown,25
+MS:1001768,nanoACQUITY UPLC with HDX Technology,Unknown,3
+MS:1001771,MALDI Synapt G2 HDMS,Waters,1
+MS:1001774,MALDI Synapt G2-S MS,Waters,1
+MS:1001775,MALDI Synapt HDMS,Waters,1
+MS:1001776,MALDI Synapt MS,Waters,12
+MS:1001777,Synapt G2 HDMS,Waters,14
+MS:1001778,Synapt G2 MS,Waters,8
+MS:1001779,Synapt G2-S HDMS,Waters,14
+MS:1001780,Synapt G2-S MS,Waters,1
+MS:1001781,Synapt HDMS,Waters,4
+MS:1001782,Synapt MS,Waters,649
+MS:1001783,Xevo G2 Q-Tof,Waters,20
+MS:1001784,Xevo G2 Tof,Waters,1
+MS:1001785,Xevo Q-Tof,Waters,4
+MS:1001830,Progenesis LC-MS,Unknown,5
+MS:1001834,LC-MS label-free quantitation analysis,Unknown,3
+MS:1001905,emPAI value,Unknown,1
+MS:1001909,Velos Plus,Thermo Fisher,8
+MS:1001910,LTQ Orbitrap Elite,Thermo Fisher,1953
+MS:1001911,Q Exactive,Thermo Fisher,8023
+MS:1002010,TMT quantitation analysis,Unknown,2
+MS:1002077,impact,Bruker,6
+MS:1002101,ProteomeDiscoverer input parameter,Unknown,1
+MS:1002110,assay attribute,Unknown,1
+MS:1002271,liquid chromatography separation,Unknown,3
+MS:1002275,Xevo G2-S Tof,Waters,1
+MS:1002276,Xevo G2-S QTof,Waters,8
+MS:1002279,maXis 4G,Bruker,7
+MS:1002280,compact,Bruker,5
+MS:1002299,micrOTOF-Q III,Bruker,1
+MS:1002300,amaZon Speed ETD,Bruker,19
+MS:1002301,amaZon Speed,Bruker,1
+MS:1002416,Orbitrap Fusion,Thermo Fisher,2769
+MS:1002417,Orbitrap Fusion ETD,Thermo Fisher,208
+MS:1002418,TSQ Quantiva,Thermo Fisher,12
+MS:1002445,6460 Triple Quadrupole LC/MS,Agilent,2
+MS:1002446,6490 Triple Quadrupole LC/MS,Agilent,6
+MS:1002521,mass spectrometry imaging,Unknown,2
+MS:1002523,Q Exactive HF,Thermo Fisher,4803
+MS:1002526,Exactive Plus,Thermo Fisher,21
+MS:1002533,TripleTOF 6600,SCIEX,323
+MS:1002581,QTRAP 6500,SCIEX,1
+MS:1002582,QTRAP 6500+,SCIEX,1
+MS:1002583,TripleTOF 4600,SCIEX,5
+MS:1002584,TripleTOF 5600+,SCIEX,32
+MS:1002622,iTRAQ reagent,Unknown,1
+MS:1002626,Exactive Plus,Unknown,1
+MS:1002634,Q Exactive Plus,Thermo Fisher,1075
+MS:1002666,impact II,Bruker,98
+MS:1002667,impact HD,Bruker,63
+MS:1002674,X500R QTOF,SCIEX,7
+MS:1002726,SYNAPT G2-Si,Waters,64
+MS:1002728,Vion IMS QTof,Waters,1
+MS:1002729,Xevo G2-XS Tof,Waters,5
+MS:1002730,Xevo TQ-XS,Waters,1
+MS:1002732,Orbitrap Fusion Lumos,Thermo Fisher,4674
+MS:1002783,6550 iFunnel Q-TOF LC/MS,Agilent,43
+MS:1002784,6550A iFunnel Q-TOF LC/MS,Agilent,6
+MS:1002786,6530A Q-TOF LC/MS,Agilent,3
+MS:1002787,6530B Q-TOF LC/MS,Agilent,1
+MS:1002788,6538 Q-TOF LC/MS,Agilent,3
+MS:1002789,6540 Q-TOF LC/MS,Agilent,8
+MS:1002791,6545 Q-TOF LC/MS,Agilent,7
+MS:1002792,6560 Q-TOF LC/MS,Agilent,2
+MS:1002797,6230A Time-of-Flight LC/MS,Agilent,1
+MS:1002800,6495A Triple Quadrupole LC/MS,Agilent,2
+MS:1002801,6495B Triple Quadrupole LC/MS,Agilent,1
+MS:1002802,7000A Triple Quadrupole GC/MS,Agilent,1
+MS:1002817,Bruker TDF format,Unknown,1
+MS:1002835,LTQ Orbitrap Classic,Thermo Fisher,6
+MS:1002874,TSQ Altis,Thermo Fisher,9
+MS:1002877,Q Exactive HF-X,Thermo Fisher,721
+MS:1002902,TopFD,Unknown,1
+MS:1003004,maXis II,Bruker,2
+MS:1003005,timsTOF Pro,Bruker,956
+MS:1003028,Orbitrap Exploris 480,Thermo Fisher,1909
+MS:1003029,Orbitrap Eclipse,Thermo Fisher,917
+MS:1003094,Orbitrap Exploris 240,Thermo Fisher,171
+MS:1003095,Orbitrap Exploris 120,Thermo Fisher,5
+MS:1003096,LTQ Orbitrap Velos Pro,Thermo Fisher,29
+MS:1003122,rapifleX,Bruker,5
+MS:1003123,Bruker Daltonics timsTOF series,Bruker,127
+MS:1003124,timsTOF fleX,Bruker,47
+MS:1003152,GCMS-QP2010SE,Shimadzu,1
+MS:1003184,SELECT SERIES Cyclic IMS,Waters,12
+MS:1003229,timsTOF,Bruker,68
+MS:1003230,timsTOF Pro 2,Bruker,296
+MS:1003231,timsTOF SCP,Bruker,61
+MS:1003245,Q Exactive UHMR,Thermo Fisher,7
+MS:1003252,Xevo G2-XS QTof,Waters,14
+MS:1003253,DIA-NN,Unknown,1
+MS:1003282,Bruker TSF format,Unknown,2
+MS:1003292,TSQ Altis Plus,Thermo Fisher,2
+MS:1003293,ZenoTOF 7600,SCIEX,45
+MS:1003349,affinity proteomics,Unknown,2
+MS:1003350,mass spectrometry proteomics,Unknown,1
+MS:1003356,Orbitrap Ascend,Thermo Fisher,87
+MS:1003378,Orbitrap Astral,Thermo Fisher,173
+MS:1003380,Xevo G3 QTof,Waters,1
+MS:1003383,timsTOF Ultra,Bruker,15
+MS:1003397,timsTOF fleX MALDI-2,Bruker,1
+MS:1003404,timsTOF HT,Bruker,102
+MS:1003409,Stellar,Thermo Fisher,2
+MS:1003412,timsTOF Ultra 2,Bruker,3
+MS:1003444,ZenoTOF 7600+,SCIEX,1
+MS:1003535,6545XT Q-TOF LC/MS,Agilent,1
+PRIDE:0000640,SomaScan assay v4.0,Unknown,1
+PRIDE:0000641,SomaScan assay v4.1,Unknown,5
+PRIDE:0000655,Olink Target 96,Unknown,2
+PRIDE:0000656,Olink Explore 1536,Unknown,1
+PRIDE:0000658,Olink Explore 384,Unknown,1
+PRIDE:0000671,Olink Explore,Unknown,2
+PRIDE:0000673,Olink Explore HT,Unknown,3
+PRIDE:0000830,Olink Reveal,Unknown,1

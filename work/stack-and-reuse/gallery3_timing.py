@@ -40,7 +40,8 @@ WD = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunda
 # ------------------------------------------------------------------ helpers ----------------------------------
 def boot_weights(groups, reps=REPS, seed=SEED):
     """Per-replicate dataset weights from resampling whole clusters (multinomial cluster counts)."""
-    codes, uniq = pd.factorize(pd.Series(groups).astype(str))
+    # Stable cluster labels keep random draws independent of SQL/input row order.
+    codes, uniq = pd.factorize(pd.Series(groups).astype(str), sort=True)
     rng = np.random.default_rng(seed); k = len(uniq)
     cnt = np.stack([np.bincount(rng.integers(0, k, k), minlength=k) for _ in range(reps)]).astype(np.int32)
     return cnt[:, codes]

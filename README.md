@@ -13,10 +13,21 @@ This study describes 36,249 public PRIDE deposits released during 2013–2025. T
 - `data/early/`: seven Parquet tables containing public analytical features, operational file layers, experimental scale, breadth, model credits and species credits; frozen comparison tables and a field inventory.
 - `data/late/`: dataset-level flags, publication links, mention pairs, model covariates, and comparison tables. These are CSV inputs; they need no private database.
 - `data/extraction/`: frozen target lists, cache checksums and the expected fresh-retrieval comparison. The large cache files are in the separate `Extraction-caches.zip` release asset.
+- `data/reconstruction/`: source-bundle manifest, extraction provenance and deidentified geography reconstruction inputs. Large source records are supplied in `Source-metadata.zip`.
 - `scripts/`: offline reproduction entry points. See the commands below.
-- `work/stack-and-reuse/`: original analysis, extraction and figure source for provenance. Some historical scripts require upstream inputs outside this release; they are not the offline entry points.
+- `work/stack-and-reuse/`: original analysis, extraction and figure source for provenance. Use the offline runner to supply their portable inputs and keep outputs separate from the frozen paper.
 - `outputs/Stack-and-reuse/`: aggregate evidence, frozen figure blocks, final figure previews and manuscript materials.
 - `validation/`: archived numerical validation reports.
+
+## Rebuild the analysis package offline
+
+Extract `Source-metadata.zip` and `Extraction-caches.zip` from the matching release. Install the pinned requirements and Liberation Sans, then run:
+
+```sh
+python scripts/reproduce_all.py --source /path/to/source --cache-dir /path/to/caches --output /path/to/new-reconstruction
+```
+
+This command rebuilds the cohort checks, geography, run-count and timing sensitivity suites, file/date/software analyses, figure statistics, all 19 numbered figures at 600 dpi, and the 21 supplementary table CSVs. It writes outside the repository. Use `--font-dir` if Liberation Sans is not installed. Read `REPRODUCIBILITY.md` for source boundaries, historical-versus-fresh extraction differences, and the separate final-artifact checks.
 
 ## Reproduce the checked analyses
 
@@ -34,7 +45,7 @@ python work/stack-and-reuse/compose_journal.py --no-render
 
 Use fresh output directories for each run. The first analysis recomputes 26 checks including annual breadth points, model credits, software-country contrasts and the 1,000-replicate headline run-count bootstrap. The late analysis recomputes mention eligibility, rates, and all 200 adjusted-model bootstrap replicates. The support analysis checks six downstream tables, including software export capability and journal concentration intervals. The clock analysis recomputes eleven date differences and nineteen median summaries with 1,000 bootstrap draws each. Figure composition uses frozen blocks at 7.2 inches wide and 600 dpi.
 
-These checks establish specific numerical reproducibility from frozen derived inputs. They do not reconstruct every classification decision or every manuscript sensitivity analysis from raw files. See `REPRODUCIBILITY.md` for the coverage and limits.
+These checks establish specific numerical reproducibility from frozen derived inputs. The fuller source-based entry point above adds geography inference, filename parsing and the complete run-count/timing sensitivity suites. Software versions and ZIP-contained header flags still begin at extracted observations. See `REPRODUCIBILITY.md` for the coverage and limits.
 
 ## Data interpretation
 

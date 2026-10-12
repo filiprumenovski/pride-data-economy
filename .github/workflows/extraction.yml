@@ -1,0 +1,38 @@
+name: Verify extraction caches
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        description: Release containing Extraction-caches.zip
+        default: v0.1.0
+        required: true
+permissions:
+  contents: read
+jobs:
+  reclassify:
+    runs-on: ubuntu-latest
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Download the checked release cache
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CACHE_RELEASE: ${{ inputs.release }}
+        run: |
+          gh release download "$CACHE_RELEASE" --pattern Extraction-caches.zip --dir "$RUNNER_TEMP/caches"
+          unzip -q "$RUNNER_TEMP/caches/Extraction-caches.zip" -d "$RUNNER_TEMP/caches/extracted"
+      - run: python scripts/release_caches.py --cache-dir "$RUNNER_TEMP/caches/extracted" --output results/extraction
+      - uses: actions/upload-artifact@v4
+        with:
+          name: extraction-reclassification
+          path: |
+            results/extraction/Validation.json
+            results/extraction/Archive-contents/*by-year.csv
+            results/extraction/Header-sniff/*by-year-three-ways.csv

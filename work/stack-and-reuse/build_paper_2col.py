@@ -1,6 +1,7 @@
 """Typeset Paper.md as a two-column A4 article (headless Chromium, CSS columns).
 
-Article text flows continuously in two columns; main and supplementary figures follow the references.
+An unnumbered graphical overview follows the abstract. Article text flows in two columns;
+main and supplementary figures follow the references.
 Figures and their legends stay together, with multiple figures per page when they fit.
 The original lossless 600-dpi PNG masters are embedded without downsampling.
 
@@ -77,6 +78,7 @@ end = (f'<h2 class="end">Methods</h2>{md(secs["Methods"])}'
        f'<h2 class="end">Author declarations</h2>{md(secs["Author declarations"])}'
        f'<h2 class="end">References</h2><div class="refs">{md(refs)}</div>')
 supp_methods = f'<section class="figures"><h2>Supplementary methods</h2><div class="cols">{md(secs["Supplementary methods"])}</div></section>'
+reference_guide = f'<section class="figures reference-guide"><h2>Supplementary reference guide</h2>{md(secs["Supplementary reference guide"])}</section>'
 n_ext = max(n for (k, n) in LEG if k != 'Figure')
 main = '<section class="figures"><h2>Main figures</h2>' + ''.join(figure('Figure', i) for i in range(1, 6)) + '</section>'
 ext = '<section class="figures"><h2>Supplementary figures</h2>' + ''.join(figure('Supplementary Fig.', i) for i in range(1, n_ext + 1)) + '</section>'
@@ -88,12 +90,23 @@ a { color: inherit; text-decoration: none; }
 .cols p { margin-bottom: 4pt; }
 .figures { break-before: page; }
 .figures h2 { margin: 0 0 4pt; font-size: 10pt; break-after: avoid; }
-figure.span { margin: 0 0 8pt; break-inside: avoid; }
+figure.span { margin: 0 0 4pt; break-inside: avoid; }
 figure.span img { width: 7.2in; max-width: 100%; }
 .cols { orphans: 3; widows: 3; }
+.refs { overflow-wrap: anywhere; }
+.reference-guide { font-size: 8pt; }
+.reference-guide h3 { font-size: 9pt; margin: 8pt 0 3pt; break-after: avoid; }
+.reference-guide table { font-size: 7.5pt; break-inside: auto; }
+.reference-guide tr { break-inside: avoid; }
+.reference-guide sup { font-size: inherit; vertical-align: baseline; }
+.reference-guide thead { display: table-header-group; }
 h3.sub { font-family: 'Liberation Sans', sans-serif; font-size: 8.8pt; font-weight: bold; margin: 7pt 0 2.5pt; break-after: avoid; }
-figure.span figcaption { font-size: 7pt; }
+figure.span figcaption { font-size: 7pt; line-height: 1.2; }
 .standfirst ol { margin: 2pt 0 5pt; padding-left: 14pt; }
+.graphical-abstract { margin: 0 0 10pt; break-inside: avoid; }
+.graphical-abstract img { display: block; width: 7.2in; max-width: 100%; height: auto; }
+.graphical-abstract p { margin: 0; }
+.graphical-abstract p:last-child { margin-top: 3pt; font-family: sans-serif; font-size: 6pt; color: #555; }
 """
 metadata = json.loads((O / 'Submission-metadata.json').read_text())
 author_line = escape(metadata['author'] + ' · ' + metadata['affiliation'])
@@ -103,7 +116,8 @@ html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{ti
 <div class="kicker">Analysis</div><h1>{title}</h1>
 <div class="authors">{author_line}<br>Pre-submission review · October 2026</div>
 <div class="standfirst">{md(secs['Abstract'])}</div>
-<div class="cols">{body}{end}</div>{main}{supp_methods}{ext}</body></html>"""
+<figure class="graphical-abstract">{md(secs['Graphical abstract'])}</figure>
+<div class="cols">{body}{end}</div>{main}{supp_methods}{reference_guide}{ext}</body></html>"""
 out_html = O / 'Paper-2col.html'; out_pdf = O / 'Paper-2col.pdf'
 out_html.write_text(html)
 subprocess.run([CHROME, '--headless', '--no-sandbox', '--disable-gpu', '--no-pdf-header-footer', '--allow-file-access-from-files',

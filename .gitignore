@@ -5,3 +5,4 @@ __pycache__/
 results/
 *.duckdb
 *.duckdb.wal
+outputs/Stack-and-reuse/Paper-2col.html

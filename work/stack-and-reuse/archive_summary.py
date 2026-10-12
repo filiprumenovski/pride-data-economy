@@ -33,7 +33,7 @@ L = pd.read_parquet(O / 'Layers/Dataset-layers.parquet').set_index('accession')
 T = pd.read_csv(AC / 'Targets.csv.gz')
 
 # ---- stream listings -> archive table + member parquet --------------------------------------
-if not MEMB.exists() or MEMB.stat().st_mtime < LIST.stat().st_mtime:
+if not MEMB.exists() or (LIST.exists() and MEMB.stat().st_mtime < LIST.stat().st_mtime):
     # DuckDB's native JSON reader: ~15 s for the 2.4 GB listing (a Python json loop took minutes)
     cx = duckdb.connect(); cx.execute("set memory_limit='10GB'; set threads=4; set preserve_insertion_order=false")
     src = f"""read_ndjson('{LIST}', columns={{'url': 'VARCHAR', 'accession': 'VARCHAR', 'file_name': 'VARCHAR', 'layer': 'VARCHAR',
@@ -48,7 +48,7 @@ if not MEMB.exists() or MEMB.stat().st_mtime < LIST.stat().st_mtime:
 A = pd.read_csv(AC / 'Archives.csv.gz')
 A['listed'] = A.status.isin(['ok', 'partial'])   # partial: member count differs from the header; members kept
 
-con = duckdb.connect(); con.execute("set memory_limit='8GB'; set threads=4")
+con = duckdb.connect(); con.execute("set memory_limit='4GB'; set threads=2")
 con.execute(f"set temp_directory='{AC / '.duckdb_tmp'}'")
 case = 'case ' + ' '.join(f"when {cond} then '{layer}'" for layer, cond in RULES) + " else 'other' end"
 tool_cols = ', '.join(f"regexp_matches(b, '{'|'.join(f'(?:{p})' for p in t['native']).replace(chr(39), chr(39) * 2)}') as \"tool_{k}\""

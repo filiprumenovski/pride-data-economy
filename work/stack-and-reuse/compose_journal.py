@@ -160,5 +160,9 @@ if __name__ == '__main__':
             text, h, used = assemble(kind, i, title, slugs, do_render)
             leg.append(text + '\n'); log[f'{kind} {i}'] = {'width_in': W_IN, 'height_mm': h, 'dpi': DPI, 'blocks': used}
             print(kind, i, title, h, 'mm', flush=True)
-    (OUT / 'Legends.md').write_text('\n'.join(leg))
+    # Keep sentence-reviewed captions when figures are rebuilt.
+    reviewed_legends = HERE / 'figure_legends.md'
+    (OUT / 'Legends.md').write_text(
+        reviewed_legends.read_text() if reviewed_legends.exists() else '\n'.join(leg)
+    )
     (OUT / 'Layout.json').write_text(json.dumps(log, indent=1))

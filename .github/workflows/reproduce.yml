@@ -20,4 +20,5 @@ jobs:
       - run: python scripts/release_early.py validate --data-dir data/early --output-dir results/early
       - run: python scripts/release_late.py validate --data data/late --output results/late
       - run: python scripts/release_late_support.py --data data/late --output results/late-support
+      - run: python scripts/release_clocks.py --data data/late --output results/clocks
       - run: python -m unittest discover -s work/stack-and-reuse -p test_journal_layout.py

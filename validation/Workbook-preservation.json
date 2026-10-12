@@ -1,0 +1,179 @@
+{
+  "sheets": 22,
+  "data_rows": 691,
+  "data_cells": 7634,
+  "native_hyperlinks": 42,
+  "formula_errors": 0,
+  "sha256": "d519aa4acb461aee0bda642731fea29bb0456bc503f9100df66c323c63857cd7",
+  "checks": [
+    {
+      "sheet": "S1",
+      "rows": 13,
+      "columns": 12,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S1"
+    },
+    {
+      "sheet": "S2",
+      "rows": 80,
+      "columns": 7,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S2"
+    },
+    {
+      "sheet": "S3",
+      "rows": 8,
+      "columns": 17,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S3"
+    },
+    {
+      "sheet": "S4",
+      "rows": 18,
+      "columns": 9,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S4"
+    },
+    {
+      "sheet": "S5",
+      "rows": 7,
+      "columns": 7,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S5"
+    },
+    {
+      "sheet": "S6",
+      "rows": 65,
+      "columns": 17,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S6"
+    },
+    {
+      "sheet": "S7",
+      "rows": 37,
+      "columns": 17,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S7"
+    },
+    {
+      "sheet": "S8",
+      "rows": 71,
+      "columns": 26,
+      "exact_data_match": true,
+      "freeze": "D8",
+      "table": "PRIDE_S8"
+    },
+    {
+      "sheet": "S9",
+      "rows": 25,
+      "columns": 5,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S9"
+    },
+    {
+      "sheet": "S10",
+      "rows": 4,
+      "columns": 9,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S10"
+    },
+    {
+      "sheet": "S11",
+      "rows": 5,
+      "columns": 19,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S11"
+    },
+    {
+      "sheet": "S12",
+      "rows": 5,
+      "columns": 7,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S12"
+    },
+    {
+      "sheet": "S13",
+      "rows": 13,
+      "columns": 15,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S13"
+    },
+    {
+      "sheet": "S14",
+      "rows": 8,
+      "columns": 6,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S14"
+    },
+    {
+      "sheet": "S15",
+      "rows": 9,
+      "columns": 8,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S15"
+    },
+    {
+      "sheet": "S16",
+      "rows": 3,
+      "columns": 12,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S16"
+    },
+    {
+      "sheet": "S17",
+      "rows": 15,
+      "columns": 17,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S17"
+    },
+    {
+      "sheet": "S18",
+      "rows": 13,
+      "columns": 10,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S18"
+    },
+    {
+      "sheet": "S19",
+      "rows": 168,
+      "columns": 8,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S19"
+    },
+    {
+      "sheet": "S20",
+      "rows": 17,
+      "columns": 5,
+      "exact_data_match": true,
+      "freeze": "D8",
+      "table": "PRIDE_S20"
+    },
+    {
+      "sheet": "S21",
+      "rows": 107,
+      "columns": 5,
+      "exact_data_match": true,
+      "freeze": "C8",
+      "table": "PRIDE_S21"
+    }
+  ],
+  "limits": "Excel desktop interaction and physical print output not tested. Values, native table/filter, hyperlinks, freeze panes, print titles and style XML verified on reopen."
+}

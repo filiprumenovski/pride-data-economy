@@ -12,6 +12,7 @@ This study describes 36,249 public PRIDE deposits released during 2013–2025. T
 
 - `data/early/`: seven Parquet tables containing public analytical features, operational file layers, experimental scale, breadth, model credits and species credits; frozen comparison tables and a field inventory.
 - `data/late/`: dataset-level flags, publication links, mention pairs, model covariates, and comparison tables. These are CSV inputs; they need no private database.
+- `data/extraction/`: frozen target lists, cache checksums and the expected fresh-retrieval comparison. The large cache files are in the separate `Extraction-caches.zip` release asset.
 - `scripts/`: offline reproduction entry points. See the commands below.
 - `work/stack-and-reuse/`: original analysis, extraction and figure source for provenance. Some historical scripts require upstream inputs outside this release; they are not the offline entry points.
 - `outputs/Stack-and-reuse/`: aggregate evidence, frozen figure blocks, final figure previews and manuscript materials.
@@ -27,10 +28,11 @@ python scripts/verify_release.py
 python scripts/release_early.py validate --data-dir data/early --output-dir results/early
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/release_late.py validate --data data/late --output results/late
 python scripts/release_late_support.py --data data/late --output results/late-support
+python scripts/release_clocks.py --data data/late --output results/clocks
 python work/stack-and-reuse/compose_journal.py --no-render
 ```
 
-Use fresh output directories for each run. The first analysis recomputes 26 checks including annual breadth points, model credits, software-country contrasts and the 1,000-replicate headline run-count bootstrap. The late analysis recomputes mention eligibility, rates, and all 200 adjusted-model bootstrap replicates. The support analysis checks six downstream tables, including software export capability and journal concentration intervals. Figure composition uses frozen blocks at 7.2 inches wide and 600 dpi.
+Use fresh output directories for each run. The first analysis recomputes 26 checks including annual breadth points, model credits, software-country contrasts and the 1,000-replicate headline run-count bootstrap. The late analysis recomputes mention eligibility, rates, and all 200 adjusted-model bootstrap replicates. The support analysis checks six downstream tables, including software export capability and journal concentration intervals. The clock analysis recomputes eleven date differences and nineteen median summaries with 1,000 bootstrap draws each. Figure composition uses frozen blocks at 7.2 inches wide and 600 dpi.
 
 These checks establish specific numerical reproducibility from frozen derived inputs. They do not reconstruct every classification decision or every manuscript sensitivity analysis from raw files. See `REPRODUCIBILITY.md` for the coverage and limits.
 
@@ -51,3 +53,13 @@ CHROME=/path/to/chrome python work/stack-and-reuse/build_paper_2col.py
 ```
 
 The checked PDF uses the existing 600-dpi figures without downsampling. Font availability can change pagination; inspect a fresh render before submission.
+
+## Reclassify the recovered extraction caches
+
+Extract `Extraction-caches.zip` from the matching release, then run:
+
+```sh
+python scripts/release_caches.py --cache-dir /path/to/extracted-caches --output /path/to/new-results
+```
+
+This offline run verifies checksums and complete URL coverage, reclassifies 35,960,852 archive members and 59,227 header records, and checks the differences from the frozen manuscript inputs. Allow several GB of disk space for intermediate files. The fresh retrieval changes final recognition for one dataset; all annual recognition percentages remain equal at the reported one-decimal precision. See `validation/Extraction-reclassification.json`. The release remains a draft until the archive handoff and submission checks are complete.

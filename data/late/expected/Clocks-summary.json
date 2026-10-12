@@ -1,0 +1,266 @@
+{
+  "clocks": {
+    "acq_to_sub": {
+      "datasets": 11868,
+      "groups": 4932,
+      "median_days": 492.0,
+      "median_years": 1.35,
+      "ci_years": [
+        1.29,
+        1.39
+      ],
+      "share_gt_1y": 0.601,
+      "share_gt_2y": 0.338
+    },
+    "acq_to_rel": {
+      "datasets": 11868,
+      "groups": 4932,
+      "median_days": 801.5,
+      "median_years": 2.19,
+      "ci_years": [
+        2.14,
+        2.26
+      ],
+      "share_gt_1y": 0.819,
+      "share_gt_2y": 0.55
+    },
+    "db_to_sub": {
+      "datasets": 2558,
+      "groups": 1305,
+      "median_days": 609.0,
+      "median_years": 1.67,
+      "ci_years": [
+        1.58,
+        1.8
+      ],
+      "share_gt_1y": 0.695,
+      "share_gt_2y": 0.422
+    },
+    "db_to_rel": {
+      "datasets": 2558,
+      "groups": 1305,
+      "median_days": 906.0,
+      "median_years": 2.48,
+      "ci_years": [
+        2.37,
+        2.6
+      ],
+      "share_gt_1y": 0.871,
+      "share_gt_2y": 0.613
+    },
+    "sw_to_sub": {
+      "datasets": 10466,
+      "groups": 4394,
+      "median_days": 909.5,
+      "median_years": 2.49,
+      "ci_years": [
+        2.41,
+        2.61
+      ],
+      "share_gt_1y": 0.822,
+      "share_gt_2y": 0.606
+    },
+    "sw_to_rel": {
+      "datasets": 10466,
+      "groups": 4394,
+      "median_days": 1234.5,
+      "median_years": 3.38,
+      "ci_years": [
+        3.28,
+        3.48
+      ],
+      "share_gt_1y": 0.928,
+      "share_gt_2y": 0.759
+    },
+    "sub_to_paper": {
+      "datasets": 27035,
+      "groups": 11065,
+      "median_days": 141.0,
+      "median_years": 0.39,
+      "ci_years": [
+        0.38,
+        0.39
+      ],
+      "share_gt_1y": 0.157,
+      "share_gt_2y": 0.036
+    },
+    "paper_to_rel": {
+      "datasets": 27001,
+      "groups": 11044,
+      "median_days": 25.0,
+      "median_years": 0.07,
+      "ci_years": [
+        0.06,
+        0.07
+      ],
+      "share_gt_1y": 0.093,
+      "share_gt_2y": 0.039
+    },
+    "sub_to_rel": {
+      "datasets": 36209,
+      "groups": 13876,
+      "median_days": 200.0,
+      "median_years": 0.55,
+      "ci_years": [
+        0.54,
+        0.56
+      ],
+      "share_gt_1y": 0.261,
+      "share_gt_2y": 0.082
+    }
+  },
+  "software_by_tool": {
+    "MaxQuant": {
+      "sw_to_sub": {
+        "datasets": 8553,
+        "groups": 3588,
+        "median_days": 910.0,
+        "median_years": 2.49,
+        "ci_years": [
+          2.42,
+          2.58
+        ],
+        "share_gt_1y": 0.833,
+        "share_gt_2y": 0.611
+      },
+      "sw_to_rel": {
+        "datasets": 8553,
+        "groups": 3588,
+        "median_days": 1245.0,
+        "median_years": 3.41,
+        "ci_years": [
+          3.32,
+          3.48
+        ],
+        "share_gt_1y": 0.936,
+        "share_gt_2y": 0.767
+      }
+    },
+    "DIA-NN": {
+      "sw_to_sub": {
+        "datasets": 338,
+        "groups": 234,
+        "median_days": 643.0,
+        "median_years": 1.76,
+        "ci_years": [
+          1.65,
+          1.88
+        ],
+        "share_gt_1y": 0.737,
+        "share_gt_2y": 0.393
+      },
+      "sw_to_rel": {
+        "datasets": 338,
+        "groups": 234,
+        "median_days": 880.5,
+        "median_years": 2.41,
+        "ci_years": [
+          2.22,
+          2.71
+        ],
+        "share_gt_1y": 0.864,
+        "share_gt_2y": 0.627
+      }
+    },
+    "FragPipe": {
+      "sw_to_sub": {
+        "datasets": 130,
+        "groups": 80,
+        "median_days": 373.5,
+        "median_years": 1.02,
+        "ci_years": [
+          0.88,
+          1.25
+        ],
+        "share_gt_1y": 0.508,
+        "share_gt_2y": 0.038
+      },
+      "sw_to_rel": {
+        "datasets": 130,
+        "groups": 80,
+        "median_days": 633.5,
+        "median_years": 1.73,
+        "ci_years": [
+          1.63,
+          2.0
+        ],
+        "share_gt_1y": 0.838,
+        "share_gt_2y": 0.369
+      }
+    },
+    "Skyline": {
+      "sw_to_sub": {
+        "datasets": 242,
+        "groups": 182,
+        "median_days": 220.0,
+        "median_years": 0.6,
+        "ci_years": [
+          0.49,
+          0.71
+        ],
+        "share_gt_1y": 0.339,
+        "share_gt_2y": 0.178
+      },
+      "sw_to_rel": {
+        "datasets": 242,
+        "groups": 182,
+        "median_days": 516.5,
+        "median_years": 1.41,
+        "ci_years": [
+          1.17,
+          1.58
+        ],
+        "share_gt_1y": 0.645,
+        "share_gt_2y": 0.302
+      }
+    },
+    "Mascot": {
+      "sw_to_sub": {
+        "datasets": 1203,
+        "groups": 618,
+        "median_days": 1526.0,
+        "median_years": 4.18,
+        "ci_years": [
+          3.57,
+          4.79
+        ],
+        "share_gt_1y": 0.905,
+        "share_gt_2y": 0.781
+      },
+      "sw_to_rel": {
+        "datasets": 1203,
+        "groups": 618,
+        "median_days": 1912.0,
+        "median_years": 5.23,
+        "ci_years": [
+          4.49,
+          5.94
+        ],
+        "share_gt_1y": 0.955,
+        "share_gt_2y": 0.871
+      }
+    }
+  },
+  "order_of_events": {
+    "acquisition_and_database": {
+      "datasets": 1006,
+      "median_database_minus_acquisition_days": -148.5,
+      "share_database_dated_before_latest_acquisition": 0.712,
+      "median_acq_to_sub_days_same_datasets": 439.0
+    },
+    "acquisition_and_software": {
+      "datasets": 3986,
+      "median_software_first_seen_minus_acquisition_days": -316.0,
+      "share_software_release_first_seen_before_latest_acquisition": 0.79,
+      "spearman_data_age_vs_software_age": 0.429
+    }
+  },
+  "datasets_with_all_three_clocks": 425,
+  "denominators": {
+    "cohort": 36249,
+    "with_paper_date": 27035,
+    "with_acquisition_date": 11868,
+    "with_database_date": 2558,
+    "with_software_release": 10466
+  }
+}

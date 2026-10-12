@@ -392,6 +392,11 @@
       "path": "expected/Summary.json",
       "sha256": "8a6442ca5ffdcf31bd6012e07dd9947bfdfd38b0f81981e4bd62c2caaf46fb2b",
       "bytes": 663
+    },
+    {
+      "path": "expected/Clocks-summary.json",
+      "bytes": 5684,
+      "sha256": "6600a948c24a964a366a9caab2ded7522548469daaa10effee9a49b1f26be3e0"
     }
   ]
 }

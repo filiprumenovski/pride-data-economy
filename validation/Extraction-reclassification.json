@@ -1,0 +1,66 @@
+{
+  "scope": "Offline reclassification of fresh retrieval; not an exact reconstruction of the October 2 extraction.",
+  "cache_checksums_verified": true,
+  "archive_targets": 46147,
+  "archive_member_rows": 35960852,
+  "header_targets": 59227,
+  "archive_flag_changes": {
+    "inner_tool": {
+      "datasets": 1,
+      "accessions": [
+        "PXD050085"
+      ]
+    },
+    "inner_tables": {
+      "datasets": 1,
+      "accessions": [
+        "PXD050085"
+      ]
+    },
+    "unread_archive": {
+      "datasets": 6,
+      "accessions": [
+        "PXD001356",
+        "PXD021013",
+        "PXD027844",
+        "PXD042233",
+        "PXD044523",
+        "PXD050085"
+      ]
+    }
+  },
+  "header_flag_changes": {
+    "recognisable_with_headers": {
+      "datasets": 1,
+      "accessions": [
+        "PXD060265"
+      ]
+    },
+    "adhoc_after_headers": {
+      "datasets": 1,
+      "accessions": [
+        "PXD060265"
+      ]
+    },
+    "any_identified": {
+      "datasets": 5,
+      "accessions": [
+        "PXD000494",
+        "PXD022629",
+        "PXD034144",
+        "PXD042472",
+        "PXD060265"
+      ]
+    },
+    "any_pride": {
+      "datasets": 5,
+      "accessions": [
+        "PXD000494",
+        "PXD022629",
+        "PXD034144",
+        "PXD042472",
+        "PXD060265"
+      ]
+    }
+  }
+}

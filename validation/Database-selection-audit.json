@@ -1,0 +1,13 @@
+{
+  "rule": "Largest eligible dated FASTA, with ties ordered by file name then location; stable ordering.",
+  "historical_date_changes": [
+    {
+      "accession": "PXD038242",
+      "historical_date": "2022-11-29",
+      "current_date": "2022-03-12",
+      "chosen_file": "40042_e07254_MB013_tAlaMistrans_01_7A_20220312_2ul.fasta"
+    }
+  ],
+  "high_confidence_datasets": 2558,
+  "supplementary_table_S15_unchanged": true
+}

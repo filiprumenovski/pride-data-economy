@@ -5,6 +5,7 @@
   "dpi": 600,
   "master_width_pixels": 4320,
   "workbook_sha256": "1f5d033a0e0385bb34f46067ac0df5ffed22792aa8a99793fc5ab84164d94f12",
-  "pdf_sha256": "f33c1862a59433a42b2229a00ebd76159bcc8e911a2f3d09edf51f920ffde0b9",
-  "review": "All 24 PDF pages inspected in contact sheets; S4 and S14 inspected separately. All 7,634 workbook cells verified against rebuilt table CSVs, and changed worksheets visually checked. Historical Monte Carlo intervals and fresh-cache counts synchronized in manuscript, legends, figures and tables. BioRender overview remains a separately identified 382-dpi preview."
+  "pdf_sha256": "5520358f6a3618b8f0cf8f73f7f681dffbf92073c87017793ec824b171182f92",
+  "review": "All 24 PDF pages inspected in contact sheets; S4 and S14 inspected separately. All 7,634 workbook cells verified against rebuilt table CSVs, and changed worksheets visually checked. Historical Monte Carlo intervals and fresh-cache counts synchronized in manuscript, legends, figures and tables. BioRender overview remains a separately identified 382-dpi preview.",
+  "database_selection_followup": "Equal-sized FASTA candidates use explicit filename/location ordering. Reported S15 values unchanged. Figure 5 and Supplementary Figure 5 regenerated; changed PDF pages 5\u20138, 13 and 19 visually inspected; 24 pages retained."
 }

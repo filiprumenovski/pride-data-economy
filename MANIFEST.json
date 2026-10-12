@@ -58,8 +58,8 @@
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 6131,
-      "sha256": "2aaf497121187ff2aa70817de8f773efc864beb1900636acf473077fa072f76a"
+      "bytes": 6725,
+      "sha256": "776b28a71c927f3f0f4117f20ad7ceabdb551c941e3d90879be2b25a88247ef9"
     },
     {
       "path": "data/early/Breadth-long.parquet",
@@ -453,13 +453,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/09-clocks.pdf",
-      "bytes": 21493,
-      "sha256": "f49d62d153c99c9c19b6e3ad7c7b10d5dc02d60adedcba200ae625d6060f2b45"
+      "bytes": 21499,
+      "sha256": "99c545ee38349a8a48e44f3e36fc6e1d4d3826565de989871d21dc04756ea9d7"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/09-clocks.png",
-      "bytes": 136570,
-      "sha256": "0642ede973fab95fbfc2c81fd4ba413547304ebde93e175370a72ebe80af631b"
+      "bytes": 136590,
+      "sha256": "9d50a31e2f962e9ded3082fa975803d57be3c3b25ff35c5e0c5893b58f851376"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/10-release-waves.json",
@@ -678,13 +678,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/32-database-age.pdf",
-      "bytes": 43510,
-      "sha256": "298750bf40e182279ade5ee3bd0fce91a45c53b7289ffaa8b0018839595671dd"
+      "bytes": 43499,
+      "sha256": "4e090bc7ddaabf0c15d75a1dea77cd20e06db2f59453a62d6174c029806d03ed"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/32-database-age.png",
-      "bytes": 839239,
-      "sha256": "2c9892e9848f9e8bc6e3ad6f21d809534722a36fbe486207e96f4bef582977d1"
+      "bytes": 839353,
+      "sha256": "efee533faaf4a6243cc19c00a3e7be791f244b0388a4e1aa6ad2b58cdf2f78b6"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/33-tool-age-at-release.json",
@@ -918,8 +918,8 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-density.csv",
-      "bytes": 9328,
-      "sha256": "894ba3b5bce926f9c41f84ed740aa9ad7db152addceb7abf8edf13c8a2ac142e"
+      "bytes": 9330,
+      "sha256": "bc7ff267143ade3f133af093ca5da9686314d909997aa6f4f0e9509fc8e6bc6a"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-fasta-rate.csv",
@@ -1143,13 +1143,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-5.pdf",
-      "bytes": 1405874,
-      "sha256": "718e9c472125348d50d406a7eeda33b06367e7cacf2f50be7c3edf049b91b34e"
+      "bytes": 1405929,
+      "sha256": "3abd9f5c4ea944af370aa145f8180f65b474899b6bcf9b48dd8f81aaa28fc085"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-5.png",
-      "bytes": 1432236,
-      "sha256": "cc6d2c15db70ddd9f11986e0a762f23e4a70eb1581bc8d441e418c1c2f746796"
+      "bytes": 1432285,
+      "sha256": "37007d4498558b38179051d1de4ff0a63405750cd520516f8ef75e9dcb9b1962"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-1.pdf",
@@ -1243,13 +1243,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-5.pdf",
-      "bytes": 1917602,
-      "sha256": "9676e07f85861371abd4d8c1013bcb260f48a836a7ef444aa61930ed4c636f26"
+      "bytes": 1917754,
+      "sha256": "7813dda36c775946bba7ccdda54020c3efcfa606bb3b3c71acf3f917789f476d"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-5.png",
-      "bytes": 1944421,
-      "sha256": "f39d00c4dcd646fd5a073cc02183a2a6dfeef573767417aa9010a96fc4e2db31"
+      "bytes": 1944611,
+      "sha256": "78ee23c5cbcb97679439ada83b94df1a8b48bf0122f179b3c827d7a724c03a0c"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-6.pdf",
@@ -1293,13 +1293,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Paper-2col.pdf",
-      "bytes": 22367011,
-      "sha256": "f33c1862a59433a42b2229a00ebd76159bcc8e911a2f3d09edf51f920ffde0b9"
+      "bytes": 22367278,
+      "sha256": "5520358f6a3618b8f0cf8f73f7f681dffbf92073c87017793ec824b171182f92"
     },
     {
       "path": "outputs/Stack-and-reuse/Paper.md",
-      "bytes": 67569,
-      "sha256": "30a98de502ffdda446e22aaf469e1ae717fb294869d0d9e09b72973ae1265e51"
+      "bytes": 67709,
+      "sha256": "163a790fdcbabdd5610a89ab4dbca12e39e9b72593f82e371bcce1843951ceeb"
     },
     {
       "path": "outputs/Stack-and-reuse/Reuse-mentions/Reuse-rates.csv",
@@ -1548,8 +1548,23 @@
     },
     {
       "path": "validation/Current-package-assets.json",
-      "bytes": 667,
-      "sha256": "75f757beece8d845c15315515b43d48b90c05e32439c25eabe0f2d3b07d00f3a"
+      "bytes": 930,
+      "sha256": "51bc4a6090b1a8d9ec44dd1d1f110477c8787fb39072ff4d2a175c85104100b6"
+    },
+    {
+      "path": "validation/Database-local-comparison.json",
+      "bytes": 1450,
+      "sha256": "bace1e933683afa173565107d3f39588d58d47b865b8f349fd96c8e176c46268"
+    },
+    {
+      "path": "validation/Database-local-stages.json",
+      "bytes": 644,
+      "sha256": "259556931b422435bad50ed766f476bd769e567fa4ab8ebceab0d1d9930d8766"
+    },
+    {
+      "path": "validation/Database-selection-audit.json",
+      "bytes": 425,
+      "sha256": "3bcf5b994f7ce493df2bf71ddcc92756eca0b43384cad0c2508a628ee2a94124"
     },
     {
       "path": "validation/Extraction-reclassification.json",
@@ -1557,9 +1572,14 @@
       "sha256": "26b3cae5f0a4d860aac7b29b2a8007d9b6ab02bfbf4b694a49394a4c3784a478"
     },
     {
+      "path": "validation/Full-cloud-stages.json",
+      "bytes": 1833,
+      "sha256": "9acf1c116752348001eb6df6d2341066c47e6465fd4151fa19b26ae954b859bd"
+    },
+    {
       "path": "validation/Full-local-comparison.json",
-      "bytes": 13322,
-      "sha256": "89d4e53f42217f5b8d06749a392c460a93dc05bf8648a299a7356d622ae28107"
+      "bytes": 13550,
+      "sha256": "e17cdae28d41437b2397c3631869a8c1886799e098a6e5e7fb63e7c9e9228a8d"
     },
     {
       "path": "validation/Full-local-stages.json",

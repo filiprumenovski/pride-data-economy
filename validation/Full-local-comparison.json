@@ -548,5 +548,7 @@
       "status": "match",
       "changes": {}
     }
-  ]
+  ],
+  "reference_commit": "f85ae7c65f2f5d6bc8e22ce958444f5a07a56981",
+  "scope_note": "Initial complete local reconstruction. The later deterministic FASTA-selection repair is checked separately in Database-local-comparison.json."
 }

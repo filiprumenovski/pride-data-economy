@@ -16,7 +16,7 @@ On Linux, install `fonts-liberation`; elsewhere use `--font-dir /path/to/liberat
 
 ## Current validation
 
-The local source rebuild completed all 22 analysis and rendering stages, then matched all 78 release tables. The 24-page manuscript PDF was rendered and visually inspected. The styled workbook was rebuilt from the current CSVs: all 7,634 data cells across 21 tables matched on reopening, and changed sheets were visually checked. `validation/` contains the stage log, numerical comparison, historical differences and artifact checks.
+The local source rebuild completed all 22 analysis and rendering stages, then matched all 78 release tables. The 24-page manuscript PDF was rendered and visually inspected. The styled workbook was rebuilt from the current CSVs: all 7,634 data cells across 21 tables matched on reopening, and changed sheets were visually checked. `validation/` contains the stage logs, numerical comparisons, historical differences and artifact checks. A complete Linux run also completed all 22 stages. It exposed one platform-dependent density curve, traced to equal-sized FASTA candidates. The repaired database-date selection and dependent clock/figure outputs were rerun separately; the local eight-table comparison passed without changing the reported supplementary-table values. The release’s `Cloud-validation.json` records the independent runner checks and their exact commits.
 
 ## Source and inference checks
 
@@ -32,7 +32,7 @@ The 7 April 2026 PRIDE metadata snapshot and 30 September 2026 literature snapsh
 
 Relative to the original extraction, nine additional archives have readable lists. Archive-level dataset recognition is unchanged. Header evidence changes for five datasets, with a final recognition change for one (PXD060265); annual recognition percentages remain equal at the reported one-decimal precision. The complete rebuild uses the repeat retrieval for cache-dependent results. Historical derived inputs and their dedicated validation entry points are retained so this change can be audited.
 
-Some earlier bootstrap draws depended on SQL row order. Current breadth and timing resampling fixes sampling order. Point estimates remain comparable; intervals and rarefied richness can differ from the historical Monte Carlo draws. Contributor-group diversity is descriptive: invalid intervals from resampling contributor identities as their own categories are omitted from current outputs.
+Some earlier bootstrap draws depended on SQL row order. Current breadth and timing resampling fixes sampling order. Point estimates remain comparable; intervals and rarefied richness can differ from the historical Monte Carlo draws. Equal-sized dated FASTA candidates use an explicit filename/location tie-break: the earlier size-only sort could select different dates on macOS and Linux. Contributor-group diversity is descriptive: invalid intervals from resampling contributor identities as their own categories are omitted from current outputs.
 
 ## Reuse analysis
 

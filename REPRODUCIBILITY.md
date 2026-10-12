@@ -40,6 +40,7 @@ The frozen mention-pair analysis has independently reproduced six eligibility ou
 
 ## Explicit boundaries
 
+- Supplementary Table S21 is assembled from the archived findings and review ledger. Its 107 entries are historical assessments, not 107 independently rerun validation tests. The pipeline retains this provenance table; it does not repeat human or model-assisted adjudication.
 - Software versions and ZIP-contained table-header flags begin at archived extraction observations; their original response bytes are not present. Downstream calculations can be rerun, but this is not a claim that every original network extraction is recovered.
 - Scientific annotations, affiliations and filename/header rules are incomplete evidence, not ground truth. Restoring raw source records does not independently validate their scientific interpretation.
 - Rebuilding analysis CSVs and figures does not by itself validate final PDF pagination or workbook styling. Those artifacts need their separate visual and cell-content checks.

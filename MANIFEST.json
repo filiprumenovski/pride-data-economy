@@ -2,6 +2,11 @@
   "scope": "Public analysis code, source manifests, frozen evidence and research draft. Source metadata and extraction caches are separately checksummed release assets. See REPRODUCIBILITY.md for checks and extraction boundaries.",
   "files": [
     {
+      "path": ".github/workflows/database-reconstruction.yml",
+      "bytes": 1678,
+      "sha256": "a4af3a228e8e1b9dfd2df9f7a6e18f92a055318dc9dbb6022ed7719de66d502c"
+    },
+    {
       "path": ".github/workflows/extraction.yml",
       "bytes": 1458,
       "sha256": "60835b8b5b2af22a11b3ad94050c03bbf95a9a60716329cf8d3c3d7957eac785"
@@ -1512,6 +1517,11 @@
       "sha256": "fe236bc13a6b9c44dc818bac3c288de8ddf84f37cd4b350ebb2748fe36b720c3"
     },
     {
+      "path": "scripts/reproduce_database.py",
+      "bytes": 2964,
+      "sha256": "56544366fd1a8e77f5944f7b3c4dff8f9344f1791434219843893e55fc82ec17"
+    },
+    {
       "path": "scripts/reuse_mentions.py",
       "bytes": 7857,
       "sha256": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9"
@@ -1520,6 +1530,11 @@
       "path": "scripts/test_comparison.py",
       "bytes": 1365,
       "sha256": "a844d975995b99c9c3d56e25a5e3ce51ac35c40d030b2002818f649fe062bb5a"
+    },
+    {
+      "path": "scripts/test_database_selection.py",
+      "bytes": 998,
+      "sha256": "d75a021a09cd78f7aa3e7cbaa4de0722e8786c8ff926ca250a7b61ac948a4784"
     },
     {
       "path": "scripts/test_reconstruction.py",
@@ -1663,8 +1678,8 @@
     },
     {
       "path": "work/stack-and-reuse/arsenal_databases_storage.py",
-      "bytes": 53688,
-      "sha256": "1c7a248742c4a20af7363c9d86e258c4f15d5b3ba0c5343c6bccadca057af950"
+      "bytes": 53674,
+      "sha256": "e2dacbf1662f688b470351d82c8b41b865bcb0435dd2bd6713c4e9ba7d28abe6"
     },
     {
       "path": "work/stack-and-reuse/arsenal_scale_instruments.py",
@@ -1735,6 +1750,11 @@
       "path": "work/stack-and-reuse/compose_journal.py",
       "bytes": 10193,
       "sha256": "a3e70f6cf043f24ffb0d59285d8388939eccd7d89fee8be4d857fbda5fb1bbbb"
+    },
+    {
+      "path": "work/stack-and-reuse/database_rules.py",
+      "bytes": 446,
+      "sha256": "ca1fca7b9c7d0a3cf2e15150a033a1fcb1f59827d24aabb3ab7cb2ec5348d74b"
     },
     {
       "path": "work/stack-and-reuse/deposit_habits.py",

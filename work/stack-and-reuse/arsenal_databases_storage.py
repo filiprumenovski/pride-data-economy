@@ -37,6 +37,7 @@ import json, re, shutil
 import numpy as np, pandas as pd, duckdb
 from common import R, O, SEED, cluster_boot
 from layer_rules import RULES
+from database_rules import main_fasta
 import sys; sys.path.insert(0, str(R / 'scripts'))
 from query import connect
 
@@ -275,7 +276,7 @@ def age_table(df, label):
     df['future'] = df.age_days < -31          # date more than a month after submission
     ok = df[~df.future]
     # one value per dataset: the largest dated FASTA (likely the main database)
-    per_ds = ok.sort_values('sz', ascending=False).drop_duplicates('accession')
+    per_ds = main_fasta(ok)
     return df, per_ds
 
 

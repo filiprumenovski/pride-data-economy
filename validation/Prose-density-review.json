@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-17",
+  "scope": "Results density pass; supporting detail relocated to tables without new statistical estimation. Abstract, introduction, discussion and numerical analyses unchanged.",
+  "before_results_words": 2933,
+  "after_results_words": 2346,
+  "before_results_numeric_tokens": 325,
+  "after_results_numeric_tokens": 156,
+  "supporting_table": "S22",
+  "supporting_rows": 94,
+  "supporting_cells_checked": 940,
+  "original_table_nonempty_cells_checked": 7275,
+  "original_tables_unchanged": 21,
+  "numeric_value_coverage_missing": [],
+  "citation_keys_preserved": 96,
+  "paragraph_review": [
+    {
+      "original_paragraph": "PRIDE expanded across contributor groups and the journals publishing their work. Comparing 2023 to 2025 with 2013 to 2015, the effective number of groups increased 5.0-fold and that of journals 5.4-fold (95% interval 4.7 to 6.3) (Fig. 1a,b; Supplementary Tables S2 and S3). By publication year, the number of distinct journals publishing linked papers rose from 78 in 2013 to 627 in 2025 (Supplementary Table S18). Effective numbers account for both the number of categories and how evenly datasets are distributed among them (Box 1).",
+      "supporting_detail_destination": "S2, S3, S18, S22"
+    },
+    {
+      "original_paragraph": "Broader participation accompanied more even representation of instrument models. Their effective number increased 1.8-fold (1.6 to 2.0), although the number of distinct models expected in equal-sized samples did not increase (62 against 66 per 1,500 datasets). The effective number of species decreased to 0.67 times its earlier value (0.56 to 0.80). For contributor groups, journals, instrument models and species, the direction of change agreed between orders 1 and 2, which give different weights to common categories (Supplementary Table S3).",
+      "supporting_detail_destination": "S3, S22"
+    },
+    {
+      "original_paragraph": "At order 2, Supplementary Table S3 shows no detectable change in the effective numbers of analysis tools, research subfields, countries and instrument vendors. The effective numbers increased at different times: instrument models mainly from 2020, journals until 2022, and tools only in 2024 and 2025 (Fig. 1a).",
+      "supporting_detail_destination": "S2, S3, S22"
+    },
+    {
+      "original_paragraph": "Human and mouse accounted for most of the concentration in species. Human samples were named in 41% of datasets released in 2013 and 52% of those released in 2025; mouse was named in 11% and 19%. Datasets naming neither species made up 46% of deposits during 2013 to 2016, compared with 33% during 2023 to 2025 (Supplementary Fig. 9). Among the 354 groups contributing in both periods, this share also declined (from 40% to 32%), so changes in which groups contributed explained only part of the decline.",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "New contributors continued to supply a substantial share of PRIDE's deposits. Groups with no earlier PRIDE release since 2013 contributed between 42% and 48% of annual deposits during 2020 to 2025 (44% in 2025; Fig. 1c,d). Two-thirds of all groups deposited a single dataset, accounting for a quarter of all datasets (Tables S4 and S5; Supplementary Fig. 1).",
+      "supporting_detail_destination": "S1, S4, S5"
+    },
+    {
+      "original_paragraph": "The number of datasets from groups whose country could be identified increased 3.3-fold when comparing 2023 to 2025 with 2016 to 2018. Half of the additional datasets came from Europe (Fig. 1e to g; Supplementary Figs 10 and 11; Supplementary Table S6). Datasets from China increased 5.2-fold over these periods, compared with 2.8-fold for Germany. China's share of datasets whose country could be identified rose from 3% in 2013 to 15% in 2025. These counts concern PRIDE only and exclude groups that deposit only in other repositories, including iProX [Ma2019], jPOST [Okuda2017] or MassIVE [PX2026].",
+      "supporting_detail_destination": "S6, S22"
+    },
+    {
+      "original_paragraph": "As PRIDE expanded [PRIDE2025], the typical deposit contained fewer raw runs, even as large datasets became more numerous. The median number of raw runs (mass-spectrometry acquisitions) per dataset was 16 for 2023 to 2025 (n = 15,248), compared with 30 for 2013 to 2016 (n = 2,498), a ratio of 0.53 (95% interval 0.48 to 0.63). The whole distribution shifted towards fewer runs (Fig. 2a).",
+      "supporting_detail_destination": "S8"
+    },
+    {
+      "original_paragraph": "Despite this decrease in the median, the mean annual number of datasets with at least 100 runs was 124 during 2013 to 2016 and 459 during 2023 to 2025, while their share of all datasets fell from 19.8% to 9.0% (Fig. 2b). Such deposits are relevant to the scale proposed for proteomics studies of participant cohorts [Geyer2017] [Messner2023]. Run counts differ from sample counts because isobaric labelling uses tags to measure several samples together in one run. The mean number of channels per labelled dataset increased from 6 in 2014 to 13 in 2025 as TMTpro [Li2020] replaced iTRAQ [Ross2004]; these labelling methods use channels to distinguish the samples (Supplementary Fig. 8).",
+      "supporting_detail_destination": "S8, S22"
+    },
+    {
+      "original_paragraph": "The decrease in median runs persisted across five sensitivity analyses: combining datasets from the same paper; counting exact runs only; collapsing fraction-numbered runs; reweighting to the 2013 to 2016 composition of vendor, acquisition mode, labelling, species and submission type; and stratifying by country (Fig. 2c; Supplementary Table S8). Datasets labelled with tandem mass tags (TMT) [Thompson2003], and those naming SCIEX or Bruker instruments, showed no detectable decrease in median raw runs (early Bruker n = 56).",
+      "supporting_detail_destination": "S8, S22"
+    },
+    {
+      "original_paragraph": "Among the 3,456 groups contributing in multiple years, the slope over time of the base-2 logarithm of raw-run counts, estimated within groups, was about 38% of the pooled slope on the same 23,486 datasets. For 2018 to 2025 releases, the matched ratio of geometric means of run counts in first-time versus returning groups was 0.64 (0.61 to 0.68). Geometric means average counts on a logarithmic scale; the comparison stratified datasets by release year, vendor, acquisition mode, human-sample status and continent.",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "Individual runs occupied more storage, with median raw-run size increasing from 0.35 GB in 2013 to 1.07 GB in 2025. Median raw-run sizes were 0.44 GB on the LTQ Orbitrap [Makarov2006] and 3.95 GB on the Orbitrap Astral [Stewart2023] (Fig. 2d; Supplementary Table S7). Among datasets naming one instrument model and having exact run counts, we separated the change in mean log10 (base-10 logarithm) bytes per run between the 2014 to 2016 and 2023 to 2025 periods into changes in the mix of models and changes within each model. The component from the changing mix of models was 2.30-fold, and the component from changes within models was 0.85-fold (0.80 to 1.10). With fewer but larger runs, median dataset size remained between 19 and 25 GB in every year, while the mean and the sizes of the largest datasets grew.",
+      "supporting_detail_destination": "S7, S21, S22"
+    },
+    {
+      "original_paragraph": "Storage was concentrated in a small fraction of deposits. The largest 1% of datasets held 24% of the 2.71 petabytes (PB), and the largest 10% held 61% (Fig. 2e). Raw files in instrument manufacturers' formats accounted for 84% of all bytes (Fig. 2f; Supplementary Fig. 6).",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "PRIDE’s instrument labels document changing workflows alongside persistent earlier technologies. For these counts, each dataset with an identified instrument model contributed one count, divided equally among its named models. Across years, Thermo Fisher labels accounted for 79 to 89% of these fractional counts; the repository reports a similar share of stored raw files [PRIDE2025]. The LTQ Orbitrap accounted for 40% of these fractional counts in 2013, the first year of the series. Successive leading models had progressively lower peak shares of these fractional counts, with 38% for the Q Exactive [Michalski2011] and 19% for the Q Exactive HF [Scheltema2014] (Fig. 3a; Supplementary Fig. 2).",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "After combining labels that refer to the same instrument model, the effective number of models rose from 4.7 (95% interval 4.0 to 5.7) in 2013 to 12.1 (11.5 to 12.8) in 2025 (Fig. 3b). Every model named in at least 50 datasets was still represented among 2025 deposits. This record includes reanalyses and data released after a delay from the experiment. Datasets labelled with timsTOF models [Meier2018] represented 13% of the 2025 total, compared with 1.8% in 2021. This instrument family had been described in 2021 as becoming widely used [Meier2021].",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "New models appeared in deposits from Asia about one year later than expected from its dataset count. Africa's longer delay was close to that expected from its small number of datasets (Supplementary Fig. 3). These expectations came from drawing instrument-model labels independently of continent within each release year, without accounting for similarities among datasets from the same contributor group.",
+      "supporting_detail_destination": "Retained in Results"
+    },
+    {
+      "original_paragraph": "DIA-NN [Demichev2020] was named in a rapidly growing number of deposited datasets. It was named in 2 datasets released in 2020 and 722 in 2025, ranking third behind MaxQuant [Cox2008] (28% of datasets) and Proteome Discoverer [Orsburn2021] (20%) (Fig. 3c).",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "In 18 of 20 pairs of a tool and its developers’ country, groups in the developers' country named the tool more often than groups in all countries combined. The median ratio across pairs was 1.8-fold (permutation P = 0.0002; Fig. 3d). For 11 pairs, the 95% interval excluded a ratio of 1, which would indicate equal naming rates. Examples include Spectronaut [Bruderer2015] in Switzerland (3.4-fold), Comet [Eng2013] in the United States (2.9-fold) and MaxQuant in Germany (1.5-fold). The developers' own laboratories were not excluded. A similar pattern had been reported for open-source analysis workflows in western Europe [Orsburn2021].",
+      "supporting_detail_destination": "S22; Figure 3d intervals"
+    },
+    {
+      "original_paragraph": "Parameter files and logs identified MaxQuant versions in the 1.6 series, first recorded in PRIDE in 2017. These versions accounted for 47% of MaxQuant datasets released in 2025 for which a version could be recovered. Among 2025 submissions with a recoverable version, the share was 40%; versions were recoverable for 361 of 576 datasets naming MaxQuant. The DIA-NN 1.8 version series accounted for 61% (48 to 74%) of DIA-NN datasets submitted in 2025 with a recoverable version. Versions were recoverable for 110 of 331 submissions naming DIA-NN (Supplementary Fig. 4 and Table S12).",
+      "supporting_detail_destination": "S12, S22"
+    },
+    {
+      "original_paragraph": "Older measurements were associated with older software versions. We compared MaxQuant datasets submitted in 2023 to 2025 by the age of their newest raw file at submission. MaxQuant versions beginning with 1 were used in 35% of datasets when that file was less than one year old and in 80% when it was more than three years old.",
+      "supporting_detail_destination": "Retained in Results"
+    },
+    {
+      "original_paragraph": "The deposited files contained far more recognisable peptide or protein identification results than standard formats alone revealed. Among datasets released in 2025 (n = 6,231), reading table column headings brought detection of identification results to 80%, compared with 16% containing standard result files. Detection had reached 59% from file names and 68% after inspecting zip contents (Fig. 4c; Supplementary Table S13). Even after searching file names, zip contents and table column headings, the detectable share fell from 92% in 2015 to 80% in 2025 (Fig. 4d). These searches can miss files that contain identification results, so the detected shares are lower bounds. Detection alone cannot show whether a file is valid or usable.",
+      "supporting_detail_destination": "S13, S22"
+    },
+    {
+      "original_paragraph": "Proteomics Standards Initiative formats provide common representations of results; mzIdentML has been implemented in over 35 software tools [PSI2023]. We counted submitter-deposited mzIdentML [Jones2012] or mzTab [Griss2014] as standard result files and excluded repository-generated files (Box 1). Standard result files appeared in 16 to 20% of datasets each year since 2015 (Supplementary Table S13).",
+      "supporting_detail_destination": "S13, S22"
+    },
+    {
+      "original_paragraph": "The share of datasets containing standard result files differed across the named analysis tools. Among datasets naming a single analysis tool, standard result files appeared in 0.2% for DIA-NN and 76% for MS-GF+ [Kim2014], the lowest and highest rates. Spectronaut and MaxQuant also had low rates; Mascot [Perkins1999] deposits more often included standard files (Fig. 4a; Supplementary Table S9).",
+      "supporting_detail_destination": "S9, S22"
+    },
+    {
+      "original_paragraph": "Among datasets naming tools that write standard files by default, 55% contained these files (95% interval 44 to 66%). The rate was 15% (14 to 18%) for datasets naming tools that offer standard files as an option and 3% (2 to 4%) for datasets naming tools that cannot write them (Fig. 4b; Supplementary Table S10). Only MS-GF+ and MetaMorpheus [Solntsev2018] made up the default-writing group (144 datasets). MetaMorpheus deposits included standard results in 23% of cases despite the software writing them by default.",
+      "supporting_detail_destination": "S10, S22"
+    },
+    {
+      "original_paragraph": "The mix of analysis tools named in datasets also changed over time. Between the 2019 to 2021 and 2023 to 2025 periods, the archive-wide standard-file rate changed by −1.4 percentage points (−3.0 to 0.3). Separating changes in the mix of software families from changes within families assigned −3.0 percentage points (−3.4 to −2.5) to the changing mix, mainly the growth of DIA-NN and Spectronaut and the decline of Mascot. Changes in standard-file rates within software families contributed +1.6 percentage points (0.1 to 3.2).",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "Data-independent acquisition (DIA) fragments precursor ions within predefined mass-to-charge windows [Gillet2012]. Among datasets with no DIA detected, the standard-file rate remained at 19 to 21% each year since 2020. The share of datasets with detected DIA grew from 2.8% in 2015 to 21.1% in 2025, but about 3% of DIA datasets released in 2023 to 2025 included standard result files. Differences in the formats used for spectral libraries, collections of reference spectra, have been described as one obstacle to DIA reanalysis [Walzer2022].",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "Files containing information for individual mass-spectrometry scans, together with intermediate search outputs, occupied 66% of the bytes in uncompressed results archives, compared with 3.9% for final result tables (Supplementary Fig. 6). Files storing mass spectra in open formats appeared in 34% of datasets in 2013 to 2016 and 21% in 2023 to 2025. The halving of submissions classified as complete, a category requiring lists of measured spectral peaks, accounted for 5 to 10 of the 13 percentage-point decline (Supplementary Fig. 7).",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "Documentation was uncommon but often recurred within contributor groups. When a group's previous dataset included a README documentation file, its next did so in 41% of cases, against an expected 1.5% for datasets released in the same years. For sample and data relationship format (SDRF) files [Dai2021], which link sample descriptions to data files, the corresponding rates were 44% and 2.5% (Fig. 4e; Supplementary Table S14). These recurrence rates are unadjusted for pairs submitted on the same day or for the same paper. Some SDRF files were added to several datasets of a group after release. Across the archive, SDRF presence rose from 0.7% in 2020 to 2022 releases to 2.7% in 2023 to 2025, consistent with reports of limited use [VanDenBossche2026].",
+      "supporting_detail_destination": "S14, S22"
+    },
+    {
+      "original_paragraph": "Dates preserved in deposited files connected experiments and analyses to public release (Fig. 5a; Supplementary Table S15). Raw-file names supplied a measurement date for 11,868 of the 35,364 datasets with raw files (34%). In this subset, the median time from the latest measurement to public release was 2.2 years (95% interval 2.1 to 2.3).",
+      "supporting_detail_destination": "S15, S22"
+    },
+    {
+      "original_paragraph": "Deposited files also provided dates for resources used in analysis. The date in the main sequence database file name (n = 2,558) preceded public release by a median of 2.5 years (2.4 to 2.6). The median age of the software release used (n = 10,466), measured from its first appearance in PRIDE, was at least 3.4 years (3.3 to 3.5; Supplementary Fig. 5 and Table S11).",
+      "supporting_detail_destination": "S11, S15, S22"
+    },
+    {
+      "original_paragraph": "Of the 1,006 datasets with both dates, 71% had a database file dated earlier than the latest measurement. The software release had appeared in PRIDE before the latest measurement in 79% of 3,986 datasets.",
+      "supporting_detail_destination": "S15, S22"
+    },
+    {
+      "original_paragraph": "Most of the interval from measurement to public release elapsed before submission (Supplementary Table S15). Submission preceded publication of the linked paper by a median of 141 days; the median delay between publication and public release was 25 days.",
+      "supporting_detail_destination": "S15; retained in Results"
+    },
+    {
+      "original_paragraph": "Public releases clustered in time, with at least 50 datasets made public on each of 62 days from October 2018 onwards. Datasets released on these days became public a median of 95 days after publication of their paper, compared with 11 days on other days (Supplementary Fig. 13 and Table S16). Who set each release date is unrecorded. Supplementary Fig. 14 shows the separate record of submission timestamps.",
+      "supporting_detail_destination": "S16, S22"
+    },
+    {
+      "original_paragraph": "PRIDE-linked papers reached an increasingly broad range of journals. Journals with titles containing \"proteom\" published 51% of PRIDE-linked papers in 2013 and 10% in 2025, even as the number of linked papers they published rose from 142 to 259 (Fig. 5b,c; Supplementary Tables S17 and S18). The ten leading journals' combined share fell from 66% to 31% over the same period. In 2025, *Nature Communications* published the most PRIDE-linked papers of any single journal (Supplementary Table S17).",
+      "supporting_detail_destination": "S17, S18, S22"
+    },
+    {
+      "original_paragraph": "The research fields of linked papers also shifted. The share of linked datasets assigned to chemistry fell from 26% in 2013 to 6% in 2025. Almost all of this category was spectroscopy, the subfield to which mass-spectrometry methods papers are assigned. The share assigned to medicine rose from 18% to 29% (Supplementary Fig. 12). Coverage limits these comparisons: paper links were available for 94% of datasets released in 2013 but 61 to 67% of those released since 2021.",
+      "supporting_detail_destination": "S22"
+    },
+    {
+      "original_paragraph": "Text mining in Europe PMC [Rosonovski2024] identified papers that named PRIDE dataset identifiers, called accessions. We included a mentioning paper if it was not marked as the dataset's primary reference, named datasets from at least two contributor groups and mentioned no more than 100 datasets. Papers meeting these criteria mentioned 2.3% of the 20,684 datasets released in 2013 to 2022 within the release calendar year or the next three calendar years (Fig. 5d; Supplementary Table S19). Within a calendar year, we could not determine whether the paper appeared before or after public release of the dataset. This measure gives an incomplete view of reuse, especially when accessions appear only in supplementary tables or literature outside open-access full text. A mention does not establish reanalysis.",
+      "supporting_detail_destination": "S19, S22; Methods"
+    },
+    {
+      "original_paragraph": "Papers meeting these criteria named DIA datasets and datasets with human samples more frequently. The adjusted odds of a mention were higher for DIA datasets (odds ratio 1.71; 95% interval 1.22 to 2.35) and for datasets with human samples (1.39; 1.17 to 1.71). For datasets assigned only to Thermo Fisher, the estimated odds ratio was also above one, with an interval close to one, the value indicating no association (Fig. 5e; Supplementary Table S20). The model accounts for the other dataset and study characteristics specified in Methods; its DIA cohort includes releases only up to 2022.",
+      "supporting_detail_destination": "S20; retained in Results"
+    },
+    {
+      "original_paragraph": "We did not detect a relationship between standard result files and mentions in papers meeting our criteria (adjusted odds ratio 0.89; 0.66 to 1.17). The unadjusted mention-rate ratio for datasets with versus without standard result files was 1.04 (0.72 to 1.39) when the window covered the release calendar year and the next five calendar years, using datasets released by 2020. A restricted cohort of human datasets assigned solely to Thermo Fisher, with no DIA detected and naming MaxQuant or Proteome Discoverer, gave an imprecise unadjusted rate ratio of 0.74 (0.26 to 1.38) (Supplementary Table S20). A modest advantage in mention rates for datasets with standard result files therefore cannot be excluded.",
+      "supporting_detail_destination": "S20, S22; Supplementary Methods"
+    },
+    {
+      "original_paragraph": "For SDRF files, the timing of their addition complicates the association with later mentions. Datasets with SDRF files had higher odds of a mention in a paper meeting our criteria (odds ratio 4.08; 2.29 to 7.26), but 91 of these 205 datasets were released before the format existed. Those files were added later, often by reanalysis projects, so the direction of the association cannot be determined. Methods papers, machine-learning papers and papers presenting research resources were among those naming the largest numbers of datasets.",
+      "supporting_detail_destination": "S20, S22"
+    }
+  ],
+  "validation": [
+    "All S1-S21 CSVs byte-identical to prior package.",
+    "All original nonempty workbook cells and font, fill, borders, alignment and number formats preserved.",
+    "Original print areas, repeated headers, freeze panes and merged ranges restored and verified.",
+    "S22 builder assembly equals all 94 released rows. All 940 S22 cells match curated source.",
+    "44 internal hyperlinks retained or added, with navigation between S22 and Contents.",
+    "PDF remains 24 pages; all pages inspected in contact sheets, Results and changed end matter inspected separately."
+  ],
+  "limits": [
+    "Full numerical pipeline not rerun for this editorial-only change.",
+    "SlopRefine source is linked to /Volumes/NVMe 2TB/Code/sloprefine, which is currently unavailable. The installed executable therefore could not import its package. Manual sentence-level review completed."
+  ]
+}

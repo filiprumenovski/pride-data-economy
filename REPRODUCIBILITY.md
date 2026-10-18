@@ -2,7 +2,7 @@
 
 ## Offline entry points
 
-`reproduce_all.py` runs the released numerical analyses, recomputes figure statistics, renders all 19 numbered figures at 7.2 inches and 600 dpi, and builds the 21 supplementary table CSVs. It requires the pinned Python environment, Liberation Sans, and the matching `Source-metadata.zip` and `Extraction-caches.zip` bundles. It writes to a new directory outside the repository. No PRIDE, publication or institutional API is queried during this run.
+`reproduce_all.py` runs the released numerical analyses, recomputes figure statistics, renders all 19 numbered figures at 7.2 inches and 600 dpi, and builds the 21 analytical and provenance table CSVs plus the curated supporting-comparisons table (S22). It requires the pinned Python environment, Liberation Sans, and the matching `Source-metadata.zip` and `Extraction-caches.zip` bundles. It writes to a new directory outside the repository. No PRIDE, publication or institutional API is queried during this run.
 
 ```sh
 python -m pip install -r requirements.txt
@@ -12,7 +12,7 @@ python scripts/reproduce_all.py \
   --output /path/to/new-reconstruction
 ```
 
-On Linux, install `fonts-liberation`; elsewhere use `--font-dir /path/to/liberation-ttfs` if necessary. Font substitution is rejected for gallery rendering. `Stages.json` records each completed stage and its exit status. The final stage compares all 78 required release tables with the checked manuscript snapshot. Missing tables or numerical differences fail the run. Integer counts are exact; floating-point comparisons use relative tolerance 10⁻⁸ and absolute tolerance 10⁻⁹. `Numerical-comparison.json` records each result.
+On Linux, install `fonts-liberation`; elsewhere use `--font-dir /path/to/liberation-ttfs` if necessary. Font substitution is rejected for gallery rendering. `Stages.json` records each completed stage and its exit status. The final stage compares all 79 required release tables with the checked manuscript snapshot. Missing tables or numerical differences fail the run. Integer counts are exact; floating-point comparisons use relative tolerance 10⁻⁸ and absolute tolerance 10⁻⁹. `Numerical-comparison.json` records each result.
 
 ## Current validation
 
@@ -36,7 +36,7 @@ Some earlier bootstrap draws depended on SQL row order. Current breadth and timi
 
 ## Reuse analysis
 
-The frozen mention-pair analysis has independently reproduced six eligibility outcomes, 168 rate rows, all A1–A7 sensitivity results and 201 adjusted-model fits. The design has 20,684 rows and 33 columns. All recorded fits were finite with no fit warnings. The 200 bootstrap draws give limited precision in the interval tails; the near-null Thermo Fisher-only association is not robust to splitting the bootstrap sample. Mentions are an incomplete attention proxy and do not establish reanalysis.
+The mention model now uses 2,000 contributor-group bootstrap draws, plus the full-cohort fit. Its design still has 20,684 rows and 33 columns. All 2,001 fits returned finite coefficients without fit warnings, with maximum absolute penalised score below 1e-5. The first 200 draws reproduce the preceding interval endpoints, and point estimates are unchanged. The Thermo Fisher-only interval now includes one in the full run and both split halves. The standard-file interval also includes one; DIA and human-sample intervals remain above one. The shared random stream advances through the additional model draws, so later A4/A5/A6 bootstrap intervals also changed while their point estimates and populations remained fixed. `validation/late/Bootstrap-upgrade.json` records these changes; `Bootstrap-odds-ratios.csv` preserves all 2,000 draws. Mentions are an incomplete attention proxy and do not establish reanalysis.
 
 ## Explicit boundaries
 
@@ -45,3 +45,11 @@ The frozen mention-pair analysis has independently reproduced six eligibility ou
 - Scientific annotations, affiliations and filename/header rules are incomplete evidence, not ground truth. Restoring raw source records does not independently validate their scientific interpretation.
 - Rebuilding analysis CSVs and figures does not by itself validate final PDF pagination or workbook styling. Those artifacts need their separate visual and cell-content checks.
 - A Zenodo DOI is not yet confirmed. The BioRender overview remains a connector preview without a verified publication export/license. Author review and submission have not occurred.
+
+## Editorial reporting table
+
+Supplementary Table S22 was added on 17 October 2026 when secondary numerical comparisons were moved out of the Results. It preserves the previously reported values, populations, periods and uncertainty, with source references. Its checked-in source is `work/stack-and-reuse/reporting_comparisons.json`; the table builder includes it in offline reconstructions. This curated reporting table is not a new statistical analysis. The earlier 78-table and 21-sheet validation counts above describe the preceding package; the expected comparison list now contains 79 tables.
+
+## Submission review update
+
+The October 17 update changes the mention-model bootstrap and its dependent Figure 5, Table S20 and supporting comparisons in S22. Table S21 now distinguishes historical model-assisted checks from independent accuracy validation. Recognition shares are explicitly rule-based detections with unmeasured sensitivity and false-positive rates. The complete 22-stage local and Linux runs described above preceded this update; they are historical validation, not a claim that the entire source pipeline was repeated for these edits. The current model is checked separately by a complete repeat run, and the modified presentation artifacts are checked against its outputs. Author approval is still pending.

@@ -1,14 +1,14 @@
 {
-  "title": "The data economy of public proteomics: thirteen years of PRIDE \u2014 analysis code and derived data",
-  "description": "Analysis code, reduced source metadata, frozen analytical observations, aggregate evidence and a pre-submission manuscript for 36,249 PRIDE deposits (2013\u20132025). An offline pipeline reconstructs geography, file/date classifications, manuscript analyses, figure statistics and 600-dpi figures. Historical software-version and ZIP-contained-header observations remain extraction boundaries. Source metadata and fresh archive-directory/top-level-header caches are separate release assets. See REPRODUCIBILITY.md for executed checks and limits. Code is MIT; original authored data/text/figures are CC BY 4.0, with third-party rights retained. The BioRender overview still needs a verified publication export/license.",
-  "upload_type": "software",
+  "title": "The data economy of public proteomics over thirteen years of PRIDE",
+  "description": "Code, frozen source metadata, extraction observations, analytical results, figures and author-review manuscript for 36,249 PRIDE deposits released during 2013\u20132025. The mention model uses 2,000 contributor-group bootstrap draws. The offline pipeline reconstructs the analyses, 19 numbered figures at 600 dpi and 22 supplementary tables. Code is licensed under MIT; author-created data, text and figures are CC BY 4.0. Third-party rights are retained, and the BioRender overview requires a separately verified publication export/license. Software-version and ZIP-contained-header observations remain archived extraction inputs; original response bytes are unavailable. See REPRODUCIBILITY.md for the validation scope and limitations. This is a pre-submission package awaiting author approval.",
+  "upload_type": "dataset",
   "creators": [
     {
       "name": "Rumenovski, Filip",
       "affiliation": "Department of Chemistry, Wayne State University"
     }
   ],
-  "license": "MIT",
+  "license": "cc-by-4.0",
   "access_right": "open",
   "keywords": [
     "proteomics",

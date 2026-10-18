@@ -28,13 +28,13 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 1344,
-      "sha256": "a1ee7848726123bc6df5de2349b345a2985ff8ab86f4113c2627384da05a26b0"
+      "bytes": 1394,
+      "sha256": "96c2bccfd6b18ff640b6096ab187215050016bce156a3d7f8fc93e705474f82b"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 507,
-      "sha256": "58ae0bed5b358e73b3058f44c15c93cae6d8117aa2cc7fb192d0f39d5f42dd37"
+      "bytes": 511,
+      "sha256": "afa03df585040ad52dc6d60c0deaa9bd822356f96446065d960ed2c5507fde1f"
     },
     {
       "path": "DATA-LICENSE",
@@ -53,13 +53,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 6604,
-      "sha256": "069cfddb06b0c75497f712b4d97c8e21b34d792c3da6af2adf2038269cef8db0"
+      "bytes": 6672,
+      "sha256": "c720fc67cf557d065c617df3ad99b15e235c80d02bdc1c3cf2bddcd0f9aeee5c"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 6725,
-      "sha256": "776b28a71c927f3f0f4117f20ad7ceabdb551c941e3d90879be2b25a88247ef9"
+      "bytes": 8537,
+      "sha256": "8b414321e733f4cb5b9aac816a444598c0a8ba68f7c5a1cc5b642310c514b31c"
+    },
+    {
+      "path": "SUBMISSION-STATUS.md",
+      "bytes": 2874,
+      "sha256": "e936a174bfd7cae36b2b1afc58d15539fe233fece50dc09ddd29e89d69b89cbe"
     },
     {
       "path": "data/early/Breadth-long.parquet",
@@ -199,7 +204,7 @@
     {
       "path": "data/late/Input-manifest.json",
       "bytes": 10712,
-      "sha256": "2f39f409adc823f58886e46c8a6b815f968e5a6b6dbb8b61d6c4f96f830b18f8"
+      "sha256": "916ffc38f56546bf6e8e8d20d1f248f79ef2b67deac36b1cd75fd11b89655991"
     },
     {
       "path": "data/late/Linked-papers.csv",
@@ -248,8 +253,8 @@
     },
     {
       "path": "data/late/expected/Results.json",
-      "bytes": 3019,
-      "sha256": "5f82ed5b1d3bea74f7163c70d0829e2ec56d95523a6b8bac4d3b08964b88fdeb"
+      "bytes": 3017,
+      "sha256": "e4cc88bb6a5a8afc6dd781fa73d8921a77e20d265fe8cdd6907de82f7a998de1"
     },
     {
       "path": "data/late/expected/Reuse-rates.csv",
@@ -278,8 +283,8 @@
     },
     {
       "path": "data/reconstruction/Expected-tables.json",
-      "bytes": 3621,
-      "sha256": "950ef94831d42bbc35da34a9b22cd7d0956cbf08ec12c897f1d6941b7c4215a3"
+      "bytes": 3661,
+      "sha256": "fbfc5313a6160d4cc378840dc3da04b4b18cec148287f128dae755a9ee0863bb"
     },
     {
       "path": "data/reconstruction/README.md",
@@ -333,8 +338,8 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Attacks/reuse-mentions/Results.json",
-      "bytes": 3019,
-      "sha256": "5f82ed5b1d3bea74f7163c70d0829e2ec56d95523a6b8bac4d3b08964b88fdeb"
+      "bytes": 3017,
+      "sha256": "e4cc88bb6a5a8afc6dd781fa73d8921a77e20d265fe8cdd6907de82f7a998de1"
     },
     {
       "path": "outputs/Stack-and-reuse/Figure-data/Tool-year.csv",
@@ -588,13 +593,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/26-reuse.pdf",
-      "bytes": 23848,
-      "sha256": "9d797a9da00f3ba078d640e9d2be3c300d730ec76be8567f36073739e43b50de"
+      "bytes": 23845,
+      "sha256": "0eb951a642fe55937cc0db21076c02975d3d8964d349580c4bd953d7604e21d5"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/26-reuse.png",
-      "bytes": 235332,
-      "sha256": "dd2ecc8e6563c3f5467201724f86af5614256662ee6d7a28d613d63801508a7a"
+      "bytes": 235382,
+      "sha256": "cea8a4ebb90cf7769db4c5196157ecaa5852ac25105e3f073c3f70ee7a395eba"
     },
     {
       "path": "outputs/Stack-and-reuse/Gallery/blocks/27-isobaric-plex.json",
@@ -1098,8 +1103,8 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Legends.md",
-      "bytes": 18053,
-      "sha256": "4136d8242ab41bbafc47352274c673d56cc41b3bb412b2fb2623d601db1346df"
+      "bytes": 18253,
+      "sha256": "b14a27bd2a854521eb56f3af892bb6416ebfd0bbfe03bcfa19b664295356ccd2"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-1.pdf",
@@ -1143,13 +1148,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-5.pdf",
-      "bytes": 1405929,
-      "sha256": "3abd9f5c4ea944af370aa145f8180f65b474899b6bcf9b48dd8f81aaa28fc085"
+      "bytes": 1406033,
+      "sha256": "03b2e1f4f8a782154e984af440e939704700c80068cdd102a85558c29c382f1f"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Main/Figure-5.png",
-      "bytes": 1432285,
-      "sha256": "37007d4498558b38179051d1de4ff0a63405750cd520516f8ef75e9dcb9b1962"
+      "bytes": 1432485,
+      "sha256": "7c02e47ffc539ca35b0eedf38534b66175156c2ff6f15569e6f9e4cf5b7e3070"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Supplementary/Supplementary-Figure-1.pdf",
@@ -1293,13 +1298,13 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Paper-2col.pdf",
-      "bytes": 22367278,
-      "sha256": "5520358f6a3618b8f0cf8f73f7f681dffbf92073c87017793ec824b171182f92"
+      "bytes": 22365538,
+      "sha256": "e06772c027b71cdfebbaad496d5586dfe903fd9c7fe9c59035436a348a717f2c"
     },
     {
       "path": "outputs/Stack-and-reuse/Paper.md",
-      "bytes": 67709,
-      "sha256": "163a790fdcbabdd5610a89ab4dbca12e39e9b72593f82e371bcce1843951ceeb"
+      "bytes": 67045,
+      "sha256": "b904c9dcb089be69dffb16df6af540b5cae1ac09e7d36f814c7e9301400d6add"
     },
     {
       "path": "outputs/Stack-and-reuse/Reuse-mentions/Reuse-rates.csv",
@@ -1313,18 +1318,18 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Submission-metadata.json",
-      "bytes": 695,
-      "sha256": "6763b0ee599ae670ccb4b8efd72f6f0ffa67ce30eae205b523b162c519da698b"
+      "bytes": 792,
+      "sha256": "e3bbeb42074e50783afc7a7a24d7761755208db8a867da615b6cd918a9077975"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Contents.csv",
-      "bytes": 7897,
-      "sha256": "9f8d6d219cad9432781c7ab86ef8a90baa75234feda134a674c1b3b645eabd1f"
+      "bytes": 8469,
+      "sha256": "2f4e624160a46941606c85eafc5962153bf5dee51524e1ec20c64aa4eee90ec9"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Supplementary-Tables.xlsx",
-      "bytes": 139484,
-      "sha256": "1f5d033a0e0385bb34f46067ac0df5ffed22792aa8a99793fc5ab84164d94f12"
+      "bytes": 150839,
+      "sha256": "15ab9d88115fa95916c04853ba5c4b9659d836e1bf2fea15e1f5537150f5c76d"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S1.csv",
@@ -1388,13 +1393,18 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S20.csv",
-      "bytes": 1130,
-      "sha256": "481366c79943c3d8a54b922bdc6eb00142ff859f11e2142f04e401ebd4fb7ea0"
+      "bytes": 1128,
+      "sha256": "cc2d12491ab5b54601021eca7b98f9c7a4f038e4ca6027b0810d53f839be7876"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S21.csv",
-      "bytes": 12972,
-      "sha256": "6b74c3e6cdef59a09dd3d0f5130bc85a18e9884d9bc783be62a219d83f7b4ec9"
+      "bytes": 13406,
+      "sha256": "3caf62df2d56a9602bc5c5ffe460cdcf388e0fbc95a22beeec7bc31873f58a8f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S22.csv",
+      "bytes": 17280,
+      "sha256": "bb901e0390d465df40d4ba320342456b0ae744a7f5b43640a236fce6a8eae092"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S3.csv",
@@ -1448,8 +1458,8 @@
     },
     {
       "path": "scripts/attack_reuse_mentions.py",
-      "bytes": 7484,
-      "sha256": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff"
+      "bytes": 7529,
+      "sha256": "190729f90f2e679f3c642f8df6385a50474a139a40d9046ca9ee65302e0ef936"
     },
     {
       "path": "scripts/compare_reconstruction.py",
@@ -1498,8 +1508,8 @@
     },
     {
       "path": "scripts/release_late.py",
-      "bytes": 17322,
-      "sha256": "8859b9591a4a27e70366ef283a53bb1ef5646b6df5652ed572ae574a7c372f21"
+      "bytes": 17479,
+      "sha256": "400a76bc1cbeeb0a5a642250a658b73c4364a161ddf89048182f07f1db30de17"
     },
     {
       "path": "scripts/release_late_support.py",
@@ -1548,8 +1558,8 @@
     },
     {
       "path": "validation/Current-package-assets.json",
-      "bytes": 930,
-      "sha256": "51bc4a6090b1a8d9ec44dd1d1f110477c8787fb39072ff4d2a175c85104100b6"
+      "bytes": 3812,
+      "sha256": "a24bdf3ea8b0eb0b37d97df4971542814a32bffd7dc6f483561c2fb2faf32883"
     },
     {
       "path": "validation/Database-local-comparison.json",
@@ -1612,6 +1622,11 @@
       "sha256": "598d910200ed4b8b32388ead4058d1dfaa24ed21fe06370a0beef9c3da61f395"
     },
     {
+      "path": "validation/Prose-density-review.json",
+      "bytes": 24347,
+      "sha256": "dba95c80f7ff1d8f3bbb65b3f622953c21517f4e1b294630ffc49338c323319d"
+    },
+    {
       "path": "validation/Public-privacy-audit.json",
       "bytes": 17874,
       "sha256": "fd36485b0f67c464da1802776bf6fcd400ccf56fe0dd25407926cd6220e22db3"
@@ -1630,6 +1645,11 @@
       "path": "validation/Source-export-validation.json",
       "bytes": 1830,
       "sha256": "ec1d328d93d67f05f314645bd664bbf67ff6eabf140732a7c11163ea03474829"
+    },
+    {
+      "path": "validation/Submission-workbook-preservation.json",
+      "bytes": 338,
+      "sha256": "b27941c2641b36b1acac34b613cde7f7b7ee61c8b8851cf2738e5a7c77dd6698"
     },
     {
       "path": "validation/Workbook-preservation.json",
@@ -1667,19 +1687,29 @@
       "sha256": "b45101ce301daa1f088b27f60d867027b64359299215dd75eeacdffb449c9c93"
     },
     {
+      "path": "validation/late/Bootstrap-odds-ratios.csv",
+      "bytes": 224188,
+      "sha256": "4919f49c80e9935949217cec33c47dd07b399afe1d63b293c39387acc6403243"
+    },
+    {
       "path": "validation/late/Bootstrap-stability.json",
-      "bytes": 2354,
-      "sha256": "6a2de81e5ae518d323046b3720955a4e31445e88d3a670a2d2869c41fa421542"
+      "bytes": 2359,
+      "sha256": "8f7c69bd4825a6bf4a38383831c74ff5bcbd1e35e6e1ed1bc31f735224b5721f"
+    },
+    {
+      "path": "validation/late/Bootstrap-upgrade.json",
+      "bytes": 8508,
+      "sha256": "67ba299845721c6022eabda92976241a8206879f4354cd26fb0ea7bbc3c32655"
     },
     {
       "path": "validation/late/Model-diagnostics.json",
-      "bytes": 44616,
-      "sha256": "6f3a8e6697959407de719ce2142c3ada574015fac3cce24dc2959f7ea67341dc"
+      "bytes": 446169,
+      "sha256": "f8639a41297492f9b33acf64559ef5f5f39d9dc6425b5f7f678661af0de12922"
     },
     {
       "path": "validation/late/Validation.json",
-      "bytes": 1065,
-      "sha256": "12f32d751cd91a178f911fa6e5c849c90a7e2389cda714b29b89e434b1a3d2af"
+      "bytes": 1067,
+      "sha256": "ffd609a8674e84a8499d12132851e19920192896d313e057d5b4922bf80ee704"
     },
     {
       "path": "work/stack-and-reuse/archive_contents.py",
@@ -1748,8 +1778,8 @@
     },
     {
       "path": "work/stack-and-reuse/build_paper_2col.py",
-      "bytes": 7314,
-      "sha256": "a464ba554810a1a517bfef2295988649ceb49b5adc7520a9dab4b3bad3362900"
+      "bytes": 7418,
+      "sha256": "6acac87ceef3081a8da5fdddf9ae1e80ee16fb003e1017b96051bf6e05c65fed"
     },
     {
       "path": "work/stack-and-reuse/build_perspective_2col.py",
@@ -1758,8 +1788,8 @@
     },
     {
       "path": "work/stack-and-reuse/build_supp_tables.py",
-      "bytes": 18110,
-      "sha256": "ff69f01bf5bae4cc197b2408b485e409e5cc94139086dc332dc75aa82f5dee81"
+      "bytes": 19111,
+      "sha256": "e6ca24f7aaf0b67a4c888ce017a4fc782b467856d3a6fe1b228f74f75afdadb7"
     },
     {
       "path": "work/stack-and-reuse/common.py",
@@ -1803,8 +1833,8 @@
     },
     {
       "path": "work/stack-and-reuse/figure_legends.md",
-      "bytes": 18053,
-      "sha256": "4136d8242ab41bbafc47352274c673d56cc41b3bb412b2fb2623d601db1346df"
+      "bytes": 18253,
+      "sha256": "b14a27bd2a854521eb56f3af892bb6416ebfd0bbfe03bcfa19b664295356ccd2"
     },
     {
       "path": "work/stack-and-reuse/gallery.py",
@@ -1920,6 +1950,11 @@
       "path": "work/stack-and-reuse/reference/pycountry-LICENSE",
       "bytes": 24463,
       "sha256": "3fa39c6e18a3a4411082b64c164deae1d8f47b03a4d45304c1f0ae478626e382"
+    },
+    {
+      "path": "work/stack-and-reuse/reporting_comparisons.json",
+      "bytes": 36114,
+      "sha256": "1ee60ac60d392079f24daa09a39c114f3ca86c4df43978e7d286ec248ad99a64"
     },
     {
       "path": "work/stack-and-reuse/reuse_mentions.py",

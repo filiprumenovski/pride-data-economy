@@ -27,6 +27,7 @@ M = pd.read_csv(IN / 'Mention-pairs.csv.gz')
 F = pd.read_parquet(O / 'Deposit-features.parquet', columns=['accession', 'primary_field', 'primary_citations', 'listed_bytes', 'f_raw_files']).set_index('accession')
 C = C.join(F)
 CONTRASTS = ['standard', 'dia', 'sdrf', 'human', 'thermo']
+MODEL_BOOTSTRAP_REPS = 2000
 res = {}
 
 
@@ -91,7 +92,7 @@ def fit_or(idx):
 
 est = fit_or(np.arange(len(C)))
 gi = C.reset_index().groupby('grp').indices; gs = np.array(list(gi))
-bs = np.array([fit_or(np.concatenate([gi[g] for g in gs[rng.integers(0, len(gs), len(gs))]])) for _ in range(200)])
+bs = np.array([fit_or(np.concatenate([gi[g] for g in gs[rng.integers(0, len(gs), len(gs))]])) for _ in range(MODEL_BOOTSTRAP_REPS)])
 res['A3_adjusted_odds_ratios'] = {k: [round(e, 2), round(lo, 2), round(hi, 2)] for k, e, lo, hi in
                                   zip(['standard', 'dia', 'sdrf', 'human', 'thermo', 'log_citations'], est,
                                       np.percentile(bs, 2.5, axis=0), np.percentile(bs, 97.5, axis=0))}

@@ -1,14 +1,15 @@
 {
   "author": "Filip Rumenovski",
-  "affiliation": "Department of Chemistry, Wayne State University",
+  "affiliation": "Department of Chemistry, Wayne State University, Detroit, Michigan, USA",
   "corresponding_email": "filip.rumenovski@wayne.edu",
   "funding": "This research received no specific funding.",
   "competing_interests": "The author declares no competing interests.",
-  "journal": null,
+  "journal": "Scientific Data",
   "recommended_journal": "Scientific Data",
   "recommended_article_type": "Article",
-  "status": "Pre-submission review; funding and competing interests confirmed; public repository created; Zenodo deposit and final author approval pending",
+  "status": "Prepared for author review; author sign-off, BioRender publication export and Zenodo deposit remain pending",
   "github_repository": "https://github.com/filiprumenovski/pride-data-economy",
   "code_license": "MIT",
-  "derived_data_license": "CC-BY-4.0"
+  "derived_data_license": "CC-BY-4.0",
+  "journal_selection": "Recommended submission target; final choice remains with the author"
 }

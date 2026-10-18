@@ -1,12 +1,12 @@
 id,finding,status,attack_verdict,corrected_wording
 A1,Most bytes are vendor raw data,S,,
 A2,"Open spectra (mzML, MGF…) are deposited less often over time",S,,
-A3,The file classification matches independent references,V,,
+A3,Rule-based file classifications were checked against format references; sensitivity and false-positive rates were not independently measured.,V,,Rule-based file classifications were checked against format references; sensitivity and false-positive rates were not independently measured.
 A4,Inside results zips,V,,
 A5,Results-zip bytes are mostly scan-level and intermediate files,S,,
 A6,Standard result files (mzIdentML/mzTab) found only inside archives,V,,
 B1,Share of datasets with identifiable results depends on how deeply files are inspected,V,,
-B2,Results identifiable only by their header (renamed or re-saved tool output),S,survives (lower bound),382/389 identified tables correctly attributed. Dataset shares under strict signatures: 42.7% and 71.7%. About half of the tables left unidentified are also tool outputs.
+B2,Table headers identify additional candidate tool outputs. Model-assisted rule review is not independent validation; detected shares are not established lower bounds.,S,Detection finding retained; independent accuracy validation not performed,Table headers identify additional candidate tool outputs. Model-assisted rule review is not independent validation; detected shares are not established lower bounds.
 B3,Renamed tables meeting PRIDE's header definitions,S,,
 B4,"Identifiable-results trend among datasets with no DIA detected by software family, all depths",S,,
 B5,"Groups first depositing in 2013–16, no DIA detected, all depths",S,,
@@ -30,7 +30,7 @@ G3,"Europe PMC ""secondary"" mentions as a reuse measure",X,,
 G4,Per-run result names matching deposited raw runs,X,,
 G5,Qualifying non-primary cross-group mentions in release year or the next three calendar years; within-year chronology unresolved.,S,,Qualifying non-primary cross-group mentions in release year or the next three calendar years; within-year chronology unresolved.
 G6,No detectable adjusted association between standard result files and qualifying mentions; a modest advantage remains possible.,V,,No detectable adjusted association between standard result files and qualifying mentions; a modest advantage remains possible.
-G7,"Detected DIA, human samples and Thermo Fisher-only vendor assignments associated with qualifying mentions; mentions do not establish reanalysis.",V,,"Detected DIA, human samples and Thermo Fisher-only vendor assignments associated with qualifying mentions; mentions do not establish reanalysis."
+G7,DIA and human datasets had higher adjusted odds of qualifying mentions. The Thermo Fisher-only interval included one with 2000 bootstrap draws. Mentions do not establish reanalysis.,V,,DIA and human datasets had higher adjusted odds of qualifying mentions. The Thermo Fisher-only interval included one with 2000 bootstrap draws. Mentions do not establish reanalysis.
 G8,SDRF associated with qualifying mentions; temporal direction unresolved because metadata may be added after release.,W,,SDRF associated with qualifying mentions; temporal direction unresolved because metadata may be added after release.
 G9,File-type eligibility routes (Reuse-routes/) do not describe observed reuse,W (as a thesis),,
 H1.1,Run counts can be derived for almost all datasets. About a tenth of raw bytes sit in archives whose run count is unknown.,S,,

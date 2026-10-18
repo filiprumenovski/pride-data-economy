@@ -4,6 +4,7 @@ Writes outputs/Stack-and-reuse/Supplementary-Tables/Supplementary-Tables.xlsx (o
 contents sheet with each table's title, definition and source files) and one CSV per table.
 """
 import json, re, sys
+from pathlib import Path
 import pandas as pd
 from common import O, features
 
@@ -36,7 +37,7 @@ s1 = pd.DataFrame({
 }).round(1).reset_index()
 add('S1', 'Cohort and denominators by release year',
     'All 36,249 PRIDE datasets released 2013–2025. Standard result files = corrected non-generated expanded mzIdentML/mzTab definition. '
-    'Identifiable results = file names, archive members and table headers (lower bound). Contributor group = hashed PI contact.',
+    'Identifiable results = file names, archive members and table headers; rule-based detection with unmeasured sensitivity and false-positive rates. Contributor group = hashed PI contact.',
     'Deposit-features.parquet; Habits/Dataset-form.csv.gz', s1)
 
 # S2 effective numbers by axis
@@ -154,7 +155,7 @@ for test in ['A2_excluding_method_like', 'A5_window_5y_release_to_2020']:
 rob.append({'test': 'Crude rate ratio, A4 human; Thermo Fisher only; no DIA detected; MaxQuant/PD', 'feature': 'standard', 'estimate': R['A4_human_thermo_dda_mq_pd']['standard'][0],
             'lo': R['A4_human_thermo_dda_mq_pd']['standard'][1], 'hi': R['A4_human_thermo_dda_mq_pd']['standard'][2]})
 add('S16', 'Reuse: adjusted odds ratios and robustness checks (Fig. 5e)',
-    'Ridge binomial logit GLM with alpha 1e-4 and L1_wt 0; 200 contributor-group bootstrap draws. '
+    'Ridge binomial logit GLM with alpha 1e-4 and L1_wt 0; 2000 contributor-group bootstrap draws. '
     'Predictors: standard files, detected DIA, SDRF, human and Thermo Fisher-only vendor assignment. Adjustment: release year, pooled field/software categories, log10 bytes floored at 1e6, log(1+citations) and missing-citation indicator. '
     'See Supplementary Methods for missingness and category reference levels. A4/A5 report crude rate ratios with 1000 group-bootstrap draws. A5 uses release year plus five calendar years among 2013-2020 releases. SDRF direction is not interpretable because files may be added after release.',
     'Attacks/reuse-mentions/Results.json', pd.DataFrame(rob))
@@ -181,21 +182,30 @@ R20['attack_verdict'] = R20.id.map(lambda i: over.get(i, ('', ''))[0])
 R20['corrected_wording'] = R20.id.map(lambda i: over.get(i, ('', ''))[1])
 # Reporting corrections supersede exploratory ledger wording; retain frozen source ledger.
 reporting = {
+ 'A3': 'Rule-based file classifications were checked against format references; sensitivity and false-positive rates were not independently measured.',
+ 'B2': 'Table headers identify additional candidate tool outputs. Model-assisted rule review is not independent validation; detected shares are not established lower bounds.',
  'G5': 'Qualifying non-primary cross-group mentions in release year or the next three calendar years; within-year chronology unresolved.',
  'G6': 'No detectable adjusted association between standard result files and qualifying mentions; a modest advantage remains possible.',
- 'G7': 'Detected DIA, human samples and Thermo Fisher-only vendor assignments associated with qualifying mentions; mentions do not establish reanalysis.',
+ 'G7': 'DIA and human datasets had higher adjusted odds of qualifying mentions. The Thermo Fisher-only interval included one with 2000 bootstrap draws. Mentions do not establish reanalysis.',
  'G8': 'SDRF associated with qualifying mentions; temporal direction unresolved because metadata may be added after release.',
  'H1.4': 'Mean log10 bytes per run decomposed in single-model, exact-count datasets: 2014-2016 versus 2023-2025. Model mix contributes 2.30-fold and within-model change 0.85-fold (0.80-1.10).',
 }
 for key, wording in reporting.items():
     R20.loc[R20.id.eq(key), ['finding', 'corrected_wording']] = wording
+R20.loc[R20.id.eq('B2'), 'attack_verdict'] = 'Detection finding retained; independent accuracy validation not performed'
 for col in ['finding', 'corrected_wording']:
     R20[col] = R20[col].str.replace('within DDA', 'among datasets with no DIA detected', regex=False).str.replace('Within DDA', 'Among datasets with no DIA detected', regex=False).str.replace('non-DIA', 'no DIA detected', regex=False)
     R20[col] = R20[col].str.replace('About 38% of the decline is within continuing groups.', 'Within-group log2 run-count slope is 38% of the pooled slope among multi-year groups; this is not a decomposition of the median decline.', regex=False)
     R20[col] = R20[col].str.replace("First-year groups' datasets are 0.64× the size of comparable returning groups'.", 'The matched geometric-mean run-count ratio is 0.64 for first-time versus returning groups among 2018-2025 releases.', regex=False)
 add('S17', 'Findings ledger: every result with its robustness status',
-    'Status: V verified; W weakened; S single analysis, not yet attacked; X dropped. attack_verdict and corrected_wording come from the robustness attacks and override status where present. Full numbers, denominators and caveats in Findings-ledger.md.',
+    'Historical review ledger: V verified in the original review; W weakened; S single analysis; X dropped. These labels are not independent validation. Corrected wording includes later reporting qualifications and supersedes historical claims. The 107 rows are not 107 freshly rerun tests. Source: Findings-ledger.md.',
     'Findings-ledger.md', R20)
+
+# Editorially curated reporting values retain their original precision and provenance.
+reporting = json.loads(Path(__file__).with_name('reporting_comparisons.json').read_text())
+add('S22', reporting['title'], reporting['definition'],
+    'work/stack-and-reuse/reporting_comparisons.json; analytical sources listed by row',
+    pd.DataFrame(reporting['rows']))
 
 T = [(f'S{i}', ti, n, s_, df) for i, (_, ti, n, s_, df) in enumerate(T, 1)]   # sequential numbering
 for old in OUT.glob('Table-*.csv'):

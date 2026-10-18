@@ -1,0 +1,95 @@
+measure,cohort,period,value,lower,upper,bounds,unit,detail,source
+Distinct journals,Linked papers with known journal,2013,78.0,,,,journals,,Table S18
+Distinct journals,Linked papers with known journal,2025,627.0,,,,journals,,Table S18
+Rarefied instrument richness,"Equal-sized samples of 1,500 datasets",2013–2015,66.0,,,,models,Richness did not increase despite more even model representation.,Table S3; Fig. 1b
+Rarefied instrument richness,"Equal-sized samples of 1,500 datasets",2023–2025,62.0,,,,models,Richness did not increase despite more even model representation.,Table S3; Fig. 1b
+Diversity comparisons,"Contributor groups, journals, instrument models and species",2023–2025 versus 2013–2015,,,,,,"Direction agreed at orders 1 and 2. At order 2, tools, research subfields, countries and instrument vendors showed no detectable change.",Table S3
+Timing of effective-number increases,"Instrument models, journals and tools",2013–2025,,,,,,Instrument models mainly from 2020; journals until 2022; tools only in 2024 and 2025.,Table S2; Fig. 1a
+Human samples named,All released datasets,2013,41.0,,,,% of datasets,,Supplementary Fig. 9; Gallery/data/29-species.csv
+Human samples named,All released datasets,2025,52.0,,,,% of datasets,,Supplementary Fig. 9; Gallery/data/29-species.csv
+Mouse samples named,All released datasets,2013,11.0,,,,% of datasets,,Supplementary Fig. 9; Gallery/data/29-species.csv
+Mouse samples named,All released datasets,2025,19.0,,,,% of datasets,,Supplementary Fig. 9; Gallery/data/29-species.csv
+Neither human nor mouse named,354 contributor groups present in both periods,2013–2016,40.0,,,,% of datasets,,Findings-ledger.md; Supplementary Fig. 9
+Neither human nor mouse named,354 contributor groups present in both periods,2023–2025,32.0,,,,% of datasets,,Findings-ledger.md; Supplementary Fig. 9
+First-time contributor share,Groups with no earlier PRIDE release since 2013,2025,44.0,,,,% of datasets,,"Table S1; Fig. 1c,d"
+Growth in country-resolved deposits,Datasets from groups with resolved country,2023–2025 versus 2016–2018,3.3,,,,fold,,Table S6; Fig. 1e–g
+Growth in deposits from China,Datasets from groups assigned to China,2023–2025 versus 2016–2018,5.2,,,,fold,See S6 for the bootstrap bounds at source precision.,Table S6; Fig. 1e–g
+Growth in deposits from Germany,Datasets from groups assigned to Germany,2023–2025 versus 2016–2018,2.8,,,,fold,See S6 for the bootstrap bounds at source precision.,Table S6; Fig. 1e–g
+China share of deposits,Country-resolved datasets,2013,3.0,,,,% of datasets,,Fig. 1e–g; Table S6
+China share of deposits,Country-resolved datasets,2025,15.0,,,,% of datasets,,Fig. 1e–g; Table S6
+Eligible raw-run datasets,Datasets with run counts,2013–2016,2498.0,,,,datasets,,Table S8; Fig. 2a
+Eligible raw-run datasets,Datasets with run counts,2023–2025,15248.0,,,,datasets,,Table S8; Fig. 2a
+Share with at least 100 runs,Datasets with run counts,2013–2016,19.8,,,,% of datasets,,Table S8; Fig. 2b
+Share with at least 100 runs,Datasets with run counts,2023–2025,9.0,,,,% of datasets,,Table S8; Fig. 2b
+Mean channels per labelled dataset,Datasets using isobaric labelling,2014,6.0,,,,channels,TMTpro replaced iTRAQ; channels distinguish samples measured together in a run.,Supplementary Fig. 8; Gallery/data/27-isobaric-plex.csv
+Mean channels per labelled dataset,Datasets using isobaric labelling,2025,13.0,,,,channels,TMTpro replaced iTRAQ; channels distinguish samples measured together in a run.,Supplementary Fig. 8; Gallery/data/27-isobaric-plex.csv
+Run-count sensitivity analyses,"Alternative units, counts, composition and strata",2013–2016 versus 2023–2025,5.0,,,,analyses,"Combine datasets from the same paper; exact counts only; collapse fraction-numbered runs; reweight vendor, acquisition mode, labelling, species and submission type to the early composition; stratify by country. The overall median decline persisted.",Table S8; Fig. 2c
+Early Bruker subset,Datasets naming Bruker instruments in the run-count comparison,2013–2016,56.0,,,,datasets,"No detectable decrease for this subset, TMT-labelled datasets or SCIEX-labelled datasets.",Table S8
+Within-group versus pooled slope,"3,456 groups contributing in multiple years; 23,486 datasets",Across the study years,38.0,,,,% of pooled slope,"Slopes of log2 raw-run counts on time, compared on the same datasets. This is not a decomposition of the median decline.",Findings-ledger.md; within-group analysis
+Median raw-run size by model,Eligible single-model datasets with exact run counts,LTQ Orbitrap,0.44,,,,GB per run,Model references: Makarov2006 and Stewart2023. GB = 10^9 bytes.,Table S7; Fig. 2d
+Median raw-run size by model,Eligible single-model datasets with exact run counts,Orbitrap Astral,3.95,,,,GB per run,Model references: Makarov2006 and Stewart2023. GB = 10^9 bytes.,Table S7; Fig. 2d
+Instrument-mix component of run-size change,Single identified model and exact raw-run count,2023–2025 versus 2014–2016,2.3,,,,fold,Decomposition of change in mean log10 bytes per run. No interval reported for this component in the manuscript.,"Table S21, H1.4; Fig. 2d"
+Within-model component of run-size change,Single identified model and exact raw-run count,2023–2025 versus 2014–2016,0.85,0.8,1.1,95% interval,fold,Decomposition of change in mean log10 bytes per run.,"Table S21, H1.4; Fig. 2d"
+Bytes held by largest 1% of deposits,All listed dataset bytes,2013–2025 releases,24.0,,,,% of bytes,,Fig. 2e; Findings-ledger.md
+Raw vendor-format files,All listed file bytes,2013–2025 releases,84.0,,,,% of bytes,,Fig. 2f; Supplementary Fig. 6
+Thermo Fisher share of instrument assignments,"One count per identified dataset, split among named models","Annual values, 2013–2025",,79.0,89.0,Observed annual range,% of fractional counts,Different from unweighted model shares in S7.,Fig. 3a; Gallery/data/14-fleet-history.csv
+Fractional instrument share: LTQ Orbitrap,"One count per identified dataset, split among named models",2013; first year of series,40.0,,,,% of fractional counts,The first-year LTQ Orbitrap value is left-censored.,Fig. 3a; Supplementary Fig. 2
+Fractional instrument share: Q Exactive,"One count per identified dataset, split among named models",Peak year,38.0,,,,% of fractional counts,The first-year LTQ Orbitrap value is left-censored.,Fig. 3a; Supplementary Fig. 2
+Fractional instrument share: Q Exactive HF,"One count per identified dataset, split among named models",Peak year,19.0,,,,% of fractional counts,The first-year LTQ Orbitrap value is left-censored.,Fig. 3a; Supplementary Fig. 2
+timsTOF-labelled datasets,Datasets in instrument-share analysis,2021,1.8,,,,% of datasets,Meier2021 described increasing use in 2021; deposits are not ownership records.,Fig. 3a; Gallery/data/14-fleet-history.csv
+timsTOF-labelled datasets,Datasets in instrument-share analysis,2025,13.0,,,,% of datasets,Meier2021 described increasing use in 2021; deposits are not ownership records.,Fig. 3a; Gallery/data/14-fleet-history.csv
+Software named: MaxQuant,All released datasets,2025,28.0,,,,% of datasets,,Fig. 3c; Figure-data/Tool-year.csv
+Software named: Proteome Discoverer,All released datasets,2025,20.0,,,,% of datasets,,Fig. 3c; Figure-data/Tool-year.csv
+Tool-country pairs with interval excluding 1,20 pairs of a tool and its developers’ country,Study cohort,11.0,,,,pairs,95% interval excludes equal naming rates. Developers’ own laboratories included.,Fig. 3d; software-geography analysis
+Developer-country naming ratio: Spectronaut,Groups in Switzerland versus groups in all countries combined,Study cohort,3.4,,,,fold,Examples from the reported tool-country comparison. Full intervals remain in Fig. 3d/source data.,Fig. 3d; software-geography analysis
+Developer-country naming ratio: Comet,Groups in United States versus groups in all countries combined,Study cohort,2.9,,,,fold,Examples from the reported tool-country comparison. Full intervals remain in Fig. 3d/source data.,Fig. 3d; software-geography analysis
+Developer-country naming ratio: MaxQuant,Groups in Germany versus groups in all countries combined,Study cohort,1.5,,,,fold,Examples from the reported tool-country comparison. Full intervals remain in Fig. 3d/source data.,Fig. 3d; software-geography analysis
+MaxQuant 1.6-series share by release year,MaxQuant datasets released in 2025 with recovered version,Release year 2025,47.0,,,,% of versioned datasets,First recorded in PRIDE in 2017; a different denominator from submission-year shares.,Supplementary Fig. 4; Gallery/data/31-version-streams.csv
+MaxQuant 1.6-series share by submission year,361 versioned datasets among 576 submissions naming MaxQuant,Submission year 2025,40.0,34.27,46.58,95% interval,% of versioned datasets,Point estimate rounded as in prose; Table S12 gives 40.17%.,Table S12; Supplementary Fig. 4
+DIA-NN 1.8-series share by submission year,110 versioned datasets among 331 submissions naming DIA-NN,Submission year 2025,61.0,48.0,74.0,95% interval,% of versioned datasets,Rounded as in prose; Table S12 gives estimates and bounds at source precision.,Table S12; Supplementary Fig. 4
+Eligible identification-result datasets,All released datasets,2025,6231.0,,,,datasets,,Table S1; Table S13
+Identifiable results: Top-level file names,All released datasets,2025,59.0,,,,% of datasets,"Lower-bound detection, not validity or usability.",Table S13; Fig. 4c
+Identifiable results: Adding archive contents,All released datasets,2025,68.0,,,,% of datasets,"Lower-bound detection, not validity or usability.",Table S13; Fig. 4c
+Identifiable results: Adding table headers,All released datasets,2025,80.0,,,,% of datasets,"Lower-bound detection, not validity or usability.",Table S13; Fig. 4c
+Identifiable results at all search depths,All released datasets,2015,92.0,,,,% of datasets,Compared with 80% in 2025.,Table S13; Fig. 4d
+Standard-result-file prevalence,All released datasets,Annual values since 2015,,16.0,20.0,Observed annual range,% of datasets,Submitter-deposited mzIdentML or mzTab; repository-generated files excluded.,Table S13
+Standard result files: DIA-NN,Datasets naming a single analysis tool,Study cohort,0.2,,,,% of datasets,"Lowest and highest observed tool-specific rates, respectively.",Table S9; Fig. 4a
+Standard result files: MS-GF+,Datasets naming a single analysis tool,Study cohort,76.0,,,,% of datasets,"Lowest and highest observed tool-specific rates, respectively.",Table S9; Fig. 4a
+Standard files when export is optional,Datasets naming tools offering standard output as an option,Study cohort,15.0,14.0,18.0,95% interval,% of datasets,,Table S10; Fig. 4b
+Default-export group size,MS-GF+ and MetaMorpheus only,Study cohort,144.0,,,,datasets,,Table S10; Fig. 4b
+MetaMorpheus deposits with standard files,Single-tool MetaMorpheus datasets,Study cohort,23.0,,,,% of datasets,The tool writes standard files by default.,Table S9; Fig. 4a
+Software-mix component of standard-file change,Software families,2023–2025 versus 2019–2021,-3.0,-3.4,-2.5,95% interval,percentage points,Mainly growth of DIA-NN and Spectronaut and decline of Mascot.,Findings-ledger.md; standards-by-stack analysis
+Within-family component of standard-file change,Software families,2023–2025 versus 2019–2021,1.6,0.1,3.2,95% interval,percentage points,,Findings-ledger.md; standards-by-stack analysis
+Standard-file prevalence without detected DIA,Datasets with no DIA detected,Annual values since 2020,,19.0,21.0,Observed annual range,% of datasets,,Findings-ledger.md; standards-by-stack analysis
+Detected DIA prevalence,All released datasets,2015,2.8,,,,% of datasets,,Table S1; standards-by-stack analysis
+Detected DIA prevalence,All released datasets,2025,21.1,,,,% of datasets,,Table S1; standards-by-stack analysis
+Standard-file prevalence with detected DIA,Datasets with DIA detected,2023–2025,3.0,,,,% of datasets,"Approximately 3%, as reported in prose.",Findings-ledger.md; standards-by-stack analysis
+Uncompressed results-archive storage: Scan-level and intermediate search outputs,Bytes in uncompressed results archives,Study cohort,66.0,,,,% of bytes,,Supplementary Fig. 6
+Uncompressed results-archive storage: Final result tables,Bytes in uncompressed results archives,Study cohort,3.9,,,,% of bytes,,Supplementary Fig. 6
+Spectra in open formats present,All released datasets,2013–2016,34.0,,,,% of datasets,,Supplementary Fig. 7; Gallery/data/30-file-formats-periods.csv
+Spectra in open formats present,All released datasets,2023–2025,21.0,,,,% of datasets,,Supplementary Fig. 7; Gallery/data/30-file-formats-periods.csv
+Contribution of complete-submission decline,Submissions classified as complete require peak lists,2013–2016 versus 2023–2025,,5.0,10.0,Estimated contribution range,percentage points,Complete-submission share halved; contribution to the 13 percentage-point open-spectra decline.,Supplementary Fig. 7
+SDRF recurrence,Next dataset of a group whose previous dataset had SDRF,Study cohort,44.0,,,,% of next datasets,Unadjusted for pairs submitted on the same day or linked to the same paper; includes retrospective additions.,Table S14; Fig. 4e
+Expected SDRF recurrence,Release-year-matched expectation,Study cohort,2.5,,,,% of next datasets,,Table S14; Fig. 4e
+SDRF presence,All released datasets,2020–2022,0.7,,,,% of datasets,,Findings-ledger.md; Fig. 4e
+SDRF presence,All released datasets,2023–2025,2.7,,,,% of datasets,,Findings-ledger.md; Fig. 4e
+Raw-file measurement-date coverage,"11,868 dated datasets among 35,364 datasets with raw files",2013–2025 releases,34.0,,,,% of raw-file datasets,,Table S15; Fig. 5a
+Database date to public release,"2,558 datasets with eligible sequence-database date",Study cohort,2.5,2.4,2.6,95% interval,years,Median interval; main dated FASTA represents a dataset.,Table S15; Fig. 5a
+Software first appearance to public release,"10,466 datasets with recovered software-release timing",Study cohort,3.4,3.3,3.5,95% interval,years,Median is a lower bound measured from first recorded PRIDE appearance.,Table S11; Supplementary Fig. 5
+Database date precedes latest measurement,"1,006 datasets with both relevant dates",Study cohort,71.0,,,,% of paired datasets,,Table S15; Fig. 5a
+Software first appearance precedes latest measurement,"3,986 datasets with both relevant dates",Study cohort,79.0,,,,% of paired datasets,,Table S15; Fig. 5a
+Days with clustered public releases,At least 50 datasets made public on a day,From October 2018 onwards,62.0,,,,days,,Table S16; Supplementary Fig. 13
+Median publication-to-release delay,Days with at least 50 public releases,From October 2018 onwards,95.0,,,,days,Who set the release date is not recorded.,Table S16; Supplementary Fig. 13
+Median publication-to-release delay,Other days,From October 2018 onwards,11.0,,,,days,Who set the release date is not recorded.,Table S16; Supplementary Fig. 13
+Papers in journals with proteom in title,PRIDE-linked papers,2013,142.0,,,,papers,,"Table S17; Fig. 5b,c"
+Papers in journals with proteom in title,PRIDE-linked papers,2025,259.0,,,,papers,,"Table S17; Fig. 5b,c"
+Top-ten journal concentration,PRIDE-linked papers,2013,66.0,,,,% of papers,,Table S18; Fig. 5c
+Top-ten journal concentration,PRIDE-linked papers,2025,31.0,,,,% of papers,,Table S18; Fig. 5c
+Chemistry research-field assignment,Linked datasets with research-field assignment,2013,26.0,,,,% of linked datasets,Almost all chemistry assignments were spectroscopy.,Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv
+Chemistry research-field assignment,Linked datasets with research-field assignment,2025,6.0,,,,% of linked datasets,Almost all chemistry assignments were spectroscopy.,Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv
+Medicine research-field assignment,Linked datasets with research-field assignment,2013,18.0,,,,% of linked datasets,,Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv
+Medicine research-field assignment,Linked datasets with research-field assignment,2025,29.0,,,,% of linked datasets,,Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv
+Qualifying mention analysis population,Datasets released in 2013–2022,Release calendar year and next three calendar years,20684.0,,,,datasets,"Mentioning paper is not primary reference, names at least 2 contributor groups and no more than 100 datasets. Same-year chronology is unresolved.",Table S19; Methods
+Extended-window standard-file rate ratio,"2013–2020 releases; 11,741 datasets",Release calendar year and next five calendar years,1.04,0.73,1.4,95% interval,unadjusted rate ratio,,Table S20; Supplementary Methods
+Restricted-cohort standard-file rate ratio,"4,399 human datasets; Thermo Fisher only; no DIA detected; MaxQuant or Proteome Discoverer",2013–2022 releases; main mention window,0.74,0.28,1.3,95% interval,unadjusted rate ratio,These restrictions do not establish raw-file presence or confirm DDA.,Table S20; Supplementary Methods
+SDRF datasets released before format existed,205 SDRF datasets in the mention-model cohort,Release before availability of the SDRF format,91.0,,,,datasets,"Files added later, often through reanalysis projects; temporal direction of the association is unresolved.",Table S20; Findings-ledger.md

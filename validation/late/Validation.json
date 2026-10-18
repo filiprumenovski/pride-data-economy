@@ -43,9 +43,9 @@
     "field_None",
     "field_Other"
   ],
-  "fits": 201,
-  "finite_fits": 201,
+  "fits": 2001,
+  "finite_fits": 2001,
   "fit_warnings": 0,
-  "maximum_penalized_score_inf_norm": 9.99518411516997e-06,
-  "seconds": 113.41546316602034
+  "maximum_penalized_score_inf_norm": 9.99988324881893e-06,
+  "seconds": 381.78974033298437
 }

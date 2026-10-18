@@ -74,8 +74,9 @@ refs_key = [k for k in secs if k.startswith('References')][0]
 refs = re.sub(r'\n\(S\):.*$', '', secs[refs_key], flags=re.S)
 end = (f'<h2 class="end">Methods</h2>{md(secs["Methods"])}'
        f'<h2 class="end">Supplementary information</h2>{md(secs["Supplementary information"])}'
-       f'<h2 class="end">Data and code availability</h2>{md(secs["Data and code availability"])}'
+       f'<h2 class="end">Data availability</h2>{md(secs["Data availability"])}'
        f'<h2 class="end">Author declarations</h2>{md(secs["Author declarations"])}'
+       f'<h2 class="end">Code availability</h2>{md(secs["Code availability"])}'
        f'<h2 class="end">References</h2><div class="refs">{md(refs)}</div>')
 supp_methods = f'<section class="figures"><h2>Supplementary methods</h2><div class="cols">{md(secs["Supplementary methods"])}</div></section>'
 reference_guide = f'<section class="figures reference-guide"><h2>Supplementary reference guide</h2>{md(secs["Supplementary reference guide"])}</section>'
@@ -85,6 +86,7 @@ ext = '<section class="figures"><h2>Supplementary figures</h2>' + ''.join(figure
 CSS2 = CSS + """
 @page { size: A4; margin: 12mm 13.5mm; }
 body { line-height: 1.32; }
+h1 { hyphens: none; text-wrap: balance; }
 .authors, a { font-variant-ligatures: none; }
 a { color: inherit; text-decoration: none; }
 .cols p { margin-bottom: 4pt; }

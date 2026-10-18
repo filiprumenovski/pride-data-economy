@@ -6,8 +6,8 @@
   "nonprimary_pairs": "Frozen non-primary accession-PMID pairs preserve the original any_value publication-year selection; titles excluded.",
   "source_hashes": {
     "reuse_mentions.py": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9",
-    "attack_reuse_mentions.py": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff",
-    "release_late.py": "8859b9591a4a27e70366ef283a53bb1ef5646b6df5652ed572ae574a7c372f21"
+    "attack_reuse_mentions.py": "190729f90f2e679f3c642f8df6385a50474a139a40d9046ca9ee65302e0ef936",
+    "release_late.py": "400a76bc1cbeeb0a5a642250a658b73c4364a161ddf89048182f07f1db30de17"
   },
   "files": [
     {
@@ -326,8 +326,8 @@
     },
     {
       "path": "expected/Results.json",
-      "sha256": "5f82ed5b1d3bea74f7163c70d0829e2ec56d95523a6b8bac4d3b08964b88fdeb",
-      "bytes": 3019
+      "sha256": "e4cc88bb6a5a8afc6dd781fa73d8921a77e20d265fe8cdd6907de82f7a998de1",
+      "bytes": 3017
     },
     {
       "path": "expected/Reuse-rates.csv",

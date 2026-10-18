@@ -136,11 +136,11 @@ def export(out):
 
 
 def bootstrap_stability(draws):
-    """Split-half endpoint diagnostic; does not replace frozen 200-draw intervals."""
+    """Split-half endpoint diagnostic; does not establish interval validity."""
     columns = ['standard', 'dia', 'sdrf', 'human', 'thermo', 'log_citations']
     bounds = np.percentile(draws, [2.5, 97.5], axis=0)
     halves = [np.percentile(x, [2.5, 97.5], axis=0) for x in np.array_split(draws, 2)]
-    return {'replicates': len(draws), 'note': 'Split-half comparison describes Monte Carlo sensitivity only, not confidence-interval validation; 200 draws leave about five draws per percentile tail.',
+    return {'replicates': len(draws), 'note': f'Split-half comparison describes Monte Carlo sensitivity only, not confidence-interval validation; {len(draws)} draws leave about {len(draws) * 0.025:g} draws per percentile tail.',
         'terms': {key: {'full_interval': bounds[:, i].tolist(), 'first_half_interval': halves[0][:, i].tolist(),
                         'second_half_interval': halves[1][:, i].tolist(),
                         'maximum_endpoint_difference': float(np.max(np.abs(halves[0][:, i] - halves[1][:, i])))}
@@ -152,7 +152,7 @@ def replace_once(text, before, after):
     return text.replace(before, after, 1)
 
 
-def validate(data, out):
+def validate(data, out, compare_reference=True):
     """Run original analysis bodies with only their I/O replaced; retain RNG call order."""
     import statsmodels.api as sm
     out.mkdir(parents=True, exist_ok=False)
@@ -227,7 +227,7 @@ def validate(data, out):
     ns = {'np': np, 'pd': pd, 'json': json, 're': re, 'sm': sm, 'C': C, 'M': m,
           'safe_features': d, 'OUT': attack, 'rng': np.random.default_rng(SEED), 'time': time,
           'warnings': warnings, 'diagnostics': diagnostics,
-          'progress': lambda n: print(f'Model fits completed: {n}/201', file=stdout, flush=True)}
+          'progress': lambda n: print(f'Model fits completed: {n}', file=stdout, flush=True)}
     with (out / 'Run.log').open('a') as log, contextlib.redirect_stdout(log):
         exec(compile(body, 'attack_reuse_mentions.py [offline I/O + diagnostics]', 'exec'), ns)
     observed = json.loads((attack / 'Results.json').read_text())
@@ -246,17 +246,18 @@ def validate(data, out):
     pd.DataFrame(ns['bs'], columns=['standard', 'dia', 'sdrf', 'human', 'thermo', 'log_citations']).to_csv(out / 'Bootstrap-odds-ratios.csv', index=False)
     ns['X'].to_csv(out / 'Model-design.csv', index_label='accession')
     print(json.dumps(checks, indent=2))
-    assert checks['attack_results_exact'], 'Frozen attack results differ; inspect diagnostic outputs'
-    assert len(diagnostics) == 201
+    if compare_reference:
+        assert checks['attack_results_exact'], 'Frozen attack results differ; inspect diagnostic outputs'
+    assert len(diagnostics) == ns['MODEL_BOOTSTRAP_REPS'] + 1
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['export', 'validate'])
+    parser.add_argument('action', choices=['export', 'validate', 'recompute'])
     parser.add_argument('--data', type=Path, default=PREP / 'public-data/late')
     parser.add_argument('--output', type=Path, default=PREP / 'validation/late')
     args = parser.parse_args()
     if args.action == 'export':
         export(args.data)
     else:
-        validate(args.data, args.output)
+        validate(args.data, args.output, compare_reference=args.action == 'validate')

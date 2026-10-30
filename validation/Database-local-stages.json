@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "layers",
+    "exit_code": 0,
+    "seconds": 3.88
+  },
+  {
+    "stage": "tool_outputs",
+    "exit_code": 0,
+    "seconds": 8.83
+  },
+  {
+    "stage": "deposit_habits",
+    "exit_code": 0,
+    "seconds": 4.27
+  },
+  {
+    "stage": "arsenal_time",
+    "exit_code": 0,
+    "seconds": 43.88
+  },
+  {
+    "stage": "arsenal_databases_storage",
+    "exit_code": 0,
+    "seconds": 82.41
+  },
+  {
+    "stage": "arsenal_clocks",
+    "exit_code": 0,
+    "seconds": 11.78
+  },
+  {
+    "stage": "database-figure",
+    "exit_code": 0,
+    "seconds": 2.32
+  },
+  {
+    "stage": "clock-figure",
+    "exit_code": 0,
+    "seconds": 1.16
+  }
+]

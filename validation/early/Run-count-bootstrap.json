@@ -1,0 +1,11 @@
+{
+  "replicates": 1000,
+  "seed": 20261001,
+  "n_early": 2498,
+  "n_late": 15248,
+  "median_early": 30.0,
+  "median_late": 16.0,
+  "median_ratio": 0.5333333333333333,
+  "median_ratio_lo": 0.48484848484848486,
+  "median_ratio_hi": 0.6296296296296297
+}

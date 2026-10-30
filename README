@@ -1,0 +1,17 @@
+The data economy of public proteomics over thirteen years of PRIDE
+Filip Rumenovski, Wayne State University
+
+Analysis code and frozen inputs for 36,249 public PRIDE datasets released 2013-2025.
+
+Check the release (Python 3.12+, pinned versions in requirements.txt):
+
+  python -m pip install -r requirements.txt
+  python scripts/verify_release.py
+  python scripts/release_early.py validate --data-dir data/early --output-dir results/early
+  python scripts/release_late.py validate --data data/late --output results/late
+
+Full rebuild (needs Source-metadata.zip and Extraction-caches.zip from the release):
+
+  python scripts/reproduce_all.py --source SOURCE --cache-dir CACHES --output OUT
+
+Code: MIT (LICENSE). Data, text and figures: CC BY 4.0 (DATA-LICENSE). Third-party: NOTICE.

@@ -1,0 +1,112 @@
+[
+  {
+    "stage": "metadata",
+    "exit_code": 0,
+    "seconds": 2.33
+  },
+  {
+    "stage": "geography",
+    "exit_code": 0,
+    "seconds": 85.45
+  },
+  {
+    "stage": "early-validation",
+    "exit_code": 0,
+    "seconds": 6.81
+  },
+  {
+    "stage": "cache-reclassification",
+    "exit_code": 0,
+    "seconds": 172.03
+  },
+  {
+    "stage": "layers",
+    "exit_code": 0,
+    "seconds": 6.95
+  },
+  {
+    "stage": "tool_outputs",
+    "exit_code": 0,
+    "seconds": 17.97
+  },
+  {
+    "stage": "deposit_habits",
+    "exit_code": 0,
+    "seconds": 9.23
+  },
+  {
+    "stage": "arsenal_scale_instruments",
+    "exit_code": 0,
+    "seconds": 200.44
+  },
+  {
+    "stage": "attack_runs",
+    "exit_code": 0,
+    "seconds": 89.71
+  },
+  {
+    "stage": "arsenal_time",
+    "exit_code": 0,
+    "seconds": 117.57
+  },
+  {
+    "stage": "attack_release_timing",
+    "exit_code": 0,
+    "seconds": 40.51
+  },
+  {
+    "stage": "arsenal_databases_storage",
+    "exit_code": 0,
+    "seconds": 182.67
+  },
+  {
+    "stage": "arsenal_strategies_software_docs",
+    "exit_code": 0,
+    "seconds": 360.48
+  },
+  {
+    "stage": "arsenal_clocks",
+    "exit_code": 0,
+    "seconds": 25.58
+  },
+  {
+    "stage": "software_geography",
+    "exit_code": 0,
+    "seconds": 82.19
+  },
+  {
+    "stage": "figure_data",
+    "exit_code": 0,
+    "seconds": 1.46
+  },
+  {
+    "stage": "standards_by_stack",
+    "exit_code": 0,
+    "seconds": 18.48
+  },
+  {
+    "stage": "within_group",
+    "exit_code": 0,
+    "seconds": 14.84
+  },
+  {
+    "stage": "late-validation",
+    "exit_code": 0,
+    "seconds": 244.79
+  },
+  {
+    "stage": "late-support-validation",
+    "exit_code": 0,
+    "seconds": 1.77
+  },
+  {
+    "stage": "compose_journal",
+    "exit_code": 0,
+    "seconds": 240.94
+  },
+  {
+    "stage": "build_supp_tables",
+    "exit_code": 0,
+    "seconds": 1.16
+  }
+]

@@ -1,0 +1,448 @@
+{
+  "previous_replicates": 200,
+  "current_replicates": 2000,
+  "point_estimates_unchanged": true,
+  "first_200_draws_reproduce_previous_intervals": true,
+  "original_results": {
+    "A1_paper_concentration": {
+      "standard": {
+        "papers_linking_feature_datasets": 70,
+        "ratio": 0.88,
+        "leave_one_paper_out_range": [
+          0.85,
+          0.9
+        ]
+      },
+      "dia": {
+        "papers_linking_feature_datasets": 48,
+        "ratio": 2.09,
+        "leave_one_paper_out_range": [
+          2.04,
+          2.14
+        ]
+      },
+      "sdrf": {
+        "papers_linking_feature_datasets": 55,
+        "ratio": 7.09,
+        "leave_one_paper_out_range": [
+          5.99,
+          7.25
+        ]
+      },
+      "human": {
+        "papers_linking_feature_datasets": 206,
+        "ratio": 1.75,
+        "leave_one_paper_out_range": [
+          1.72,
+          1.81
+        ]
+      },
+      "thermo": {
+        "papers_linking_feature_datasets": 249,
+        "ratio": 1.44,
+        "leave_one_paper_out_range": [
+          1.4,
+          1.49
+        ]
+      }
+    },
+    "A2_excluding_method_like": {
+      "method_like_share": 0.14,
+      "method_like_reuse_ratio": 1.8,
+      "standard": [
+        0.93,
+        0.66,
+        1.25
+      ],
+      "dia": [
+        1.92,
+        1.3,
+        2.73
+      ],
+      "sdrf": [
+        7.7,
+        4.55,
+        11.88
+      ],
+      "human": [
+        1.6,
+        1.29,
+        1.99
+      ],
+      "thermo": [
+        1.48,
+        1.03,
+        2.28
+      ]
+    },
+    "A3_adjusted_odds_ratios": {
+      "standard": [
+        0.89,
+        0.66,
+        1.17
+      ],
+      "dia": [
+        1.71,
+        1.22,
+        2.35
+      ],
+      "sdrf": [
+        4.08,
+        2.29,
+        7.26
+      ],
+      "human": [
+        1.39,
+        1.17,
+        1.71
+      ],
+      "thermo": [
+        1.28,
+        1.04,
+        1.73
+      ],
+      "log_citations": [
+        1.35,
+        1.22,
+        1.49
+      ]
+    },
+    "A4_human_thermo_dda_mq_pd": {
+      "n": 4399,
+      "standard": [
+        0.74,
+        0.26,
+        1.38
+      ],
+      "rates_pct": [
+        2.28,
+        3.09
+      ]
+    },
+    "A5_window_5y_release_to_2020": {
+      "n": 11741,
+      "reused_pct": 3.46,
+      "standard": [
+        1.04,
+        0.72,
+        1.39
+      ],
+      "dia": [
+        1.76,
+        0.99,
+        2.5
+      ],
+      "sdrf": [
+        8.37,
+        5.97,
+        11.56
+      ],
+      "human": [
+        2.0,
+        1.6,
+        2.49
+      ],
+      "thermo": [
+        1.69,
+        1.17,
+        2.69
+      ]
+    },
+    "A6_sdrf": {
+      "datasets": 205,
+      "groups": 139,
+      "top_group_share": 0.049,
+      "reused": 32,
+      "reusing_papers": 55,
+      "top_paper_links": {
+        "29190970": 6,
+        "33236484": 5,
+        "33971807": 3,
+        "34615866": 3,
+        "32931287": 3
+      },
+      "sdrf_by_year": {
+        "2013": 1,
+        "2014": 11,
+        "2015": 22,
+        "2016": 17,
+        "2017": 26,
+        "2018": 14,
+        "2019": 24,
+        "2020": 24,
+        "2021": 20,
+        "2022": 46
+      },
+      "excluding_top_group": [
+        7.44,
+        4.93,
+        10.29
+      ]
+    },
+    "A7_sdrf_by_era": {
+      "2013-2018|sdrf=False": {
+        "n": 6113,
+        "reused_pct": 2.1
+      },
+      "2013-2018|sdrf=True": {
+        "n": 91,
+        "reused_pct": 18.7
+      },
+      "2019-2022|sdrf=False": {
+        "n": 14366,
+        "reused_pct": 2.2
+      },
+      "2019-2022|sdrf=True": {
+        "n": 114,
+        "reused_pct": 13.2
+      }
+    }
+  },
+  "current_results": {
+    "A1_paper_concentration": {
+      "standard": {
+        "papers_linking_feature_datasets": 70,
+        "ratio": 0.88,
+        "leave_one_paper_out_range": [
+          0.85,
+          0.9
+        ]
+      },
+      "dia": {
+        "papers_linking_feature_datasets": 48,
+        "ratio": 2.09,
+        "leave_one_paper_out_range": [
+          2.04,
+          2.14
+        ]
+      },
+      "sdrf": {
+        "papers_linking_feature_datasets": 55,
+        "ratio": 7.09,
+        "leave_one_paper_out_range": [
+          5.99,
+          7.25
+        ]
+      },
+      "human": {
+        "papers_linking_feature_datasets": 206,
+        "ratio": 1.75,
+        "leave_one_paper_out_range": [
+          1.72,
+          1.81
+        ]
+      },
+      "thermo": {
+        "papers_linking_feature_datasets": 249,
+        "ratio": 1.44,
+        "leave_one_paper_out_range": [
+          1.4,
+          1.49
+        ]
+      }
+    },
+    "A2_excluding_method_like": {
+      "method_like_share": 0.14,
+      "method_like_reuse_ratio": 1.8,
+      "standard": [
+        0.93,
+        0.66,
+        1.25
+      ],
+      "dia": [
+        1.92,
+        1.3,
+        2.73
+      ],
+      "sdrf": [
+        7.7,
+        4.55,
+        11.88
+      ],
+      "human": [
+        1.6,
+        1.29,
+        1.99
+      ],
+      "thermo": [
+        1.48,
+        1.03,
+        2.28
+      ]
+    },
+    "A3_adjusted_odds_ratios": {
+      "standard": [
+        0.89,
+        0.66,
+        1.19
+      ],
+      "dia": [
+        1.71,
+        1.19,
+        2.39
+      ],
+      "sdrf": [
+        4.08,
+        2.38,
+        6.65
+      ],
+      "human": [
+        1.39,
+        1.14,
+        1.7
+      ],
+      "thermo": [
+        1.28,
+        0.99,
+        1.74
+      ],
+      "log_citations": [
+        1.35,
+        1.2,
+        1.52
+      ]
+    },
+    "A4_human_thermo_dda_mq_pd": {
+      "n": 4399,
+      "standard": [
+        0.74,
+        0.28,
+        1.3
+      ],
+      "rates_pct": [
+        2.28,
+        3.09
+      ]
+    },
+    "A5_window_5y_release_to_2020": {
+      "n": 11741,
+      "reused_pct": 3.46,
+      "standard": [
+        1.04,
+        0.73,
+        1.4
+      ],
+      "dia": [
+        1.76,
+        0.98,
+        2.53
+      ],
+      "sdrf": [
+        8.37,
+        5.73,
+        11.53
+      ],
+      "human": [
+        2.0,
+        1.63,
+        2.45
+      ],
+      "thermo": [
+        1.69,
+        1.16,
+        2.75
+      ]
+    },
+    "A6_sdrf": {
+      "datasets": 205,
+      "groups": 139,
+      "top_group_share": 0.049,
+      "reused": 32,
+      "reusing_papers": 55,
+      "top_paper_links": {
+        "29190970": 6,
+        "33236484": 5,
+        "33971807": 3,
+        "34615866": 3,
+        "32931287": 3
+      },
+      "sdrf_by_year": {
+        "2013": 1,
+        "2014": 11,
+        "2015": 22,
+        "2016": 17,
+        "2017": 26,
+        "2018": 14,
+        "2019": 24,
+        "2020": 24,
+        "2021": 20,
+        "2022": 46
+      },
+      "excluding_top_group": [
+        7.44,
+        4.85,
+        10.38
+      ]
+    },
+    "A7_sdrf_by_era": {
+      "2013-2018|sdrf=False": {
+        "n": 6113,
+        "reused_pct": 2.1
+      },
+      "2013-2018|sdrf=True": {
+        "n": 91,
+        "reused_pct": 18.7
+      },
+      "2019-2022|sdrf=False": {
+        "n": 14366,
+        "reused_pct": 2.2
+      },
+      "2019-2022|sdrf=True": {
+        "n": 114,
+        "reused_pct": 13.2
+      }
+    }
+  },
+  "recomputation_checks": {
+    "pair_derivations_exact": true,
+    "outcomes_exact": true,
+    "Reuse-rates.csv": "exact",
+    "Reused-pool-composition.csv": "exact",
+    "attack_results_exact": false,
+    "model_design_shape": [
+      20684,
+      33
+    ],
+    "model_columns": [
+      "const",
+      "standard",
+      "dia",
+      "sdrf",
+      "human",
+      "thermo",
+      "log_citations",
+      "no_paper",
+      "log_bytes",
+      "y_2014",
+      "y_2015",
+      "y_2016",
+      "y_2017",
+      "y_2018",
+      "y_2019",
+      "y_2020",
+      "y_2021",
+      "y_2022",
+      "fam_MaxQuant",
+      "fam_No tool named",
+      "fam_Other",
+      "fam_Other tools only",
+      "fam_Proteome Discoverer",
+      "fam_Several of these",
+      "fam_Spectronaut",
+      "field_Biochemistry, Genetics and Molecular Biology",
+      "field_Chemistry",
+      "field_Environmental Science",
+      "field_Immunology and Microbiology",
+      "field_Medicine",
+      "field_Neuroscience",
+      "field_None",
+      "field_Other"
+    ],
+    "fits": 2001,
+    "finite_fits": 2001,
+    "fit_warnings": 0,
+    "maximum_penalized_score_inf_norm": 9.99988324881893e-06,
+    "seconds": 380.3859240419697
+  },
+  "interpretation": "Thermo Fisher-only interval now includes one. DIA/human positive associations and inconclusive standard-file association retained. A4/A5/A6 interval differences also reflect the additional model draws advancing the shared random stream; point estimates and cohorts unchanged."
+}

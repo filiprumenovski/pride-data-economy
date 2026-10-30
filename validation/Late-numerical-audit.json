@@ -1,0 +1,205 @@
+{
+  "primary_model_and_mentions": {
+    "pair_derivations_exact": true,
+    "outcomes_exact": true,
+    "Reuse-rates.csv": "exact",
+    "Reused-pool-composition.csv": "exact",
+    "attack_results_exact": true,
+    "model_design_shape": [
+      20684,
+      33
+    ],
+    "model_columns": [
+      "const",
+      "standard",
+      "dia",
+      "sdrf",
+      "human",
+      "thermo",
+      "log_citations",
+      "no_paper",
+      "log_bytes",
+      "y_2014",
+      "y_2015",
+      "y_2016",
+      "y_2017",
+      "y_2018",
+      "y_2019",
+      "y_2020",
+      "y_2021",
+      "y_2022",
+      "fam_MaxQuant",
+      "fam_No tool named",
+      "fam_Other",
+      "fam_Other tools only",
+      "fam_Proteome Discoverer",
+      "fam_Several of these",
+      "fam_Spectronaut",
+      "field_Biochemistry, Genetics and Molecular Biology",
+      "field_Chemistry",
+      "field_Environmental Science",
+      "field_Immunology and Microbiology",
+      "field_Medicine",
+      "field_Neuroscience",
+      "field_None",
+      "field_Other"
+    ],
+    "fits": 201,
+    "finite_fits": 201,
+    "fit_warnings": 0,
+    "maximum_penalized_score_inf_norm": 9.99518411516997e-06,
+    "seconds": 108.47841866599629
+  },
+  "supporting_summaries": {
+    "checks": {
+      "Before-after-by-year.csv": {
+        "matched": true,
+        "rows": 13
+      },
+      "Recognisable-by-year-three-ways.csv": {
+        "matched": true,
+        "rows": 13
+      },
+      "Standard-rate-by-tool-single-tool-datasets.csv": {
+        "matched": true,
+        "rows": 25
+      },
+      "Standard-rate-by-export-capability.csv": {
+        "matched": true,
+        "rows": 4
+      },
+      "H8-documentation-persistence-within-groups.csv": {
+        "matched": true,
+        "rows": 8
+      },
+      "37-journals-concentration.csv": {
+        "matched": true,
+        "rows": 13
+      }
+    },
+    "scope": "Recomputes downstream summaries from frozen derived classifications; does not rerun classification of raw archive listings or file headers."
+  },
+  "bootstrap_endpoint_precision": {
+    "replicates": 200,
+    "note": "Split-half comparison describes Monte Carlo sensitivity only, not confidence-interval validation; 200 draws leave about five draws per percentile tail.",
+    "terms": {
+      "standard": {
+        "full_interval": [
+          0.6636248850125961,
+          1.1685498800932383
+        ],
+        "first_half_interval": [
+          0.655390822531268,
+          1.1809210529785912
+        ],
+        "second_half_interval": [
+          0.6745312155000688,
+          1.1642244476460912
+        ],
+        "maximum_endpoint_difference": 0.019140392968800768
+      },
+      "dia": {
+        "full_interval": [
+          1.21841408300608,
+          2.3531043812865717
+        ],
+        "first_half_interval": [
+          1.2585649162013979,
+          2.344996965834955
+        ],
+        "second_half_interval": [
+          1.203854676252356,
+          2.385495801059265
+        ],
+        "maximum_endpoint_difference": 0.05471023994904178
+      },
+      "sdrf": {
+        "full_interval": [
+          2.288758263852067,
+          7.255008016517962
+        ],
+        "first_half_interval": [
+          2.311178776123714,
+          7.170790504627473
+        ],
+        "second_half_interval": [
+          2.344830013750152,
+          7.094064643593043
+        ],
+        "maximum_endpoint_difference": 0.07672586103443013
+      },
+      "human": {
+        "full_interval": [
+          1.1727390277419867,
+          1.7114022467188137
+        ],
+        "first_half_interval": [
+          1.1933254852912862,
+          1.72498158362574
+        ],
+        "second_half_interval": [
+          1.152238852179346,
+          1.6855124610533267
+        ],
+        "maximum_endpoint_difference": 0.04108663311194016
+      },
+      "thermo": {
+        "full_interval": [
+          1.0356686028803765,
+          1.7290752466517954
+        ],
+        "first_half_interval": [
+          1.0908173708885023,
+          1.706735104886761
+        ],
+        "second_half_interval": [
+          0.9940273839082785,
+          1.7729186359899032
+        ],
+        "maximum_endpoint_difference": 0.09678998698022379
+      },
+      "log_citations": {
+        "full_interval": [
+          1.2231838257146168,
+          1.4863582689477772
+        ],
+        "first_half_interval": [
+          1.2427534552394741,
+          1.481702867013414
+        ],
+        "second_half_interval": [
+          1.2068276298993657,
+          1.4878648424974052
+        ],
+        "maximum_endpoint_difference": 0.035925825340108464
+      }
+    }
+  },
+  "interpretation": "Exact reproduction verifies implementation and published rounding, not scientific validity. Two hundred model bootstrap draws provide only about five draws per percentile tail. The Thermo Fisher-only lower endpoint crosses the null in one 100-draw half (0.994 vs 1.091), so avoid a robust vendor-association/significance claim. Other principal associations retain their direction in both halves. No independent 1000-fit sensitivity was run.",
+  "environment": {
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "packages": {
+      "numpy": "2.4.1",
+      "pandas": "3.0.1",
+      "statsmodels": "0.14.6",
+      "scipy": "1.17.1",
+      "pyarrow": "23.0.1",
+      "duckdb": "1.5.6"
+    }
+  },
+  "public_rerun_commands": [
+    "python scripts/release_late.py validate --data data/late --output validation/late",
+    "python scripts/release_late_support.py --data data/late --output validation/late-support"
+  ],
+  "required_adjacent_sources": [
+    "reuse_mentions.py",
+    "attack_reuse_mentions.py"
+  ],
+  "limitations": [
+    "Raw archive listings, archive-member/header caches and acquisition-stage classifications are frozen inputs, not regenerated by these commands.",
+    "Publication lag uses calendar years, not elapsed duration.",
+    "The method_like Boolean is privately derived with the published regex; raw descriptions are not released.",
+    "Public group tokens are pseudonymous and linkable through public accessions, not guaranteed anonymous."
+  ]
+}

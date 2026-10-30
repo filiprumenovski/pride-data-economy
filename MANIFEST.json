@@ -1,0 +1,1385 @@
+{
+  "scope": "Frozen reproducible analysis.",
+  "files": [
+    {
+      "path": ".github/workflows/database-reconstruction.yml",
+      "bytes": 1678,
+      "sha256": "a4af3a228e8e1b9dfd2df9f7a6e18f92a055318dc9dbb6022ed7719de66d502c"
+    },
+    {
+      "path": ".github/workflows/extraction.yml",
+      "bytes": 1458,
+      "sha256": "60835b8b5b2af22a11b3ad94050c03bbf95a9a60716329cf8d3c3d7957eac785"
+    },
+    {
+      "path": ".github/workflows/full-reconstruction.yml",
+      "bytes": 2269,
+      "sha256": "a535a1675889435afdd00eb6b1a09caff0c0dca052bc04f1217fb49c9fafcba8"
+    },
+    {
+      "path": ".github/workflows/reproduce.yml",
+      "bytes": 965,
+      "sha256": "2049aec2fd462a52e7f308b684a8d284b88cfb0c503952692d3d9dcd977ab350"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 107,
+      "sha256": "c6f24ebf9bbf8eaeda050f185c59ae898e24834193fe017e86e2c016aa051fdc"
+    },
+    {
+      "path": ".zenodo.json",
+      "bytes": 877,
+      "sha256": "23fbc6e6a6113323b0b0a052631d3218449bdb5c72875ce3da154e3109327fcd"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 511,
+      "sha256": "afa03df585040ad52dc6d60c0deaa9bd822356f96446065d960ed2c5507fde1f"
+    },
+    {
+      "path": "DATA-LICENSE",
+      "bytes": 637,
+      "sha256": "65b3f067088fef405ebaa55b85eb33cf25516257d8eb43ff982c7192342b6230"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "5b546c70fb2aaf13f9dbd4c5aee46d1e4dfce0e82108ba9282a1fb9694e0e8c5"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1178,
+      "sha256": "13761b6446403448619c75dbd034dfa1fa2d444de9624dddd0aebb9998704455"
+    },
+    {
+      "path": "README",
+      "bytes": 781,
+      "sha256": "f9aff6a4313c57677e9ad48e97e0b3647d9f7cac24ff4d8db33e4923893e047a"
+    },
+    {
+      "path": "data/early/Breadth-long.parquet",
+      "bytes": 1931190,
+      "sha256": "109eb9f4c98f4d295bfeaf1fee221ca920f4dfcf241a12c90e59765a66dc60cd"
+    },
+    {
+      "path": "data/early/Data-manifest.json",
+      "bytes": 10152,
+      "sha256": "f756de14f21ac8366a56949192076ce36dabf741801c5e088d4728a8b51624b8"
+    },
+    {
+      "path": "data/early/Dataset-layers.parquet",
+      "bytes": 1824623,
+      "sha256": "0c648ead00bede2813165edbfdfe144c5c1f9b7be09c5163e28417ff8a0de838"
+    },
+    {
+      "path": "data/early/Dataset-scale.parquet",
+      "bytes": 1890764,
+      "sha256": "f1f56866a827ee0d2b45e6895862851abae249fc545c5650d0f2706524716ec1"
+    },
+    {
+      "path": "data/early/Deposit-features.parquet",
+      "bytes": 2811820,
+      "sha256": "a5f63d1ab6badbf2c66d4dfc7ed55d2daebc36cc417c8dd446b35c09f9852c22"
+    },
+    {
+      "path": "data/early/Model-credits.parquet",
+      "bytes": 441377,
+      "sha256": "14d6370856dae6067236839d9d1aa556f6c7c78e63d4d513428bab404ab3c8f9"
+    },
+    {
+      "path": "data/early/Species-credits.parquet",
+      "bytes": 513988,
+      "sha256": "a5c40c15d1e7e76a0154a529fd17f708b3efea231c67fbf25782e39656408c99"
+    },
+    {
+      "path": "data/early/Study-cohort.parquet",
+      "bytes": 1409375,
+      "sha256": "6972674ca51d5b07b723211379da7e79728316af4df796c72cf1be56d37be8b6"
+    },
+    {
+      "path": "data/early/frozen-reference/breadth-annual.csv",
+      "bytes": 6300,
+      "sha256": "18e0807cb50e0d2bfd1008ee6c5e7b7ae80f4079fe7b696a1565694aa772a44c"
+    },
+    {
+      "path": "data/early/frozen-reference/breadth-pooled.csv",
+      "bytes": 2070,
+      "sha256": "92730a092ab0b74a70d8a00bd228e784694deb16f1710d55f7dbf13ff3125068"
+    },
+    {
+      "path": "data/early/frozen-reference/models-annual.csv",
+      "bytes": 171285,
+      "sha256": "a24b682cf847999512ed01a1451a658d77d222ef5a4c15c03964d4ab0a7ad2d5"
+    },
+    {
+      "path": "data/early/frozen-reference/run-contrasts.csv",
+      "bytes": 23135,
+      "sha256": "1f9c022e4825be91e462e248f5ac8dff507f9f938ec7dfbf5a98c857db506bc3"
+    },
+    {
+      "path": "data/early/frozen-reference/scale-annual.csv",
+      "bytes": 3697,
+      "sha256": "24e61de067d7fc4ed1c5b6137ffe16283d78fe8c08f227454be4f2ae3facf29a"
+    },
+    {
+      "path": "data/early/frozen-reference/software-country.csv",
+      "bytes": 68572,
+      "sha256": "486e426ad18a2f4bdb96d76730f689ed4633c0260afabcacf5ad3498ec99a21b"
+    },
+    {
+      "path": "data/extraction/Archive-contents-Targets.csv.gz",
+      "bytes": 2037601,
+      "sha256": "5c223390435fe4c02d5f55dc5911f56bd69f2369bc65ae238b35173113a0f26d"
+    },
+    {
+      "path": "data/extraction/Cache-manifest.json",
+      "bytes": 2547,
+      "sha256": "0cb3f66e9a1149cda1cdfa705582e103d83fd9323688a33832358401d9cd1cb0"
+    },
+    {
+      "path": "data/extraction/Expected-reclassification.json",
+      "bytes": 1300,
+      "sha256": "26b3cae5f0a4d860aac7b29b2a8007d9b6ab02bfbf4b694a49394a4c3784a478"
+    },
+    {
+      "path": "data/extraction/Header-sniff-Targets.csv.gz",
+      "bytes": 2139089,
+      "sha256": "c5571a747c1f585222a44b525527a3ce7b21a5edf716f357bb08346a37dedacc"
+    },
+    {
+      "path": "data/late/Dataset-archive-flags.csv",
+      "bytes": 5551329,
+      "sha256": "39c50eebf2d26c84f9d781c0c67fed8dd965bb5194448537645c7509ae5ad572"
+    },
+    {
+      "path": "data/late/Dataset-clocks.csv",
+      "bytes": 4597507,
+      "sha256": "de0655e0a2da053b1b87635949e1edd9ce1157b6b1ddbb55ed32c197f41257b4"
+    },
+    {
+      "path": "data/late/Dataset-documentation.csv",
+      "bytes": 2274260,
+      "sha256": "0d596f3c1aa7945cdf29eb0e48a383700ad975603c1dd614af51ca8e2368694e"
+    },
+    {
+      "path": "data/late/Dataset-features.csv",
+      "bytes": 6785576,
+      "sha256": "40f60db3bf18749c34611ff6f7199479eca1eb13399af4a423028b7d21e2d006"
+    },
+    {
+      "path": "data/late/Dataset-header-flags.csv",
+      "bytes": 1359184,
+      "sha256": "5b33a33199bbb118c07c6c7cd15e71b0b6cb996299d0fd0ef34ba06ef1af07c1"
+    },
+    {
+      "path": "data/late/Dataset-paper-links.csv",
+      "bytes": 1162516,
+      "sha256": "f1bba1b8623f016816edf8e64bef3d80ddea8fd5611e289c33ae2be1d7587639"
+    },
+    {
+      "path": "data/late/Dataset-tool-outcomes.csv",
+      "bytes": 3852775,
+      "sha256": "1c44fbe6e9ce5ca712555cb0724a0b18c31550eb1809a7ec411f7229cede33c7"
+    },
+    {
+      "path": "data/late/Expected-outcomes.csv",
+      "bytes": 948738,
+      "sha256": "d9f41eb5d6413dec8f4e64efc1bf5ff4268813ae9830d2cb2b0908626d7c129c"
+    },
+    {
+      "path": "data/late/Expected-pair-derivations.csv",
+      "bytes": 340920,
+      "sha256": "0eadb54e39c5f5d1df1a370f15b36f9ea544e799e9092ca5edc349008232e586"
+    },
+    {
+      "path": "data/late/Input-manifest.json",
+      "bytes": 10712,
+      "sha256": "916ffc38f56546bf6e8e8d20d1f248f79ef2b67deac36b1cd75fd11b89655991"
+    },
+    {
+      "path": "data/late/Linked-papers.csv",
+      "bytes": 1693753,
+      "sha256": "a65cd1234b5e4c36fe9407dd60f4c5d90bd106d7812befe1028bcb8973c03733"
+    },
+    {
+      "path": "data/late/Nonprimary-mention-pairs.csv",
+      "bytes": 198953,
+      "sha256": "54212a7abe09fdff53b56ee23ed28817a0a37dde9cff14ea8d8ff662c8d35e0b"
+    },
+    {
+      "path": "data/late/Primary-publication-links.csv",
+      "bytes": 487358,
+      "sha256": "062fc1d24365478b61e9690a5a848b77fd10acc3ca3e23f7cb9712c3642acb45"
+    },
+    {
+      "path": "data/late/expected/37-journals-concentration.csv",
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
+    },
+    {
+      "path": "data/late/expected/37-journals-top15.csv",
+      "bytes": 2197,
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
+    },
+    {
+      "path": "data/late/expected/Before-after-by-year.csv",
+      "bytes": 999,
+      "sha256": "623f9d9caa18dc96ee34f37710f22766e62385cc54febcdf9bee6fb244eaf59a"
+    },
+    {
+      "path": "data/late/expected/Clocks-summary.json",
+      "bytes": 5684,
+      "sha256": "6600a948c24a964a366a9caab2ded7522548469daaa10effee9a49b1f26be3e0"
+    },
+    {
+      "path": "data/late/expected/H8-documentation-persistence-within-groups.csv",
+      "bytes": 374,
+      "sha256": "0224da88894d2439b9a9af685f33a9de81290607a441602de375d8f20b581915"
+    },
+    {
+      "path": "data/late/expected/Recognisable-by-year-three-ways.csv",
+      "bytes": 580,
+      "sha256": "bbaa2537aa202010f43cbe7e6c4aeddbe2a7df1b212f44e96dcce46f5ffdfc30"
+    },
+    {
+      "path": "data/late/expected/Results.json",
+      "bytes": 3017,
+      "sha256": "e4cc88bb6a5a8afc6dd781fa73d8921a77e20d265fe8cdd6907de82f7a998de1"
+    },
+    {
+      "path": "data/late/expected/Reuse-rates.csv",
+      "bytes": 7943,
+      "sha256": "83cb67497d74560e02ed5b8a4e0a28da9135ed95db9e35db3c20824750157711"
+    },
+    {
+      "path": "data/late/expected/Reused-pool-composition.csv",
+      "bytes": 502,
+      "sha256": "ad32089dbaa5bb0507d917da8977aebfbc82d5cc13bccdae4fd94561363bfc33"
+    },
+    {
+      "path": "data/late/expected/Standard-rate-by-export-capability.csv",
+      "bytes": 779,
+      "sha256": "2737731a4dc7e6de7f5ef1fa7b19e5ed15cbb7389c255cdee6dd640ed74fac1b"
+    },
+    {
+      "path": "data/late/expected/Standard-rate-by-tool-single-tool-datasets.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "data/late/expected/Summary.json",
+      "bytes": 663,
+      "sha256": "8a6442ca5ffdcf31bd6012e07dd9947bfdfd38b0f81981e4bd62c2caaf46fb2b"
+    },
+    {
+      "path": "data/reconstruction/Expected-tables.json",
+      "bytes": 3661,
+      "sha256": "fbfc5313a6160d4cc378840dc3da04b4b18cec148287f128dae755a9ee0863bb"
+    },
+    {
+      "path": "data/reconstruction/Source-asset.json",
+      "bytes": 159,
+      "sha256": "aaeb77a54d78c342bfe49ad79e5af527ea7f204b37ce7e2c976d097d53c3d0aa"
+    },
+    {
+      "path": "data/reconstruction/Source-manifest.json",
+      "bytes": 6781,
+      "sha256": "0bae61d1bdd872f4cdcdda68446fb509cb7e9119bb047b787ab3a35ed6e09d03"
+    },
+    {
+      "path": "outputs/Global-proteomics-study/Vendor-patterns/Instrument-vendor-map.csv",
+      "bytes": 9863,
+      "sha256": "84de24c86509b276ae7b937347d12e84c1227f6d08170cac6a23fbc330aa2c76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Archive-contents/Before-after-by-year.csv",
+      "bytes": 999,
+      "sha256": "623f9d9caa18dc96ee34f37710f22766e62385cc54febcdf9bee6fb244eaf59a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H1-H3-scale-instruments/H1-per-run-size-by-model.csv",
+      "bytes": 3413,
+      "sha256": "ea765306726ad7b7168a0079f60a0fb9143162ff0084baae8b6a28fec15c3dcd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H1-H3-scale-instruments/H3-fleet-diversity-by-year.csv",
+      "bytes": 2832,
+      "sha256": "b6aee3dbad48fe2247503479f887996e4907766d2e56b486e02abeed10d95624"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H1-H3-scale-instruments/H3-model-by-year.csv",
+      "bytes": 171285,
+      "sha256": "a24b682cf847999512ed01a1451a658d77d222ef5a4c15c03964d4ab0a7ad2d5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H4-H7-databases-storage/H7-top-level-bytes-by-layer.csv",
+      "bytes": 754,
+      "sha256": "88eb0e966b297fc0488b1a30c2e00fc3f6bfabd2767a5f854526f84543efe854"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Arsenal/H5-H6-H8-strategies-software-docs/H8-documentation-persistence-within-groups.csv",
+      "bytes": 374,
+      "sha256": "dc30dfe71d340326cde408fb62402598051bb7733547d9e9e7fbc3bbb5de528f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Attacks/reuse-mentions/Results.json",
+      "bytes": 3017,
+      "sha256": "e4cc88bb6a5a8afc6dd781fa73d8921a77e20d265fe8cdd6907de82f7a998de1"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Figure-data/Tool-year.csv",
+      "bytes": 4554,
+      "sha256": "7880db89be0a87903f75122302af42ba29a74d56584d39d6261e598f619185a3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/01-instruments.json",
+      "bytes": 669,
+      "sha256": "f9ea3c8868cfc5944c57c8f716078def866b4a96fa4771fb13463252266e0279"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/02-run-size.json",
+      "bytes": 336,
+      "sha256": "857c83c91df507140507f96332081921411b8551589c53382a406236d37e4c39"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/04-newcomers.json",
+      "bytes": 318,
+      "sha256": "36ed806d7021b9757785be78883cb201bb9929e12fa2ee9bc89ba8fbf1db35d7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/05-software.json",
+      "bytes": 314,
+      "sha256": "a8c6aadf1f5bdf728ee8f91ee54961f759ea4c14fdf57bdd108becd4aac4f59b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/06-standards-by-software.json",
+      "bytes": 342,
+      "sha256": "f6a0627cea764aee81140b7cbb1caf01a3f4fabfade2d88e183cadaef038a71a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/07-hometowns.json",
+      "bytes": 416,
+      "sha256": "9d8fae2ccdbd3567684cb7f191b17ef6b77880bdb48698e0bce8e485ad1e2a85"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/08-countries.json",
+      "bytes": 300,
+      "sha256": "61742a95b37b4ba83308021989faed38df2fd22156f156ecf4ae3d455c582eb6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/09-clocks.json",
+      "bytes": 592,
+      "sha256": "e7351b153f37fb757f6e979a3cf677cb240dd6bc136be87ab026478557a369e6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/10-release-waves.json",
+      "bytes": 389,
+      "sha256": "6133b3c7a0249475e801d7c75905c65a4897c2da042a3403a4fc64793452f690"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/11-bytes.json",
+      "bytes": 291,
+      "sha256": "a8b996e6770bcb8955cde9d9e86abd3ee9edc87a470f38366d89356fe5bbaf00"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/12-hidden-results.json",
+      "bytes": 366,
+      "sha256": "e2f96f0eaec8f0f3b3709abcbb8dc3086950ad02c514f72319f35160a5a198ce"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/13-habits.json",
+      "bytes": 344,
+      "sha256": "23cf80fecf9efeec79683b25129f9699a7fab4cb6afe7d01e44748ba71512f31"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/14-fleet-history.json",
+      "bytes": 710,
+      "sha256": "35b35cc81d5db2e4b547737c43917d305d7e0904e0a582abdac5ee99a0ac111a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/15-run-ridgelines.json",
+      "bytes": 916,
+      "sha256": "681ebae054910ec63ec925af384de03d3d7c468eecff3b771fe5a3b9aa25a5ea"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/20-world-growth.json",
+      "bytes": 679,
+      "sha256": "a29ee706706fdc4964e3c3f792ec40b71b71a036f35a341fc7d45671e9ca873d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/23-petabyte-treemap.json",
+      "bytes": 584,
+      "sha256": "1cd104a026341a27593193b8264834ee983ab11df32f565c81c36460c21c4a71"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/26-reuse.json",
+      "bytes": 993,
+      "sha256": "f680cf384d81d1df14e9bf87c79111bb658e00afe2261cad60a408356ce5d7cf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/27-isobaric-plex.json",
+      "bytes": 763,
+      "sha256": "0f510d32140291f846a245faa4dae7350907d074004282aacd0c8b61324946d2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/28-ptm-landscape.json",
+      "bytes": 767,
+      "sha256": "afe785c9570def16fec1075bf38506c4f548bc36df6acb10a476636fd77bd74f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/29-species.json",
+      "bytes": 781,
+      "sha256": "d6e26a827545b5337dd6d0ef222b62e30ee88680884e3ba4c5ac93abcf9726b2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/30-file-formats.json",
+      "bytes": 804,
+      "sha256": "6a88d2fad67134275c047c5ac9e0767ea4e06323c7b1ce593a70699f93d7e8e5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/31-version-streams.json",
+      "bytes": 932,
+      "sha256": "1a0fb17eae58b4612bd8a3aa7d8279e79c4161bfaae43dc464cc8fba7e013aae"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/32-database-age.json",
+      "bytes": 531,
+      "sha256": "de88ca73a807f10102185326b25d87e35f25c52844e8c8956cc76f19f5b807f5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/33-tool-age-at-release.json",
+      "bytes": 829,
+      "sha256": "7c412dd993eb6c1aa76cb3ad6d797000f240926c00fb09e7f8b5d607ffb62520"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/34-contributor-concentration.json",
+      "bytes": 495,
+      "sha256": "1d445d3d934d1b1b3dd7ac4b6ad5db25c844ac209727e177a68ea16bd4e2c7bf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/35-collaboration.json",
+      "bytes": 539,
+      "sha256": "706f220ba615a91dc13d0c3264dc086f5bd7d5732ef65559b0be17115409cdbb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/36-research-fields.json",
+      "bytes": 526,
+      "sha256": "7df2d0d3446ace531be67967b30ab8ff6fc06651f2d529cab9999b7155016218"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/37-journals.json",
+      "bytes": 585,
+      "sha256": "0e8b29aace4bf161b97acc844e89113402d5b3beeddd6e31092da941f1c682ab"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/38-instrument-arrival.json",
+      "bytes": 795,
+      "sha256": "7e2b9f0ce5dac0ff36f102a01bf7087ccce0d5597bc76db23cfc1e501b3e8c19"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/39-data-age-by-country.json",
+      "bytes": 711,
+      "sha256": "10974f192cf06923d02aa6e291fe3501fadf1567465597984222595324c2fc99"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/40-weekly-rhythm.json",
+      "bytes": 578,
+      "sha256": "1950adf6b9eacc3702b1f1b9462d2aa0536aedd94052bfbbc1f4ac976778944a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/41-paper-and-release.json",
+      "bytes": 646,
+      "sha256": "2214d7af2acffc15b8089f614c5c3e2a973d97e1768380d91d9f3878256b1e58"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/blocks/42-breadth.json",
+      "bytes": 677,
+      "sha256": "62285f639ee7fb6837bb050a9fcce672775db86a9e7a58540af4f43ec4750dfb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/14-fleet-history.csv",
+      "bytes": 11799,
+      "sha256": "96213d50a3089867a651e0456784f462cea1abfed783fadfd2be72d6d127b1b7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/15-run-ridgelines-density.csv",
+      "bytes": 195955,
+      "sha256": "da0f9e916b71f9803bcb14b18910ecf342b563ef46c50458d6ae1efdeec00a45"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/15-run-ridgelines-subsets.csv",
+      "bytes": 3389,
+      "sha256": "8a0fff8c7a49e1cb0273c2306fdc484b035237d72014d301146298ec78d8e068"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/15-run-ridgelines.csv",
+      "bytes": 1365,
+      "sha256": "72ac69e6de5f5a60fd4da90b568c2dd8789a0cc56062f9cdb07a28288e07d3a3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/20-world-growth-continents.csv",
+      "bytes": 225,
+      "sha256": "bb2ff1454c3c195ab320849c2efbd8864ef5a407ed55c873939fba6618a06049"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/20-world-growth.csv",
+      "bytes": 4529,
+      "sha256": "4fe5a6454ca16222ccbd8e572c09dfe7924b5417d4edde3abe7e71b26f6b83a9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/23-petabyte-treemap.csv",
+      "bytes": 2317,
+      "sha256": "d0447aa3c4fdd871ea6cf9c2a859745e3518625f0e5839c5395957e5628c39df"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/27-isobaric-plex.csv",
+      "bytes": 2331,
+      "sha256": "fcc4271db8604610b9bf07f2727110626dd5df06f91910aa02d9a82be67d01d8"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/28-ptm-landscape.csv",
+      "bytes": 1409,
+      "sha256": "9a287cc0f0234a0dbc9396b13cded2ce557ec1182b746296cc0d6efbb58dcb3a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/29-species.csv",
+      "bytes": 4094,
+      "sha256": "cee2d1e8350f2a5b7b5bc69f43401b67a4612bb15351ddc1fced34899744942f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/30-file-formats-by-submission-type.csv",
+      "bytes": 4608,
+      "sha256": "2244818f31e5753cac26e630ac7cd4585f763a6bc2d1b9a0eff6c12c0b6a17c6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/30-file-formats-periods.csv",
+      "bytes": 525,
+      "sha256": "20de5c76a2cdd4710fd9908af56bc4dbdb35c5563bd2a4001f06400d7568a09f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/30-file-formats.csv",
+      "bytes": 1357,
+      "sha256": "4797f588d904b0f174b9582242f739c2073621b215ecc663a9cd83f2a8a58344"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/31-version-streams-2025-shares.csv",
+      "bytes": 300,
+      "sha256": "cdffd04b21d88414641502099e37cee762c1a96fa5616a9ae3ba2df634fc40e2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/31-version-streams-maxquant-by-data-age.csv",
+      "bytes": 316,
+      "sha256": "551372211015c6752a63b40c339a7c913ff38be3bf2632d346885e6ad17f97ef"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/31-version-streams.csv",
+      "bytes": 10996,
+      "sha256": "98f6263c04e07d5b337aea50fbf21a7ecf595c23d680bf8186b87175752f8a56"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-density.csv",
+      "bytes": 9330,
+      "sha256": "bc7ff267143ade3f133af093ca5da9686314d909997aa6f4f0e9509fc8e6bc6a"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-fasta-rate.csv",
+      "bytes": 681,
+      "sha256": "ed6e441a3ddd6db155578975edd71bca0d8ba9130cf6708cdb6b97334ba0ca92"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age-sources.csv",
+      "bytes": 533,
+      "sha256": "34bf1b5a2beb96a1187e0c3d8d1136d31e72156d026f03bfe754fae340f31dda"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/32-database-age.csv",
+      "bytes": 1216,
+      "sha256": "00fc5b874c72bc286227b96e9cc1fb4fbcd64b18af64dc53b5ad8353fea72e78"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/33-tool-age-at-release-quantile-dots.csv",
+      "bytes": 5458,
+      "sha256": "9d11219f5063c60d9912612a99de92d6d8efcebc594417ef42c6a53a3cc77e76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/33-tool-age-at-release.csv",
+      "bytes": 798,
+      "sha256": "28ebc2c725ff0cd387521ab53a4170fac0b7fcb0cc5a0df54f3235587f8deffd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration-classes.csv",
+      "bytes": 459,
+      "sha256": "8bdac9a4638007c4147c4d9bd288ba3d9b59484b13657ec3095a436b627a5ffb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration-histogram.csv",
+      "bytes": 439,
+      "sha256": "de0d5f2efa583174cb4b7f269f2d11806a031499583b1f7557ef5c61a6bbbe76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration-sensitivity.csv",
+      "bytes": 100,
+      "sha256": "3ba3e3483392e7fb3511cfb9fd043a6d728cf92c6999128f71795d5100b6a687"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/34-contributor-concentration.csv",
+      "bytes": 1333,
+      "sha256": "7dfec603e25f12d1601b661fccb921459bb9d8686d96e648e73ab635905cad84"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/35-collaboration-by-country.csv",
+      "bytes": 1595,
+      "sha256": "31deea451c26e07e4ec8a2cf55bb3594a186b9f804638fe13756e99dfbb644ee"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/35-collaboration-by-region.csv",
+      "bytes": 110,
+      "sha256": "04e161d5308180c98febfd8ec75b8d0b915ff3a74273fd4a9fa4356d6d148526"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/35-collaboration-by-year.csv",
+      "bytes": 1082,
+      "sha256": "5cb9a3d952044a69d8aa263811381d923b218fd41b5b4862b849a88f3df3f2bf"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/36-research-fields-by-year.csv",
+      "bytes": 2566,
+      "sha256": "4ad58ac30bb614672ea03d2cec1999b05aea9641ce3a28f84ffe605b3f047f36"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/36-research-fields-subfields.csv",
+      "bytes": 1640,
+      "sha256": "4ba48d9b84e5e285c07447c9f9145eb995d56b744f863fb36006a75b5669eaec"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/37-journals-concentration.csv",
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/37-journals-top15.csv",
+      "bytes": 2197,
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/38-instrument-arrival.csv",
+      "bytes": 12416,
+      "sha256": "a2819ef2ab4008051bc7ec46bd1b78c7d4868a07296ea617051764e418e9bb1f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country-dia.csv",
+      "bytes": 1159,
+      "sha256": "afd199aad706f034148a514cbba147f66e1cedfa423b0a6ca72dc6933daf83ad"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country-models.csv",
+      "bytes": 1352,
+      "sha256": "91db4ceee61430206b1cb5ace877c744865731b0cae36d1658be21d05aadc874"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country-pooled.csv",
+      "bytes": 36,
+      "sha256": "9dee32c965b6d46be22b97a2d75661178eefa7bfcfcc58e23257b4fa9065cd90"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/39-data-age-by-country.csv",
+      "bytes": 1998,
+      "sha256": "dcce01afc47b5843127798f6a9ebe999f9c77712366bcfa7c9f53edf41b98be2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/40-weekly-rhythm-office-share.csv",
+      "bytes": 1477,
+      "sha256": "0c4ed92622190353863e30221b1f6e1d9ef112ba888da1c459abaabd1f764138"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/40-weekly-rhythm-weekday.csv",
+      "bytes": 558,
+      "sha256": "d7c64dd5b84578e72cd1b6b4534cffe8f795064f14e0a91fa6b1d01da6808cf7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/40-weekly-rhythm.csv",
+      "bytes": 16557,
+      "sha256": "6196d13d1cb0a9816c612c5b3ca174b91c8a66f83ffa31af182af97f83f5338d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/41-paper-and-release-histogram.csv",
+      "bytes": 5772,
+      "sha256": "4a366e3d95f8bbaf417dbf73f86d9acbef1e5ceeb2274e9c568f3c9e086b1054"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/41-paper-and-release-summary.csv",
+      "bytes": 321,
+      "sha256": "36e07e199d3304c94bdd0567e1aa4a665896168bcb9bb9a65888efeb5126326e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/41-paper-and-release.csv",
+      "bytes": 1042,
+      "sha256": "3ecac6a4c531cf7a0c6570304fcf750988bff91ad37a27e6579f9465958fb006"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/42-breadth-concentration.csv",
+      "bytes": 179,
+      "sha256": "1a92be04815bee5e2e61a9035521de4e7722f01cc8923d28f86ffab719c9d4bd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/42-breadth-pooled.csv",
+      "bytes": 2068,
+      "sha256": "a92512cc2d5f24818a786eeb2d061311ecd38111046dc301fb9bdc9465426dc6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Gallery/data/42-breadth.csv",
+      "bytes": 6307,
+      "sha256": "9e8c428483b94f2b735530812a7e5d2b8c6c4edbda76b918f8a5aae01c51215f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Header-sniff/Recognisable-by-year-three-ways.csv",
+      "bytes": 580,
+      "sha256": "bbaa2537aa202010f43cbe7e6c4aeddbe2a7df1b212f44e96dcce46f5ffdfc30"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Figure-specifications.json",
+      "bytes": 3681,
+      "sha256": "c6075bfb3faaef6aa34e4708e00f013184ccfc9f42afe3a4212ffc93467614f6"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Journal-figures/Layout.json",
+      "bytes": 2553,
+      "sha256": "eeb2361ce7d80e18608d370bd05c5179fe61b2fb89749ceba0fc5687a3419021"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Reuse-mentions/Reuse-rates.csv",
+      "bytes": 7943,
+      "sha256": "83cb67497d74560e02ed5b8a4e0a28da9135ed95db9e35db3c20824750157711"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Software-geography/Home-country-lift.csv",
+      "bytes": 3868,
+      "sha256": "ad7731266936fb8ae1d52211e7e50269ce269cf9d0737884f4d2936283ce8f5e"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Contents.csv",
+      "bytes": 8469,
+      "sha256": "2f4e624160a46941606c85eafc5962153bf5dee51524e1ec20c64aa4eee90ec9"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S1.csv",
+      "bytes": 973,
+      "sha256": "6d2ff41d669600310439180062f7427b65028b20961fa5f43127252d65f4aa76"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S10.csv",
+      "bytes": 531,
+      "sha256": "6aae011ab226f1dc39523a5029985c27c61725f3066f04b2d2dd5f7d2e6982d4"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S11.csv",
+      "bytes": 798,
+      "sha256": "28ebc2c725ff0cd387521ab53a4170fac0b7fcb0cc5a0df54f3235587f8deffd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S12.csv",
+      "bytes": 300,
+      "sha256": "cdffd04b21d88414641502099e37cee762c1a96fa5616a9ae3ba2df634fc40e2"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S13.csv",
+      "bytes": 1171,
+      "sha256": "555d56bb2e613edc91ddd5c1a0a0f0244df62c42b8f704b2f4374b06d45527ef"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S14.csv",
+      "bytes": 374,
+      "sha256": "dc30dfe71d340326cde408fb62402598051bb7733547d9e9e7fbc3bbb5de528f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S15.csv",
+      "bytes": 621,
+      "sha256": "833c5bd616adeb0dfd715b84c4796d344cf48596d84bce8899516e54933fb76d"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S16.csv",
+      "bytes": 331,
+      "sha256": "c8617847c7b542bb9ba460d81bd0558ad207b284e6fbf97107dcc2dcaffbbe33"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S17.csv",
+      "bytes": 2197,
+      "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S18.csv",
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S19.csv",
+      "bytes": 8007,
+      "sha256": "2edc870fd5ba586360ba0fc9fbbdf9402bc314041057c8db4c115a6b901273a3"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S2.csv",
+      "bytes": 3675,
+      "sha256": "8b312baca07ef91b61003ac585b6c7109b1ce277f7d1a2fe222f278c79454067"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S20.csv",
+      "bytes": 1128,
+      "sha256": "cc2d12491ab5b54601021eca7b98f9c7a4f038e4ca6027b0810d53f839be7876"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S21.csv",
+      "bytes": 13406,
+      "sha256": "3caf62df2d56a9602bc5c5ffe460cdcf388e0fbc95a22beeec7bc31873f58a8f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S22.csv",
+      "bytes": 17280,
+      "sha256": "bb901e0390d465df40d4ba320342456b0ae744a7f5b43640a236fce6a8eae092"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S3.csv",
+      "bytes": 1027,
+      "sha256": "aaf724f891c8cf4e728cbc31d3d2220e850b732b0169e1520c800ac5d045e514"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S4.csv",
+      "bytes": 1277,
+      "sha256": "9a13399edee04c9d1f0d6c43812fcf1b0af39778e8e8771341240d851aba9769"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S5.csv",
+      "bytes": 459,
+      "sha256": "8bdac9a4638007c4147c4d9bd288ba3d9b59484b13657ec3095a436b627a5ffb"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S6.csv",
+      "bytes": 4088,
+      "sha256": "2494f604f75e03071cd2cfe2d37858bb3fbf7962473c5dc2226393d0bd31fa13"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S7.csv",
+      "bytes": 3961,
+      "sha256": "b316aa750b6c18f093906a36b5f08eaac622bd7499dd79a7a7be342686021806"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S8.csv",
+      "bytes": 13412,
+      "sha256": "2f1d283a7ca8c2effb314e90abeb55b1dfb142d9ce9d046cd8ee9535852f12f5"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S9.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Tool-outputs/Standard-rate-by-export-capability.csv",
+      "bytes": 779,
+      "sha256": "2737731a4dc7e6de7f5ef1fa7b19e5ed15cbb7389c255cdee6dd640ed74fac1b"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Tool-outputs/Standard-rate-by-tool-single-tool-datasets.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 172,
+      "sha256": "e0dbb88836205fa3b09e2b7202c0f9a49e98f4f87b7802b3e23da5ebe28d3eb5"
+    },
+    {
+      "path": "scripts/attack_reuse_mentions.py",
+      "bytes": 7529,
+      "sha256": "190729f90f2e679f3c642f8df6385a50474a139a40d9046ca9ee65302e0ef936"
+    },
+    {
+      "path": "scripts/compare_reconstruction.py",
+      "bytes": 3482,
+      "sha256": "a59b107396513686e69327b4c74e6b5b35030e2eaa8e1acae31b864fccf317e0"
+    },
+    {
+      "path": "scripts/export_geography_evidence.py",
+      "bytes": 2920,
+      "sha256": "c549c49e094afc075cc9656763aea0f5bb8310082dabc55dd9712b09d4d16fa1"
+    },
+    {
+      "path": "scripts/export_source.py",
+      "bytes": 4288,
+      "sha256": "eded4c69d2517aa0288a2765627126d2cfadc7592037f3a775a831b914a5401b"
+    },
+    {
+      "path": "scripts/query.py",
+      "bytes": 1788,
+      "sha256": "5e370c4c4283026770190f06025be63c9fb9e915f4b692a35d3492a2862f199e"
+    },
+    {
+      "path": "scripts/release_caches.py",
+      "bytes": 5188,
+      "sha256": "ddb9249f81066ea679a32c3c1d3818d7cf8556c5393803671ea068f55a20b3a4"
+    },
+    {
+      "path": "scripts/release_clocks.py",
+      "bytes": 3703,
+      "sha256": "62fec844f537f8e5433efb88018670f232006feabfa990a60e2a9b2b5f0eedd7"
+    },
+    {
+      "path": "scripts/release_early.py",
+      "bytes": 15907,
+      "sha256": "e6796d25f2d7646b2f5c63265a4cd174df6ed5bee480fb1204217f9ba138e82e"
+    },
+    {
+      "path": "scripts/release_full.py",
+      "bytes": 4849,
+      "sha256": "b1df3bbfc9bc1aed6483e5e34242feb1ee51b34979aa796f15658d1709c46359"
+    },
+    {
+      "path": "scripts/release_geography.py",
+      "bytes": 4571,
+      "sha256": "89b9b914999244305c6f819b08c58fb03833ea0b1449b861e7dace1e5883f6b3"
+    },
+    {
+      "path": "scripts/release_late.py",
+      "bytes": 17479,
+      "sha256": "400a76bc1cbeeb0a5a642250a658b73c4364a161ddf89048182f07f1db30de17"
+    },
+    {
+      "path": "scripts/release_late_support.py",
+      "bytes": 6214,
+      "sha256": "1ccd0252ab10d9f0cb502a02c73080b66c10e7ce17fb340a560e56977c58d29f"
+    },
+    {
+      "path": "scripts/release_metadata.py",
+      "bytes": 2952,
+      "sha256": "fb1d29b61dd44f22180873e3adf61d595180d397d0da5a5a85cd4d32914b2900"
+    },
+    {
+      "path": "scripts/reproduce_all.py",
+      "bytes": 3894,
+      "sha256": "fe236bc13a6b9c44dc818bac3c288de8ddf84f37cd4b350ebb2748fe36b720c3"
+    },
+    {
+      "path": "scripts/reproduce_database.py",
+      "bytes": 2964,
+      "sha256": "56544366fd1a8e77f5944f7b3c4dff8f9344f1791434219843893e55fc82ec17"
+    },
+    {
+      "path": "scripts/reuse_mentions.py",
+      "bytes": 7857,
+      "sha256": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9"
+    },
+    {
+      "path": "scripts/test_comparison.py",
+      "bytes": 1365,
+      "sha256": "a844d975995b99c9c3d56e25a5e3ce51ac35c40d030b2002818f649fe062bb5a"
+    },
+    {
+      "path": "scripts/test_database_selection.py",
+      "bytes": 998,
+      "sha256": "d75a021a09cd78f7aa3e7cbaa4de0722e8786c8ff926ca250a7b61ac948a4784"
+    },
+    {
+      "path": "scripts/test_reconstruction.py",
+      "bytes": 2040,
+      "sha256": "3820fbcf3d5191bb88d8125b749baecf6a949ad1eb3d37e36f17adc41c620a05"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 994,
+      "sha256": "bfc7374735f5025574710bd91726bdff0456089aadabb8f50123a3fa1df58fe4"
+    },
+    {
+      "path": "validation/Database-local-comparison.json",
+      "bytes": 1450,
+      "sha256": "bace1e933683afa173565107d3f39588d58d47b865b8f349fd96c8e176c46268"
+    },
+    {
+      "path": "validation/Database-local-stages.json",
+      "bytes": 644,
+      "sha256": "259556931b422435bad50ed766f476bd769e567fa4ab8ebceab0d1d9930d8766"
+    },
+    {
+      "path": "validation/Database-selection-audit.json",
+      "bytes": 425,
+      "sha256": "3bcf5b994f7ce493df2bf71ddcc92756eca0b43384cad0c2508a628ee2a94124"
+    },
+    {
+      "path": "validation/Extraction-reclassification.json",
+      "bytes": 1300,
+      "sha256": "26b3cae5f0a4d860aac7b29b2a8007d9b6ab02bfbf4b694a49394a4c3784a478"
+    },
+    {
+      "path": "validation/Full-cloud-stages.json",
+      "bytes": 1833,
+      "sha256": "9acf1c116752348001eb6df6d2341066c47e6465fd4151fa19b26ae954b859bd"
+    },
+    {
+      "path": "validation/Full-local-comparison.json",
+      "bytes": 13550,
+      "sha256": "e17cdae28d41437b2397c3631869a8c1886799e098a6e5e7fb63e7c9e9228a8d"
+    },
+    {
+      "path": "validation/Full-local-stages.json",
+      "bytes": 1823,
+      "sha256": "23d0328cef4a5a01c561ddd06a4ee675ce4d385035f34b999cbac15c68d7bcc2"
+    },
+    {
+      "path": "validation/Geography-validation.json",
+      "bytes": 464,
+      "sha256": "a479d468af76ca05c9e4f7fba9646a6b2f4f819562d1e011210d46a4e25b5948"
+    },
+    {
+      "path": "validation/Historical-figure-reassembly.json",
+      "bytes": 332,
+      "sha256": "717c459026c93d947830ecc19d035d25b9f29580786e33c02a6fcc41b42087f9"
+    },
+    {
+      "path": "validation/Historical-source-comparison.json",
+      "bytes": 41146,
+      "sha256": "fe904ae40b660c6fabc0450a38920dfda422655b15e115e89614530983dff5d0"
+    },
+    {
+      "path": "validation/Late-numerical-audit.json",
+      "bytes": 6185,
+      "sha256": "23960605fadc8d32629b1fee06cda44cedcfed8b109b675f003c07bcdb588f89"
+    },
+    {
+      "path": "validation/Metadata-validation.json",
+      "bytes": 636,
+      "sha256": "598d910200ed4b8b32388ead4058d1dfaa24ed21fe06370a0beef9c3da61f395"
+    },
+    {
+      "path": "validation/Source-export-validation.json",
+      "bytes": 1830,
+      "sha256": "ec1d328d93d67f05f314645bd664bbf67ff6eabf140732a7c11163ea03474829"
+    },
+    {
+      "path": "validation/clocks/Validation.json",
+      "bytes": 275,
+      "sha256": "5b6b90e8da8ab2c0b8c2dc7a2cb04094f4233cab4d11587c55918bfa5e4982b7"
+    },
+    {
+      "path": "validation/early/Run-count-bootstrap.json",
+      "bytes": 251,
+      "sha256": "4ed9bdc5de5835c1585881a81a5968c79b25f34f3df69f8842685c7d48c3a734"
+    },
+    {
+      "path": "validation/early/Validation.json",
+      "bytes": 4317,
+      "sha256": "66dfbac6bee6687189c43488e6ed075d0c06e4ee4b0c055a66564f2c30f15a04"
+    },
+    {
+      "path": "validation/extraction/Archive-contents/Before-after-by-year.csv",
+      "bytes": 999,
+      "sha256": "9e53f6cc889f88f245470f3cb1f2e394b1c4d69b414cdffd7ae0a13518f23eed"
+    },
+    {
+      "path": "validation/extraction/Header-sniff/Recognisable-by-year-three-ways.csv",
+      "bytes": 580,
+      "sha256": "bbaa2537aa202010f43cbe7e6c4aeddbe2a7df1b212f44e96dcce46f5ffdfc30"
+    },
+    {
+      "path": "validation/late-support/Validation.json",
+      "bytes": 733,
+      "sha256": "b45101ce301daa1f088b27f60d867027b64359299215dd75eeacdffb449c9c93"
+    },
+    {
+      "path": "validation/late/Bootstrap-odds-ratios.csv",
+      "bytes": 224188,
+      "sha256": "4919f49c80e9935949217cec33c47dd07b399afe1d63b293c39387acc6403243"
+    },
+    {
+      "path": "validation/late/Bootstrap-stability.json",
+      "bytes": 2359,
+      "sha256": "8f7c69bd4825a6bf4a38383831c74ff5bcbd1e35e6e1ed1bc31f735224b5721f"
+    },
+    {
+      "path": "validation/late/Bootstrap-upgrade.json",
+      "bytes": 8508,
+      "sha256": "67ba299845721c6022eabda92976241a8206879f4354cd26fb0ea7bbc3c32655"
+    },
+    {
+      "path": "validation/late/Model-diagnostics.json",
+      "bytes": 446169,
+      "sha256": "f8639a41297492f9b33acf64559ef5f5f39d9dc6425b5f7f678661af0de12922"
+    },
+    {
+      "path": "validation/late/Validation.json",
+      "bytes": 1067,
+      "sha256": "ffd609a8674e84a8499d12132851e19920192896d313e057d5b4922bf80ee704"
+    },
+    {
+      "path": "work/stack-and-reuse/archive_contents.py",
+      "bytes": 7148,
+      "sha256": "9d3b7f3ffd64debde116ee8d978160d9b90510f89432b13d04bd1e764f09d2bd"
+    },
+    {
+      "path": "work/stack-and-reuse/archive_summary.py",
+      "bytes": 10547,
+      "sha256": "ade0eb0aeb00b08e202b51152b568aa75551c6a48f042e7dbfe18d69150ea03a"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_clocks.py",
+      "bytes": 6118,
+      "sha256": "8b752dac6bde6eaccd5ec68a21fc644f804b480bab67a01e1ac340485baded20"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_databases_storage.py",
+      "bytes": 53674,
+      "sha256": "e2dacbf1662f688b470351d82c8b41b865bcb0435dd2bd6713c4e9ba7d28abe6"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_scale_instruments.py",
+      "bytes": 40275,
+      "sha256": "4417627df117e51d139a3e3cba55ff1ec03d1067f321003e027fcd51e248192a"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_strategies_software_docs.py",
+      "bytes": 60070,
+      "sha256": "92dd53ae1b65db3d0ef8d5c7bbae88a36914da6d091bb180ca62075fa5bc9429"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_time.py",
+      "bytes": 36854,
+      "sha256": "6596ca3a43f96c7a0fe8f0715c17f1740dbb2ad4471f706110bae198764abbd6"
+    },
+    {
+      "path": "work/stack-and-reuse/arsenal_zip_headers.py",
+      "bytes": 3902,
+      "sha256": "0d1eb67cba1d0960b61c1233ae88c8372ef0390fa247ae2b4d44d32e2c786c7c"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_headers.py",
+      "bytes": 99272,
+      "sha256": "2160d3336253be074d8cbb9fcf2f7e8f5d393cf4da3a8f496c8829efb6abdacb"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_release_timing.py",
+      "bytes": 55169,
+      "sha256": "4c8f8f02a5fe1c831505477b5b262a4906341e7058ff48b45eddbe0ee3846a62"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_reuse_mentions.py",
+      "bytes": 7484,
+      "sha256": "0d59f8d503dee5735c6467bcb1b50c2c7866e462124776f03b7b2ea50d2056ff"
+    },
+    {
+      "path": "work/stack-and-reuse/attack_runs.py",
+      "bytes": 51625,
+      "sha256": "56dab09e159ed9525b20bb4ea9790190fa5fa0eef2290090e863915b33669339"
+    },
+    {
+      "path": "work/stack-and-reuse/audit_sheet.py",
+      "bytes": 3561,
+      "sha256": "090c95ba992ca6c305be027a7f156e5ea78eca649c4b649e54aa950dd75225ea"
+    },
+    {
+      "path": "work/stack-and-reuse/build_supp_tables.py",
+      "bytes": 19111,
+      "sha256": "e6ca24f7aaf0b67a4c888ce017a4fc782b467856d3a6fe1b228f74f75afdadb7"
+    },
+    {
+      "path": "work/stack-and-reuse/common.py",
+      "bytes": 4800,
+      "sha256": "d519fd4616ed53d6342eba6561b01dc946d39171a7448b23a58de5a6b0fec06a"
+    },
+    {
+      "path": "work/stack-and-reuse/compose_journal.py",
+      "bytes": 10193,
+      "sha256": "a3e70f6cf043f24ffb0d59285d8388939eccd7d89fee8be4d857fbda5fb1bbbb"
+    },
+    {
+      "path": "work/stack-and-reuse/database_rules.py",
+      "bytes": 446,
+      "sha256": "ca1fca7b9c7d0a3cf2e15150a033a1fcb1f59827d24aabb3ab7cb2ec5348d74b"
+    },
+    {
+      "path": "work/stack-and-reuse/deposit_habits.py",
+      "bytes": 9075,
+      "sha256": "b1ee478fe76be40e9754139f60cba9b9b86d0c9de341090fd3b515dff69a6f67"
+    },
+    {
+      "path": "work/stack-and-reuse/fastfetch.py",
+      "bytes": 3384,
+      "sha256": "9e1ed9829b8f584faaa9ef9de634ad192d243567aa863613d7df175f263d552e"
+    },
+    {
+      "path": "work/stack-and-reuse/features.py",
+      "bytes": 6818,
+      "sha256": "4910275942fc4fc69ff7a6970594c5277ee9245838b2b35cf1db9e93a4146484"
+    },
+    {
+      "path": "work/stack-and-reuse/figstyle.py",
+      "bytes": 7367,
+      "sha256": "4273dcbc418fe519f24aa407921292d687b7a71c94ac3a4d9d5009dcf9c59e5d"
+    },
+    {
+      "path": "work/stack-and-reuse/figure_data.py",
+      "bytes": 6444,
+      "sha256": "29f97dd092d8b94b4ef44bc554c9f2fa1787e7f077d33bd914873a2581909497"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery.py",
+      "bytes": 30111,
+      "sha256": "ea57fa9331077a31d0a8aa78a87e6433f0dfc9c88b6dfb0072a94b2e32be81cd"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_bytes_calendar_clocks.py",
+      "bytes": 23240,
+      "sha256": "f97effa4f9c0b473a3a2d50dbb2440ff80ce4fc75c6ba511ea5982c1ab716a22"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_geography.py",
+      "bytes": 23861,
+      "sha256": "891882abe79b4c1e149744cd927262ee565c6035fd75035be2e2dc9d6b9ccf59"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_scale.py",
+      "bytes": 19348,
+      "sha256": "d33936559fcd3aff7c7fb297c73294a291295afb7bece7f044363acba8f99239"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery2_stack.py",
+      "bytes": 22712,
+      "sha256": "ba4245a7b690679e414d568138c4536fe34cc465648ae59e203aa4c0e6bac2a7"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_databases.py",
+      "bytes": 13011,
+      "sha256": "c89deb2f796ccb9d2797beeb06d920c20553530b390d4f5472fbbe5035574594"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_methods.py",
+      "bytes": 35942,
+      "sha256": "69c75c615695c52b16a490046e7a3c72b559816ad8e3b85b48ac5015ecd710e2"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_producers.py",
+      "bytes": 36526,
+      "sha256": "d89dd30b74269317d393f867c8ee191929c8441a1d4cffab24080c34c72173a9"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_timing.py",
+      "bytes": 41109,
+      "sha256": "04c772d48502c36a2d77ec3eabc0fb444b939d114733668aa30ab8f963121edb"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery3_versions.py",
+      "bytes": 26952,
+      "sha256": "6e21ceef94d0f7be98e94aee13076c1ec18747f23f9be38a03d8365420dae236"
+    },
+    {
+      "path": "work/stack-and-reuse/gallery4_breadth.py",
+      "bytes": 13812,
+      "sha256": "1da14a1c1a50b11dab86cee7d0a4fff1af2800c37769f3fbbaaacb25188771dd"
+    },
+    {
+      "path": "work/stack-and-reuse/galstyle.py",
+      "bytes": 7149,
+      "sha256": "28c929e681a01deb91224c3ec7079373cb5969b902211f77de549795e0dc3475"
+    },
+    {
+      "path": "work/stack-and-reuse/geography_rules.py",
+      "bytes": 3707,
+      "sha256": "1ea78193df3d4fbc275a8637e27398fa5ee085b213632cd7c92692cb4e472933"
+    },
+    {
+      "path": "work/stack-and-reuse/header_sniff.py",
+      "bytes": 13537,
+      "sha256": "c2b4c0cf466dda4ed89e64befd1ce311a080d4c40dd219f5e14e42920b1182ae"
+    },
+    {
+      "path": "work/stack-and-reuse/layer_rules.py",
+      "bytes": 2803,
+      "sha256": "e7bb890b0d21fee6b0f718338f0ce5f5efb7d2ba7a7d4643108a93acc91c154c"
+    },
+    {
+      "path": "work/stack-and-reuse/layers.py",
+      "bytes": 3100,
+      "sha256": "0153d5d84a6e620fbde7e573f5151a6e22dce1ed0a8565d059de23d4c27ea4a3"
+    },
+    {
+      "path": "work/stack-and-reuse/ne_50m_admin_0_countries.geojson",
+      "bytes": 3083490,
+      "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/iso3166-1.json",
+      "bytes": 43284,
+      "sha256": "f01b812b57fba9f31ff621bf33e7c7570a01964dbeb5be2167e94decf538c89f"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/pride-resources-LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/pride-submission-validation.yaml",
+      "bytes": 86722,
+      "sha256": "25806dc7e32b23968a3099132faa6d2ce0b9152d12c6ca4fd48603d056ff2364"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/psi-ms-LICENSE",
+      "bytes": 278,
+      "sha256": "932e18d1cabe0f4d6daf32b273e608dfda7f10a785af7562f4256f139ab88b0a"
+    },
+    {
+      "path": "work/stack-and-reuse/reference/pycountry-LICENSE",
+      "bytes": 24463,
+      "sha256": "3fa39c6e18a3a4411082b64c164deae1d8f47b03a4d45304c1f0ae478626e382"
+    },
+    {
+      "path": "work/stack-and-reuse/reporting_comparisons.json",
+      "bytes": 36114,
+      "sha256": "1ee60ac60d392079f24daa09a39c114f3ca86c4df43978e7d286ec248ad99a64"
+    },
+    {
+      "path": "work/stack-and-reuse/reuse_mentions.py",
+      "bytes": 7857,
+      "sha256": "d34e783fc95d9eb7476bbcc3c52151212bf44b1f38fee99b35ea32cced2134a9"
+    },
+    {
+      "path": "work/stack-and-reuse/software_geography.py",
+      "bytes": 6460,
+      "sha256": "43ea97d51ab1a48c1e563b2305745e1b88986f79a69224b8a448e22ed2aee45a"
+    },
+    {
+      "path": "work/stack-and-reuse/software_registry.py",
+      "bytes": 8093,
+      "sha256": "7a12eebc265e0a59fa2745b134b7126082029c92cd1452f99c6b93ebf8cc6ab7"
+    },
+    {
+      "path": "work/stack-and-reuse/standards_by_stack.py",
+      "bytes": 6972,
+      "sha256": "3715171d836bc82a9fbbc98500120c755b9fc22f5d047204d1149b4cf27e95c1"
+    },
+    {
+      "path": "work/stack-and-reuse/test_journal_layout.py",
+      "bytes": 2147,
+      "sha256": "e6eff9d936f758247cd3809beb9c52fed00c97187d338e710897087c38323ec8"
+    },
+    {
+      "path": "work/stack-and-reuse/tool_outputs.py",
+      "bytes": 5052,
+      "sha256": "4109fb63fabbd62c4299c358390935529cbe127c4992ce774be00968a4c7436e"
+    },
+    {
+      "path": "work/stack-and-reuse/validate_layers.py",
+      "bytes": 5614,
+      "sha256": "7dbbd2ab28ff4742a8bd69beab9d629fe65675e6aa9ef65fb95e4e96c33cc2b0"
+    },
+    {
+      "path": "work/stack-and-reuse/version_scan.py",
+      "bytes": 15658,
+      "sha256": "2076ad1e7a21d32473b49e682c2887c1bcbb0d473f98bbb13ca779cac546d14b"
+    },
+    {
+      "path": "work/stack-and-reuse/within_group.py",
+      "bytes": 6868,
+      "sha256": "ff31f8fe93de04ddcb4e9ef55d3d616f43d29d5b2025f4c0c36b70b609ab7f67"
+    },
+    {
+      "path": "work/vendor-patterns/psi-ms.obo",
+      "bytes": 1859067,
+      "sha256": "84c79d3a8325de0a9bd25eb64aec74b6e01656cd83e28ef368a8dfcc867752bf"
+    }
+  ]
+}

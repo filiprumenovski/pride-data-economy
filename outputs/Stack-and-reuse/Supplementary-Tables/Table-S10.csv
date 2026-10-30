@@ -1,0 +1,5 @@
+export_class,datasets,groups,tools,standard_pct,ci_low,ci_high,native_visible_pct,archive_only_pct
+built-in,15707,7343,"Byonic, Comet, Mascot, MaxQuant, OpenMS, PEAKS, PLGS, PeptideShaker, Progenesis, ProteinPilot, Proteome Discoverer, Scaffold, TPP, X!Tandem",15.41,13.75,17.58,40.49,31.36
+native,144,93,"MS-GF+, MetaMorpheus",54.86,43.86,66.42,68.75,4.17
+none,1677,945,"DIA-NN, FragPipe, OpenSWATH, Percolator, Sage, Skyline, pFind",2.68,1.64,3.83,51.58,16.52
+unknown,1012,529,"EncyclopeDIA, Spectronaut",0.4,0.09,0.82,56.82,8.5

@@ -1,0 +1,96 @@
+{
+  "replicates": 2000,
+  "note": "Split-half comparison describes Monte Carlo sensitivity only, not confidence-interval validation; 2000 draws leave about 50 draws per percentile tail.",
+  "terms": {
+    "standard": {
+      "full_interval": [
+        0.6643187611331426,
+        1.1850362956467815
+      ],
+      "first_half_interval": [
+        0.6627248855040582,
+        1.190100263773198
+      ],
+      "second_half_interval": [
+        0.6719547550375239,
+        1.1766263625436928
+      ],
+      "maximum_endpoint_difference": 0.013473901229505314
+    },
+    "dia": {
+      "full_interval": [
+        1.188473117387304,
+        2.3902773722183217
+      ],
+      "first_half_interval": [
+        1.198750816761753,
+        2.399486032447377
+      ],
+      "second_half_interval": [
+        1.1848185925202166,
+        2.377666764762614
+      ],
+      "maximum_endpoint_difference": 0.02181926768476261
+    },
+    "sdrf": {
+      "full_interval": [
+        2.3830853560916703,
+        6.645131725087244
+      ],
+      "first_half_interval": [
+        2.369038258019351,
+        6.714332124289224
+      ],
+      "second_half_interval": [
+        2.4284264442962677,
+        6.5259316371774565
+      ],
+      "maximum_endpoint_difference": 0.1884004871117675
+    },
+    "human": {
+      "full_interval": [
+        1.14316374160402,
+        1.6956943993911855
+      ],
+      "first_half_interval": [
+        1.1528784053915082,
+        1.7018971925501811
+      ],
+      "second_half_interval": [
+        1.1342399657153455,
+        1.6928009319939292
+      ],
+      "maximum_endpoint_difference": 0.018638439676162744
+    },
+    "thermo": {
+      "full_interval": [
+        0.9852712446123473,
+        1.7390219607463033
+      ],
+      "first_half_interval": [
+        0.981590294601291,
+        1.7583727662388324
+      ],
+      "second_half_interval": [
+        0.986189276895115,
+        1.7234883134667756
+      ],
+      "maximum_endpoint_difference": 0.03488445277205687
+    },
+    "log_citations": {
+      "full_interval": [
+        1.2016017820588727,
+        1.5191062741595804
+      ],
+      "first_half_interval": [
+        1.1978257317720806,
+        1.5139538808458264
+      ],
+      "second_half_interval": [
+        1.2040019861008329,
+        1.5205110729968947
+      ],
+      "maximum_endpoint_difference": 0.006557192151068314
+    }
+  }
+}

@@ -1,0 +1,9 @@
+name flag (pct of datasets with FASTA),2013-16,2017-19,2020-22,2023-25
+only sources not named,51.0,50.7,43.8,43.6
+UniProt (any mention),31.0,37.6,47.0,49.3
+UniProt proteome ID (UP0...),3.2,5.9,15.3,22.1
+Swiss-Prot / reviewed (explicit),10.1,10.8,14.3,14.9
+Contaminants (cRAP / contaminant list),13.3,18.6,14.5,17.0
+"Genome-, transcript- or sample-derived (custom, variant, ORF, translation, metagenome, assembly...)",7.0,5.9,5.2,3.6
+Ensembl / GENCODE,4.3,1.1,0.8,0.8
+"datasets with FASTA (denominator, n)",345.0,1047.0,2213.0,3113.0

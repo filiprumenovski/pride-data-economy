@@ -1,0 +1,6 @@
+metric,share_pct,ci_lo,ci_hi,versioned_datasets_2025,datasets_on_line,groups_on_line
+MaxQuant 1.6,40.17,34.27,46.58,361,145,116
+MaxQuant 1.x,45.98,40.21,52.45,361,166,131
+DIA-NN 1.8,60.91,47.66,73.79,110,67,58
+Proteome Discoverer 2.x,68.75,56.88,78.85,112,77,56
+FragPipe 22,64.44,44.74,80.4,45,29,22

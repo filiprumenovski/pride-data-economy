@@ -1,0 +1,26 @@
+{
+  "title": "The data economy of public proteomics over thirteen years of PRIDE",
+  "description": "Code and frozen inputs for an analysis of 36,249 public PRIDE datasets released 2013–2025. The offline pipeline reconstructs the analyses, 19 figures and 22 supplementary tables. Code is MIT; author-created data, text and figures are CC BY 4.0. Third-party rights are retained.",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Rumenovski, Filip",
+      "affiliation": "Department of Chemistry, Wayne State University"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "proteomics",
+    "PRIDE",
+    "research data",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/filiprumenovski/pride-data-economy",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "cohort size and resolved geography",
+      "passed": true,
+      "values_compared": 2,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "breadth credit sums within dataset and axis",
+      "passed": true,
+      "values_compared": 257967,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "annual breadth datasets",
+      "passed": true,
+      "values_compared": 80,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "annual breadth categories",
+      "passed": true,
+      "values_compared": 80,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "annual breadth eff",
+      "passed": true,
+      "values_compared": 80,
+      "max_absolute_error": 6.821210263296962e-13
+    },
+    {
+      "name": "pooled breadth datasets_early",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "pooled breadth q1_early",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 5.684341886080801e-13
+    },
+    {
+      "name": "pooled breadth q2_early",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "pooled breadth datasets_late",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "pooled breadth q1_late",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 2.1316282072803006e-14
+    },
+    {
+      "name": "pooled breadth q2_late",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 2.2737367544323206e-13
+    },
+    {
+      "name": "pooled breadth q1_ratio",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 5.329070518200751e-15
+    },
+    {
+      "name": "pooled breadth q2_ratio",
+      "passed": true,
+      "values_compared": 8,
+      "max_absolute_error": 1.1102230246251565e-15
+    },
+    {
+      "name": "annual scale datasets_with_raw",
+      "passed": true,
+      "values_compared": 13,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "annual scale median_runs_lb",
+      "passed": true,
+      "values_compared": 13,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "annual scale share_ge100_runs",
+      "passed": true,
+      "values_compared": 13,
+      "max_absolute_error": 8.326672684688674e-17
+    },
+    {
+      "name": "run contrast n_early",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "run contrast n_late",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "run contrast median_early",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "run contrast median_late",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "run contrast median_ratio",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "run bootstrap median_ratio_lo",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "run bootstrap median_ratio_hi",
+      "passed": true,
+      "values_compared": 1,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "instrument model datasets",
+      "passed": true,
+      "values_compared": 823,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "instrument fractional credits",
+      "passed": true,
+      "values_compared": 823,
+      "max_absolute_error": 1.1368683772161603e-13
+    },
+    {
+      "name": "software-country equal-group lifts",
+      "passed": true,
+      "values_compared": 425,
+      "max_absolute_error": 1.7763568394002505e-15
+    }
+  ],
+  "scope": "Offline point-estimate recomputation plus headline run-count cluster bootstrap from public derived inputs.",
+  "not_recomputed": [
+    "raw-file classification",
+    "geography inference",
+    "all sensitivity analyses",
+    "frozen breadth bootstrap intervals and rarefied richness"
+  ],
+  "contributor_diversity": "Descriptive point estimates only; invalid historical cluster intervals are not recomputed or endorsed."
+}

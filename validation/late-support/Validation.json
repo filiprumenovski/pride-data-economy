@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "Before-after-by-year.csv": {
+      "matched": true,
+      "rows": 13
+    },
+    "Recognisable-by-year-three-ways.csv": {
+      "matched": true,
+      "rows": 13
+    },
+    "Standard-rate-by-tool-single-tool-datasets.csv": {
+      "matched": true,
+      "rows": 25
+    },
+    "Standard-rate-by-export-capability.csv": {
+      "matched": true,
+      "rows": 4
+    },
+    "H8-documentation-persistence-within-groups.csv": {
+      "matched": true,
+      "rows": 8
+    },
+    "37-journals-concentration.csv": {
+      "matched": true,
+      "rows": 13
+    }
+  },
+  "scope": "Recomputes downstream summaries from frozen derived classifications; does not rerun classification of raw archive listings or file headers."
+}

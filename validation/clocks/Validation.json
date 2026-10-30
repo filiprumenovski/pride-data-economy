@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "date_differences_checked": 11,
+  "dataset_rows": 36249,
+  "median_summaries_checked": 19,
+  "bootstrap_replicates_per_summary": 1000,
+  "scope": "Dates to summary estimates and intervals; extraction of dates from original filenames is upstream."
+}

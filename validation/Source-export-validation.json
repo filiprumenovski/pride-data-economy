@@ -1,0 +1,82 @@
+[
+  {
+    "path": "pride_files.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "pride_publications.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "pride_instruments.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "pride_species.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "g.deposits.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "lit.openalex_works.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "lit.europepmc_works.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "lit.project_publications.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "lit.openalex_author_institutions.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "lit.openalex_authorships.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "Group-order.csv",
+    "logical_contents_match": true
+  },
+  {
+    "path": "inputs/Arsenal/H1-H3-scale-instruments/H1-dataset-scale.csv.gz",
+    "logical_contents_match": true
+  },
+  {
+    "path": "inputs/Arsenal/H9-versions/Dataset-tool-version.csv.gz",
+    "logical_contents_match": true
+  },
+  {
+    "path": "inputs/Arsenal/H9-versions/Standard-file-software.csv.gz",
+    "logical_contents_match": true
+  },
+  {
+    "path": "study_text.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "pride_projects.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "pride_bronze_projects.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "Geography-evidence.parquet",
+    "logical_contents_match": true
+  },
+  {
+    "path": "inputs/Arsenal/H10-zip-headers/Dataset-zip-headers.csv",
+    "logical_contents_match": true
+  },
+  {
+    "path": "inputs/Findings-ledger.md",
+    "logical_contents_match": true
+  }
+]

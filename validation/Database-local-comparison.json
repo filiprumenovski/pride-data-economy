@@ -1,0 +1,62 @@
+{
+  "tables": 8,
+  "matched": 8,
+  "checks": [
+    {
+      "path": "Arsenal/H4-H7-databases-storage/H7-top-level-bytes-by-layer.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-density.csv",
+      "reference_rows": 321,
+      "rebuilt_rows": 321,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-fasta-rate.csv",
+      "reference_rows": 13,
+      "rebuilt_rows": 13,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age-sources.csv",
+      "reference_rows": 8,
+      "rebuilt_rows": 8,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Gallery/data/32-database-age.csv",
+      "reference_rows": 21,
+      "rebuilt_rows": 21,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S15.csv",
+      "reference_rows": 9,
+      "rebuilt_rows": 9,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Tool-outputs/Standard-rate-by-export-capability.csv",
+      "reference_rows": 4,
+      "rebuilt_rows": 4,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Tool-outputs/Standard-rate-by-tool-single-tool-datasets.csv",
+      "reference_rows": 25,
+      "rebuilt_rows": 25,
+      "status": "match",
+      "changes": {}
+    }
+  ]
+}

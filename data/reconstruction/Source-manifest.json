@@ -1,0 +1,149 @@
+{
+  "scope": "Public scientific project annotations and reduced source metadata for offline analysis. Dedicated contact names, emails, affiliations and original contact hashes are excluded. Project description/protocol prose is retained verbatim as public scientific metadata; embedded acknowledgments or contacts may occur. Publication reference text is reduced to the pending-publication regex indicator.",
+  "files": [
+    {
+      "table": "pride_files",
+      "path": "pride_files.parquet",
+      "bytes": 237189909,
+      "sha256": "415817b1fff4a089b52cbb600dbce547ec7c544f1a6ae66e0ec9e0e5b72ed898",
+      "query": "select project_accession, file_name, file_category_value, file_category_name, checksum, file_size_bytes, submission_date, publication_date, updated_date, primary_public_location_value from pride_files",
+      "rows": 3363331
+    },
+    {
+      "table": "pride_publications",
+      "path": "pride_publications.parquet",
+      "bytes": 429615,
+      "sha256": "c94bf787b48fe30b7165385a41086c0cd91234143839e828b495530566614cb7",
+      "query": "select project_accession, publication_doi, publication_pubmed_id, case when reference_line is null then null when regexp_matches(lower(reference_line), 'in press|submitted|accepted|under review|in revision|unpublished') then 'submitted' else '' end reference_line from pride_publications",
+      "rows": 29119
+    },
+    {
+      "table": "pride_instruments",
+      "path": "pride_instruments.parquet",
+      "bytes": 195637,
+      "sha256": "87aaa312ceae32a9b13e823ce8fdf8b72f23e29717b4ea2ec73b342410748238",
+      "query": "select project_accession,instrument_accession,instrument_name from pride_instruments",
+      "rows": 42239
+    },
+    {
+      "table": "pride_species",
+      "path": "pride_species.parquet",
+      "bytes": 315220,
+      "sha256": "d8d634adcd44eda06014a9be382ca16c5024450b2dc79224a0afdc4a200db169",
+      "query": "select project_accession,species_name,species_accession from pride_species",
+      "rows": 44094
+    },
+    {
+      "table": "g.deposits",
+      "path": "g.deposits.parquet",
+      "bytes": 151029,
+      "sha256": "34779d7c5dabdf9adbf9f785d8af2aea18c4678b9d0aec72ba0963c2e1ab68dd",
+      "query": "select accession,registry_announce_date from g.deposits",
+      "rows": 38530
+    },
+    {
+      "table": "lit.openalex_works",
+      "path": "lit.openalex_works.parquet",
+      "bytes": 527489,
+      "sha256": "69f3d767a64a1347514e83a1a102ccaa67970285484224d9f0b94bcfc79cfe75",
+      "query": "select work_id,doi,pmid,publication_year,publication_date,work_type,primary_subfield,primary_field from lit.openalex_works",
+      "rows": 24716
+    },
+    {
+      "table": "lit.europepmc_works",
+      "path": "lit.europepmc_works.parquet",
+      "bytes": 202394,
+      "sha256": "cf71f64e7283feb0c8455c333b554bf7ca277ce98c705756472ba04cc478c5e5",
+      "query": "select pmid,first_publication_date,journal from lit.europepmc_works",
+      "rows": 24091
+    },
+    {
+      "table": "lit.project_publications",
+      "path": "lit.project_publications.parquet",
+      "bytes": 256287,
+      "sha256": "dd35d90fea4c03eedc68847661b2da080d70620d16de544f73e39b332fd83f15",
+      "query": "select accession,work_id from lit.project_publications",
+      "rows": 28882
+    },
+    {
+      "table": "lit.openalex_author_institutions",
+      "path": "lit.openalex_author_institutions.parquet",
+      "bytes": 466315,
+      "sha256": "a5c4acd4199cef6ec77e97d63115b3369cc8ced856e1949e3c57e35aaa85eeb4",
+      "query": "select work_id,country_code from lit.openalex_author_institutions",
+      "rows": 434254
+    },
+    {
+      "table": "lit.openalex_authorships",
+      "path": "lit.openalex_authorships.parquet",
+      "bytes": 420777,
+      "sha256": "3c9678b6ded8dcbe9ea37831b7eb41f2281314718cc3372d5d7833f5203da55f",
+      "query": "select work_id,countries_json from lit.openalex_authorships",
+      "rows": 263512
+    },
+    {
+      "path": "Group-order.csv",
+      "bytes": 1161659,
+      "sha256": "2b8551442b38c8d5047d001874c719ac628ed8238e96eb8efe19f2b758ba7674"
+    },
+    {
+      "path": "inputs/Arsenal/H1-H3-scale-instruments/H1-dataset-scale.csv.gz",
+      "bytes": 158827,
+      "sha256": "0bb78fa35d1aa3345037e4e25d11ce66bde206bf2d26be4c5a89acfc0f30c697"
+    },
+    {
+      "path": "inputs/Arsenal/H9-versions/Dataset-tool-version.csv.gz",
+      "bytes": 208410,
+      "sha256": "97a52f0b8e3f2dd5eccd0c4cf2092b1bad3c155e58175f333dede54155f8ca2a"
+    },
+    {
+      "path": "inputs/Arsenal/H9-versions/Standard-file-software.csv.gz",
+      "bytes": 142768,
+      "sha256": "89fcc0a8d2f11f92cf26e00f8e94f530137f0b3a4e74076803dc519fec043fda"
+    },
+    {
+      "table": "study_text",
+      "path": "study_text.parquet",
+      "bytes": 23122904,
+      "sha256": "4d9545c9301b743aa99306ddda0cd8ddb8be5038a632701feac77643ad3b26b7",
+      "query": "select accession,title,description,keywords,processing,quant,experiments,software from study",
+      "rows": 36249
+    },
+    {
+      "table": "pride_projects",
+      "path": "pride_projects.parquet",
+      "bytes": 295047,
+      "sha256": "eb3fd5682b327d04a1887de4c28310c908f7ebb4199683a9c84e5bc5cd92afc8",
+      "query": "select project_accession,submission_type,submission_date,publication_date,keyword_count from pride_projects",
+      "rows": 38530
+    },
+    {
+      "table": "pride_bronze_projects",
+      "path": "pride_bronze_projects.parquet",
+      "bytes": 31121745,
+      "sha256": "3d7b1ea885ec48038e6a3d2414843e9b26b98286677ddc0d3f1c87754403d7d0",
+      "query": "select accession,publicationDate,identifiedPTMStrings,sampleProcessingProtocol,dataProcessingProtocol from pride_bronze_projects",
+      "rows": 38530
+    },
+    {
+      "path": "Geography-evidence.parquet",
+      "bytes": 1589358,
+      "rows": 92806,
+      "sha256": "9b5e59812cf942ace771dede4f35374da1bc8eef1a1f0fc269637b81e8a2e0af",
+      "note": "PRIDE contact source evidence and MassIVE reference seeds (2026-09-30), reduced by scripts/export_geography_evidence.py to equality IDs, country fields, and matched country suffixes. Assigned geography is not an input."
+    },
+    {
+      "path": "inputs/Arsenal/H10-zip-headers/Dataset-zip-headers.csv",
+      "bytes": 9423,
+      "sha256": "868cd7d58d4ac99240ea1d73be21abc3abadb3e7f16ceefc741ad24b95acca4c",
+      "note": "Frozen extraction flags for zip-contained table headers."
+    },
+    {
+      "path": "inputs/Findings-ledger.md",
+      "bytes": 73371,
+      "sha256": "90ab5bdd8ea94beaab07c554e66d7a2e7a05f7bd8ac6c33e6db09a80bcaffcd9",
+      "note": "Frozen narrative claim ledger; not an analytical input."
+    }
+  ],
+  "sampling_order": "Anonymous group labels preserve original lexicographic order under bare-accession, acc: and solo: fallback conventions. Original contact hashes are excluded."
+}

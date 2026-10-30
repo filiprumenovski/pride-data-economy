@@ -1,0 +1,60 @@
+{
+  "source_commit": "ab5d78bf3937585379261d69bbe82b45b8b4036e",
+  "retrieval_date": "2026-10-11/2026-10-12",
+  "note": "New retrieval of frozen targets, not the original October 2 cache. Frozen manuscript estimates are retained; new classifications are reported as a retrieval sensitivity.",
+  "source_sha256": {
+    "archive_contents.py": "9d3b7f3ffd64debde116ee8d978160d9b90510f89432b13d04bd1e764f09d2bd",
+    "header_sniff.py": "c2b4c0cf466dda4ed89e64befd1ce311a080d4c40dd219f5e14e42920b1182ae",
+    "fastfetch.py": "9e1ed9829b8f584faaa9ef9de634ad192d243567aa863613d7df175f263d552e"
+  },
+  "target_sha256": {
+    "Archive-contents": "5c223390435fe4c02d5f55dc5911f56bd69f2369bc65ae238b35173113a0f26d",
+    "Header-sniff": "c5571a747c1f585222a44b525527a3ce7b21a5edf716f357bb08346a37dedacc"
+  },
+  "outputs": {
+    "Archive-contents": {
+      "path": "Archive-contents/Listings.jsonl.gz",
+      "records": 46147,
+      "statuses": {
+        "ok": 45950,
+        "no_zip_directory": 130,
+        "partial": 44,
+        "directory_too_large": 9,
+        "http_404": 6,
+        "zip64_record_bad": 8
+      },
+      "size_changed_records": 2,
+      "bytes": 236418362,
+      "sha256": "28b1e115e887ef94e225c4f64f8aca9c2e2d754be97ec82051c2dc1f6ef4205c"
+    },
+    "Members.parquet": {
+      "path": "Archive-contents/Members.parquet",
+      "rows": 35960852,
+      "bytes": 224832267,
+      "sha256": "9e46179b9d67c6f2f88493476c3311e366c55281ebb1348d0deeb80e1178fab8"
+    },
+    "Header-sniff": {
+      "path": "Header-sniff/Headers.jsonl.gz",
+      "records": 59227,
+      "statuses": {
+        "ok": 54228,
+        "skipped_format": 2818,
+        "partial": 2002,
+        "no_sheet": 55,
+        "error: RuntimeError: http_404": 61,
+        "no_row": 26,
+        "error: RuntimeError: http_416": 13,
+        "error: RuntimeError: range_not_supported": 3,
+        "error: error: Error -3 while decompressing data: invalid distance too far ": 14,
+        "error: error: Error -3 while decompressing data: invalid code -- missing e": 2,
+        "error: error: Error -3 while decompressing data: invalid literal/lengths s": 2,
+        "error: error: Error -3 while decompressing data: incorrect header check": 1,
+        "error: error: Error -3 while decompressing data: invalid bit length repeat": 1,
+        "error: error: unpack_from requires a buffer of at least 30 bytes for unpac": 1
+      },
+      "size_changed_records": 145,
+      "bytes": 7952842,
+      "sha256": "6e55d173bbe51dad1bda0868a3b9d5f4252fc3145c7e65f82baf8ac9e7bb1d04"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+release_year,measure,datasets,groups,with,pct,ci_lo,ci_hi
+2013,fasta_anywhere,254,198,19,7.5,4.1,11.2
+2014,fasta_anywhere,483,352,35,7.2,4.8,10.1
+2015,fasta_anywhere,794,500,109,13.7,9.9,18.2
+2016,fasta_anywhere,1195,739,182,15.2,12.2,18.5
+2017,fasta_anywhere,1310,860,238,18.2,14.8,22.3
+2018,fasta_anywhere,2168,1387,350,16.1,14.0,18.5
+2019,fasta_anywhere,2545,1578,459,18.0,15.9,20.2
+2020,fasta_anywhere,2992,1883,581,19.4,17.4,21.6
+2021,fasta_anywhere,3999,2380,741,18.5,16.7,20.5
+2022,fasta_anywhere,4944,2970,891,18.0,16.2,19.9
+2023,fasta_anywhere,4616,2781,889,19.3,17.4,21.2
+2024,fasta_anywhere,4718,2863,961,20.4,18.4,22.3
+2025,fasta_anywhere,6231,3611,1263,20.3,18.5,22.1

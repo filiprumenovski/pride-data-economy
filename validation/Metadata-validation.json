@@ -1,0 +1,30 @@
+{
+  "cohort_accessions": 36249,
+  "submission_and_release_dates_match": true,
+  "software_flags": {
+    "mascot": 6768,
+    "sequest": 4981,
+    "peaks": 1265,
+    "scaffold": 2037,
+    "progenesis": 924,
+    "msgf": 467,
+    "peptideshaker": 145,
+    "comet": 718,
+    "xtandem": 802,
+    "byonic": 464,
+    "proteinpilot": 914,
+    "plgs": 505,
+    "skyline": 819,
+    "msfragger": 789,
+    "pfind": 228,
+    "openms": 267,
+    "percolator": 2983,
+    "metamorpheus": 83,
+    "maxquant": 13724,
+    "pd": 8083,
+    "diann": 1231,
+    "spectronaut": 1419
+  },
+  "species_flags_match": true,
+  "primary_publication_links_match": true
+}

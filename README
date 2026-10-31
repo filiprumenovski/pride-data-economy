@@ -10,8 +10,15 @@ Check the release (Python 3.12+, pinned versions in requirements.txt):
   python scripts/release_early.py validate --data-dir data/early --output-dir results/early
   python scripts/release_late.py validate --data data/late --output results/late
 
-Full rebuild (needs Source-metadata.zip and Extraction-caches.zip from the release):
+Full rebuild (about 20 minutes). Download Source-metadata.zip and
+Extraction-caches.zip from release v1.0.0
+(https://github.com/filiprumenovski/pride-data-economy/releases/tag/v1.0.0), unzip them, and
+install Liberation Sans (or pass --font-dir with its TTF files):
 
+  unzip Source-metadata.zip -d SOURCE
+  unzip Extraction-caches.zip -d CACHES
   python scripts/reproduce_all.py --source SOURCE --cache-dir CACHES --output OUT
+
+All 23 stages must pass and all 79 result tables must match (OUT/Numerical-comparison.json).
 
 Code: MIT (LICENSE). Data, text and figures: CC BY 4.0 (DATA-LICENSE). Third-party: NOTICE.

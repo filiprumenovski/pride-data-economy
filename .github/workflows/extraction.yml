@@ -4,11 +4,10 @@ on:
     inputs:
       release:
         description: Release containing Extraction-caches.zip
-        default: v0.1.0
+        default: v1.0.0
         required: true
 permissions:
-  # GitHub requires push access to read draft releases; no write operation is run.
-  contents: write
+  contents: read
 jobs:
   reclassify:
     runs-on: ubuntu-latest

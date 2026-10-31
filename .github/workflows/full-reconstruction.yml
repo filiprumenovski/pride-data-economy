@@ -4,11 +4,10 @@ on:
     inputs:
       release:
         description: Release containing Source-metadata.zip and Extraction-caches.zip
-        default: v0.1.0
+        default: v1.0.0
         required: true
 permissions:
-  # Required to read this repository's draft release; this workflow only downloads.
-  contents: write
+  contents: read
 jobs:
   reconstruct:
     runs-on: ubuntu-latest

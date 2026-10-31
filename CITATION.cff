@@ -6,6 +6,11 @@ authors:
     given-names: Filip
     affiliation: "Department of Chemistry, Wayne State University"
     email: filip.rumenovski@wayne.edu
+doi: 10.5281/zenodo.23843531
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23843531
+    description: "Zenodo archive of the data and code"
 repository-code: "https://github.com/filiprumenovski/pride-data-economy"
 license: MIT
 keywords:

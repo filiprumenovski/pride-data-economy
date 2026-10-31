@@ -33,8 +33,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 537,
-      "sha256": "7c7476d02f0282285e7c56b3d5f84322acf6652917d1d2ad3b3f72b7740e9b6a"
+      "bytes": 683,
+      "sha256": "cc27b933055b63cfa5da5d1fac23c00fe1a6cd136f627ee566fb7c3c5af4a6dd"
     },
     {
       "path": "DATA-LICENSE",
@@ -53,8 +53,8 @@
     },
     {
       "path": "README",
-      "bytes": 1134,
-      "sha256": "b4919599f9b17325a72395681656a5330dad31a2e6a352af198138bbc3f1aead"
+      "bytes": 1182,
+      "sha256": "a6fd1f7c05126bceab4258125aef1d823e208123a2c5972db4bd4cb03bb5dd72"
     },
     {
       "path": "data/early/Breadth-long.parquet",

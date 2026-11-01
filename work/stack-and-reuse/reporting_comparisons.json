@@ -12,7 +12,7 @@
       "bounds": "",
       "unit": "journals",
       "detail": "",
-      "source": "Table S18"
+      "source": "Table S3"
     },
     {
       "measure": "Distinct journals",
@@ -24,7 +24,7 @@
       "bounds": "",
       "unit": "journals",
       "detail": "",
-      "source": "Table S18"
+      "source": "Table S3"
     },
     {
       "measure": "Rarefied instrument richness",
@@ -36,7 +36,7 @@
       "bounds": "",
       "unit": "models",
       "detail": "Richness did not increase despite more even model representation.",
-      "source": "Table S3; Fig. 1b"
+      "source": "Table S2; Fig. 1b"
     },
     {
       "measure": "Rarefied instrument richness",
@@ -48,7 +48,7 @@
       "bounds": "",
       "unit": "models",
       "detail": "Richness did not increase despite more even model representation.",
-      "source": "Table S3; Fig. 1b"
+      "source": "Table S2; Fig. 1b"
     },
     {
       "measure": "Diversity comparisons",
@@ -60,7 +60,7 @@
       "bounds": "",
       "unit": "",
       "detail": "Direction agreed at orders 1 and 2. At order 2, tools, research subfields, countries and instrument vendors showed no detectable change.",
-      "source": "Table S3"
+      "source": "Table S2"
     },
     {
       "measure": "Timing of effective-number increases",
@@ -72,7 +72,7 @@
       "bounds": "",
       "unit": "",
       "detail": "Instrument models mainly from 2020; journals until 2022; tools only in 2024 and 2025.",
-      "source": "Table S2; Fig. 1a"
+      "source": "Table S1; Fig. 1a"
     },
     {
       "measure": "Human samples named",
@@ -84,7 +84,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Supplementary Fig. 9; Gallery/data/29-species.csv"
+      "source": "Supplementary Fig. 1; Gallery/data/29-species.csv"
     },
     {
       "measure": "Human samples named",
@@ -96,7 +96,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Supplementary Fig. 9; Gallery/data/29-species.csv"
+      "source": "Supplementary Fig. 1; Gallery/data/29-species.csv"
     },
     {
       "measure": "Mouse samples named",
@@ -108,7 +108,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Supplementary Fig. 9; Gallery/data/29-species.csv"
+      "source": "Supplementary Fig. 1; Gallery/data/29-species.csv"
     },
     {
       "measure": "Mouse samples named",
@@ -120,7 +120,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Supplementary Fig. 9; Gallery/data/29-species.csv"
+      "source": "Supplementary Fig. 1; Gallery/data/29-species.csv"
     },
     {
       "measure": "Neither human nor mouse named",
@@ -132,7 +132,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Findings-ledger.md; Supplementary Fig. 9"
+      "source": "Findings-ledger.md; Supplementary Fig. 1"
     },
     {
       "measure": "Neither human nor mouse named",
@@ -144,7 +144,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Findings-ledger.md; Supplementary Fig. 9"
+      "source": "Findings-ledger.md; Supplementary Fig. 1"
     },
     {
       "measure": "First-time contributor share",
@@ -156,7 +156,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Table S1; Fig. 1c,d"
+      "source": "Table S22; Fig. 1c,d"
     },
     {
       "measure": "Growth in country-resolved deposits",
@@ -168,7 +168,7 @@
       "bounds": "",
       "unit": "fold",
       "detail": "",
-      "source": "Table S6; Fig. 1e–g"
+      "source": "Table S7; Fig. 1e–g"
     },
     {
       "measure": "Growth in deposits from China",
@@ -180,7 +180,7 @@
       "bounds": "",
       "unit": "fold",
       "detail": "See S6 for the bootstrap bounds at source precision.",
-      "source": "Table S6; Fig. 1e–g"
+      "source": "Table S7; Fig. 1e–g"
     },
     {
       "measure": "Growth in deposits from Germany",
@@ -192,7 +192,7 @@
       "bounds": "",
       "unit": "fold",
       "detail": "See S6 for the bootstrap bounds at source precision.",
-      "source": "Table S6; Fig. 1e–g"
+      "source": "Table S7; Fig. 1e–g"
     },
     {
       "measure": "China share of deposits",
@@ -204,7 +204,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Fig. 1e–g; Table S6"
+      "source": "Fig. 1e–g; Table S7"
     },
     {
       "measure": "China share of deposits",
@@ -216,7 +216,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Fig. 1e–g; Table S6"
+      "source": "Fig. 1e–g; Table S7"
     },
     {
       "measure": "Eligible raw-run datasets",
@@ -276,7 +276,7 @@
       "bounds": "",
       "unit": "channels",
       "detail": "TMTpro replaced iTRAQ; channels distinguish samples measured together in a run.",
-      "source": "Supplementary Fig. 8; Gallery/data/27-isobaric-plex.csv"
+      "source": "Supplementary Fig. 5; Gallery/data/27-isobaric-plex.csv"
     },
     {
       "measure": "Mean channels per labelled dataset",
@@ -288,7 +288,7 @@
       "bounds": "",
       "unit": "channels",
       "detail": "TMTpro replaced iTRAQ; channels distinguish samples measured together in a run.",
-      "source": "Supplementary Fig. 8; Gallery/data/27-isobaric-plex.csv"
+      "source": "Supplementary Fig. 5; Gallery/data/27-isobaric-plex.csv"
     },
     {
       "measure": "Run-count sensitivity analyses",
@@ -336,7 +336,7 @@
       "bounds": "",
       "unit": "GB per run",
       "detail": "Model references: Makarov2006 and Stewart2023. GB = 10^9 bytes.",
-      "source": "Table S7; Fig. 2d"
+      "source": "Table S9; Fig. 2d"
     },
     {
       "measure": "Median raw-run size by model",
@@ -348,7 +348,7 @@
       "bounds": "",
       "unit": "GB per run",
       "detail": "Model references: Makarov2006 and Stewart2023. GB = 10^9 bytes.",
-      "source": "Table S7; Fig. 2d"
+      "source": "Table S9; Fig. 2d"
     },
     {
       "measure": "Instrument-mix component of run-size change",
@@ -420,7 +420,7 @@
       "bounds": "",
       "unit": "% of fractional counts",
       "detail": "The first-year LTQ Orbitrap value is left-censored.",
-      "source": "Fig. 3a; Supplementary Fig. 2"
+      "source": "Fig. 3a; Supplementary Fig. 7"
     },
     {
       "measure": "Fractional instrument share: Q Exactive",
@@ -432,7 +432,7 @@
       "bounds": "",
       "unit": "% of fractional counts",
       "detail": "The first-year LTQ Orbitrap value is left-censored.",
-      "source": "Fig. 3a; Supplementary Fig. 2"
+      "source": "Fig. 3a; Supplementary Fig. 7"
     },
     {
       "measure": "Fractional instrument share: Q Exactive HF",
@@ -444,7 +444,7 @@
       "bounds": "",
       "unit": "% of fractional counts",
       "detail": "The first-year LTQ Orbitrap value is left-censored.",
-      "source": "Fig. 3a; Supplementary Fig. 2"
+      "source": "Fig. 3a; Supplementary Fig. 7"
     },
     {
       "measure": "timsTOF-labelled datasets",
@@ -552,7 +552,7 @@
       "bounds": "",
       "unit": "% of versioned datasets",
       "detail": "First recorded in PRIDE in 2017; a different denominator from submission-year shares.",
-      "source": "Supplementary Fig. 4; Gallery/data/31-version-streams.csv"
+      "source": "Supplementary Fig. 9; Gallery/data/31-version-streams.csv"
     },
     {
       "measure": "MaxQuant 1.6-series share by submission year",
@@ -563,8 +563,8 @@
       "upper": 46.58,
       "bounds": "95% interval",
       "unit": "% of versioned datasets",
-      "detail": "Point estimate rounded as in prose; Table S12 gives 40.17%.",
-      "source": "Table S12; Supplementary Fig. 4"
+      "detail": "Point estimate rounded as in prose; Table S10 gives 40.17%.",
+      "source": "Table S10; Supplementary Fig. 9"
     },
     {
       "measure": "DIA-NN 1.8-series share by submission year",
@@ -575,8 +575,8 @@
       "upper": 74,
       "bounds": "95% interval",
       "unit": "% of versioned datasets",
-      "detail": "Rounded as in prose; Table S12 gives estimates and bounds at source precision.",
-      "source": "Table S12; Supplementary Fig. 4"
+      "detail": "Rounded as in prose; Table S10 gives estimates and bounds at source precision.",
+      "source": "Table S10; Supplementary Fig. 9"
     },
     {
       "measure": "Eligible identification-result datasets",
@@ -588,7 +588,7 @@
       "bounds": "",
       "unit": "datasets",
       "detail": "",
-      "source": "Table S1; Table S13"
+      "source": "Table S22; Table S11"
     },
     {
       "measure": "Identifiable results: Top-level file names",
@@ -600,7 +600,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "Lower-bound detection, not validity or usability.",
-      "source": "Table S13; Fig. 4c"
+      "source": "Table S11; Fig. 4c"
     },
     {
       "measure": "Identifiable results: Adding archive contents",
@@ -612,7 +612,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "Lower-bound detection, not validity or usability.",
-      "source": "Table S13; Fig. 4c"
+      "source": "Table S11; Fig. 4c"
     },
     {
       "measure": "Identifiable results: Adding table headers",
@@ -624,7 +624,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "Lower-bound detection, not validity or usability.",
-      "source": "Table S13; Fig. 4c"
+      "source": "Table S11; Fig. 4c"
     },
     {
       "measure": "Identifiable results at all search depths",
@@ -636,7 +636,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "Compared with 80% in 2025.",
-      "source": "Table S13; Fig. 4d"
+      "source": "Table S11; Fig. 4d"
     },
     {
       "measure": "Standard-result-file prevalence",
@@ -648,7 +648,7 @@
       "bounds": "Observed annual range",
       "unit": "% of datasets",
       "detail": "Submitter-deposited mzIdentML or mzTab; repository-generated files excluded.",
-      "source": "Table S13"
+      "source": "Table S11"
     },
     {
       "measure": "Standard result files: DIA-NN",
@@ -660,7 +660,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "Lowest and highest observed tool-specific rates, respectively.",
-      "source": "Table S9; Fig. 4a"
+      "source": "Table S12; Fig. 4a"
     },
     {
       "measure": "Standard result files: MS-GF+",
@@ -672,7 +672,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "Lowest and highest observed tool-specific rates, respectively.",
-      "source": "Table S9; Fig. 4a"
+      "source": "Table S12; Fig. 4a"
     },
     {
       "measure": "Standard files when export is optional",
@@ -684,7 +684,7 @@
       "bounds": "95% interval",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Table S10; Fig. 4b"
+      "source": "Table S13; Fig. 4b"
     },
     {
       "measure": "Default-export group size",
@@ -696,7 +696,7 @@
       "bounds": "",
       "unit": "datasets",
       "detail": "",
-      "source": "Table S10; Fig. 4b"
+      "source": "Table S13; Fig. 4b"
     },
     {
       "measure": "MetaMorpheus deposits with standard files",
@@ -708,7 +708,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "The tool writes standard files by default.",
-      "source": "Table S9; Fig. 4a"
+      "source": "Table S12; Fig. 4a"
     },
     {
       "measure": "Software-mix component of standard-file change",
@@ -756,7 +756,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Table S1; standards-by-stack analysis"
+      "source": "Table S22; standards-by-stack analysis"
     },
     {
       "measure": "Detected DIA prevalence",
@@ -768,7 +768,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Table S1; standards-by-stack analysis"
+      "source": "Table S22; standards-by-stack analysis"
     },
     {
       "measure": "Standard-file prevalence with detected DIA",
@@ -816,7 +816,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Supplementary Fig. 7; Gallery/data/30-file-formats-periods.csv"
+      "source": "Supplementary Fig. 10; Gallery/data/30-file-formats-periods.csv"
     },
     {
       "measure": "Spectra in open formats present",
@@ -828,7 +828,7 @@
       "bounds": "",
       "unit": "% of datasets",
       "detail": "",
-      "source": "Supplementary Fig. 7; Gallery/data/30-file-formats-periods.csv"
+      "source": "Supplementary Fig. 10; Gallery/data/30-file-formats-periods.csv"
     },
     {
       "measure": "Contribution of complete-submission decline",
@@ -840,7 +840,7 @@
       "bounds": "Estimated contribution range",
       "unit": "percentage points",
       "detail": "Complete-submission share halved; contribution to the 13 percentage-point open-spectra decline.",
-      "source": "Supplementary Fig. 7"
+      "source": "Supplementary Fig. 10"
     },
     {
       "measure": "SDRF recurrence",
@@ -924,7 +924,7 @@
       "bounds": "95% interval",
       "unit": "years",
       "detail": "Median is a lower bound measured from first recorded PRIDE appearance.",
-      "source": "Table S11; Supplementary Fig. 5"
+      "source": "Table S16; Supplementary Fig. 11"
     },
     {
       "measure": "Database date precedes latest measurement",
@@ -960,7 +960,7 @@
       "bounds": "",
       "unit": "days",
       "detail": "",
-      "source": "Table S16; Supplementary Fig. 13"
+      "source": "Table S17; Supplementary Fig. 13"
     },
     {
       "measure": "Median publication-to-release delay",
@@ -972,7 +972,7 @@
       "bounds": "",
       "unit": "days",
       "detail": "Who set the release date is not recorded.",
-      "source": "Table S16; Supplementary Fig. 13"
+      "source": "Table S17; Supplementary Fig. 13"
     },
     {
       "measure": "Median publication-to-release delay",
@@ -984,7 +984,7 @@
       "bounds": "",
       "unit": "days",
       "detail": "Who set the release date is not recorded.",
-      "source": "Table S16; Supplementary Fig. 13"
+      "source": "Table S17; Supplementary Fig. 13"
     },
     {
       "measure": "Papers in journals with proteom in title",
@@ -996,7 +996,7 @@
       "bounds": "",
       "unit": "papers",
       "detail": "",
-      "source": "Table S17; Fig. 5b,c"
+      "source": "Table S18; Fig. 5b,c"
     },
     {
       "measure": "Papers in journals with proteom in title",
@@ -1008,7 +1008,7 @@
       "bounds": "",
       "unit": "papers",
       "detail": "",
-      "source": "Table S17; Fig. 5b,c"
+      "source": "Table S18; Fig. 5b,c"
     },
     {
       "measure": "Top-ten journal concentration",
@@ -1020,7 +1020,7 @@
       "bounds": "",
       "unit": "% of papers",
       "detail": "",
-      "source": "Table S18; Fig. 5c"
+      "source": "Table S3; Fig. 5c"
     },
     {
       "measure": "Top-ten journal concentration",
@@ -1032,7 +1032,7 @@
       "bounds": "",
       "unit": "% of papers",
       "detail": "",
-      "source": "Table S18; Fig. 5c"
+      "source": "Table S3; Fig. 5c"
     },
     {
       "measure": "Chemistry research-field assignment",
@@ -1044,7 +1044,7 @@
       "bounds": "",
       "unit": "% of linked datasets",
       "detail": "Almost all chemistry assignments were spectroscopy.",
-      "source": "Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv"
+      "source": "Supplementary Fig. 14; Gallery/data/36-research-fields-by-year.csv"
     },
     {
       "measure": "Chemistry research-field assignment",
@@ -1056,7 +1056,7 @@
       "bounds": "",
       "unit": "% of linked datasets",
       "detail": "Almost all chemistry assignments were spectroscopy.",
-      "source": "Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv"
+      "source": "Supplementary Fig. 14; Gallery/data/36-research-fields-by-year.csv"
     },
     {
       "measure": "Medicine research-field assignment",
@@ -1068,7 +1068,7 @@
       "bounds": "",
       "unit": "% of linked datasets",
       "detail": "",
-      "source": "Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv"
+      "source": "Supplementary Fig. 14; Gallery/data/36-research-fields-by-year.csv"
     },
     {
       "measure": "Medicine research-field assignment",
@@ -1080,7 +1080,7 @@
       "bounds": "",
       "unit": "% of linked datasets",
       "detail": "",
-      "source": "Supplementary Fig. 12; Gallery/data/36-research-fields-by-year.csv"
+      "source": "Supplementary Fig. 14; Gallery/data/36-research-fields-by-year.csv"
     },
     {
       "measure": "Qualifying mention analysis population",

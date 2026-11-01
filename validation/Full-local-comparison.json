@@ -388,35 +388,35 @@
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S1.csv",
+      "path": "Supplementary-Tables/Table-S22.csv",
       "reference_rows": 13,
       "rebuilt_rows": 13,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S10.csv",
+      "path": "Supplementary-Tables/Table-S13.csv",
       "reference_rows": 4,
       "rebuilt_rows": 4,
       "status": "match",
       "changes": {}
     },
     {
+      "path": "Supplementary-Tables/Table-S16.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
+      "path": "Supplementary-Tables/Table-S10.csv",
+      "reference_rows": 5,
+      "rebuilt_rows": 5,
+      "status": "match",
+      "changes": {}
+    },
+    {
       "path": "Supplementary-Tables/Table-S11.csv",
-      "reference_rows": 5,
-      "rebuilt_rows": 5,
-      "status": "match",
-      "changes": {}
-    },
-    {
-      "path": "Supplementary-Tables/Table-S12.csv",
-      "reference_rows": 5,
-      "rebuilt_rows": 5,
-      "status": "match",
-      "changes": {}
-    },
-    {
-      "path": "Supplementary-Tables/Table-S13.csv",
       "reference_rows": 13,
       "rebuilt_rows": 13,
       "status": "match",
@@ -437,21 +437,21 @@
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S16.csv",
+      "path": "Supplementary-Tables/Table-S17.csv",
       "reference_rows": 3,
       "rebuilt_rows": 3,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S17.csv",
+      "path": "Supplementary-Tables/Table-S18.csv",
       "reference_rows": 15,
       "rebuilt_rows": 15,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S18.csv",
+      "path": "Supplementary-Tables/Table-S3.csv",
       "reference_rows": 13,
       "rebuilt_rows": 13,
       "status": "match",
@@ -465,7 +465,7 @@
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S2.csv",
+      "path": "Supplementary-Tables/Table-S1.csv",
       "reference_rows": 80,
       "rebuilt_rows": 80,
       "status": "match",
@@ -486,35 +486,35 @@
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S3.csv",
+      "path": "Supplementary-Tables/Table-S2.csv",
       "reference_rows": 8,
       "rebuilt_rows": 8,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S4.csv",
+      "path": "Supplementary-Tables/Table-S5.csv",
       "reference_rows": 18,
       "rebuilt_rows": 18,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S5.csv",
+      "path": "Supplementary-Tables/Table-S6.csv",
       "reference_rows": 7,
       "rebuilt_rows": 7,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S6.csv",
+      "path": "Supplementary-Tables/Table-S7.csv",
       "reference_rows": 65,
       "rebuilt_rows": 65,
       "status": "match",
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S7.csv",
+      "path": "Supplementary-Tables/Table-S9.csv",
       "reference_rows": 37,
       "rebuilt_rows": 37,
       "status": "match",
@@ -528,7 +528,7 @@
       "changes": {}
     },
     {
-      "path": "Supplementary-Tables/Table-S9.csv",
+      "path": "Supplementary-Tables/Table-S12.csv",
       "reference_rows": 25,
       "rebuilt_rows": 25,
       "status": "match",

@@ -54,21 +54,21 @@ MAIN = [
     ('Analytical content shared in standard and tool-specific formats', ['06-standards-by-software', '12-hidden-results', '13-habits']),
     ('Connecting public deposits to the research literature', ['09-clocks', '37-journals', '26-reuse']),
 ]
-EXTENDED = [
+EXTENDED = [   # numbered in order of first citation
+    ('Organisms', ['29-species']),
     ('Concentration of supply', ['34-contributor-concentration']),
+    ('Countries', ['08-countries', '39-data-age-by-country']),
+    ('Collaboration', ['35-collaboration']),
+    ('Isobaric labelling and modifications', ['27-isobaric-plex', '28-ptm-landscape']),
+    ('Where the petabytes are', ['23-petabyte-treemap']),
     ('Fleet history of every common instrument model', ['14-fleet-history']),
     ('Arrival of new instrument models by continent', ['38-instrument-arrival']),
     ('Software release lines in use', ['31-version-streams']),
-    ('Software and sequence-database age', ['33-tool-age-at-release', '32-database-age']),
-    ('Where the petabytes are', ['23-petabyte-treemap']),
     ('File formats', ['30-file-formats']),
-    ('Isobaric labelling and modifications', ['27-isobaric-plex', '28-ptm-landscape']),
-    ('Organisms', ['29-species']),
-    ('Countries', ['08-countries', '39-data-age-by-country']),
-    ('Collaboration', ['35-collaboration']),
-    ('Research fields of the linked papers', ['36-research-fields']),
-    ('Release timing', ['10-release-waves', '41-paper-and-release']),
+    ('Software and sequence-database age', ['33-tool-age-at-release', '32-database-age']),
     ('The submission clock', ['40-weekly-rhythm']),
+    ('Release timing', ['10-release-waves', '41-paper-and-release']),
+    ('Research fields of the linked papers', ['36-research-fields']),
 ]
 
 

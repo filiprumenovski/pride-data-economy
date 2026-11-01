@@ -11,8 +11,8 @@ Check the release (Python 3.12+, pinned versions in requirements.txt):
   python scripts/release_late.py validate --data data/late --output results/late
 
 Full rebuild (about 20 minutes). Download Source-metadata.zip and
-Extraction-caches.zip from Zenodo (https://doi.org/10.5281/zenodo.23843531;
-mirrored as GitHub release v1.0.0), unzip them, and
+Extraction-caches.zip from Zenodo (https://doi.org/10.5281/zenodo.23870917;
+mirrored as GitHub release v1.1.0), unzip them, and
 install Liberation Sans (or pass --font-dir with its TTF files):
 
   unzip Source-metadata.zip -d SOURCE
@@ -22,4 +22,4 @@ install Liberation Sans (or pass --font-dir with its TTF files):
 All 23 stages must pass and all 79 result tables must match (OUT/Numerical-comparison.json).
 
 Code: MIT (LICENSE). Data, text and figures: CC BY 4.0 (DATA-LICENSE). Third-party: NOTICE.
-Cite the data and code as doi:10.5281/zenodo.23843531.
+Cite the data and code as doi:10.5281/zenodo.23870917.

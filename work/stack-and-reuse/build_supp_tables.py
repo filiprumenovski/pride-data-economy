@@ -1,4 +1,4 @@
-"""Supplementary Tables for the paper, assembled from frozen outputs (no new estimates except Table S1 counts).
+"""Supplementary Tables for the paper, assembled from frozen outputs (no new estimates except Table S22 counts).
 
 Writes outputs/Stack-and-reuse/Supplementary-Tables/Supplementary-Tables.xlsx (one sheet per table plus a
 contents sheet with each table's title, definition and source files) and one CSV per table.
@@ -58,10 +58,10 @@ add('S2b', 'Breadth of the archive: 2023–25 vs 2013–15 at three diversity or
 
 # S3 concentration of supply
 c1 = pd.read_csv(GD / '34-contributor-concentration.csv'); c2 = pd.read_csv(GD / '34-contributor-concentration-classes.csv')
-add('S3', 'Concentration of datasets and bytes across contributor groups (Supplementary Fig. 1)',
+add('S3', 'Concentration of datasets and bytes across contributor groups (Supplementary Fig. 2)',
     'Shares supplied by the largest groups, by period; Gini coefficients; 95% bootstrap over groups.',
     'Gallery/data/34-contributor-concentration*.csv', c1.round(4))
-add('S3b', 'Datasets, groups and bytes by group size class (Supplementary Fig. 1)', '', 'Gallery/data/34-contributor-concentration-classes.csv', c2.round(4))
+add('S3b', 'Datasets, groups and bytes by group size class (Supplementary Fig. 2)', '', 'Gallery/data/34-contributor-concentration-classes.csv', c2.round(4))
 
 # S4 countries
 w = pd.read_csv(GD / '20-world-growth.csv')[['country', 'continent', 'd_2016_2018', 'd_2023_2025', 'added', 'multiple', 'multiple_lo', 'multiple_hi']]
@@ -72,7 +72,7 @@ age = pd.read_csv(GD / '39-data-age-by-country.csv')[['country', 'll_datasets', 
              'coverage': 'dated_raw_share'})
 age['country'] = age.country.replace({'UK': 'United Kingdom', 'USA': 'United States'})
 s4 = w.merge(col, on='country', how='left').merge(age, on='country', how='left').sort_values('d_2023_2025', ascending=False)
-add('S4', 'Countries: growth, international co-authorship and data age (Fig. 1e–g; Supplementary Figs 10–11)',
+add('S4', 'Countries: growth, international co-authorship and data age (Fig. 1e–g; Supplementary Figs 3 and 4)',
     'Datasets by contributing group’s country (country-resolved datasets only). Growth multiple 2016–18 → 2023–25 with 95% group-bootstrap interval. '
     'International share = linked papers with author institutions in ≥2 countries. Data age = days from latest acquisition date in raw-file names to submission, '
     'Thermo-only non-DIA datasets submitted 2016–2025.', 'Gallery/data/20-world-growth.csv; 35-collaboration-by-country.csv; 39-data-age-by-country.csv',
@@ -84,11 +84,11 @@ lc = pd.read_csv(A / 'H1-H3-scale-instruments/H3-model-life-cycles.csv')[['model
 rs = pd.read_csv(A / 'H1-H3-scale-instruments/H1-per-run-size-by-model.csv')[['model', 'datasets', 'groups', 'median_runs', 'median_per_run_GB', 'p25', 'p75', 'dia_share']].rename(
     columns={'datasets': 'run_size_datasets', 'groups': 'run_size_groups'})
 s5 = lc.merge(rs, on='model', how='left').sort_values('datasets', ascending=False)
-add('S5', 'Instrument models: datasets, life cycle and run size (Figs 2d, 3a; Supplementary Figs 2–3)',
+add('S5', 'Instrument models: datasets, life cycle and run size (Figs 2d, 3a; Supplementary Figs 7 and 8)',
     'Models named in ≥50 datasets. peak_share and share_2025 are unweighted proportions of model-labelled datasets naming the model; '
     'a dataset naming several models counts once for each. peak_year_share is the year of the largest unweighted proportion. '
-    'These differ from the fractional-credit shares in Fig. 3a and Supplementary Fig. 2. first_year_any and first_year_ge5 use ≥1 and ≥5 datasets, respectively; '
-    'Supplementary Fig. 2 orders models by the first year with ≥3 datasets. datasets/groups_total count all deposits/groups naming the model. '
+    'These differ from the fractional-credit shares in Fig. 3a and Supplementary Fig. 7. first_year_any and first_year_ge5 use ≥1 and ≥5 datasets, respectively; '
+    'Supplementary Fig. 7 orders models by the first year with ≥3 datasets. datasets/groups_total count all deposits/groups naming the model. '
     'run_size_datasets/run_size_groups count the single-model subset with exact run counts and positive resolved bytes per run; summaries require ≥50 eligible datasets. '
     'Within this subset, median_runs is the median exact run count; median_per_run_GB and p25/p75 are the median and 25th/75th percentiles of dataset-level '
     'resolved bytes divided by exact run count, in GB (10^9 bytes); dia_share is the fraction with DIA detected. '
@@ -106,10 +106,10 @@ add('S7', 'Standard result files by analysis tool and export capability (Fig. 4a
     'Single-tool datasets. Export capability from the software registry (Software-registry.md): default = tool writes mzIdentML/mzTab by default; built-in = option; none = cannot.',
     'Tool-outputs/*.csv; Software-registry.md', st.round(2))
 add('S7b', 'Standard result files by export capability, with 95% group-bootstrap intervals (Fig. 4b)', '', 'Tool-outputs/Standard-rate-by-export-capability.csv', ex.round(2))
-add('S8', 'Age of the software release at public release, by tool (Supplementary Fig. 5)',
+add('S8', 'Age of the software release at public release, by tool (Supplementary Fig. 11)',
     'Years from the first PRIDE submission recording the exact release to public release of the dataset (a lower bound); medians with group-bootstrap intervals; '
     'ceilings = oldest release of the tool in PRIDE.', 'Gallery/data/33-tool-age-at-release.csv', pd.read_csv(GD / '33-tool-age-at-release.csv').round(3))
-add('S9', 'Software release lines in 2025 submissions (Supplementary Fig. 4)', 'Share of datasets with a recovered version.',
+add('S9', 'Software release lines in 2025 submissions (Supplementary Fig. 9)', 'Share of datasets with a recovered version.',
     'Gallery/data/31-version-streams-2025-shares.csv', pd.read_csv(GD / '31-version-streams-2025-shares.csv').round(3))
 
 # S10 results by reading depth
@@ -207,7 +207,8 @@ add('S22', reporting['title'], reporting['definition'],
     'work/stack-and-reuse/reporting_comparisons.json; analytical sources listed by row',
     pd.DataFrame(reporting['rows']))
 
-T = [(f'S{i}', ti, n, s_, df) for i, (_, ti, n, s_, df) in enumerate(T, 1)]   # sequential numbering
+FIRST_CITED = [2, 3, 18, 22, 4, 5, 6, 8, 7, 12, 13, 9, 10, 14, 15, 11, 16, 17, 19, 20, 21, 1]   # assembly positions, in order of first citation
+T = [(f'S{i}', ti, n, s_, df) for i, (_, ti, n, s_, df) in enumerate((T[k - 1] for k in FIRST_CITED), 1)]
 for old in OUT.glob('Table-*.csv'):
     old.unlink()
 contents = pd.DataFrame([{'table': t, 'title': ti, 'definition': n, 'source': s, 'rows': len(df)} for t, ti, n, s, df in T])

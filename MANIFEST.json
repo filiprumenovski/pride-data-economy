@@ -4,17 +4,17 @@
     {
       "path": ".github/workflows/database-reconstruction.yml",
       "bytes": 1677,
-      "sha256": "ed9e6f81dfa7d31c0c57026bcb54117623ea4818e572b4b9f7ddb644bea340ef"
+      "sha256": "7c06412690966ec02b237dd8b146adf85c8d511316815fb637fa800d13ca9f02"
     },
     {
       "path": ".github/workflows/extraction.yml",
       "bytes": 1374,
-      "sha256": "efaeee22fc8ee99794df272f870663f9af43bf0dcc29b4f92592fbb916e86961"
+      "sha256": "5242b1b76b096093246472d738f01a614132b9ab92e4018c0074464f9024f75f"
     },
     {
       "path": ".github/workflows/full-reconstruction.yml",
       "bytes": 2184,
-      "sha256": "95d9888ec7b23c8cf933337c873d9a958901c6a11c0769c64125f599750c5a0f"
+      "sha256": "8d72db7d555af667f617c902c07fe1c91c88c15162fe462dbe46a60031ceade3"
     },
     {
       "path": ".github/workflows/reproduce.yml",
@@ -34,7 +34,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 683,
-      "sha256": "cc27b933055b63cfa5da5d1fac23c00fe1a6cd136f627ee566fb7c3c5af4a6dd"
+      "sha256": "e287915cd0ed0b9cedbe9a02c1b445b51c4cc98821b16e19fb0369ee1a1e60c1"
     },
     {
       "path": "DATA-LICENSE",
@@ -54,7 +54,7 @@
     {
       "path": "README",
       "bytes": 1182,
-      "sha256": "a6fd1f7c05126bceab4258125aef1d823e208123a2c5972db4bd4cb03bb5dd72"
+      "sha256": "212ed22d12ceac81a7abd0e150fe203a460c6592564b222ba9643fa17b39b670"
     },
     {
       "path": "data/early/Breadth-long.parquet",
@@ -739,12 +739,12 @@
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Figure-specifications.json",
       "bytes": 3681,
-      "sha256": "c6075bfb3faaef6aa34e4708e00f013184ccfc9f42afe3a4212ffc93467614f6"
+      "sha256": "afe99cea6f4c5a86cac3bf1f4ec271d522e0d1e231b7db7868ca9233d740dbad"
     },
     {
       "path": "outputs/Stack-and-reuse/Journal-figures/Layout.json",
       "bytes": 2553,
-      "sha256": "eeb2361ce7d80e18608d370bd05c5179fe61b2fb89749ceba0fc5687a3419021"
+      "sha256": "6a1f1009014e8e5274b3207169738f0b4b578e537699d2ebee18cc47ac811df1"
     },
     {
       "path": "outputs/Stack-and-reuse/Reuse-mentions/Reuse-rates.csv",
@@ -758,33 +758,33 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Contents.csv",
-      "bytes": 8469,
-      "sha256": "2f4e624160a46941606c85eafc5962153bf5dee51524e1ec20c64aa4eee90ec9"
+      "bytes": 8472,
+      "sha256": "1c16fc53fdc32d47bb397bd3d7efec2002551b8d4c2607cd1bdaeedee8a541a1"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S1.csv",
-      "bytes": 973,
-      "sha256": "6d2ff41d669600310439180062f7427b65028b20961fa5f43127252d65f4aa76"
+      "bytes": 3675,
+      "sha256": "8b312baca07ef91b61003ac585b6c7109b1ce277f7d1a2fe222f278c79454067"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S10.csv",
-      "bytes": 531,
-      "sha256": "6aae011ab226f1dc39523a5029985c27c61725f3066f04b2d2dd5f7d2e6982d4"
-    },
-    {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S11.csv",
-      "bytes": 798,
-      "sha256": "28ebc2c725ff0cd387521ab53a4170fac0b7fcb0cc5a0df54f3235587f8deffd"
-    },
-    {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S12.csv",
       "bytes": 300,
       "sha256": "cdffd04b21d88414641502099e37cee762c1a96fa5616a9ae3ba2df634fc40e2"
     },
     {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S13.csv",
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S11.csv",
       "bytes": 1171,
       "sha256": "555d56bb2e613edc91ddd5c1a0a0f0244df62c42b8f704b2f4374b06d45527ef"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S12.csv",
+      "bytes": 798,
+      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S13.csv",
+      "bytes": 531,
+      "sha256": "6aae011ab226f1dc39523a5029985c27c61725f3066f04b2d2dd5f7d2e6982d4"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S14.csv",
@@ -798,18 +798,18 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S16.csv",
+      "bytes": 798,
+      "sha256": "28ebc2c725ff0cd387521ab53a4170fac0b7fcb0cc5a0df54f3235587f8deffd"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S17.csv",
       "bytes": 331,
       "sha256": "c8617847c7b542bb9ba460d81bd0558ad207b284e6fbf97107dcc2dcaffbbe33"
     },
     {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S17.csv",
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S18.csv",
       "bytes": 2197,
       "sha256": "be2a1cb4437b66a96655caf6b0bb82356152d5b6974a6fda27ab08d55a5f04f7"
-    },
-    {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S18.csv",
-      "bytes": 965,
-      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S19.csv",
@@ -818,8 +818,8 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S2.csv",
-      "bytes": 3675,
-      "sha256": "8b312baca07ef91b61003ac585b6c7109b1ce277f7d1a2fe222f278c79454067"
+      "bytes": 1027,
+      "sha256": "aaf724f891c8cf4e728cbc31d3d2220e850b732b0169e1520c800ac5d045e514"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S20.csv",
@@ -833,33 +833,33 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S22.csv",
-      "bytes": 17280,
-      "sha256": "bb901e0390d465df40d4ba320342456b0ae744a7f5b43640a236fce6a8eae092"
+      "bytes": 973,
+      "sha256": "6d2ff41d669600310439180062f7427b65028b20961fa5f43127252d65f4aa76"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S3.csv",
-      "bytes": 1027,
-      "sha256": "aaf724f891c8cf4e728cbc31d3d2220e850b732b0169e1520c800ac5d045e514"
+      "bytes": 965,
+      "sha256": "2ce7d952e1842c1b69516b7ec41b22c51af164ac3b452e6082df9af00524b91b"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S4.csv",
+      "bytes": 17287,
+      "sha256": "ae59d15338328d4f286f957740ded80800593d39dae5b1a0e5415ccbccb22193"
+    },
+    {
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S5.csv",
       "bytes": 1277,
       "sha256": "9a13399edee04c9d1f0d6c43812fcf1b0af39778e8e8771341240d851aba9769"
     },
     {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S5.csv",
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S6.csv",
       "bytes": 459,
       "sha256": "8bdac9a4638007c4147c4d9bd288ba3d9b59484b13657ec3095a436b627a5ffb"
     },
     {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S6.csv",
+      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S7.csv",
       "bytes": 4088,
       "sha256": "2494f604f75e03071cd2cfe2d37858bb3fbf7962473c5dc2226393d0bd31fa13"
-    },
-    {
-      "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S7.csv",
-      "bytes": 3961,
-      "sha256": "b316aa750b6c18f093906a36b5f08eaac622bd7499dd79a7a7be342686021806"
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S8.csv",
@@ -868,8 +868,8 @@
     },
     {
       "path": "outputs/Stack-and-reuse/Supplementary-Tables/Table-S9.csv",
-      "bytes": 798,
-      "sha256": "cd7f210faa8a93597c4022a804cc86247254cd7eb9de66bf74d917edad9a1c1f"
+      "bytes": 3961,
+      "sha256": "b316aa750b6c18f093906a36b5f08eaac622bd7499dd79a7a7be342686021806"
     },
     {
       "path": "outputs/Stack-and-reuse/Tool-outputs/Standard-rate-by-export-capability.csv",
@@ -1013,8 +1013,8 @@
     },
     {
       "path": "validation/Full-local-comparison.json",
-      "bytes": 13550,
-      "sha256": "e17cdae28d41437b2397c3631869a8c1886799e098a6e5e7fb63e7c9e9228a8d"
+      "bytes": 13551,
+      "sha256": "4f42feb695b1add0c63e4884943ecf5faf14f72e9ae6d383a7eb2a3a4a599b0f"
     },
     {
       "path": "validation/Full-local-stages.json",
@@ -1033,8 +1033,8 @@
     },
     {
       "path": "validation/Historical-source-comparison.json",
-      "bytes": 41146,
-      "sha256": "fe904ae40b660c6fabc0450a38920dfda422655b15e115e89614530983dff5d0"
+      "bytes": 41147,
+      "sha256": "0b5b6e231d1378f9ef3c5f9e723547bd7651ecf07c36c55bb5f3d8ad3367a1f9"
     },
     {
       "path": "validation/Late-numerical-audit.json",
@@ -1173,8 +1173,8 @@
     },
     {
       "path": "work/stack-and-reuse/build_supp_tables.py",
-      "bytes": 19111,
-      "sha256": "e6ca24f7aaf0b67a4c888ce017a4fc782b467856d3a6fe1b228f74f75afdadb7"
+      "bytes": 19265,
+      "sha256": "c281d5515382b981ef071a18c661d6cd9ecad06917afd993c1c9efea927c6abd"
     },
     {
       "path": "work/stack-and-reuse/common.py",
@@ -1183,8 +1183,8 @@
     },
     {
       "path": "work/stack-and-reuse/compose_journal.py",
-      "bytes": 10193,
-      "sha256": "a3e70f6cf043f24ffb0d59285d8388939eccd7d89fee8be4d857fbda5fb1bbbb"
+      "bytes": 10233,
+      "sha256": "06a014af4d10fe80adc8b54af6c32522e7f201324daaf9cf46720770248edeef"
     },
     {
       "path": "work/stack-and-reuse/database_rules.py",
@@ -1328,8 +1328,8 @@
     },
     {
       "path": "work/stack-and-reuse/reporting_comparisons.json",
-      "bytes": 36114,
-      "sha256": "1ee60ac60d392079f24daa09a39c114f3ca86c4df43978e7d286ec248ad99a64"
+      "bytes": 36121,
+      "sha256": "18c39d67822e76927579511e9adf23047d8ec6b16c285c74619ed5a7017b4e86"
     },
     {
       "path": "work/stack-and-reuse/reuse_mentions.py",

@@ -51,43 +51,44 @@
  },
  "Supplementary 1": {
   "width_in": 7.2,
+  "height_mm": 78.3,
+  "dpi": 600,
+  "blocks": [
+   "29-species"
+  ]
+ },
+ "Supplementary 2": {
+  "width_in": 7.2,
   "height_mm": 66.0,
   "dpi": 600,
   "blocks": [
    "34-contributor-concentration"
   ]
  },
- "Supplementary 2": {
-  "width_in": 7.2,
-  "height_mm": 134.4,
-  "dpi": 600,
-  "blocks": [
-   "14-fleet-history"
-  ]
- },
  "Supplementary 3": {
   "width_in": 7.2,
-  "height_mm": 96.8,
+  "height_mm": 157.3,
   "dpi": 600,
   "blocks": [
-   "38-instrument-arrival"
+   "08-countries",
+   "39-data-age-by-country"
   ]
  },
  "Supplementary 4": {
   "width_in": 7.2,
-  "height_mm": 103.9,
+  "height_mm": 78.7,
   "dpi": 600,
   "blocks": [
-   "31-version-streams"
+   "35-collaboration"
   ]
  },
  "Supplementary 5": {
   "width_in": 7.2,
-  "height_mm": 212.1,
+  "height_mm": 142.6,
   "dpi": 600,
   "blocks": [
-   "33-tool-age-at-release",
-   "32-database-age"
+   "27-isobaric-plex",
+   "28-ptm-landscape"
   ]
  },
  "Supplementary 6": {
@@ -100,52 +101,51 @@
  },
  "Supplementary 7": {
   "width_in": 7.2,
+  "height_mm": 134.4,
+  "dpi": 600,
+  "blocks": [
+   "14-fleet-history"
+  ]
+ },
+ "Supplementary 8": {
+  "width_in": 7.2,
+  "height_mm": 96.8,
+  "dpi": 600,
+  "blocks": [
+   "38-instrument-arrival"
+  ]
+ },
+ "Supplementary 9": {
+  "width_in": 7.2,
+  "height_mm": 103.9,
+  "dpi": 600,
+  "blocks": [
+   "31-version-streams"
+  ]
+ },
+ "Supplementary 10": {
+  "width_in": 7.2,
   "height_mm": 115.5,
   "dpi": 600,
   "blocks": [
    "30-file-formats"
   ]
  },
- "Supplementary 8": {
-  "width_in": 7.2,
-  "height_mm": 142.6,
-  "dpi": 600,
-  "blocks": [
-   "27-isobaric-plex",
-   "28-ptm-landscape"
-  ]
- },
- "Supplementary 9": {
-  "width_in": 7.2,
-  "height_mm": 78.3,
-  "dpi": 600,
-  "blocks": [
-   "29-species"
-  ]
- },
- "Supplementary 10": {
-  "width_in": 7.2,
-  "height_mm": 157.3,
-  "dpi": 600,
-  "blocks": [
-   "08-countries",
-   "39-data-age-by-country"
-  ]
- },
  "Supplementary 11": {
   "width_in": 7.2,
-  "height_mm": 78.7,
+  "height_mm": 212.1,
   "dpi": 600,
   "blocks": [
-   "35-collaboration"
+   "33-tool-age-at-release",
+   "32-database-age"
   ]
  },
  "Supplementary 12": {
   "width_in": 7.2,
-  "height_mm": 87.5,
+  "height_mm": 116.8,
   "dpi": 600,
   "blocks": [
-   "36-research-fields"
+   "40-weekly-rhythm"
   ]
  },
  "Supplementary 13": {
@@ -159,10 +159,10 @@
  },
  "Supplementary 14": {
   "width_in": 7.2,
-  "height_mm": 116.8,
+  "height_mm": 87.5,
   "dpi": 600,
   "blocks": [
-   "40-weekly-rhythm"
+   "36-research-fields"
   ]
  }
 }
